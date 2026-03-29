@@ -1,0 +1,79 @@
+\begin{technical}
+{\Large\textbf{Spectre and Meltdown: Mechanics and Leakage Rates}}\\[0.3em]
+
+\techheader{Introduction}\\[0.5em]
+Spectre and Meltdown exploit transient execution: instructions issued before permissions or branches resolve. Although architecturally squashed, these instructions leak data through persistent microarchitectural side effects—most notably, the cache—observable via timing measurements.
+
+\vspace{0.4em}
+\techheader{Meltdown: Transient Load + Fault Deferral}\\[0.5em]
+The CPU speculatively executes a faulting memory load and uses the result before the exception is raised. A dependent load encodes the secret byte into cache state.
+
+\begin{verbatim}
+; RCX ← kernel memory address
+movzx rax, byte [rcx]
+shl   rax, 12
+mov   rbx, [probe + rax]
+\end{verbatim}
+\vspace{-0.5em}
+\textit{Comments:}
+\begin{itemize}[noitemsep,topsep=0pt]
+\item Line 1: Transiently loads a protected byte (zero-extended) into RAX.
+\item Line 2: Multiplies the secret by 4096 (page alignment).
+\item Line 3: Loads from \texttt{probe[s × 4096]}, caching a secret-dependent line.
+\end{itemize}
+
+\textit{Observation:} The attacker probes access times to \texttt{probe[i × 4096]} and identifies the secret by locating the cache hit.
+
+\vspace{0.4em}
+\techheader{Spectre: Mistrained Bounds Bypass}\\[0.5em]
+The attacker mistrains the branch predictor to speculatively skip a bounds check. This leads to out-of-bounds access during the transient window.
+
+\begin{verbatim}
+if (x < array_length)
+    temp = probe[secret[x] * 4096];
+\end{verbatim}
+\vspace{-0.5em}
+\textit{Only executed speculatively.} The loaded cache line leaks \texttt{secret[x]}.
+
+\textit{Setup:} Train with in-bounds \( x \); switch to out-of-bounds. Side effects persist even when the branch is mispredicted.
+
+\vspace{0.4em}
+\techheader{Cache Timing Oracle}\\[0.5em]
+Let \( S \in \{0,\dots,255\} \) be the secret. Let \( C_i \) be the access time to \texttt{probe[i × 4096]}. Then:
+\[
+\begin{aligned}
+\hat{S} &= \arg\min_i C_i \\
+\text{where} \quad
+C_i &= 
+\begin{cases}
+T_\text{hit} + \epsilon_i & \text{if } i = S \\
+T_\text{miss} + \epsilon_i & \text{otherwise}
+\end{cases}
+\end{aligned},
+\]
+With low noise, each measurement leaks up to approximately 8 bits.
+
+\vspace{0.4em}
+\techheader{Information-Theoretic View}\\[0.5em]
+Let \( X \) be the secret, \( Y \) the timing observation. Leakage is given by:
+\[
+I(X; Y) = H(X) - H(X \mid Y).
+\]
+Under uniform \( X \) and low timing noise, \( I(X; Y) \to 8 \) bits. Repetition and majority decoding mitigate jitter and measurement error.
+
+\vspace{0.4em}
+\techheader{Measured Bandwidth}\\[0.5em]
+\begin{tabular}{@{}ll@{}}
+Meltdown (local):     & up to $\sim$500 KB/s \\
+Spectre (native):     & $\sim$10 KB/s \\
+Spectre (JavaScript): & order of bits/s \\
+\end{tabular}
+
+Reported rates vary widely across microarchitectures, operating systems, and mitigation settings.
+
+\techref
+{\footnotesize
+Kocher et al. (2018). \textit{Spectre Attacks: Exploiting Speculative Execution}. arXiv:1801.01203.\\
+Lipp et al. (2018). \textit{Meltdown: Reading Kernel Memory from User Space}. USENIX Security.\\
+}
+\end{technical}

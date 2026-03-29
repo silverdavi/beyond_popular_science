@@ -1,0 +1,87 @@
+\begin{technical}
+{\Large\textbf{The Cosmological Constant Problem: Quantum Vacuum Energy vs Observations}}
+
+
+\medskip
+
+\techheader{Quantum Field Theory Prediction}\\
+In quantum field theory, even empty space possesses energy due to zero-point fluctuations. For a free massless scalar field $\phi(x,t)$ with Hamiltonian,
+\begin{align*}
+H &= (1/2) \int \left[ \pi^2(x) + |\nabla \phi(x)|^2 \right] d^3x,
+\end{align*}
+
+Upon canonical quantization, the vacuum expectation value becomes:
+\begin{align*}
+\langle 0 | H | 0 \rangle &= (1/2) \int d^3k/(2\pi)^3 \cdot \hbar\omega_k,
+\end{align*}
+where $\omega_k = c|\mathbf{k}|$. This yields:
+\begin{align*}
+\langle 0 | H | 0 \rangle \propto \int_0^\infty k^3 dk,
+\end{align*}
+which diverges as $k^4$ at high momentum, requiring a cutoff.
+
+\medskip
+
+\techheader{Planck-Scale Cutoff}\\
+Assuming quantum field theory remains valid up to the Planck energy scale:
+\begin{align*}
+k_{\max} = M_{\text{Planck}} c/\hbar = \sqrt{c^3/(\hbar G)}.
+\end{align*}
+
+The vacuum energy density becomes:
+\begin{align*}
+\rho_{\text{vac}}^{\text{theory}} &= \hbar c/(16\pi^2) \cdot k_{\max}^4 \\
+&= \hbar c/(16\pi^2) \cdot (c^6/(\hbar^2 G^2)) \\
+&= c^7/(16\pi^2 \hbar G^2) \sim 10^{76} \text{ GeV}^4.
+\end{align*}
+
+\medskip
+
+\techheader{Observational Constraints}\\
+Cosmological observations from supernovae, CMB, and large-scale structure constrain the dark energy density to:
+\begin{align*}
+\rho_{\text{DE}}^{\text{obs}} = \rho_{\text{crit}} \Omega_\Lambda \approx (3H_0^2/(8\pi G)) \times 0.68,
+\end{align*}
+where $H_0 \approx 70$ km/s/Mpc. Converting to natural units:
+\begin{align*}
+\rho_{\text{DE}}^{\text{obs}} \approx 10^{-47} \text{ GeV}^4.
+\end{align*}
+
+\medskip
+
+\techheader{The Discrepancy}\\
+The ratio of theoretical prediction to observational constraint:
+\begin{align*}
+\rho_{\text{vac}}^{\text{theory}}/\rho_{\text{DE}}^{\text{obs}} \sim 10^{76}/10^{-47} = 10^{123}.
+\end{align*}
+
+This represents the largest mismatch between theory and observation in physics history. (Depending on cutoff choices and degrees of freedom, values from $10^{118}$ to $10^{123}$ are quoted in the literature.)
+
+\medskip
+
+\techheader{The Fine-Tuning Problem}\\
+Unlike other physics areas where only energy differences matter, general relativity couples directly to absolute energy density through Einstein's field equations:
+\begin{align*}
+G_{\mu\nu} + \Lambda g_{\mu\nu} = (8\pi G/c^4) T_{\mu\nu},
+\end{align*}
+where $\Lambda = (8\pi G/c^2) \rho_{\text{vac}}$.
+
+If quantum vacuum energy contributed at the predicted level, it would drive exponential expansion so rapid that structure formation would be impossible. The observed value requires either:
+
+\begin{enumerate}
+\item Extraordinary cancellation reducing vacuum energy by 120 orders of magnitude.
+\item New physics beyond the Standard Model altering vacuum structure.
+\item Modification of general relativity at cosmological scales.
+\end{enumerate}
+
+No proposed solution has gained broad acceptance, making this one of the most pressing problems in theoretical physics.
+
+\medskip
+
+\techref
+{\footnotesize
+Weinberg, S. (1989). The cosmological constant problem. \textit{Rev. Mod. Phys.}, 61, 1.\\
+Carroll, S. M. (2001). The cosmological constant. \textit{Living Rev. Relativ.}, 4, 1.\\
+Padmanabhan, T. (2003). Cosmological constant—the weight of the vacuum. \textit{Phys. Rep.}, 380, 235.
+}
+\end{technical}

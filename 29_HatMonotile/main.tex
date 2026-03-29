@@ -1,0 +1,85 @@
+Mathematics analyses geometric arrangements by converting visual problems into numerical equations. Take any convex polyhedron—a cube, a pyramid, or something more exotic—and count three things: vertices (corners), edges (where faces meet), and faces (flat surfaces). No matter how complex the shape, these three numbers satisfy: $V - E + F = 2$.
+
+This is Euler's formula, discovered in 1750. A cube has 8 vertices, 12 edges, and 6 faces: $8 - 12 + 6 = 2$. A triangular pyramid has 4 vertices, 6 edges, and 4 faces: $4 - 6 + 4 = 2$. A soccer ball (truncated icosahedron) has 60 vertices, 90 edges, and 32 faces: $60 - 90 + 32 = 2$. Always two. Define the Euler characteristic of a space as $\chi = V - E + F$. This quantity connects topology to combinatorics—it remains constant as we stretch or deform the polyhedron, provided we don't tear or puncture it.
+
+Why does this number stay fixed under deformations? Consider any vertex where three edges meet—like the apex of a pyramid or the corner of a cube or just a triple junction on the plane. Replace that vertex with a small triangle. This operation adds 2 new vertices, 3 new edges, and 1 new face. The Euler characteristic becomes $(V + 2) - (E + 3) + (F + 1) = V - E + F$. The value is unchanged. Repeated applications of this \QSOpen{}vertex truncation\QSClose{} are part of the common proof that $\chi$ is invariant under deformations (by triangulating surfaces/graphs).
+
+The Platonic solids—those perfect forms where identical regular $p$-gons meet $q$ at every vertex—obey this constraint. At each vertex, $q$ faces converge, and each regular $p$-gon contributes an interior angle of $(p-2)180°/p$ degrees. For the solid to close without leaving gaps, these angles must sum to less than $360°$: $q \times (p-2)180°/p < 360°$, which simplifies to $(p-2)(q-2) < 4$. Since $p$ and $q$ must each be at least 3 (three edges form a polygon, three faces form a vertex), only five integer solutions exist: $(3,3)$, $(3,4)$, $(4,3)$, $(3,5)$, and $(5,3)$. These correspond to the tetrahedron, octahedron, cube, icosahedron, and dodecahedron. Euler's formula converts \QSOpen{}what perfect forms exist?\QSClose{} into \QSOpen{}which integers satisfy $(p-2)(q-2) < 4$?\QSClose{}
+
+In this chapter, we explore another geometric problem that is historically one of the richest intersection points between mathematics and art. When arranging shapes to cover an infinite plane without gaps or overlaps, local constraints again determine global outcomes. Here too, the interplay of vertices, edges, and faces obeys mathematical laws, but now applied to infinite configurations rather than closed surfaces.
+
+In a large circular patch of any edge-to-edge tiling, along the boundary, the formula needs correction terms, but as the patch grows, the interior dominates. In the plane, $V - E + F$ equals one (not two—the plane has different topology than a sphere). Dividing by the number of faces and taking limits, we get $1/\bar{p} + 1/\bar{q} = 1/2$, where $\bar{p}$ is the average sides per tile and $\bar{q}$ is the average tiles per vertex. This constraint explains why only three regular tilings exist: triangles ($p=3$, $q=6$), squares ($p=4$, $q=4$), and hexagons ($p=6$, $q=3$). It also proves that in any tiling, the average polygon has at most six sides—explaining why bees chose hexagons and why Islamic artists never tiled mosques with regular heptagons.
+
+Tiling the plane refers to covering the infinite flat surface of Euclidean geometry with repeated, gapless copies of one or more shapes, not necessarily polygons. The problem: given a shape, can it tile the plane? If so, does it do so uniquely, periodically, or in multiple distinct ways? The arrangement must leave no gaps or overlaps and must cover the entire plane.
+
+Classical tilings exhibit periodicity. That is, a finite patch of tiles can be shifted—translated—along certain vectors to cover the entire plane without change. This is the case for squares, equilateral triangles, and regular hexagons, all of which tile the plane in grid-like or honeycomb arrangements. The periodicity implies symmetry: the whole tiling looks the same from multiple viewpoints. This repetition reflects the symmetry group of the tiling, which includes discrete translations and, often, rotations or reflections.
+
+Between periodic and random tilings lies a third category: aperiodic tilings. These are constructed by deterministic rules yet never repeat under any translation. In canonical substitution examples (such as Penrose and the hat), every finite patch reappears infinitely often (repetitivity), but always in new contexts—never aligning with a translated copy of itself. This paradox of local recurrence without global periodicity became central to twentieth-century tiling theory.
+
+The question of how many tiles are needed to achieve different tiling behaviours evolved rapidly. With an infinite set of distinct tiles, constructing aperiodic tilings is straightforward—each new tile can be unique, forcing non-repetition. Berger (1966) first showed that aperiodic tilings could be achieved with a finite set of 20,426 tiles. This number dropped rapidly: Robinson (1971) reduced it to six tiles, then Penrose (1974) achieved it with just two.
+
+Penrose tiles represented a milestone: two shapes that, when used together with matching rules, could tile the plane only aperiodically. They gave the first explicit example of enforced aperiodicity in Euclidean space using only two tiles. They spurred new directions in mathematical logic. The undecidability of the domino problem—whether a given set of tiles can tile the plane—had already been established by Berger.
+
+Tiling theory is connected through group theory to other natural phenomena. In 1982, Dan Shechtman observed quasicrystals—materials whose atoms arrange aperiodically (Shechtman et al., 1984) yet produce sharp diffraction spots. Classical crystallography required periodic atomic arrangements; X-ray diffraction of crystals produces discrete spots because periodic structures act as three-dimensional diffraction gratings. Quasicrystals shattered this dogma. Their diffraction patterns show perfect five-fold symmetry, mathematically impossible in periodic crystals. The atoms follow deterministic rules such as Penrose tilings—local matching conditions that propagate to create long-range order without translational symmetry. Aluminium-manganese alloys cooled at specific rates form icosahedral quasicrystals, their atoms arranged in three-dimensional analogues of Penrose patterns.
+
+Back to finite tilings. The progression from infinite sets to thousands to just two tiles led to the \QSOpen{}ein Stein\QSClose{} problem: could a single tile enforce aperiodicity? For decades, every attempt failed. In 2022, David Smith, a retired printer, discovered a thirteen-sided polygon that solved it. The \QSOpen{}hat\QSClose{} tile forces aperiodic tiling through its shape alone—a genuine monotile (Smith et al., 2023).
+
+The hat's thirteen edges meet at specific angles that tightly constrain how neighbours can attach. Place one tile, and its neighbours must fit into the concave and convex indentations in only certain ways. These constraints propagate: each new tile placement further restricts its surroundings. The accumulation of these forced choices prevents any translational symmetry from emerging at larger scales.
+
+Any cluster of hat tiles you identify will appear again elsewhere—rotated, reflected, embedded in different surroundings, but recognisable. This property, called local isomorphism, means the tiling contains infinite copies of every finite pattern, yet not periodically forever.
+
+Smith discovered the hat tile through manual experimentation with paper cutouts. He recognised its aperiodic behaviour and contacted Craig Kaplan, Joseph Myers, and Chaim Goodman-Strauss. The team proved aperiodicity using substitution tiling theory: they showed the hat generates a substitution tiling where larger \QSOpen{}metatiles\QSClose{} decompose into smaller copies following strict rules. The proof required verifying that no periodic tiling exists by analysing the tile's hierarchical structure. They later discovered the \QSOpen{}Spectre\QSClose{}—a variant that tiles only with direct congruent copies, solving the stronger \QSOpen{}vampire einstein\QSClose{} problem where reflections are forbidden.
+
+The hat tile solves a half-century-old problem. A single shape that tiles the plane only aperiodically. Its thirteen-sided form sits at a critical boundary—the minimal complexity needed to encode non-repetition in pure geometry. Like quasicrystals in nature, the hat achieves long-range order without translational symmetry, demonstrating that deterministic rules can generate infinite variety. From Euler's constraint on finite polyhedra to the hat's constraint on infinite tilings, mathematics reveals how local geometry determines global possibility.
+
+\begin{commentary}[The Human Underneath the Hat]
+David Smith was a retired print technician in Bridlington, England, experimenting with paper cutouts after designing shapes in PolyForm Puzzle Solver. He noticed one thirteen-sided shape resisted periodic arrangement. He contacted Craig Kaplan, Joseph Myers, and Chaim Goodman-Strauss. They proved the hat tile aperiodic through substitution tiling theory.
+
+Robert Ammann sorted mail when he independently rediscovered Penrose tiles in the 1970s. Marjorie Rice was a California homemaker who read Martin Gardner's column on pentagonal tilings in 1975. She discovered four new families of convex pentagons that tile the plane. Joan Taylor, an amateur mathematician in Tasmania, found the first disconnected aperiodic monotile.
+
+Within weeks of Smith's announcement, people made hat quilts, cookies, and 3D prints. The PolyForm Puzzle Solver community began exploring variations. The team discovered the Spectre variant and an entire continuum of aperiodic tiles. Smith called the excitement \QSOpen{}a bit surreal\QSClose{}—he'd been playing with shapes for years, cutting them out on cardstock, arranging them on his kitchen table. 
+
+\end{commentary}
+
+\newpage
+
+\vspace*{\fill}
+\begin{center}
+\begin{tcolorbox}[
+  colback=gray!2,
+  colframe=gray!60,
+  boxrule=0.4pt,
+  width=\textwidth,
+  arc=1pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt,
+  shadow={0mm}{-0.5mm}{0mm}{gray!30}
+]
+\textbf{Why Does Every Soccer Ball Always Have Exactly 12 Pentagons?}
+
+\vspace{0.5em}
+A soccer ball pattern tiles a sphere with pentagons and hexagons, where exactly three faces meet at each vertex. Let $P$ = number of pentagons and $H$ = number of hexagons.
+
+Each pentagon has 5 edges and each hexagon has 6 edges, but every edge is shared by exactly 2 faces:
+$$E = \frac{5P + 6H}{2}.$$
+
+At each vertex, 3 faces meet. Each pentagon contributes 5 vertices and each hexagon contributes 6, but every vertex is triple-counted:
+$$V = \frac{5P + 6H}{3}.$$
+
+The total number of faces is simply:
+$$F = P + H.$$
+
+Applying Euler's formula for a sphere ($V - E + F = 2$):
+$$\frac{5P + 6H}{3} - \frac{5P + 6H}{2} + P + H = 2.$$
+
+Multiply through by 6:
+$$2(5P + 6H) - 3(5P + 6H) + 6P + 6H = 12,$$
+$$10P + 12H - 15P - 18H + 6P + 6H = 12,$$
+$$P = 12.$$
+
+Therefore, any sphere tiled with pentagons and hexagons (with 3 faces per vertex) must have exactly 12 pentagons, regardless of the number of hexagons. This applies to soccer balls, fullerene molecules, and geodesic domes alike.
+\end{tcolorbox}
+\end{center}
+\vspace*{\fill}

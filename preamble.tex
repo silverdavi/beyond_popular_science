@@ -1,0 +1,964 @@
+% Basic document setup
+% PDF/A-2b compliance for archival (must be loaded first)
+\usepackage[a-2b]{pdfx}
+
+% ── Edition toggle ──────────────────────────────────────────
+%   \digitalfalse → asymmetric margins for binding (default)
+%   \digitalfalse  → centred 0.75" margins for screen reading
+\newif\ifdigital
+\digitalfalse
+% ────────────────────────────────────────────────────────────
+
+% 7"×10" format — print scaling to trade handled by GS (uniform scale)
+\ifdigital
+  \usepackage[paperwidth=7in, paperheight=10in, margin=0.75in]{geometry}
+\else
+  \usepackage[paperwidth=7in, paperheight=10in, margin=0.75in,
+              inner=0.875in, outer=0.625in]{geometry}
+\fi
+\usepackage[latin]{babel}
+\usepackage{graphicx}
+\usepackage{pdfcomment}  % for \pdftooltip — embedded alt text on images
+\usepackage{booktabs}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{tikzsymbols}
+\usepackage{pgfplots}
+\usepackage{pgffor}
+\usepackage{chemfig}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{changepage}
+\usepackage{verbatim}
+\usepackage{comment}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{array}
+\usepackage{pgffor} % Required for \foreach
+\usepackage{ifoddpage}
+\usepackage{catchfile} 
+\usepackage{xstring}
+\usepackage[most]{tcolorbox}  % Ensure this is included in your preamble
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty,font=small,justification=centering}   % No "Figure N:" prefix; small centred captions
+\usepackage{varwidth}
+\usepackage{pagecolor}
+\usepackage{lipsum} % optional for filler text
+\usepackage{eso-pic} % For background picture in sidenotes
+
+
+
+\pgfplotsset{compat=1.18}
+
+% Typography and text formatting
+\usepackage[protrusion=true,expansion=true]{microtype}
+
+% Global typographic penalties for better page breaks
+\widowpenalty=10000         % Prevent single lines at top of page (widows)
+\clubpenalty=10000          % Prevent single lines at bottom of page (orphans)
+\brokenpenalty=10000        % Discourage page breaks after hyphenated lines
+\hyphenpenalty=500          % Moderately discourage hyphenation
+\exhyphenpenalty=500        % Moderately discourage breaking already-hyphenated words
+
+\usepackage{CJK}
+\newcommand{\katakana}[1]{\begin{CJK}{UTF8}{min}#1\end{CJK}}
+\usepackage{shadowtext}
+\usepackage{bbding}
+\usepackage{textcomp}
+\usepackage{iftex}
+\usepackage{hyperref}
+\usepackage{hyperxmp}
+\usepackage{xurl}           % Better URL line breaking (extends url package)
+\usepackage{parskip}
+\usepackage{multicol}
+\usepackage{needspace}
+\usepackage{etoolbox}
+\usepackage{pifont}  % for nice symbols like the filled circle
+\usepackage{fontawesome5}
+\newcommand{\nobelphysics}{\scalebox{0.82}{\faAtom}\,}
+\newcommand{\nobelchemistry}{\scalebox{0.82}{\faFlask}\,}
+\newcommand{\nobelmedicine}{\scalebox{0.82}{\faHeartbeat}\,}
+\newcommand{\nobeleconomics}{\scalebox{0.82}{\faBalanceScaleLeft}\,}
+\newcommand{\nobelliterature}{\scalebox{0.82}{\faFeather}\,}
+\usepackage{wasysym}  % for musical note symbols
+
+% Math packages
+\usepackage{amsmath, amssymb, physics}
+\usepackage{unicode-math}
+
+% Multilingual support
+\usepackage{polyglossia}
+\usepackage{amsfonts}
+\usepackage{lmodern} 
+\setdefaultlanguage{english}
+\setotherlanguage{greek}
+\setotherlanguage{hebrew}
+\setotherlanguage{sanskrit}
+\setotherlanguage{arabic}
+
+% Assign fonts to polyglossia languages (all OFL-licensed for publishing)
+\newfontfamily\greekfont[Script=Greek]{Linux Libertine O}
+\newfontfamily\hebrewfont[Path=fonts/EzraSIL2.51/, Script=Hebrew, Scale=0.85]{SILEOT.ttf}
+\newfontfamily\sanskritfont[Path=fonts/, Script=Devanagari]{NotoSerifDevanagari-Regular.ttf}
+\newfontfamily\arabicfont[Path=fonts/ScheherazadeNew-4.000/, Script=Arabic, Scale=1.2]{ScheherazadeNew-Regular.ttf}
+
+% Font configuration
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}                    % Main serif font
+\newfontfamily\historyfont{Crimson Pro}           % Historical section font
+          % Technical section font
+\newfontfamily\commentaryfont{Crimson Pro}        % Commentary font
+
+
+\newfontfamily\piefontfamily{Charis SIL}
+\newfontfamily\ipafontfamily{Charis SIL}
+
+% Create properly scoped commands that preserve current font size
+\newcommand{\piefont}[1]{{\piefontfamily #1}}
+\newcommand{\ipafont}[1]{{\ipafontfamily #1}}
+
+\newfontfamily\summaryfont{Libertinus Serif Italic} % Summary font
+\newfontfamily\technicalfont{Libertinus Serif}
+
+% Color definitions
+\usepackage{xcolor}
+\definecolor{historycolor}{RGB}{70,30,0}         % Warm brown for historical sections
+\definecolor{technicalcolor}{RGB}{0,20,60}       % Deep blue for technical sections
+\definecolor{commentarycolor}{RGB}{0,0,0}        % Black for commentary
+\definecolor{summarycolor}{RGB}{90,90,90}        % Gray for summaries
+\definecolor{linkcolor}{RGB}{0,0,0}              % Black for hyperlinks (accessibility)
+\definecolor{toctitlecolor}{RGB}{24,82,140}       % Steel blue for TOC chapter titles
+\definecolor{SUMMARYCOLOR}{RGB}{90,90,90}        % Gray for summaries (uppercase)
+\definecolor{lavender}{RGB}{230,230,250}
+\definecolor{lightgray}{gray}{0.85}
+\definecolor{lightpeach}{RGB}{255,239,220}
+\definecolor{lightblue}{RGB}{230,245,255}
+
+
+% Section styling with titlesec
+\usepackage{titlesec}
+\usepackage{tocloft}  % For customizing TOC
+
+\titleformat{\chapter}[hang]
+    {\normalfont\huge\bfseries}{\thechapter}{1em}{} % Chapter title styling
+\titlespacing*{\chapter}{0pt}{0pt}{10pt}            % Adjust spacing around chapters
+\titleformat{\section}[hang]
+    {\needspace{4\baselineskip}\normalfont\Large\bfseries}{\thesection}{1em}{} % Section title styling
+\titlespacing*{\section}{0pt}{10pt}{5pt}             % Adjust spacing around sections
+\titleformat{\subsection}[hang]
+    {\needspace{3\baselineskip}\normalfont\large\bfseries}{\thesubsection}{1em}{} % Subsection title styling
+
+% Frame and box packages
+\usepackage[framemethod=TikZ,skipabove=6pt,skipbelow=6pt]{mdframed}
+\usetikzlibrary{decorations.pathmorphing, decorations.shapes, decorations.footprints, shapes.geometric, positioning, patterns, fit,arrows.meta, decorations.pathmorphing, backgrounds, calc, decorations.fractals}
+\mdfsetup{splitbottomskip=2pt, splittopskip=2pt}
+
+\usetikzlibrary{lindenmayersystems}
+
+% Spacing and layout settings
+\setlength{\parindent}{0pt}      % No paragraph indentation
+\setlength{\parskip}{0.5em}      % Paragraph spacing for better readability
+\setlength{\columnsep}{15pt}     % Adjust column separation for multicol layout
+
+
+% Force content to start on the next even-numbered page
+
+\newcommand{\startchapter}{%
+  \clearpage
+  \checkoddpage
+  \ifoddpage
+    % already odd — do nothing
+  \else
+    \hbox{}
+    \thispagestyle{empty}
+    \clearpage
+  \fi
+}
+
+% Chapter DOI and copyright notice — placed 1.4cm from page bottom
+% Usage: \chapterdoi{1}  (pass the chapter number as integer)
+\newcommand{\chapterdoi}[1]{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south, yshift=0.75cm, font=\fontsize{7}{8}\selectfont, text=gray]
+      at (current page.south)
+      {\textcopyright{}2026 David H.\ Silver, CC BY-NC 4.0\space
+       \href{https://doi.org/10.11647/OBP.0526.\ifnum#1<10 0\fi#1}{https://doi.org/10.11647/OBP.0526.\ifnum#1<10 0\fi#1}};
+  \end{tikzpicture}%
+}
+
+
+
+
+% TOC customization for chapter summaries
+\setlength{\cftbeforechapskip}{1.0em}  % Increase space between TOC entries
+\setlength{\cftchapindent}{0em}        % Chapter indent in TOC
+\renewcommand{\cftchapfont}{\bfseries} % Chapter font in TOC
+
+% Header setup with fancyhdr - MUST be loaded after titlesec
+\usepackage{fancyhdr}
+\usepackage{emptypage}  % Automatically removes headers/footers from blank pages
+\setlength{\headheight}{14pt}  % Slightly more than the required 13.59999pt
+
+% Create chapter title extraction command to handle only the title part
+\makeatletter
+\def\extracttitle#1\\#2\@nil{#1}
+\makeatother
+
+% Define the main page style
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyhead[LE,RO]{\thepage}
+% Headers use same font as chapter title pages (Libertinus Serif bold)
+\fancyhead[RE]{\textnormal{\textbf{\booktitle}}}  % Book title on left (even) pages
+\fancyhead[LO]{\textnormal{\textbf{\leftmark}}}               % Chapter title on right (odd) pages
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Fix the chapter page style (first page of each chapter)
+\fancypagestyle{plain}{%
+  \fancyhf{} % Clear all header and footer fields
+  \fancyfoot[C]{\thepage} % Just page number at bottom
+  \renewcommand{\headrulewidth}{0pt} % No header rule on first page
+}
+
+% Modify chaptermark to extract just the title
+% Better approach to handle headers without the summary
+\makeatletter
+% Simple approach - standard chapter marking
+\renewcommand{\chaptermark}[1]{%
+  \markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+
+% Helpers to input title and summary from file
+\newcommand{\inputtitle}[1]{\IfFileExists{#1/title.tex}{\input{#1/title}}{MissingTitle}}
+\newcommand{\inputsummary}[1]{\IfFileExists{#1/summary.tex}{\input{#1/summary}}{MissingSummary}}
+
+\newtcolorbox{shadedstory}[1][]{
+  colback=gray!10,
+  colframe=gray!50,
+  sharp corners,
+  boxrule=0.8pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  title=#1,
+  fonttitle=\bfseries\large,
+  enhanced,
+}
+
+
+
+\newcommand{\chapterseparator}{%
+  \begin{center}
+    % Include chapter-specific fractal tree PNG from fractal_trees/with_fruits/
+    \includegraphics[height=3.5cm]{fractal_trees/with_fruits/\thechapter.png}
+  \end{center}
+}
+
+
+
+
+
+% Custom chapter with summary command (TOC only, no visible title)
+\newcommand{\chapterwithsummary}[3][]{%
+  % #1 = optional label
+  % #2 = chapter title
+  % #3 = chapter summary
+
+  % TOC entry only (multi-line)
+  \addcontentsline{toc}{chapter}{%
+    \protect\numberline{\thechapter}\textcolor{toctitlecolor}{#2}\\
+    {\normalfont\small\textit{\textcolor{summarycolor}{#3}}}%
+  }
+
+  % Update header with title only (no page title)
+  \chaptermark{#2}%
+
+  % Apply label if provided
+  \ifx\\#1\\\else\label{#1}\fi
+
+  % Avoid rendering a visible chapter heading
+  \phantomsection % for correct link targets
+  \vspace*{-3em} % suppress visual whitespace
+}
+
+
+\newread\file
+\newcommand{\readfirstline}[2]{%
+  \openin\file=#2
+  \read\file to \temp
+  \closein\file
+  \global\let#1\temp
+}
+\newcommand{\chapterwithsummaryfromfile}[2][]{%
+  \refstepcounter{chapter}
+  \IfFileExists{#2/title.tex}{
+    \readfirstline{\chaptertitle}{#2/title.tex}
+  }{
+    \def\chaptertitle{Missing Title}
+  }
+  \IfFileExists{#2/summary.tex}{
+    \readfirstline{\chaptersummary}{#2/summary.tex}
+  }{
+    \def\chaptersummary{No summary available.}
+  }
+  
+  % Store title and summary for later TOC entry and header (removed immediate TOC entry)
+  \gdef\storedchaptertitle{\chaptertitle}
+  \gdef\storedchaptersummary{\chaptersummary}
+  
+  % Store the label for later placement in \inputstory (at actual title page)
+  % This ensures \pageref points to the content page, not the separator page
+  \gdef\storedchapterlabel{#1}%
+  
+  % Do NOT output anything here - delay until \inputstory starts the actual page
+}
+
+\makeatother
+
+% Fix hyperref issues with multi-line TOC entries
+\makeatletter
+\patchcmd{\@chapter}
+  {\addcontentsline{toc}{chapter}%
+    {\protect\numberline{\thechapter}#1}}
+  {\addcontentsline{toc}{chapter}%
+    {\protect\numberline{\thechapter}#1}}
+  {}{}
+\makeatother
+
+% Hyperlink settings - must be AFTER all other package loads
+\pdfstringdefDisableCommands{%
+  \def\\{ }% Replace \\ with space in PDF strings
+}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    citecolor=linkcolor,
+    urlcolor=linkcolor,
+    pdftitle={Beyond Popular Science},
+    pdfauthor={David H. Silver},
+    pdfsubject={Fifty explorations at the boundary of mainstream science},
+    pdfkeywords={science, physics, mathematics, cosmology, biology, popular science},
+    pdfcreator={LuaLaTeX},
+    pdfproducer={LuaLaTeX with hyperref},
+    pdflang={en-GB},
+    pdfpublisher={Open Book Publishers},
+    pdfcopyright={Copyright © 2026 David H. Silver. CC BY-NC 4.0},
+    pdflicenseurl={https://creativecommons.org/licenses/by-nc/4.0/},
+    pdfpubtype={book},
+    pdfisbn={978-1-80511-879-4},
+    pdfdoi={10.11647/OBP.0526},
+    pdfurl={https://doi.org/10.11647/OBP.0526},
+    pdfdate={2026}
+}
+
+% LuaTeX doesn't propagate hyperref's pdftitle/pdfauthor to DocInfo;
+% set them explicitly via the PDF info dict.
+\ifluatex
+  \pdfextension info {
+    /Title (Beyond Popular Science)
+    /Author (David H. Silver)
+    /Subject (Fifty explorations at the boundary of mainstream science)
+    /Keywords (science, physics, mathematics, cosmology, biology, popular science)
+  }
+\fi
+
+% Custom environments
+% Historical section styling
+\newenvironment{historical}{%
+    \begin{mdframed}[%
+        linecolor=historycolor, 
+        linewidth=0.5pt, 
+        backgroundcolor=white, 
+        topline=false, 
+        bottomline=false, 
+        rightline=false, 
+        leftmargin=1em, 
+        rightmargin=1em]
+    \historyfont\color{historycolor}
+}{%
+    \end{mdframed}
+}
+
+% Command for headers inside technical environment (prevents orphaned headers)
+\newcommand{\techheader}[1]{\needspace{3\baselineskip}\noindent\textbf{#1}}
+
+% Command for references section inside technical environment
+\newcommand{\techref}{\vspace{0.5em}\noindent\textbf{References:}\\}
+
+% Technical environment with improved multicols handling
+\newenvironment{technical}{%
+    \par\medskip\noindent
+    \begin{tcolorbox}[
+        enhanced,
+        colframe=technicalcolor,
+        colback=gray!5,
+        boxrule=0.8pt,
+        arc=0mm,
+        left=5pt,
+        right=5pt,
+        top=5pt,
+        bottom=10pt,
+        breakable=false,
+        parbox=false,
+        after={\par\nobreak\noindent}  % Prevent page break after the box
+    ]
+    \begingroup % Begin a local group for scoping
+    \renewcommand{\bfseries}{\fontseries{b}\selectfont} % Ensure bold works
+    \renewcommand{\itshape}{\fontshape{it}\selectfont}  % Ensure italics works
+    \renewcommand{\emph}[1]{\textit{##1}}               % Escape # properly
+    \technicalfont\small % Apply technical font and small size
+    \sloppy % Allow more flexible line breaking
+    \hyphenpenalty=50 % Make hyphenation more likely
+    \exhyphenpenalty=50 % Make hyphenation of already hyphenated words more likely
+    
+    % Adjust itemize spacing for technical environment
+    \setlist[itemize]{nosep, leftmargin=1em, itemsep=0.1em, topsep=0.3em, partopsep=0pt}
+    
+    % Use multicols directly with adjusted parameters
+    \begin{multicols}{2}
+    \setlength{\columnseprule}{0.1pt} % Thin rule between columns
+    \setlength{\columnsep}{12pt} % Slightly reduced column separation
+}{%
+    \end{multicols}
+    \endgroup % End the local group, restoring global settings
+    \end{tcolorbox}
+}
+
+% Commentary environment styling
+\newenvironment{commentary}[1][Commentary]{%
+    \bigskip % Add vertical space before commentary
+    % Title with appropriate styling
+    \begin{center}
+        {\large\itshape\bfseries\textcolor{commentarycolor}{#1}}
+    \end{center}
+    \vspace{0.5em}
+    % Content with right border
+    \begin{mdframed}[%
+        linecolor=commentarycolor, 
+        linewidth=1pt, 
+        backgroundcolor=white, 
+        topline=false, 
+        bottomline=false, 
+        rightline=true, 
+        leftmargin=1em, 
+        rightmargin=1em]
+    \commentaryfont\color{commentarycolor}
+    \RaggedRight
+}{%
+    \end{mdframed}
+}
+
+\newcommand{\centeredfullpage}[2]{%
+  \clearpage
+  \thispagestyle{empty}
+
+  \vspace*{\fill}
+
+  \begin{center}
+    \begin{minipage}{0.8\textwidth}
+      \centering
+      #1
+
+      \vspace{1em}
+
+      {\fontsize{12pt}{14pt}\selectfont \textbf{\textit{#2}}}
+    \end{minipage}
+  \end{center}
+
+  \vspace*{\fill}
+
+}
+
+
+
+% Humor section for jokes and funny stories
+\newenvironment{humorbox}[1][Lighter Side]{%
+    \begin{figure}[b]  % Position at bottom of page by default
+        \begin{tcolorbox}[
+            enhanced,
+            colframe=gray!50!black,
+            colback=gray!5,
+            boxrule=0.5pt,
+            arc=2mm,
+            left=10pt,
+            right=10pt,
+            top=6pt,
+            bottom=6pt,
+            title=#1,
+            fonttitle=\bfseries\itshape,
+            coltitle=black,
+            breakable,
+            parbox=false
+        ]
+}{%
+        \end{tcolorbox}
+    \end{figure}
+}
+
+\newcommand{\fullpagehumor}[2][Lighter Side]{%
+  \clearpage
+  \thispagestyle{empty}
+  
+  \vspace*{\fill}
+  \noindent
+  \begin{tcolorbox}[
+      enhanced,
+      width=\textwidth,
+      colframe=gray!50!black,
+      colback=gray!5,
+      colbacktitle=gray!30,
+      coltitle=black,
+      boxrule=0.5pt,
+      arc=2mm,
+      left=15pt,
+      right=15pt,
+      top=10pt,
+      bottom=10pt,
+      title=#1,
+      fonttitle=\bfseries\itshape
+  ]
+    #2
+  \end{tcolorbox}
+  \vspace*{\fill}
+}
+
+
+
+\newenvironment{exercisebox}[1][Exercises]{%
+    \begin{tcolorbox}[
+        enhanced,
+        breakable,  % <-- Add this
+        colframe=blue!60!black,
+        colback=blue!5,
+        boxrule=0.5pt,
+        arc=2mm,
+        left=15pt,
+        right=15pt,
+        top=5pt,
+        bottom=10pt,
+        title=#1,
+        fonttitle=\bfseries,
+        coltitle=white,
+        colbacktitle=blue!60!black,
+        attach boxed title to top left={yshift=-2mm, xshift=5mm},
+        boxed title style={arc=1mm, boxrule=0.5pt}
+    ]
+    \begin{enumerate}[leftmargin=*]
+}{%
+    \end{enumerate}
+    \end{tcolorbox}
+}
+
+
+% Full-page exercises section
+\newcommand{\fullpageexercises}[2][Exercises]{%
+  \clearpage                  % start it on a fresh page
+  \thispagestyle{empty}       % no header/footer on page one of the box
+  \begin{center}
+    \begin{tcolorbox}[
+      enhanced,
+      breakable,               % < — allow the box to span pages
+      width=\textwidth,
+      colframe=blue!60!black,
+      colback=blue!5,
+      colbacktitle=blue!60!black,
+      coltitle=white,
+      boxrule=0.5pt,
+      arc=2mm,
+      left=5pt,
+      right=5pt,
+      top=10pt,
+      bottom=10pt,
+      title=#1,
+      fonttitle=\bfseries,
+      attach boxed title to top left={yshift=-2mm, xshift=5mm},
+      boxed title style={arc=1mm, boxrule=0.5pt}
+    ]
+      #2
+    \end{tcolorbox}
+  \end{center}
+  % **no** \clearpage or \cleardoubleoddpage here
+}
+
+
+
+\newcommand{\imagefigure}[2]{%
+  \thispagestyle{empty}
+  \begin{center}
+    \vspace*{2em} % Small spacing instead of \null\vfill
+    #1
+
+    \vspace{1em}
+
+    % Caption (only if nonempty)
+    % Adjusted margins for 7“×10” format (was 2cm each side)
+    \begin{adjustwidth}{1.5cm}{1.5cm}
+      {\fontsize{11pt}{14pt}\selectfont #2}
+    \end{adjustwidth}
+
+  \end{center}
+  \vspace{2em}
+}
+
+
+% Image with caption vertically centered in remaining space
+% Usage: \inlineimage{width_factor}{path/to/image.png}{Caption text}
+% 4-arg version adds alt text: \inlineimage{scale}{path}{caption}{alt text}
+\newcommand{\inlineimage}[4]{%
+  \par
+  \vspace{0pt plus 1fill}% Flexible space above for vertical centering
+  \begin{center}
+    \pdftooltip{\includegraphics[width=#1\linewidth,keepaspectratio]{#2}}{#4}\\[0.5em]
+    {\small #3}
+  \end{center}
+  \vspace{0pt plus 1fill}% Flexible space below for vertical centering
+}
+
+
+
+
+% ============================================================
+% HANGING QUOTATION MARKS (Solution B: expl3 hangcentquote)
+% ============================================================
+% This environment handles multi-line quotes with hanging punctuation.
+% The opening quote hangs into the left margin, closing quote hangs right.
+% Usage: \begin{hangquote}{lang} ... \end{hangquote}
+% where lang is: en, de, he, fr, gr
+
+\ExplSyntaxOn
+
+\dim_new:N \l_hcq_gap_dim
+\dim_set:Nn \l_hcq_gap_dim { .08em }
+
+\NewDocumentCommand \HangQuoteGap { m }
+  { \dim_set:Nn \l_hcq_gap_dim {#1} }
+
+\NewDocumentEnvironment {hangcentquote} { m m +b }
+  {
+    \seq_set_split:Nnn \l_tmpa_seq { \\ } { #3 }
+    \int_compare:nNnTF { \seq_count:N \l_tmpa_seq } = {1}
+      {
+        \tl_set:Nx \l_tmpa_tl { \seq_item:Nn \l_tmpa_seq {1} }
+        \begin{tabular}{@{}r@{}}
+          \llap{#1\kern\l_hcq_gap_dim}\l_tmpa_tl\rlap{\kern\l_hcq_gap_dim#2}
+        \end{tabular}
+      }
+      {
+        \seq_pop_left:NN  \l_tmpa_seq \l_tmpa_tl
+        \seq_pop_right:NN \l_tmpa_seq \l_tmpb_tl
+        \begin{tabular}{@{}r@{}}
+          \llap{#1\kern\l_hcq_gap_dim}\l_tmpa_tl\\
+          \seq_map_inline:Nn \l_tmpa_seq { ##1\\ }
+          \l_tmpb_tl\rlap{\kern\l_hcq_gap_dim#2}
+        \end{tabular}
+      }
+  }
+  { }
+
+% ============================================================
+% HANGING QUOTATION MARKS (Solution E: hangleftquote)
+% ============================================================
+% Left-aligned text with opening quote hanging LEFT (classical).
+% Closing quote sits inline at end of last line.
+% Block is meant to be placed inside \begin{flushright}...\end{flushright}
+% so the whole block sits flush-right on the page.
+% Usage: \begin{hangleftquote}{OpenMark}{CloseMark} ... \end{hangleftquote}
+
+\NewDocumentEnvironment {hangleftquote} { m m +b }
+  {
+    \seq_set_split:Nnn \l_tmpa_seq { \\ } { #3 }
+    \int_compare:nNnTF { \seq_count:N \l_tmpa_seq } = {1}
+      {
+        \tl_set:Nx \l_tmpa_tl { \seq_item:Nn \l_tmpa_seq {1} }
+        \begin{tabular}{@{}l@{}}
+          \llap{#1\kern\l_hcq_gap_dim}\l_tmpa_tl #2
+        \end{tabular}
+      }
+      {
+        \seq_pop_left:NN  \l_tmpa_seq \l_tmpa_tl
+        \seq_pop_right:NN \l_tmpa_seq \l_tmpb_tl
+        \begin{tabular}{@{}l@{}}
+          \llap{#1\kern\l_hcq_gap_dim}\l_tmpa_tl\\
+          \seq_map_inline:Nn \l_tmpa_seq { ##1\\ }
+          \l_tmpb_tl #2
+        \end{tabular}
+      }
+  }
+  { }
+
+\ExplSyntaxOff
+
+% Quote mark tokens for hangcentquote / hangleftquote
+\newcommand{\QENOpen}{\textquotedblleft}   % double open  " (direct quotation)
+\newcommand{\QENClose}{\textquotedblright} % double close " (direct quotation)
+\newcommand{\QSOpen}{\textquoteleft}       % single open  ' (scare quote / term)
+\newcommand{\QSClose}{\textquoteright}     % single close ' (scare quote / term)
+\newcommand{\QDEOpen}{\quotedblbase}
+\newcommand{\QDEClose}{\textquotedblleft}
+\newcommand{\QHEOpen}{\textquotedblleft}
+\newcommand{\QHEClose}{\quotedblbase}
+\newcommand{\QFROpen}{\guillemotleft\nobreak\thinspace}
+\newcommand{\QFRClose}{\thinspace\nobreak\guillemotright}
+\newcommand{\QGROpen}{\guillemotleft}
+\newcommand{\QGRClose}{\guillemotright}
+
+% Quotation mark commands by language (non-hanging, for inline use)
+\newcommand{\qen}[1]{\textquotedblleft{}#1\textquotedblright{}}
+\newcommand{\qde}[1]{\quotedblbase{}#1\textquotedblleft{}}
+\newcommand{\qhe}[1]{\textquotedblleft{}#1\quotedblbase{}}
+\newcommand{\qfr}[1]{\guillemotleft{}~#1~\guillemotright{}}
+\newcommand{\qgr}[1]{\guillemotleft{}#1\guillemotright{}}
+
+% Chapter quote macro: flush-right with controlled width for better line breaks
+% Usage: \chapterquote{Quote text here}{— Attribution, Year}
+% For multi-line quotes, use \\ to control line breaks
+\newcommand{\chapterquote}[2]{%
+  \begin{flushright}
+    \begin{minipage}{0.75\textwidth}
+      \raggedleft
+      \emph{#1}\\
+      #2
+    \end{minipage}
+  \end{flushright}
+}
+
+% Topic map macro: render as small caps with ○ separator
+\newcommand{\topicmap}[1]{%
+  \noindent\textsc{%
+    \def\tempa{}%
+    \foreach \x in {#1} {%
+      \ifx\tempa\empty
+        \x
+      \else
+        \enspace$\circ$\enspace\x
+      \fi
+      \xdef\tempa{nonempty}%
+    }%
+  }%
+}
+
+
+
+
+\newcommand{\storyintro}[1]{%
+  \clearpage
+  \thispagestyle{empty}
+  \begin{center}
+    \vspace*{\fill}
+
+    % Title
+    {\Huge \bfseries \input{#1/title}}
+
+    \vspace{1em}
+
+    % Summary
+    % Summary (cleaner, no forced italics)
+    \vspace{1em}
+    \begin{minipage}{0.75\textwidth}
+        \centering
+        {\Large \color{summarycolor} \input{#1/summary}}
+    \end{minipage}
+
+
+    \vspace{1.5em}
+
+    % Separator
+    {\Large \textcolor{gray}{\ding{108}}}
+
+    \vspace{1em}
+
+    % Topicmap
+    {\normalsize \textsc{\input{#1/topicmap}}}
+
+    \vspace*{\fill}
+  \end{center}
+  \clearpage
+}
+
+
+
+
+
+% Flag to skip blank page before first chapter (set to false after first chapter)
+\newif\iffirstchapter
+\firstchaptertrue
+
+\newcommand{\inputstory}[1]{%
+    % === CHAPTER STRUCTURE: EXACTLY 10 PAGES ===
+    % 1. Big Title (recto) - 1 page
+    % 2. Sidenote (verso) - 1 page  
+    % 3. Title+Summary+Topicmap+Quote (recto) - 1 page
+    % 4-8. Historical+Main content - 5 pages
+    % 9. Technical - 1 page
+    % 10. Empty verso page - 1 page (for chapter separation)
+    %
+    % VERSO EMPTY PAGE BEFORE EACH CHAPTER (except first - it follows mainmatter)
+    % This ensures proper recto/verso alignment and 10-page structure
+    \iffirstchapter
+        % First chapter: just start on new page, no blank separator
+        \clearpage
+        \global\firstchapterfalse
+    \else
+        % Subsequent chapters: add blank verso separator page
+        \clearpage
+        \thispagestyle{empty}
+        \mbox{}
+        \clearpage
+    \fi
+
+    % --- PAGE 1: Dedicated Title Page (big, centered) ---
+    \phantomsection
+    % Place chapter label and TOC entry HERE (page 1) so page numbers are correct
+    \expandafter\ifx\expandafter\\\storedchapterlabel\\\else\label{\storedchapterlabel}\fi%
+    \addcontentsline{toc}{chapter}{%
+      \protect\numberline{\thechapter}\textcolor{toctitlecolor}{\storedchaptertitle}\\
+      {\normalfont\small\textit{\textcolor{summarycolor}{\storedchaptersummary}}}%
+    }%
+    \readfirstline{\chaptertitle}{#1/title.tex}
+    \readfirstline{\chaptersummary}{#1/summary.tex}
+
+    \thispagestyle{empty}
+    \begin{center}
+        \vspace*{\fill}
+        {\fontsize{48pt}{62pt}\selectfont\bfseries\raggedright
+        \parbox{0.8\textwidth}{\centering\input{#1/title}}}
+        \vspace*{\fill}
+    \end{center}
+
+    \clearpage
+
+    % --- PAGE 2: Sidenote ---
+    \IfFileExists{#1/sidenote.tex}{%
+        \input{#1/sidenote}%
+    }{%
+        % If no sidenote, create empty page
+        \thispagestyle{empty}
+        \mbox{}
+    }{}
+
+    \clearpage
+
+    % --- PAGE 3: Title + Summary + Topicmap + Quote (original intro style) ---
+    \thispagestyle{empty}
+    \begin{center}
+        \vspace*{0.5em}
+
+        {\Huge \bfseries \input{#1/title}}
+
+        \vspace{1.5em}
+        \begin{minipage}{0.82\textwidth}
+            {\fontsize{13pt}{18pt}\selectfont\color{black}
+            \sloppy
+            \justifying
+            \input{#1/summary}}
+        \end{minipage}
+
+        \vspace{1.5em}
+
+        \chapterseparator
+
+        \vspace{1.5em}
+
+        \IfFileExists{#1/topicmap.tex}{%
+            \begin{minipage}{0.7\textwidth}
+                \centering
+                 \input{#1/topicmap}
+            \end{minipage}
+        }{}
+
+        \vfill
+
+        \IfFileExists{#1/quote.tex}{%
+            \vspace{1em}
+            \begin{minipage}{0.85\textwidth}
+                \centering \input{#1/quote}
+            \end{minipage}
+        }{}
+
+        \vspace*{0.5em}
+    \end{center}
+
+    \clearpage
+
+    % --- PAGES 4-8: Historical + Main + Optional materials (exactly 5 pages total) ---
+    % Set chapter header HERE when content actually begins
+    \chaptermark{\storedchaptertitle}
+    \chapterdoi{\thechapter}
+    {\LARGE \bfseries \input{#1/title}}
+    \input{#1/historical}
+    \input{#1/main}
+    \IfFileExists{#1/phenomenon_extra.tex}{\input{#1/phenomenon_extra}}{}
+    
+    % Include optional materials as part of the 5-page content block
+    \IfFileExists{#1/joke.tex}{%
+        \input{#1/joke}%
+    }{}
+    
+    \IfFileExists{#1/exercises.tex}{%
+        \input{#1/exercises}%
+    }{}
+    
+    \IfFileExists{#1/cartoon.tex}{%
+        \input{#1/cartoon}%
+    }{}
+    
+    \IfFileExists{#1/imagefigure.tex}{%
+        \input{#1/imagefigure}%
+    }{}
+
+    % --- PAGE 9: Technical (exactly 1 page) ---
+    \newpage
+    \input{#1/technical}
+
+    % --- NO PAGE 10 EMPTY PAGE HERE ---
+    % Empty verso pages are now added BEFORE each chapter (see top of \inputstory)
+    % This prevents cumulative page drift and maintains 10-page alignment
+    % Last chapter will not have trailing empty page
+
+
+}
+
+\definecolor{purplebackground}{RGB}{230,230,250} % Lavender/purple background
+\newsavebox{\SideTextBox}
+\newenvironment{SideNotePage}[3][1.1] % [scale] {side text} {image path}
+{%
+  \clearpage
+  \thispagestyle{empty}
+  
+  % Layout for 432x972pt PDFs within 5.5“×8.5” text area
+  % Left: caption, vertical line separator, Right: centered image
+  % Optional scale (default 1.0) enlarges image only, growing right and vertically
+  \pgfmathsetlengthmacro{\SideNoteImageWidth}{3.2in * #1}%
+  \pgfmathsetlengthmacro{\SideNoteImageHeight}{7.5in * #1}%
+  \vspace*{\fill}
+  \noindent
+  \begin{minipage}[c]{1.8in}
+    \raggedright
+    \footnotesize
+    #2
+  \end{minipage}%
+  \hspace{0.1in}%
+  \rule[-3.5in]{0.5pt}{7in}% vertical line separator
+  \hspace{0.1in}%
+  \begin{minipage}[c]{3.4in}
+    \raggedright
+    \includegraphics[width=\SideNoteImageWidth,height=\SideNoteImageHeight,keepaspectratio]{#3}
+  \end{minipage}%
+  \vspace*{\fill}
+}
+{%
+  \clearpage
+}
+
+
+
+
+
+% Ensure technical environment doesn't break across pages
+\AtEndEnvironment{technical}{\nopagebreak[4]}

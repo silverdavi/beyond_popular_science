@@ -1,0 +1,39 @@
+\begin{technical}
+{\Large\textbf{Statistical Mechanics of Negative Absolute Temperature}}\\[0.3em]
+
+\techheader{The Entropy-Temperature Connection}\\[0.5em]
+Statistical mechanics defines temperature through the relationship between entropy $S$ and energy $E$: $1/T = \partial S/\partial E$. One common choice is the Gibbs entropy $S_G = k_B \ln \Omega(E)$ with $\Omega(E)$ the integrated density of states. In unbounded systems, $\Omega$ always increases with $E$, yielding $T > 0$. In systems with maximum energy $E_{\max}$, the density of states can decrease near $E_{\max}$. Under a Boltzmann definition that uses the local density of states $\omega(E)$, $\partial S/\partial E$ can become negative, corresponding to negative $T$ in that convention.
+
+\techheader{Two-Level System: A Clear Example}\\[0.5em]
+Consider $N$ spins, each with energy 0 (down) or $\epsilon$ (up). With $n$ spins up, the total energy is $E = n\epsilon$ and the number of configurations is $\Omega(n) = \binom{N}{n}$. The entropy $S = k_B \ln \Omega$ peaks at $n = N/2$ (half spins up). For $n < N/2$, adding energy increases entropy; for $n > N/2$, adding energy decreases entropy. In a two-level model one can define an effective inverse temperature via the slope:
+\begin{align*}
+\beta \equiv \frac{1}{k_B T} = \left(\frac{\partial S}{\partial E}\right)_{N,V}.
+\end{align*}
+At $n = N/2$: $\beta = 0$. Population inversion ($n > N/2$) corresponds to $\beta < 0$ under the Boltzmann convention.
+
+\techheader{Energy Flow and \QSOpen{}Hotter Than Hot\QSClose{}}\\[0.5em]
+When two systems exchange energy, entropy maximisation determines the flow direction. For energy $\delta Q$ flowing from $A$ to $B$:
+\begin{align*}
+\Delta S_{\text{tot}} = \delta Q \left( \frac{1}{T_B} - \frac{1}{T_A} \right).
+\end{align*}
+For spontaneous flow ($\Delta S_{\text{tot}} > 0$), we need $1/T_B > 1/T_A$. In the $\beta$ parameterisation, the ordering is continuous:
+\begin{align*}
+0^+ < \ldots < +\infty \equiv -\infty < \ldots < 0^-.
+\end{align*}
+Thus negative temperatures are \QSOpen{}hotter\QSClose{} than all positive temperatures—energy flows from any negative-$T$ system to any positive-$T$ system.
+
+\techheader{The Gibbs vs Boltzmann Debate}\\[0.5em]
+Dunkel and Hilbert (2014) highlighted a controversy about negative temperature by distinguishing two entropy definitions:
+\begin{itemize}[leftmargin=1em,itemsep=0pt,topsep=2pt]
+\item Boltzmann: $S_B = k_B \ln[\omega(E)]$ using density of states $\omega = d\Omega/dE$.
+\item Gibbs: $S_G = k_B \ln[\Omega(E)]$ using integrated density of states.
+\end{itemize}
+For bounded systems where $\omega$ peaks and decreases, Boltzmann can give $T_B < 0$ while Gibbs gives $T_G > 0$ always. They argue only Gibbs entropy satisfies certain thermodynamic consistency conditions such as pressure relations. The precise mapping between experimentally inferred parameters and $T_G$ depends on ensemble and constraints, and remains debated.
+
+\techref
+{\footnotesize
+Ramsey, N. F. (1956). \textit{Thermodynamics and Statistical Mechanics at Negative Absolute Temperatures}. Phys. Rev., 103, 20. \\
+Purcell, E. M., Pound, R. V. (1951). \textit{A Nuclear Spin System at Negative Temperature}. Phys. Rev., 81, 279. \\
+Dunkel, J., Hilbert, S. (2014). \textit{Consistent Thermostatistics Forbids Negative Absolute Temperatures}. Nat. Phys., 10, 67.
+}
+\end{technical}

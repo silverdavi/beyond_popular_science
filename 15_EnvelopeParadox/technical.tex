@@ -1,0 +1,62 @@
+\begin{technical}
+{\Large\textbf{Resolving the Envelope Paradox}}\\[0.3em]
+
+The paradox emerges from treating the observed amount $Y$ as equally likely to be the smaller or larger of two amounts related by a $1:2$ ratio. The naive expectation assumes: $
+\mathbb{E}[\text{switch}] = 0.5 \cdot 2Y + 0.5 \cdot Y/2 = 5Y/4,$ suggesting a gain from switching. But this treats $Y$ as both $X$ and $2X$ in different terms—a misapplication of conditional expectation.
+
+\techheader{Correct Conditioning}\\[0.2em]
+Let $X$ be drawn from prior $f(x)$. The envelope pair $(X, 2X)$ is constructed, and one is presented at random. Let $Y$ denote the observed amount:
+\begin{align*}
+Y = X &\Rightarrow \text{other envelope has } 2Y,\\
+Y = 2X &\Rightarrow \text{other envelope has } Y/2.
+\end{align*}
+The conditional probabilities are:
+\begin{align*}
+\mathbb{P}(Y=y \mid \text{observed smaller}) &\propto f(y), \\
+\mathbb{P}(Y=y \mid \text{observed larger}) &\propto \tfrac{1}{2} f(y/2).
+\end{align*}
+The expected value of switching given $Y$ is:
+\begin{align*}
+\mathbb{E}[\text{sw} \mid Y] 
+= \frac{2Y \cdot f(Y) + \tfrac{1}{2}Y \cdot f(Y/2)}{f(Y) + f(Y/2)}.
+\end{align*}
+This depends on the shape of $f$. When $f$ decays rapidly, $f(Y/2) \gg f(Y)$ for large $Y$, implying $Y$ is likely the larger value and switching is unfavourable.
+
+\techheader{Example: Pareto Prior}\\[0.2em]
+For $X \sim \text{Pareto}(\alpha)$ with $f(x) = \alpha x^{-(\alpha + 1)}$ on $[1, \infty)$:
+\begin{align*}
+f(Y/2) = \alpha \cdot 2^{\alpha + 1} \cdot Y^{-(\alpha + 1)} = 2^{\alpha + 1} f(Y).
+\end{align*}
+Thus:
+\begin{align*}
+\mathbb{E}[\text{switch} \mid Y] &= \frac{2Y + \tfrac{1}{2}Y \cdot 2^{\alpha + 1}}{1 + 2^{\alpha + 1}}\\
+&= Y \cdot \frac{2 + 2^{\alpha}}{1 + 2^{\alpha + 1}}.
+\end{align*}
+This may exceed or fall below $Y$ depending on $\alpha$.
+
+\techheader{Improper Priors}\\[0.2em]
+For log-uniform $f(x) \propto 1/x$ on $[1, \infty)$ (improper since $\int_1^{\infty} \frac{1}{x} dx = \infty$):
+\begin{align*}
+f(Y) &= \frac{1}{Y}, \quad f(Y/2) = \frac{2}{Y},\\
+\mathbb{E}[\text{switch} \mid Y] &= \frac{2Y \cdot \frac{1}{Y} + \tfrac{1}{2}Y \cdot \frac{2}{Y}}{\frac{1}{Y} + \frac{2}{Y}} = Y.
+\end{align*}
+This suggests switching is neutral, but the result is meaningless: the improper prior makes the marginal distribution undefined. 
+
+\techheader{Finite Uniform Model}\\[0.2em]
+Let $x \in \{2^0. 2^1, \dots, 2^{N-1}\}$ be uniform. For observed amount $A = 2^m$:
+\begin{itemize}[topsep=0pt,itemsep=2pt]
+\item Interior ($1 \le m \le N - 2$): $\mathbb{E}[\Delta \mid A] = \tfrac{1}{2}(2^m) + \tfrac{1}{2}(-2^{m-1}) = 2^{m-2}$.
+\item Boundaries: $\mathbb{E}[\Delta \mid A = 2^0] = +1$, $\mathbb{E}[\Delta \mid A = 2^{N-1}] = -2^{N-2}$.
+\end{itemize}
+Global expectation:
+\begin{align*}
+\mathbb{E}[\Delta] &= \frac{1}{N} \left( \sum_{m=1}^{N-2} 2^{m-2} + 1 - 2^{N-2} \right) \\
+&= \frac{1}{N} \left( -2^{N-3} + \tfrac{1}{2} \right) < 0.
+\end{align*}
+As $N \to \infty$, this approaches zero from below, confirming no long-run switching advantage.
+
+\techref
+{\footnotesize
+Nalebuff, B. (1989). The Other Person's Envelope Is Always Greener. \textit{J. Econ. Persp.}, \textbf{3}(1), 171–181.
+}
+\end{technical}

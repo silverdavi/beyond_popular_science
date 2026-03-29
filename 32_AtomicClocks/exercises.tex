@@ -1,0 +1,44 @@
+\fullpageexercises{%
+
+\textbf{Fusible Numbers: Exercises in Constructive Time} \\
+
+A classic riddle: given two candles, which each burn for 1 h, how can you measure 45 m?
+\vspace{1em}
+
+Fusible numbers form a well-ordered subset of the rationals constructed iteratively from zero. A number \( z \) is fusible if there exist previously constructed fusible numbers \( x \) and \( y \), with \( |x - y| < 1 \), such that $z = (x + y + 1)/2$.
+The construction corresponds to lighting a unit-time fuse at both ends with delay. Results about the growth of certain associated functions are linked to very fast-growing hierarchies and have connections to independence from Peano arithmetic.
+
+\vspace{1em}
+\textbf{1. The Fuse Construction} \\
+For a unit fuse lit at time $x$ on one end and time $y$ on the other (with $|x-y| < 1$), prove it extinguishes at $z = (x + y + 1)/2$. Consider the burn dynamics when both flames are active.
+
+\vspace{1em}
+\textbf{2. Enumeration Below 2} \\
+Determine all fusible numbers $<2$ by systematic application of the construction rule.
+
+\vspace{1em}
+\textbf{3. Dyadic Structure} \\
+Prove that all fusible numbers have the form $a/2^k$ for integers $a \geq 0$ and $k \geq 0$.
+
+\vspace{1em}
+\textbf{4. The Margin Function} \\
+Let $a_n$ be the smallest fusible number exceeding $n$. Prove that
+\[
+a_n = n + \frac{1}{2^{k(n)}}
+\]
+for some $k(n) \in \mathbb{N}$. Compute $k(0)$, $k(1)$, $k(2)$. The function $k(n)$ grows extremely rapidly; certain asymptotic properties are connected to statements independent of Peano arithmetic.
+
+\vspace{1em}
+\textbf{5. Well-Ordering} \\
+Prove that the fusible numbers form a well-ordered subset of $\mathbb{Q}^+$. What does this imply about infinite decreasing sequences?
+
+\vspace{2em}
+\hrule
+\vspace{1em}
+\textbf{Context} \\
+Fusible numbers (Erickson, Xu) demonstrate how elementary constructions yield extremely fast growth. The margin values are:
+\[
+a_0 = \frac{1}{2}, \quad a_1 = 1 + \frac{1}{8}, \quad a_2 = 2 + \frac{1}{1024}.
+\]
+The growth behaviour connects to ordinal $\varepsilon_0$. (See \hyperref[ch:bignumbers]{Chapter~17})
+}

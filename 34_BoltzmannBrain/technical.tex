@@ -1,0 +1,65 @@
+\begin{technical}
+{\Large\textbf{Universe vs Boltzmann Brain}}\\
+
+
+\techheader{De Sitter Horizon Entropy}\\
+For a universe approaching de Sitter space with cosmological constant $\Lambda \sim 10^{-122}$ in Planck units, the horizon entropy is
+\[
+S_\text{dS} = \frac{3\pi}{\Lambda} \sim 10^{122}.
+\]
+This is the maximum coarse-grained entropy inside our causal patch.
+
+\techheader{Low-Entropy Big Bang}\\
+Penrose treats the observed smooth early universe as a tiny region of the gravitational phase space compatible with $S_\text{dS}$. The entropy deficit is
+\[
+\Delta S_\text{cosmo} \sim 10^{122},
+\]
+so a fluctuation from de Sitter equilibrium to a Big Bang–like state has probability
+\[
+P_\text{cosmo} \propto \exp(-\Delta S_\text{cosmo}) \sim \exp(-10^{122}).
+\]
+
+\techheader{Boltzmann Brain Entropy Cost}\\
+For a single brain of mass $M$ fluctuating out of the de Sitter vacuum at temperature $T_\text{dS}$, the entropy cost follows from the Boltzmann factor,
+\[
+\Delta S_\text{BB} \simeq \frac{E}{T_\text{dS}} = \frac{M c^2}{T_\text{dS}}.
+\]
+With $M \sim 1\ \text{kg}$ and $T_\text{dS} \sim 10^{-33}\ \text{eV}$,
+\begin{align*}
+E &\sim 10^{17}\ \text{J} \sim 10^{36}\ \text{eV},\\
+\Delta S_\text{BB} &\sim \frac{10^{36}\ \text{eV}}{10^{-33}\ \text{eV}} \sim 10^{69}.
+\end{align*}
+Uncertainties in $M$, $T_\text{dS}$, and required complexity shift this by many orders of magnitude; a round figure $\Delta S_\text{BB} \sim 10^{60}$ still lies far below $10^{122}$. The corresponding fluctuation probability is
+\begin{align*}
+P_\text{BB} &\propto \exp(-\Delta S_\text{BB})\\
+ &\sim \exp(-10^{60}\text{-}10^{69}).
+\end{align*}
+
+\techheader{Relative Likelihood}\\
+The ratio of BB to cosmological fluctuations is
+\begin{align*}
+\frac{P_\text{BB}}{P_\text{cosmo}}&\sim \exp\!\big(\Delta S_\text{cosmo} - \Delta S_\text{BB}\big)\\
+ &\sim \exp\!\big(10^{122} - 10^{60}\big)\\
+ &\sim \exp(10^{122}).
+\end{align*}
+The entropy reduction needed for a full low-entropy universe is overwhelmingly larger than for a single brain-sized fluctuation, so BBs dominate naive fluctuation counting by an astronomically large factor.
+
+\techheader{Timescales}\\
+The mean waiting time for a fluctuation with entropy cost $\Delta S$ in a fixed horizon volume scales as
+\[
+t \sim t_0\,\exp(\Delta S),
+\]
+with $t_0$ a microscopic timescale. For BBs and full recurrences,
+\begin{align*}
+t_\text{BB} &\sim \exp(\Delta S_\text{BB}) \sim \exp(10^{60}\text{-}10^{69})\ \text{years},\\
+t_\text{rec} &\sim \exp(S_\text{dS}) \sim \exp(10^{122})\ \text{years}.
+\end{align*}
+Both timescales are vast; $t_\text{BB} \ll t_\text{rec}$, so many BB fluctuations occur within a single Poincaré recurrence time.
+
+\techref
+{\footnotesize
+Dyson, L., Kleban, M., Susskind, L. (2002). Disturbing implications of a cosmological constant. \textit{JHEP} 0210:011.\\
+Penrose, R. (2004). \textit{The Road to Reality}. \textit{Jonathan Cape}.\\
+Page, D. N. (2006). Is our universe likely to decay within 20 billion years? arXiv:hep-th/0610079.
+}
+\end{technical}

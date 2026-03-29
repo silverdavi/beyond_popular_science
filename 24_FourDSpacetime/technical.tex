@@ -1,0 +1,45 @@
+\begin{technical}
+    {\Large \textbf{Dimensional Force Laws and Renormalizable Interactions}}
+    
+    \noindent\emph{Notation:} $n$ denotes spatial dimensions; $D$ denotes spacetime dimension ($D=n+1$ unless stated).
+    
+    \paragraph{Flux Argument and $r^{-(n-1)}$ Fields.}
+    In $n$ spatial dimensions, a spherical surface at radius $r$ has \QSOpen{}area\QSClose{} scaling as $r^{n-1}$. For a source at the origin emitting flux uniformly, Gauss's law implies that flux per unit area decreases in proportion to $1/r^{n-1}$. Classical gravitational or electrostatic fields thus follow  $F \sim \frac{1}{r^{\,n-1}}$.
+    For $n=3$, this becomes the familiar inverse-square relation. The corresponding potential $V(r)$ integrates (away from $n=2$) as.
+    $$
+    V(r) \;\sim\; \int \frac{dr}{r^{n-1}} \,\approx\; r^{\,2-n}.
+    $$
+    When $n=3$, $\;V(r)\sim 1/r$. For $n=2$, $V(r)\sim \log r$.
+    
+    \paragraph{Stable Orbits in Three Dimensions.}
+    A $1/r$ potential in $n=3$ produces near-circular orbits that are stable under perturbations. Small changes in velocity cause bounded oscillations rather than catastrophic collapse or unbounded escape. In $n<3$, forces decay more slowly (logarithmically at $n=2$), creating strong long-range effects that disrupt stable Keplerian orbits. In $n>3$, forces diminish rapidly, so small perturbations can disorder the trajectories.
+    
+    \paragraph{From Classical to Quantum.}
+    This dimensional dependence also occurs in quantum physics. Atomic stability relies partly on the $1/r$ Coulomb potential in $n=3$. In $n=2$, the potential becomes logarithmic with qualitatively different bound states; for $n>3$, the faster falloff reduces binding and can eliminate it at comparable scales.
+    
+    \paragraph{Renormalizable Couplings.}
+    Quantum field theories (QFTs) further illustrate how dimensionality restricts allowed interactions. Consider a scalar field $\phi$ in $D$-dimensional \emph{spacetime}. The $\phi^4$ interaction $\mathcal{L}_{\mathrm{int}} = \lambda\,\phi^4$ requires $\lambda$ to be dimensionless or of non-negative mass dimension to avoid an infinite series of divergences. The mass dimension of $\phi$ is $[\phi] = (D - 2)/2$, so
+    \begin{align*}  
+    [\lambda] = D - 4[\phi] = 4 - D.
+    \end{align*}
+    In $D=4$ spacetime dimensions (signature $(3,1)$), $\lambda$ is marginal (dimensionless). At $D>4$, $\lambda$ becomes irrelevant at high energy: the theory is non-renormalizable, demanding new terms for each new order in perturbation theory. For $D<4$, the interaction is super-renormalizable with strong infrared effects.
+    
+    \paragraph{Gauge Fields and Anomalies.}
+    In signature $(3,1)$, Yang–Mills gauge couplings are dimensionless, and the CP-odd topological density
+    \[
+    \tfrac{1}{8\pi^2}\,\mathrm{tr}\,F\wedge F = \tfrac{1}{32\pi^2}\,\epsilon^{\mu\nu\rho\sigma}\,\mathrm{tr}\!\big(F_{\mu\nu}F_{\rho\sigma}\big)\,d^4x
+    \]
+    integrates to an integer (the second Chern number) on compact 4-manifolds, independent of matter content. Gauge and mixed anomalies arise from chiral fermions; cancellation imposes constraints on representations, e.g.,\ $\sum_{\text{fermions}} \mathrm{Tr}_R\big(T^a\{T^b,T^c\}\big)=0$, where $\{T^b,T^c\} := T^b T^c + T^c T^b$ is the anticommutator (Jordan bracket) of the generators.
+    
+    Analogous anomaly phenomena exist in other even spacetime dimensions, but renormalizable chiral gauge theories with dimensionless couplings occur naturally in signature $(3,1)$.
+    
+\techref
+    {\footnotesize
+    Peskin, M. E., and Schroeder, D. V. (1995). \textit{An Introduction to Quantum Field Theory}. Addison-Wesley.\\
+    Weinberg, S. (1995). \textit{The Quantum Theory of Fields, Vol. I}. Cambridge University Press.\\
+    Ehrenfest, P. (1917). \textit{In what way does it become manifest in the fundamental laws of physics that space has three dimensions?} Proceedings of the Amsterdam Academy.\\
+    Lenard, A., and Dyson, F. J. (1967). Stability of matter I, II. \textit{Journal of Mathematical Physics}.
+    }
+    
+\end{technical}
+    

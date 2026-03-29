@@ -1,0 +1,62 @@
+You are presented with two identical envelopes—you are told that one envelope contains twice the money of the other. No other information is given. No other information is given. You select one envelope at random and open it, revealing \$100. At this point, you are given the opportunity to switch.
+
+Consider the reasoning that leads to paradox. The envelope you opened contains \$100, which must be either the smaller amount or the larger. If \$100 is the smaller amount, the other envelope contains \$200. If \$100 is the larger amount, the other envelope contains \$50. Since these two cases seem equally likely, the expected value from switching appears to be:
+\[
+\text{Expected gain} = 0.5 \cdot (+100) + 0.5 \cdot (-50) = +25.
+\]
+This suggests a \$25 gain from switching. The same calculation applies regardless of the amount observed, whether \$10, \$100, or \$1000. You should apparently switch every time. But this logic also tells you to switch back again after switching, producing an endless preference loop. The contradiction is that each envelope appears preferable to the other.
+
+Why does this reasoning feel compelling? The calculation follows expected value logic. The probabilities seem reasonable. Without additional information, why shouldn't the observed amount be equally likely to be the smaller or larger? The arithmetic is correct. Yet the conclusion violates intuitions about symmetric problems. The puzzle demands a definitive answer while generating contradictory recommendations.
+
+The error lies in how the observed amount $x$ is interpreted across different terms of the expectation. In one term, $x$ represents the smaller amount; in the other, it represents the larger amount. This reference creates incompatible baselines for comparison.
+
+To make the model coherent, let \( x \) denote the smaller of the two amounts. Then the envelopes contain \( x \) and \( 2x \), and each is equally likely to be selected. If you hold \( x \), switching yields \( +x \); if you hold \( 2x \), switching yields \( -x \). The outcomes cancel:
+\[
+\text{Average change} = 0.5 \cdot (+x) + 0.5 \cdot (-x) = 0.
+\]
+No advantage arises. The paradox dissolves because the original argument uses expectation without a consistent model.
+
+This becomes clearer in a bounded setup. Suppose the smaller amount is chosen uniformly from \( \{2^0, 2^1, \dots, 2^{999}\} \). For most observed amounts \( A \), switching seems to yield a gain of \( +0.25A \) since \( A \) could be either the smaller or larger envelope value. However, this ignores boundary cases: if \( A = 2^0 \), switching cannot halve it; if \( A = 2^{999} \), switching cannot double it. These rare but extreme boundary effects precisely cancel the average gain across interior values, returning the total expectation to zero.
+
+In the limit as the model becomes unbounded, for example, when \( x \) is drawn from \( \{\dots, 2^{-2}, 2^{-1}, 2^0, 2^1, \dots\} \), the problem reappears. For any observed amount, switching appears to yield a gain of \( +0.25A \). But this assumes all values are equally probable, which is not possible over an infinite set.
+
+A uniform distribution over an infinite number of values cannot exist (Kolmogorov, 1933)—there is no way to assign equal, nonzero probability to infinitely many outcomes and still have the total probability equal to one. Any attempt results in an \emph{improper prior}: a function that resembles a distribution but cannot be normalised.
+
+To reason coherently in such a context, one must use a \emph{probability measure}: a rule that assigns consistent, additive weights to sets of values and sums to one. A measure is \emph{proper} if it satisfies this condition. If it diverges or is undefined, expectations may not exist. Even if each outcome is finite, the global average may be infinite or ill-defined. In that case, expectation ceases to be a meaningful decision tool.
+
+One setup does yield a switching advantage. Fix a value \( a \) and flip a coin: if heads, prepare envelopes with \( a \) and \( 2a \); if tails, use \( a \) and \( a/2 \). Hand the envelope containing \( a \) to the player. Switching yields either \( +a \) or \( -0.5a \) with equal probability, giving an expected gain of \( +0.25a \). Here, switching is optimal because the model is asymmetric and expectation is applied with explicit conditioning.
+
+The switching advantage depends entirely on the unknown prior distribution over envelope pairs. If smaller amounts are more probable, observing \$100 suggests you likely hold the larger envelope. If larger amounts are more probable, the reverse holds. Without knowing this distribution, rational choice becomes impossible.
+
+\textbf{Bertrand's paradox} (1889) poses the question: what is the probability that a random chord of a circle is longer than the side of an inscribed equilateral triangle? The answer depends on what \QSOpen{}random\QSClose{} means. Select two random points on the circumference and connect them: the probability is $1/3$. Select a random radius and place the chord perpendicular to it at a random distance from the centre: the probability is $1/2$. Select a random interior point as the chord's midpoint: the probability is $1/4$. Each method seems reasonable, yet they yield different results. \QSOpen{}Random chord\QSClose{} is undefined without specifying the selection procedure.
+
+Similarly, should you treat envelope pairs $(50, 100)$ and $(100, 200)$ as equally likely? Or should you treat the amounts \$50, \$100, \$200 as equally likely? Each choice determines a different prior over the smaller value $x$. The first approach makes pairs equally likely; the second makes values equally likely, implying smaller values are more probable than larger ones when considering pairs. Without specifying the generation mechanism, \QSOpen{}random envelope\QSClose{} has no unique meaning, and the \QSOpen{}principle of indifference\QSClose{}—treating outcomes as equally likely (Keynes, 1921) in the absence of information—produces contradictions.
+
+The Bayesian approach requires a prior distribution over envelope pairs. Without knowing the generation mechanism, no prior can be justified. Even given a distribution, improper priors (such as uniform over all positive reals) produce undefined probabilities, and heavy-tailed distributions yield infinite expected values. In symmetric setups, observing one amount provides zero information about which envelope contains more. Over repeated trials with any proper distribution, switching gains nothing on average.
+
+\begin{commentary}[Renormalizing Pascal]
+Pascal's Wager collapses under the same pathology (Pascal, 1670). The canonical argument claims belief in God offers infinite expected utility: either finite loss (if wrong) or infinite gain (if right). The arithmetic seems decisive. But critics note the state space is unbounded. For any deity $G$ granting infinite utility for act $A$, one can posit an Anti-God penalising $A$ with infinite disutility. The expected value becomes:
+\[
+EU = \sum_{i=1}^{\infty} [P(G_i) \cdot \infty] + \sum_{j=1}^{\infty} [P(G_{-j}) \cdot (-\infty)].
+\]
+Undefined. The same divergence that breaks the envelope calculation breaks Pascal.
+
+Physical field theories face identical infinities at high energies. The solution is \emph{renormalization}: impose a cutoff scale (Dyson, 1949) $\Lambda$, integrate out fluctuations above this threshold as irrelevant to the macroscopic theory. Virtual particles appear transiently but lack the coupling strength to affect observables.
+
+Apply this to theology. Introduce a \emph{social-credal cutoff} $\epsilon$. A theological hypothesis enters the expected utility calculation only if its social magnitude—measured by historical persistence, institutional architecture, mass adherence—exceeds the threshold. Below $\epsilon$, the probability is set to zero.
+
+Ad hoc philosophical fictions function as virtual particles: transient fluctuations in logical space lacking ontological mass to couple with macro-sociological reality. The infinite tail truncates. The divergent series collapses into a finite choice between established traditions and the null hypothesis.
+
+This appears to commit the \emph{\textit{ad populum}} fallacy. It does, but only if logical operators possess Platonic independence. They do not. Axioms such as the Law of Excluded Middle or $1+1=2$, in this context, are not absolute universals. They are emergent properties of shared human neurobiology, intersubjective agreements sustained by consensus among rational agents.
+
+The validity of \emph{logic} is operational, not objective. It rests on the \emph{vox populi} of the species. If 99\% of logicians were rewired to reject the Law of Excluded Middle, it would cease to function as truth within our epistemic system. When we call an argument irrational, we point to inconsistencies with shared basic axioms, not disagreements about logic itself. Rationality is the practice of consistency within a common framework.
+
+We operate several layers of abstraction above this foundation. When debating probability theory or physical laws, we invoke principles two or three levels removed from basic logic, mistaking these derived arguments for appeals to cosmic truth. The system functions only because the base layer—the axioms of logic itself—enjoys universal consensus. If basic logic ever fragmented to 60/40 agreement, rational discourse would collapse entirely. We could not even agree on what \QSOpen{}inconsistent\QSClose{} means. Uncomfortable as it feels, one must recognise that at the bottom of all our reasoning—why we believe anything from a news piece to a scientific theory, or even logic itself—lies a social standard. There is no easy way to define truth independent of our shared neurobiology.
+
+If rationality itself is consensus-dependent, religious truth within a rational wager must undergo identical phase transitions. A deity with zero social magnitude is a private delusion. It lacks the intersubjective validation required to exist as a probability vector in a decision matrix.
+
+The \QSOpen{}Inverted Gods\QSClose{} objection does not refute Pascal's logic. It demonstrates that his system requires boundary conditions. The $\epsilon$ cutoff aligns the Wager with the effective field theory of human consensus. Pascal's emphasis on \emph{praxis} becomes pivotal: the \QSOpen{}true\QSClose{} religions are those that operationalized belief into action sufficient to cross $\epsilon$.
+
+In practice, the Wager loses meaning for a simpler reason: humans are not probabilistic decision makers (Kahneman \& Tversky, 1979). We cross streets and eat apples despite non-zero probabilities of losing our infinitely-valued lives to accidents or allergies (maybe subconsciously we find terms such that they cancel each other out). We institute cutoffs on rare events and extreme losses not through Bayesian calculation but through neural circuits that force decisions with limited data. The theoretical requirement for a cutoff matches the empirical fact that we already use one. We cannot meaningfully operate on probabilities when assumptions and expected rewards are unbounded. The Wager fails not because the mathematics is wrong, but because the mathematics is not the only guidance to action. For problems at the edge of human experience, intuition and experience are paradoxically more valuable and coherent than analytical slaloms (such as this very piece of commentary!).
+
+\end{commentary}

@@ -1,0 +1,45 @@
+\fullpageexercises[Proofs: Infinitude of Primes]
+{
+Two nice proofs of the infinitude of primes—one using topology and another via a trigonometric product identity—.
+
+\begin{enumerate}
+    \item \textbf{Furstenberg's Topological Proof}  
+    \newline
+    Define a topology on \(\mathbb{Z}\) by taking as a basis of open sets all arithmetic sequences of the form:
+    \[
+    S_{a, b} = \{ a + bn \mid n \in \mathbb{Z} \}.
+    \]
+    These sets mimic modular residue classes and are closed under finite intersections, forming a well-defined topology. Suppose there are only finitely many primes, \( p_1, p_2, \dots, p_k \). The union of their corresponding arithmetic sequences,
+    \[
+    S = \bigcup_{i=1}^{k} S_{0, p_i} = \{ n \mid n \equiv 0 \mod p_i \text{ for some } i \},
+    \]
+    consists of all integers divisible by at least one prime and would be a closed set. Its complement, the set of integers not divisible by any \( p_i \), must then be open.
+
+    However, every basic open set \( S_{a, b} \) is infinite, meaning an open set cannot be finite. Since the complement of \( S \) consists of finitely many integers (the units \( \pm 1 \) modulo \( p_1 p_2 \dots p_k \)), we obtain a contradiction. Thus, the assumption that the set of primes is finite must be false.
+
+    \item \textbf{Trigonometric Product Proof}  
+    \newline
+    Assume for contradiction that the set $\mathcal{P}$ of primes is finite. Then consider the product:
+    \[
+    0 < \prod_{p \in \mathcal{P}} \sin \left( {\pi}/{p} \right).
+    \]
+    Since each term is positive, the product itself remains positive.
+
+    Now define \( N = 2 \prod_{p'} p' \), the product of all assumed primes. By construction, every prime \( p \) divides \( N \), so the term \( 1 + N \) must be divisible by some prime \( q \). That is, for some integer \( k \), $1 + N = kq$.
+    Then, evaluating the sine function:
+    \[
+    \sin \left( {\pi(1 + N)}{/q} \right) = \sin (k\pi) = 0.
+    \]
+    This forces the right-hand side of the original product identity to be zero:
+    \[
+    \prod_{p \in \mathcal{P}} \sin \left( {\pi(1 + N)}/{p} \right) = 0.
+    \]
+    But this contradicts the assumption that the left-hand side was positive. Hence, the set of primes must be infinite.
+    \\
+\end{enumerate}
+
+\textit{Remark:} Both proofs subtly rely on Euclid’s key step: that some prime \( p \) must divide the product of primes plus one, making these proofs disguised versions of the classic argument.\\
+
+\textit{References:}  
+H. Furstenberg, \textit{Bull. Amer. Math. Soc.}, 62 (1955), 353.\& \textit{A One-Line Proof of the Infinitude of Primes}, Amer. Math. Monthly, 122 (2015), 466.
+}

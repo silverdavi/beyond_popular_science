@@ -1,0 +1,122 @@
+\begin{titlepage}
+    % Improved snowflake background - much fewer, more performant
+    \begin{tikzpicture}[remember picture,overlay]
+        % Define unified color palette
+        \definecolor{iceblue}{RGB}{200,220,240}
+        \definecolor{snowwhite}{RGB}{248,250,255}
+        \definecolor{frostgray}{RGB}{220,225,235}
+        
+        % Simplified L-system for distinct snowflake types
+        \pgfdeclarelindenmayersystem{MainSnow}{
+            \rule{F -> FF[+F][-F]}
+        }
+        \pgfdeclarelindenmayersystem{AccentSnow}{
+            \rule{F -> F[+F][-F]F[+F][-F]}
+        }
+        
+        % Large prominent snowflakes - more visible
+        \foreach \x/\y/\s/\o in {
+            3/25/1.2/0.6, 15/26/1.0/0.5, 8/24/0.9/0.7, 12/22/1.1/0.6,
+            5/20/1.0/0.5, 17/18/0.8/0.6, 2/16/1.3/0.7, 10/14/0.9/0.5
+        } {
+            \node at (\x cm, \y cm) {
+                \begin{tikzpicture}[scale=\s]
+                    % Simple 6-pointed star snowflake
+                    \foreach \a in {0,60,120,180,240,300} {
+                        \draw[rotate=\a, white, opacity=\o, line width=0.5pt, line cap=round] 
+                            (0,0) -- (0,0.8)
+                            (0,0.5) -- (-0.2,0.7) 
+                            (0,0.5) -- (0.2,0.7);
+                    }
+                \end{tikzpicture}
+            };
+        }
+        
+        % Medium decorative snowflakes  
+        \foreach \x/\y/\s/\o in {
+            6/27/0.7/0.4, 14/25/0.6/0.5, 4/23/0.8/0.4, 11/21/0.5/0.6,
+            16/19/0.7/0.4, 1/17/0.6/0.5, 13/15/0.8/0.4, 7/13/0.5/0.6,
+            18/11/0.7/0.4, 9/9/0.6/0.5, 3/7/0.8/0.4, 15/5/0.5/0.6
+        } {
+            \node at (\x cm, \y cm) {
+                \begin{tikzpicture}[scale=\s]
+                    % 4-pointed star
+                    \foreach \a in {0,90,180,270} {
+                        \draw[rotate=\a, iceblue, opacity=\o, line width=0.3pt, line cap=round] 
+                            (0,0) -- (0,0.5)
+                            (0,0.3) -- (-0.15,0.45) 
+                            (0,0.3) -- (0.15,0.45);
+                    }
+                \end{tikzpicture}
+            };
+        }
+        
+        % Small accent stars - simple and reliable
+        \foreach \x/\y/\o in {
+            2/28/0.3, 7/26/0.4, 12/24/0.3, 17/22/0.5,
+            4/20/0.4, 9/18/0.3, 14/16/0.5, 19/14/0.4,
+            1/12/0.3, 6/10/0.5, 11/8/0.4, 16/6/0.3,
+            5/4/0.5, 10/2/0.4, 18/1/0.3
+        } {
+            \node at (\x cm, \y cm) {
+                \begin{tikzpicture}[scale=0.3]
+                    \draw[frostgray, opacity=\o, line width=0.2pt] 
+                        (-0.2,0) -- (0.2,0) (0,-0.2) -- (0,0.2);
+                \end{tikzpicture}
+            };
+        }
+        
+        % Semi-transparent content background for readability
+        \node[fill=white, opacity=0.85, rounded corners=8pt, minimum width=12cm, minimum height=16cm] 
+              at (current page.center) {};
+    \end{tikzpicture}
+    
+    \centering
+    \vspace*{1.5in}
+    
+    % Main title with improved typography
+    {\fontsize{48pt}{60pt}\selectfont\bfseries
+    \textcolor{black!90}{\booktitle}
+    \par}
+    
+    \vspace{0.6in}
+    
+    % Subtitle with elegant styling
+    {\fontsize{18pt}{24pt}\selectfont
+    \textcolor{black!70}{\textsc{Exploring Curious Phenomena}}
+    \par}
+    
+    \vspace{1.0in}
+    
+    % Author with emphasis
+    {\fontsize{16pt}{20pt}\selectfont
+    \textcolor{black!85}{David H. Silver}
+    \par}
+
+    {\fontsize{10pt}{12pt}\selectfont\textcolor{black!85}{\texttt{david@remiza.ai}}   
+    \par}
+    
+    \vfill
+    
+    % Credits section with better grouping
+    \begin{minipage}{8cm}
+        \centering
+        
+        % Illustrator credits
+        {\fontsize{11pt}{14pt}\selectfont
+        \textcolor{black!65}{With illustrations by}\\[0.2em]
+        \textcolor{black!80}{\fontsize{13pt}{16pt}\selectfont Jess DG Hayes}
+        \par}
+        
+        \vspace{0.3in}
+        
+    \end{minipage}
+    
+    \vspace{0.2in}
+    
+    % OBP logo — bottom of title page
+    \includegraphics[width=5cm,keepaspectratio]{obp_assets/obp_logo_high_res.jpg}
+    
+    \vspace{0.15in}
+    
+\end{titlepage} 

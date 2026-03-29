@@ -1,0 +1,48 @@
+\begin{technical}
+{\Large\textbf{Monotonicity via Covariance Interpolation}}\\
+Let \( X \sim \mathcal{N}(0, C) \) be an \( n \)-dimensional Gaussian vector with zero mean and covariance matrix \( C \succcurlyeq 0 \). The Gaussian Correlation Inequality asserts that for any symmetric convex sets \( A, B \subset \mathbb{R}^n \),
+\[
+\mathbb{P}(X \in A \cap B) \ge \mathbb{P}(X \in A)\,\mathbb{P}(X \in B).
+\]
+We consider the axis-aligned box case; the full GCI for all symmetric convex sets follows from Royen:
+\begin{align*}
+A &= \left\{ x \in \mathbb{R}^n : |x_i| \le 1 \text{ for } 1 \le i \le k \right\}, \\
+B &= \left\{ x \in \mathbb{R}^n : |x_j| \le 1 \text{ for } k < j \le n \right\}.
+\end{align*}
+Let \( X = (X_1, \dots, X_n) \), and define
+\[
+f(t) := \mathbb{P}_t\left( \max_{1 \le i \le n} |X_i| \le 1 \right),
+\]
+where \( \mathbb{P}_t \) denotes a Gaussian measure with interpolated covariance
+\[
+C(t) = 
+\begin{pmatrix}
+C_1 & tQ \\
+tQ^\top & C_2
+\end{pmatrix}, \quad t \in [0,1].
+\]
+Here, \( C_1 \in \mathbb{R}^{k \times k} \), \( C_2 \in \mathbb{R}^{(n-k) \times (n-k)} \), and \( Q \in \mathbb{R}^{k \times (n-k)} \). Write the original covariance in the same block form, \( C = \begin{pmatrix} C_1 & Q \\ Q^\top & C_2 \end{pmatrix} \), so that \( C(1) = C \) and \( C(0) = \operatorname{diag}(C_1, C_2) \). At \( t = 0 \), the covariance is block-diagonal with independent blocks; at \( t = 1 \), the off-diagonal coupling \( Q \) is fully present. Since \( C(t) = (1-t)C(0) + tC(1) \) and the positive semidefinite cone is convex, \( C(t) \succeq 0 \) for all \( t \in [0,1] \).
+
+Note \( \{\max_{1 \le i \le n} |X_i| \le 1\} = A \cap B \). At \( t = 0 \), the block-diagonal covariance makes \( (X_1, \dots, X_k) \) and \( (X_{k+1}, \dots, X_n) \) independent (Gaussian), so \( \mathbb{P}_0(A \cap B) = \mathbb{P}_0(A)\mathbb{P}_0(B) \). The goal is to prove that \( f(t) \) is non-decreasing.
+
+\techheader{Transformation to Gamma Structure}\\
+The squared Gaussian variables \( Z_i = X_i^2 / 2 \) follow a scaled chi-squared law. For \( \lambda_i \ge 0 \), define the Laplace transform of \( Z = (Z_1, \dots, Z_n) \) under \( \mathbb{P}_t \):
+\begin{align*}
+\mathcal{L}_t(\lambda) 
+&= \mathbb{E}_t \left[ \exp\left( -\sum_{i=1}^n \lambda_i Z_i \right) \right] \notag \\
+&= \mathbb{E}_t \left[ \exp\left( -X^\top \Lambda X / 2 \right) \right] \notag \\
+&= \det(I + C(t) \Lambda)^{-1/2}, \label{eq:laplace}
+\end{align*}
+where \( \Lambda = \operatorname{diag}(\lambda_1, \dots, \lambda_n) \). Following Royen, differentiate \( \log \mathcal{L}_t(\lambda) \) and rewrite the derivative as an expectation under a multivariate gamma law (see Royen Theorem 1 and its gamma mixture representation; Latała–Matlak (2000) §2–§3); the integrand is nonnegative, hence \( \mathcal{L}_t(\lambda) \) is non-increasing in \( t \), and hence \( f(t) \) is non-decreasing.
+
+\techheader{Smoothing and Differentiation}\\
+To handle the indicator function rigorously, define a smooth approximation:
+$\phi_\epsilon(x) = 1$ if $|x| \le 1 - \epsilon$, $\phi_\epsilon(x) = 0$ if $|x| \ge 1 + \epsilon$, and $\phi_\epsilon$ is smooth monotone otherwise.
+Let $F_\epsilon(Z) = \prod_{i=1}^n \phi_\epsilon\left(\sqrt{2Z_i}\right)$, so that \( F_\epsilon \to 1_{\{\max |X_i| \le 1\}} \) as \( \epsilon \to 0 \). Using Royen's multivariate gamma representation, \( \frac{d}{dt} \mathbb{E}_t[F_\epsilon(Z)] \) is an integral of a nonnegative kernel; dominated convergence then gives \( \ge 0 \). Passing \( \epsilon \to 0 \) yields the monotonicity of \( f(t) \), establishing the Gaussian Correlation Inequality for axis-aligned boxes. The full inequality for all symmetric convex sets follows from Royen (2014).
+
+\techref
+{\footnotesize
+Royen, T. (2014). \textit{A simple proof of the Gaussian correlation conjecture extended to multivariate gamma distributions}. Far East J. Theor. Stat.\\
+Latała, R., Matlak, D. (2017). \textit{Royen's Proof of the Gaussian Correlation Inequality}. In: Israel Seminar (GAFA) 2014–2016. Springer.
+}
+\end{technical}

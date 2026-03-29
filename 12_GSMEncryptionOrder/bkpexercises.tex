@@ -1,0 +1,69 @@
+\fullpageexercises[Exercise: Constructing RSA Encryption from Modular Arithmetic]{
+
+\noindent \textbf{Objective:} Construct a working RSA encryption and decryption system using small integers, to see how modular arithmetic underpins real-world cryptography.
+
+\noindent \textbf{Instructions:} Work through each step. Use the provided primes and verify your calculations carefully.
+
+\begin{enumerate}
+    \item \textbf{Choose Two Distinct Prime Numbers.}  
+    Let \( p = 7 \), \( q = 11 \). Compute:
+    \[
+    n = pq \qquad \phi(n) = (p - 1)(q - 1)
+    \]
+
+    \item \textbf{Choose a Public Exponent \( e \).}  
+    Choose a number \( e \) such that \( 1 < e < \phi(n) \) and \( \gcd(e, \phi(n)) = 1 \). Suggestion: try \( e = 13 \). Verify that it is valid.
+
+    \item \textbf{Find the Private Exponent \( d \).}  
+    Find \( d \) such that:
+    \[
+    ed \equiv 1 \mod \phi(n)
+    \]
+    Use the extended Euclidean algorithm.
+
+    \item \textbf{Publish the Public Key.}  
+    The public key is \( (n, e) \). The private key is \( d \). Write down both.
+
+    \item \textbf{Encrypt a Message.}  
+    Let the message be \( m = 9 \). Compute:
+    \[
+    c = m^e \mod n
+    \]
+
+    \item \textbf{Decrypt the Ciphertext.}  
+    Using the private key \( d \), compute:
+    \[
+    m = c^d \mod n
+    \]
+    Verify that it matches the original message.
+
+    \item \textbf{Why Does This Work?}  
+    Briefly explain why decryption recovers the original message. Use Euler’s theorem or Fermat’s little theorem to justify:
+    \[
+    m^{ed} \equiv m \mod n
+    \]
+
+    \item \textbf{Reflect.}  
+    What part of this scheme would be hard to reverse without the private key? What role does factorisation play in securing the system?
+\end{enumerate}
+
+\noindent\hrulefill
+
+\begin{center}
+\rotatebox[origin=c]{180}{%
+\begin{minipage}{0.95\textwidth}
+\small
+\noindent
+\textbf{Answers:} \\
+1. \( n = 77, \phi(n) = 60 \) \\
+2. \( e = 13 \), and \( \gcd(13, 60) = 1 \)—valid \\
+3. \( d = 37 \), since \( 13 \cdot 37 \equiv 1 \mod 60 \) \\
+4. Public key: \( (77, 13) \), Private key: \( d = 37 \) \\
+5. \( c = 9^{13} \mod 77 = 58 \) \\
+6. \( m = 58^{37} \mod 77 = 9 \) \\
+7. Because \( ed \equiv 1 \mod \phi(n) \), Euler’s theorem gives \( m^{ed} \equiv m \mod n \) \\
+8. Recovering \( d \) requires factoring \( n = 77 \) to find \( \phi(n) \), which is computationally hard for large \( n \)
+\end{minipage}
+}
+\end{center}
+}

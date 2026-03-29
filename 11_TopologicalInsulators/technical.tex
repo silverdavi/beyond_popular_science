@@ -1,0 +1,42 @@
+\begin{technical}
+{\Large\textbf{The $\mathbb{Z}_2$ Topological Invariant}}\\[0.3em]
+
+\techheader{Time-Reversal Symmetry and Kramers Pairs}\\[0.5em]
+Time-reversal symmetry acts on electronic states as $\mathcal{T}|\psi\rangle = \Theta K|\psi\rangle$, where $\Theta$ is a unitary matrix and $K$ is complex conjugation. For spin-1/2 electrons, $\mathcal{T}^2 = -1$, leading to Kramers theorem: time-reversal maps states at $\mathbf{k}$ to partners at $-\mathbf{k}$. At generic $\mathbf{k}$, these are states at different momenta. At time-reversal invariant momenta (TRIM) where $\mathbf{k} = -\mathbf{k}$ (modulo reciprocal lattice), all states come in degenerate pairs at the same momentum.
+
+\techheader{The $\mathbb{Z}_2$ Classification}\\[0.5em]
+In 2D with time-reversal symmetry, the topological character is captured by a binary invariant $\nu \in \{0,1\}$. Unlike the Chern number (which requires broken time-reversal), this $\mathbb{Z}_2$ index survives when $\mathcal{T}$ is preserved.
+
+Consider occupied Bloch states $|u_{n\mathbf{k}}\rangle$ forming a bundle over the Brillouin zone. At each TRIM point $\Gamma_i$, define the antisymmetric matrix:
+\[
+w_{mn}(\Gamma_i) = \langle u_m(-\Gamma_i)|\mathcal{T}|u_n(\Gamma_i)\rangle.
+\]
+The Pfaffian $\text{Pf}[w(\Gamma_i)]$ depends on the occupied-band gauge choice. The gauge-invariant object is:
+\[
+\delta_i = \frac{\text{Pf}[w(\Gamma_i)]}{\sqrt{\det[w(\Gamma_i)]}} = \pm 1.
+\]
+
+\techheader{Computing the Invariant}\\[0.5em]
+For a 2D system with inversion symmetry, the $\mathbb{Z}_2$ invariant is:
+\[
+(-1)^\nu = \prod_{i=1}^4 \delta_i
+\]
+where the product runs over the four TRIM points. With inversion symmetry, $\delta_i$ can be computed from parity eigenvalues as $\delta_i = \prod_m \xi_{2m}(\Gamma_i)$, giving $(-1)^\nu = \prod_i \delta_i$. If $\nu = 0$, the system is a trivial insulator; if $\nu = 1$, it's a topological insulator.
+
+\columnbreak
+
+\techheader{Physical Meaning}\\[0.5em]
+The invariant counts (mod 2) how many times occupied bands switch partners under Kramers pairing as we traverse the Brillouin zone. In a trivial insulator, Kramers pairs can be tracked consistently. In a topological insulator, the pairing pattern contains a twist—like trying to match socks while walking around a Möbius strip.
+
+\techheader{Bulk-Boundary Correspondence}\\[0.5em]
+When $\nu = 1$, the boundary must host an odd number of Kramers pairs of gapless states. These come in counter-propagating time-reversed partners with opposite helicity; non-magnetic elastic backscattering between partners is forbidden by $\mathcal{T}$. This makes the helical edge states robust against non-magnetic disorder.
+
+\techheader{Example: HgTe/CdTe Quantum Wells}\\[0.5em]
+Band inversion occurs when the quantum-well thickness exceeds a critical value $d_c \approx 6.3$ nm. For $d < d_c$ (thin wells), the ordering is normal with $E_{\Gamma_6} > E_{\Gamma_8}$ and the phase is trivial ($\nu = 0$). For $d > d_c$ (thick wells), the ordering is inverted with $E_{\Gamma_6} < E_{\Gamma_8}$, yielding $\nu = 1$. The transition at $d_c$ closes and reopens the gap with different topology.
+
+\techref
+{\footnotesize
+Kane, C. L. and Mele, E. J. (2005). $\mathbb{Z}_2$ Topological Order and the Quantum Spin Hall Effect. \textit{Physical Review Letters}, \textbf{95}(14), 146802.\\
+Bernevig, B. A., Hughes, T. L., and Zhang, S.-C. (2006). Quantum Spin Hall Effect and Topological Phase Transition in HgTe Quantum Wells. \textit{Science}, \textbf{314}(5806), 1757–1761.
+}
+\end{technical}

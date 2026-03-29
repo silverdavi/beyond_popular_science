@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Scheherazade New - Developer information</title>
+    <meta name="author" content="SIL Writing Systems Technology">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/webfonts.css">
+</head>
+<body>
+<div class="container">
+<article class="article">
+    <header>
+        <h1 class="title">Scheherazade New - Developer information</h1>
+    </header>
+    <h2 id="welcome-font-developers">Welcome font developers!</h2>
+    <p>We welcome other developers who wish to get involved in supporting and enhancing these fonts or who want to modify them.</p>
+    <h2 id="permissions-granted-by-the-ofl">Permissions granted by the OFL</h2>
+    <p>SIL’s fonts are licensed according to the terms of the <a href="https://scripts.sil.org/OFL">SIL Open Font License</a>. The OFL allows the fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. For details see the OFL.txt and OFL-FAQ.txt files in the package.</p>
+    <h2 id="building-the-fonts-from-source-code">Building the fonts from source code</h2>
+    <p>Font sources are published in a <a href="https://github.com/silnrsi/font-scheherazade">Github project</a>. The build process requires <a href="https://github.com/silnrsi/smith">smith</a> and project build parameters are set in the <a href="https://github.com/silnrsi/smith/blob/master/wscript">wscript</a>.</p>
+    <p>Font sources are in the <a href="http://unifiedfontobject.org/versions/ufo3/">UFO3</a> format with font family structures defined using <a href="https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib">designspace</a>. OpenType source code is stored in the <a href="https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html">.fea</a> format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful <a href="https://github.com/silnrsi/pysilfont/blob/master/docs/feaextensions.md">.feax</a> format.</p>
+    <p>The fonts are built using a completely free and open source workflow using industry-standard tools (<a href="https://github.com/fonttools/fonttools">fonttools</a>), a package of custom python scripts (<a href="https://github.com/silnrsi/pysilfont">pysilfont</a>), and a build and packaging system (<a href="https://github.com/silnrsi/smith">Smith</a>). The whole system is available in a preconfigured virtual machine using VirtualBox and Vagrant.</p>
+    <p>Full instructions for setting up the tools and building SIL fonts are available on a dedicated web site: <a href="https://silnrsi.github.io/silfontdev/">SIL Font Development Notes</a>.</p>
+    <h2 id="building">Building</h2>
+    <p>The Scheherazade New project can be built from source using <a href="https://github.com/silnrsi/smith">smith</a>. This is done via the sequence:</p>
+    <pre><code>        smith distclean
+        smith configure
+        smith build
+        smith alltests</code></pre>
+    <p>Because of the complex kerning and collision avoidance logic, builds can take up to 15 minutes or longer, depending on hardware. If the complex kerning is <em>not</em> needed (such as for debugging other font logic), the <code>--quick</code> parameter can be supplied:</p>
+    <pre><code>        smith distclean
+        smith configure
+        smith build --quick</code></pre>
+    <p>The resulting files will not have functional kerning or collision avoidance, but will be otherwise usable.</p>
+    <h3 id="adding-characters">Adding characters</h3>
+    <p>After base characters to the font, the following files will also need updating: - <code>glyph_data.csv</code> -- used to set glyph orders and psnames in the built font - <code>classes.xml</code> -- used to define classes used by OpenType. Note that some of the classes defined therein are noted to be "automatically generated" -- these will be updated (from glyph_data.csv) the next time <code>./preflight</code> is run. - <code>opentype/*.feax</code> -- modify as needed to add needed OpenType behavior - <code>tests/*.ftml</code> -- see below</p>
+    <h3 id="generated-test-files">Generated test files</h3>
+    <p>After adding characters or additional behaviors to the font, test files should be created or enhanced to test the new behaviors. The test files: - <code>tests/AllChars-auto.ftml</code> - <code>tests/ALsorted-auto.ftml</code> - <code>tests/DaggerAlef-auto.ftml</code> - <code>tests/Diac-auto.ftml</code> - <code>tests/Diac-short-auto.ftml</code> - <code>tests/Kern-auto.ftml</code> - <code>tests/SubtendingMarks-auto.ftml</code> - <code>tests/Yehbarree-auto.ftml</code></p>
+    <p>are generated automatically using <code>tools/bin/genftmlfiles.sh</code>.</p>
+    <p><code>tools/ftml.xsl</code> can be used to view ftml documents directly in Firefox (which supports both Graphite and OpenType rendering).</p>
+    <h3 id="about-ftml-tests">About ftml tests</h3>
+    <p>After a successful build, the results/ folder will contain, along with the built ttf and woff fonts, a number of test files in an xml-based format called FTML. Examples are AllChars-auto.ftml, DiacTest1-auto.ftml. There is an ftml.xsl file that can be used to view these ftml documents directly in Firefox.</p>
+    <p>However, in order for Firefox to access the .xsl file, you need to relax its "strict URI" policy by going to about:config and setting <a href="http://kb.mozillazine.org/Security.fileuri.strict_origin_policy">security.fileuri.strict_origin_policy</a> to false.</p>
+    <p>Once you have this setting in effect, you can load the FTML documents directly into Firefox and see the built font rendered.</p>
+    <h2 id="contributing-to-the-project">Contributing to the project</h2>
+    <p>We warmly welcome contributions to the fonts, such as new glyphs, enhanced smart font code, or bug fixes. The <a href="https://silnrsi.github.io/silfontdev/en-US/Contributing_Changes.html">brief overview of contributing changes</a> is a good place to begin. The next step is to contact us by responding to an existing issue or creating an issue in the Github repository and expressing your interest. We can then work together to plan and integrate your contributions.</p>
+    <p>To enable us to accept contributions in a way that honors your contribution and respects your copyright while preserving long-term flexibility for open source licensing, you would also need to agree to the <strong>SIL International Contributor License Agreement for Font Software (v1.0)</strong> prior to sending us your contribution. To read more about this requirement and find out how to submit the required form, please visit the <a href="https://software.sil.org/fontcla">CLA information page</a>.</p>
+    <footer class="footer">
+        <p>This guide is from the <a href="https://software.sil.org/scheherazade/" title="" class="active">Scheherazade New project</a> version 4.000 and is copyright © 1994-2023 SIL International.</p>
+    </footer>
+</article>
+</div>
+</body>
+</html>

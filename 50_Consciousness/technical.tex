@@ -1,0 +1,58 @@
+\begin{technical}
+{\Large\textbf{Axiomatic Agency}}\\[0.2em]
+
+\techheader{Doxastic Formalism}\\[0.1em]
+Let $S$ be a knowing subject, $\mathcal{P}$ the set of propositions, and $K_S \subseteq \mathcal{P}$ the commitment set of propositions $S$ holds true. For $p, q \in K_S$, write $p \vdash q$ if $q$ logically follows from $p$.
+
+Define \textit{revision cost}:
+\[
+C(p) := |\{q \in K_S \mid p \vdash q\}|.
+\]
+This induces partial order $(K_S, \preceq)$ where $p \preceq q \iff C(p) \leq C(q)$.
+
+\techheader{Hierarchy with Revision Costs}\\[0.1em]
+\begin{itemize}[leftmargin=*,topsep=0pt,itemsep=1pt]
+    \item $p_1$: \QSOpen{}Sky is blue\QSClose{}\\
+    \textit{If false}: Mildly interesting. Nothing breaks.
+    \item $p_2$: \QSOpen{}Not in The Matrix\QSClose{}\\
+    \textit{If false}: Stunned. Rebuild ontology. Days to recover.
+    \item $p_3$: \QSOpen{}Gravity exists\QSClose{}\\
+    \textit{If false}: Physics rebuilds. Weeks to recover.
+    \item $p_4$: \QSOpen{}$2+3=5$\QSClose{}\\
+    \textit{If false}: Arithmetic collapses. Reasoning disassembles.
+    \item $p_5$: \QSOpen{}$P \vee \neg P$\QSClose{} (excluded middle)\\
+    \textit{If false}: Logic fails. Cannot reason about contradictions.
+    \item $A$: \QSOpen{}I direct my thought\QSClose{}\\
+    \textit{If false}: No subject remains to register the failure.
+\end{itemize}
+Strictly: $C(p_1) \ll C(p_2) \ll C(p_3) \ll C(p_4) \ll C(p_5) \ll C(A)$.
+
+\techheader{Agency as Maximal Element}\\[0.1em]
+\textit{Agency} ($A$): capacity to perform operations on $K_S$ (selecting, comparing, affirming, rejecting propositions). This is control over thought, not physical action.
+
+To revise $K_S$ by removing $A$ requires performing an operation on $K_S$, which presupposes $A$. Thus revision of $A$ is self-undermining:
+\[
+A \vdash p \quad \forall p \in K_S \quad \Rightarrow \quad C(A) = |K_S|.
+\]
+Agency is the maximal element in $(K_S, \preceq)$.
+
+\techheader{Philosophical Grounding}\\[0.1em]
+\textit{Descartes' Cogito ergo sum} (1641): The act of doubting presupposes the existence of a doubter. Even radical scepticism cannot eliminate the thinking subject. This establishes the subject as the foundation of knowledge, not a conclusion derived from it.
+
+\textit{Kant's Transcendental Apperception} (1781): The unity of consciousness is not empirically observed but is the logical precondition for any structured experience. The \QSOpen{}I think\QSClose{} must accompany all representations. Without a unified subject, no comparison, judgment, or synthesis of data is possible.
+
+\textit{Thomas Reid's First Principles} (1785): Reid rejected both Cartesian doubt and Humean scepticism, arguing that consciousness, perception, and belief in the external world are immediate acts of common sense. They require no inferential justification because they constitute the conditions of intelligibility itself. His position anchors the self not in abstraction but in lived, self-evident awareness.
+
+\textit{Hegel's Phenomenology of Spirit} (1807): Hegel develops self-consciousness as a dialectical process—the subject becomes what it is through recognition and negation. Consciousness encounters itself in the world and, through that encounter, attains universality. Reflexivity here is not circular but generative.
+
+\textit{David Chalmers' Hard Problem of Consciousness} (1995): Chalmers formalises the explanatory gap—the difference between functional accounts and subjective experience. He frames reflexivity as evidence that consciousness is a fundamental property, not a computational artefact.
+
+\techref
+{\footnotesize
+Descartes, R. (1641). \textit{Meditations on First Philosophy}.\\
+Kant, I. (1781). \textit{Critique of Pure Reason}.\\
+Reid, T. (1785). \textit{Essays on the Intellectual Powers of Man}.\\
+Hegel, G.W.F. (1807). \textit{Phenomenology of Spirit}.\\
+Chalmers, D. (1995). \textit{Facing Up to the Problem of Consciousness}.
+}
+\end{technical}

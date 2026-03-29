@@ -1,0 +1,45 @@
+\begin{technical}
+{\Large\textbf{Lower and Upper Bounds via Overlap Graphs}}\\
+
+\techheader{Introduction}\\
+A superpermutation on $n$ symbols is a string that contains all $n!$ permutations of those symbols as contiguous substrings. Let $L(n)$ denote the minimum possible length of such a string. The problem of determining $L(n)$ can be reformulated as a path-finding problem on a directed graph whose nodes are permutations and whose edge weights correspond to symbol overlap.
+
+\techheader{Permutation Graph Model}\\
+Let $S_n$ be the symmetric group on $n$ elements, and let each vertex in the directed graph $G_n$ correspond to a permutation $\pi \in S_n$. For each ordered pair $(\pi, \sigma)$, define an edge $\pi \rightarrow \sigma$ with weight $w(\pi, \sigma) = n - \ell(\pi, \sigma)$, where $\ell(\pi, \sigma)$ is the length of the longest suffix of $\pi$ that matches a prefix of $\sigma$. A superpermutation corresponds to a Hamiltonian path through $G_n$, with total cost equal to the sum of edge weights plus $n$.
+
+\techheader{Anonymous Lower Bound}\\
+The anonymous 4chan user showed that for all $n \geq 2$, the minimal length satisfies
+\begin{align*}
+L(n) \geq n! + (n-1)! + (n-2)! + n - 3.
+\end{align*}
+The proof bounds the number of edges in any Hamiltonian path that must have weight greater than 1. Let $\mathcal{P}$ be any Hamiltonian path through $G_n$. At best, two permutations can overlap by $n-1$ symbols, requiring only one new symbol to transition. However, weight-1 transitions alone cannot form a complete path due to overlap constraints. The proof partitions permutations into blocks where one block must be traversed without overlap (initial permutation); some fraction of transitions must necessarily use edges with higher cost due to incompatible suffix-prefix structure. Using known bounds on minimal-overlap transitions, one can count higher-cost edges and compute their contribution.
+The derived lower bound is tight for $n\le 4$ and remains the strongest known general lower bound for $L(n)$.
+
+\techheader{Egan's Constructive Upper Bound}\\
+Greg Egan constructed a general method for building superpermutations of length at most
+\begin{align*}
+L(n) \leq n! &+ (n-1)! + (n-2)! \\  
+&+ (n-3)! + n - 3.
+\end{align*}
+The method generates Hamiltonian paths through subsets of permutations with controlled overlaps: Begin with a path that efficiently traverses permutations of $n-1$ symbols. Lift the path into $S_n$ by inserting the new symbol in controlled positions. Design the insertion and merge process to preserve maximal overlaps where possible. Egan's construction uses Cayley graph traversal techniques and reuses structural symmetries. The difference between the upper and lower bounds is $(n-3)!$:
+\begin{align*}
+\Delta(n) = L_{\text{upper}}(n) - L_{\text{lower}}(n) = (n-3)!.
+\end{align*}
+\techheader{Example: The Case $n = 7$}\\
+Applying the bounds:
+\begin{align*}
+\text{Lower bound: } &\; 7! + 6! + 5! + 7 - 3\\
+ &= 5884, \\
+\text{Upper bound: } &\; \text{lower bound} + 4!\\
+ &= 5884 + 24\\
+ &= 5908.
+\end{align*}
+The shortest known construction is 5906. The true value of $L(n)$ for $n = 7$ remains unknown.
+
+\techref
+{\footnotesize
+Houston, R. (2014). \textit{Obvious Does Not Imply True: The Minimal Superpermutation Conjecture Is False}. arXiv:1408.5108.\\
+Egan, G. (2018). \textit{Superpermutations} (online note).\\
+Anonymous 4chan Poster (2011). Lower bound proof (\url{https://warosu.org/sci/thread/3751105}).
+}
+\end{technical}

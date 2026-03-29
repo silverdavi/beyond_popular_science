@@ -1,0 +1,68 @@
+\begin{technical}
+{\Large\textbf{Two Mathematical Realisations of Simpson's Paradox}}\\[0.3em]
+\vspace{1em}
+\techheader{Reversal in Pearson Correlation}\\[0.5em]
+Suppose two subgroups yield:
+\begin{align*}
+\operatorname{Corr}(X, Y \mid Z=1) &= +0.8, \\
+\operatorname{Corr}(X, Y \mid Z=2) &= +0.7,
+\end{align*}
+yet the marginal correlation is:
+\[
+\operatorname{Corr}(X, Y) = -0.3.
+\]
+
+This reversal can occur when the subgroup means oppose each other:
+\begin{align*}
+\mathbb{E}[X \mid Z=1] &\ll \mathbb{E}[X \mid Z=2], \\
+\mathbb{E}[Y \mid Z=1] &\gg \mathbb{E}[Y \mid Z=2].
+\end{align*}
+
+The total covariance decomposes as:
+\begin{align*}
+\operatorname{Cov}(X, Y) &= \mathbb{E}[\operatorname{Cov}(X, Y \mid Z)] \notag \\
+&\quad + \operatorname{Cov}(\mathbb{E}[X \mid Z], \mathbb{E}[Y \mid Z]).
+\end{align*}
+
+The first term represents the true structural relationship. The second term arises from between-group mean shifts. When subgroup trends are consistent but means shift in opposite directions, this second term can dominate and flip the sign.
+
+In such cases, the subgroup correlation reflects the actual relationship between the variables. The marginal correlation is an artefact of mixed distributions and should not be used to infer these relationships.
+
+\techheader{Why Subgroup Correlations Reflect Structure}\\[0.5em]
+The Pearson correlation coefficient assumes a homogeneous population. When data consist of subgroups (e.g., children vs adults), the overall correlation reflects two effects:
+\begin{itemize}
+\item the correlation within each group,
+\item the shift in means across groups.
+\end{itemize}
+
+This decomposes as:
+\begin{align*}
+\operatorname{Corr}(X, Y) &= 
+\text{within-group structure} +\\& \quad\text{between-group shift}.
+\end{align*}
+
+If the subgroups differ in both \( \mathbb{E}[X \mid Z] \) and \( \mathbb{E}[Y \mid Z] \), the between-group term may dominate and flip the marginal sign—even if each group has a positive internal trend.
+
+Subgroup correlations hold \( Z \) fixed and reveal how \( X \) relates to \( Y \) when background is controlled. The marginal correlation, in contrast, entangles structure with population imbalance.
+
+For variable relationships inference—e.g., how height relates to foot size, or how score relates to study time—\( \operatorname{Corr}(X, Y \mid Z) \) provides the interpretable relationship. The marginal \( \operatorname{Corr}(X, Y) \) may be distorted by mixing.
+
+\vspace{0.5em}
+\noindent\textit{Visual example:} Imagine both kids and adults show that larger plates come with higher calorie counts. But if kids mostly use small plates and pile them with calorie-dense snacks, while adults take large plates but fill them with vegetables, the overall data may suggest that smaller plates correspond to higher calories. This reflects sample composition, not individual-level relationships.
+
+\vspace{1em}
+\techheader{How Likely is Simpson’s Paradox?}\\[0.5em]
+Pavlides and Perlman (2009) studied how often Simpson’s paradox arises in \( 2 \times 2 \times 2 \) contingency tables. Under a uniform distribution over all such tables, they showed:
+\[
+\boxed{\text{1 in 60 tables exhibits a reversal.}}.
+\]
+This corresponds to a prior probability of \( \approx 0.0166 \) that conditional trends align while the aggregate trend opposes them.
+
+The paradox becomes rarer with more subgroups; under similar uniform assumptions, the chance decreases further as the number of conditioning groups increases.
+
+\techref
+{\footnotesize
+Simpson, E. H. (1951). \textit{J. R. Stat. Soc. B}, 13(2), 238–241.\\
+Pavlides, M. G., and Perlman, M. D. (2009). \textit{J. Stat. Plan. Inference}, 139(1), 198–213.
+}
+\end{technical}

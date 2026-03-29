@@ -1,0 +1,61 @@
+\begin{technical}
+    {\Large\textbf{Quantum Tunnelling in Stellar Fusion}}
+    
+    \techheader{Coulomb Barrier and Characteristic Energies}\\[0.5em]
+    In stellar cores, nuclear fusion requires overcoming electrostatic repulsion between positively charged nuclei. The Coulomb potential between two protons is
+    \[
+    V_\text{C}(r) = \frac{Z_1 Z_2 e^2}{4\pi \epsilon_0 r},
+    \]
+    where \( Z_1 = Z_2 = 1 \), and \( r \sim 1\,\text{fm} \). Estimating numerically:
+    \begin{align*}
+    V_\text{C} &\sim \frac{(1.602 \times 10^{-19}\,\text{C})^2}{4\pi (8.85 \times 10^{-12}\,\text{F/m}) \cdot 1 \times 10^{-15}\,\text{m}}\\
+               &\sim 1\,\text{MeV}.
+    \end{align*}
+    By comparison, the thermal kinetic energy at the Sun’s core temperature \( T \approx 1.5 \times 10^7\,\text{K} \) is:
+    \[
+    k_B T \approx 1\,\text{keV}.
+    \]
+    Classically, such energy is insufficient for fusion; quantum tunneling provides a nonzero probability of barrier penetration.
+    
+    \vspace{0.7em}
+    \techheader{Tunnelling Probability and the Gamow Factor}\\[0.5em]
+    The tunnelling probability is approximated by the Gamow factor:
+    \[
+    P_\text{tunnel}(E) \sim \exp\left[-2\pi \eta(E)\right],
+    \]
+    where the Sommerfeld parameter \(\eta(E)\) is defined as
+    \begin{align*}
+    \eta(E) &= \frac{Z_1 Z_2 e^2}{\hbar v}, \\
+    v &= \sqrt{2E/\mu},
+    \end{align*}
+    with \(\mu\) the reduced mass of the two-particle system. Substituting for \(v\), the Sommerfeld parameter becomes
+    \[
+    \eta(E) = \alpha Z_1 Z_2 \sqrt{\frac{\mu c^2}{2E}},
+    \]
+    where \(\alpha\) is the fine-structure constant. The exponential suppression governed by \(\eta(E)\) dominates the energy dependence of the fusion rate.
+    
+    \vspace{0.7em}
+    \techheader{Gamow Peak and Effective Fusion Energy}\\[0.5em]
+    Fusion occurs predominantly at energies where the product of the Maxwell–Boltzmann distribution and the tunnelling probability is maximised. This defines the \emph{Gamow peak}, centred around
+    \[
+    E_\text{pk} \approx \left( \frac{\pi^2 \mu c^2 \alpha^2 Z_1^2 Z_2^2 (k_B T)^2}{2} \right)^{1/3}.
+    \]
+    The Gamow peak arises from the interplay between thermal distribution (favouring higher energies) and tunnelling suppression (favouring lower energies). Although \( E_\text{pk} \ll V_\text{C} \), the overlap is sufficient to permit fusion in a small fraction of collisions.
+    
+    \vspace{0.2em}
+    \techheader{Thermally Averaged Fusion Rate and the Proton-Proton Chain}\\[0.2em]
+    The effective reaction rate is governed by the thermally averaged cross section:
+    \[
+    \langle \sigma v \rangle = \int_0^\infty \sigma(E)\, v(E)\, f_\text{MB}(E)\, \mathrm{d}E,
+    \]
+    where \(\sigma(E)\) includes nuclear interaction probabilities and tunnelling effects, and \(f_\text{MB}(E)\) is the Maxwell–Boltzmann distribution. The dominant fusion pathway in the Sun is the proton–proton chain, initiated by \par
+    $p + p \to d + e^+ + \nu_e.$ \par
+    Subsequent reactions in the chain yield \( ^4\text{He} \), positrons, neutrinos, and photons. The net energy released per helium nucleus formed is approximately \(26.7\,\text{MeV}\).
+    
+    \techref
+{\footnotesize
+Bethe, H. A. (1939). Energy Production in Stars. \textit{Phys. Rev.}, \textbf{55}, 434–456.\\
+Clayton, D. D. (1983). \textit{Principles of Stellar Evolution and Nucleosynthesis}. University of Chicago Press.
+}
+    \end{technical}
+    

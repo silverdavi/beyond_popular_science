@@ -1,0 +1,56 @@
+
+% Technical Analysis
+\begin{technical}
+    {\Large\textbf{Quantum Gravity: Core Conflicts}}\\[0.3em]
+
+    \techheader{Mathematical Structure Mismatch}\\[0.25em]
+    \textit{GR's Smooth Manifold vs QFT's Field Operators.}
+    In general relativity, spacetime is a 4D manifold $M$ with metric tensor $g_{\mu\nu}(x)$ satisfying Einstein's equations,
+    \begin{equation*}
+        R_{\mu\nu} - \tfrac{1}{2}R\,g_{\mu\nu} + \Lambda\,g_{\mu\nu} \;=\; \frac{8\pi G}{c^4}\,T_{\mu\nu},
+    \end{equation*}
+    where $R_{\mu\nu}$ is the Ricci curvature, $R = g^{\mu\nu}R_{\mu\nu}$ the scalar curvature, $\Lambda$ the cosmological constant, and $T_{\mu\nu}$ the stress-energy tensor. 
+
+    In quantum field theory, particle states arise from excitations of quantum fields $\hat{\phi}(x)$ or $\hat{\psi}(x)$ defined on a fixed Minkowski, or curved background. Canonical commutation relations,
+    \begin{equation*}
+        [\hat{\phi}(t,\mathbf{x}),\,\hat{\pi}(t,\mathbf{y})] = i\,\hbar\,\delta^3(\mathbf{x}-\mathbf{y}),
+    \end{equation*}
+    quantify field quanta. Allowing the spacetime metric itself to be a dynamic quantum operator complicates these commutation relations, as fixed background reference frames break down.
+
+    \techheader{Vacuum Energy and the Cosmological Constant}\\[0.25em]
+    \textit{QFT's Enormous Zero-Point Energy vs Observed Small $\Lambda$.}
+    Zero-point fluctuations of quantum fields give a vacuum energy density,
+    \begin{equation*}
+        \rho_{\rm vac} \;=\; \frac{1}{2}\sum_{\mathbf{k}}\hbar\omega_{\mathbf{k}},
+    \end{equation*}
+    which diverges or is cut off at some high-energy scale. Conservative cutoffs overshoot the observed $\rho_{\rm vac}$ by up to $10^{120}$, creating the cosmological constant problem. GR requires consistency between vacuum energy and curvature (through $\Lambda$), leading to an immense discrepancy $\Lambda_{\rm QFT} \gg \Lambda_{\rm obs}$.
+
+    \techheader{Non-Renormalizability of Gravity}\\[0.25em]
+    \textit{Perturbation Theory Fails for Graviton Loops.}
+    Treating the graviton (the quantum of the metric field) in perturbation series yields loop integrals with divergences that cannot be cancelled by renormalization.
+    
+    A dimensionful coupling $G$ implies higher-order terms require infinitely many counterterms. Unlike quantum electrodynamics or QCD, gravity does not fit the renormalizable pattern:
+    \[
+        \mathcal{L}_\text{eff} = \sqrt{-g}\Bigl(\frac{R}{16\pi G} + \alpha_1 R^2 + \alpha_2 R_{\mu\nu}R^{\mu\nu} + \dots\Bigr)
+    \]
+    with each $\alpha_n$ an unknown parameter.
+
+    \techheader{Black Hole Information and Unitarity}\\[0.25em]
+    \textit{Information Loss vs Quantum Conservation.}
+    Hawking's semiclassical calculation predicts black hole evaporation that appears to erase quantum information. Quantum mechanics requires unitary evolution: no information loss. GR accommodates singularities where classical time ends. This clash forms the black hole information paradox, driving quantum gravity research.
+
+    \techheader{Spacetime Superposition}\\[0.25em]
+    \textit{Can the Metric Exist in a Quantum Superposition?}
+    Standard QFT can superpose field states, but GR demands a specific geometric framework for defining intervals, causal structure, and even time. A superposition of metrics $\left|\psi\right> = \alpha \left|g_{\mu\nu}^{(1)}\right> + \beta \left|g_{\mu\nu}^{(2)}\right>$ challenges defining distance and time, essential for measurement theory.
+
+    \techheader{Conclusion}\\[0.25em]
+    GR and QFT tension stems from fundamental descriptive differences. Attempts to quantize gravity face the cosmological constant puzzle, non-renormalizable infinities, and conceptual conundrums such as black hole information loss. Through string theory, loop quantum gravity, asymptotically safe gravity, or other approaches, finding consistent quantum spacetime remains a foremost theoretical challenge.
+
+        \techref
+{\footnotesize
+Weinberg, S. (1979). Ultraviolet divergences in quantum theories of gravitation. In S. W. Hawking and W. Israel (Eds.), \textit{General Relativity: An Einstein Centenary Survey} (Cambridge University Press).\\
+Kiefer, C. (2012). \textit{Quantum Gravity} (3rd ed.). Oxford University Press.\\
+Goroff, M. H., and Sagnotti, A. (1986). The ultraviolet behavior of Einstein gravity. \textit{Nuclear Physics B}.
+}
+
+\end{technical}

@@ -1,0 +1,7 @@
+\begin{historical}
+The core techniques behind speculative execution—pipelining, branch prediction, and out-of-order execution—originated as performance optimisations in the 1960s and matured across RISC and superscalar designs in the 1980s–1990s. The IBM System/360 Model 91 (1966) introduced dynamic scheduling. Tomasulo's algorithm and register renaming were foundational (Tomasulo, 1967). By the 2000s, speculative execution had become ubiquitous in high-performance processors.
+
+Meanwhile, side-channel attacks emerged independently in cryptography. Kocher (1996) demonstrated timing attacks on modular exponentiation. Cache timing attacks followed, with Bernstein (2005) showing cache-based AES key recovery. Rowhammer (2014) revealed that hardware itself could be attacked—rapidly accessing memory rows caused electrical interference that flipped bits in adjacent rows, allowing privilege escalation. These hardware vulnerabilities showed that physical properties of components could be weaponised. Yet usually such attacks were seen as requiring special conditions, deliberate software flaws, or physical proximity.
+
+Spectre and Meltdown, disclosed in 2018, showed that speculative execution—once considered internal and safe—could be manipulated into violating memory isolation. The result was a universal class of vulnerabilities.
+\end{historical}

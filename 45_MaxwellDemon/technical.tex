@@ -1,0 +1,64 @@
+\begin{technical}
+{\Large\textbf{Thermodynamic Accounting in the Classical Szilard Engine}}\\[0.3em]
+
+\techheader{Introduction}\\[0.5em]
+The Szilard engine models a single classical particle confined in a box connected to a thermal reservoir at temperature \( T \). A partition is inserted, the particle is measured, and expansion performs work. The demon, modelled as a finite memory device, must be reset for reuse. This section formally evaluates the extracted work and the entropy budget, showing that total entropy remains non-decreasing when all components are included.
+
+\vspace{0.5em}
+\techheader{Work from Isothermal Expansion}\\[0.5em]
+After measurement, the particle occupies volume \( V/2 \). Isothermal expansion to volume \( V \) yields mechanical work:
+\[
+W_{\text{ext}} = \int_{V/2}^{V} \frac{k_B T}{V'}\,dV' = k_B T \ln 2.
+\]
+Let \( \sigma \equiv k_B \ln 2 \). Then:
+\[
+W_{\text{ext}} = T \sigma
+\quad \text{and} \quad
+\Delta S_{\text{gas}} = \sigma.
+\]
+This reflects the entropy gained by the gas during expansion under constant temperature, which accounts for the increase in accessible microstates as the volume doubles.
+
+\vspace{0.5em}
+\techheader{Memory Reset and Landauer Bound}\\[0.5em]
+To begin a new cycle, the demon must erase one bit of information. Erasure is a logically irreversible operation mapping two equiprobable states to one. According to Landauer's principle, the minimum heat dissipated into the reservoir is:
+\[
+Q_{\text{erase}} \geq T \sigma
+\quad, \quad
+\Delta S_{\text{mem}} = -\sigma, \quad
+\Delta S_{\text{env}} \geq \sigma.
+\]
+This entropy increase in the environment offsets the decrease in the demon’s memory. Even in an idealised quasistatic erasure process, the bound cannot be avoided.
+
+\vspace{1.5em}
+\techheader{Entropy Ledger Over a Full Cycle}\\[0.5em]
+We now compute entropy changes for all subsystems. Let \( G \) be the gas, \( M \) the memory, and \( E \) the thermal environment. Then:
+\begin{align*}
+\Delta S_G &= -\sigma \quad \text{(localization dur. measur.)} \\
+\Delta S_G &= +\sigma \quad \text{(isothermal expansion)} \\
+\Rightarrow \Delta S_G &= 0 \\
+\\[0.5em]
+\Delta S_M &= +\sigma \quad \text{(information recorded)} \\
+\Delta S_M &= -\sigma \quad \text{(memory erased)} \\
+\Rightarrow \Delta S_M &= 0 \\
+\\[0.5em]
+\Delta S_E &= -\sigma \quad \text{(heat drawn dur. expansion)} \\
+\Delta S_E &\geq +\sigma \quad \text{(heat dumped dur. erasure)} \\
+\Rightarrow \Delta S_E &\geq 0.
+\end{align*}
+Summing over all contributions:
+\[
+\Delta S_{\text{total}} = \Delta S_G + \Delta S_M + \Delta S_E \geq 0.
+\]
+The equality holds in the quasistatic limit where each step is ideal and reversible. Any deviation—e.g., finite-time processes or imperfect measurement—adds entropy.
+
+\vspace{0.5em}
+\techheader{Conclusion}\\[0.5em]
+The apparent entropy reduction induced by the demon is exactly counterbalanced by the entropy cost of erasing its memory. Though the demon performs no mechanical work, its function relies on acquiring and discarding information—a process embedded in physical degrees of freedom. When all elements are included in the thermodynamic ledger, the second law remains intact. No net entropy decrease occurs, and no violation arises.
+
+\techref
+{\footnotesize
+Szilard, L. (1929). \textit{On the Decrease of Entropy in a Thermodynamic System by the Intervention of Intelligent Beings}. Z. Phys., 53, 840–856.\\
+Landauer, R. (1961). \textit{Irreversibility and Heat Generation in the Computing Process}. IBM J. Res. Dev., 5(3), 183–191.\\
+Bennett, C. H. (1982). \textit{The Thermodynamics of Computation—A Review}. Int. J. Theor. Phys., 21, 905–940.
+}
+\end{technical}

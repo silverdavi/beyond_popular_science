@@ -1,0 +1,72 @@
+\begin{technical}
+{\Large\textbf{Hierarchy of Growth Rates}}\\[0.3em]
+
+\techheader{Level 1: Elementary Functions}
+\begin{align*}
+f(n) &= n + c \text{ (linear)}\\
+f(n) &= n^k \text{ (polynomial)}\\
+f(n) &= k^n \text{ (exponential)}\\
+f(n) &= n! \approx \sqrt{2\pi n}\left(\frac{n}{e}\right)^n
+\end{align*}
+
+\techheader{Level 2: Iterated Exponentials}\\
+Tetration: ${}^ka = \underbrace{a^{a^{\cdot^{\cdot^{\cdot^a}}}}}_{k \text{ times}}$\\
+Digits of ${}^k2$ are about $(\log_{10}2) \cdot {}^{k-1}2$.
+
+\techheader{Level 3: Ackermann Function}
+\begin{align*}
+A(0,n) &= n+1\\
+A(m+1,0) &= A(m,1)\\
+A(m+1,n+1) &= A(m, A(m+1,n)).
+\end{align*}
+Growth: $A(1,n) = n+2$, $A(2,n) = 2n+3$, $A(3,n) = 2^{n+3}-3$, $A(4,n) = \underbrace{2^{2^{\cdot^{\cdot^{2}}}}}_{n+3} - 3$.
+
+\techheader{Level 4: Knuth Arrows}
+\begin{align*}
+a\uparrow^{1}b &= a^b\\
+a\uparrow^{n}1 &= a \text{ for } n\ge1\\
+a\uparrow^{n}0 &= 1 \text{ for } n\ge1\\
+a\uparrow^{n}b &= a\uparrow^{n-1}\big(a\uparrow^{n}(b-1)\big)\\
+&\quad\text{ for } n\ge1, b>1.
+\end{align*}
+Extension: $a\uparrow^{0}b := ab$.\\
+$3 \uparrow 3 = 27$, $3 \uparrow\uparrow 3 = 7{,}625{,}597{,}484{,}987$\\
+$3 \uparrow\uparrow\uparrow 3 = 3 \uparrow\uparrow 7{,}625{,}597{,}484{,}987$
+
+\techheader{Level 5: Fast-Growing Hierarchy}\\
+Indexed by ordinals:
+\begin{align*}
+f_0(n) &= n+1\\
+f_{\alpha+1}(n) &= f_\alpha^n(n)\\
+f_\lambda(n) &= f_{\lambda[n]}(n) \text{ for limit } \lambda\\
+f_\omega(n) &= f_n(n)\\
+f_{\omega^2}(n) &= f_{\omega \cdot n}(n)\\
+f_{\varepsilon_0}(n) &\text{ dominates finite } \omega \text{ towers}
+\end{align*}
+
+\techheader{Level 6: TREE Function}\\
+TREE$(n)$ = max sequence of rooted finite trees with vertices coloured from an $n$-element set; on step $i$ the tree has at most $i$ vertices; forbid homeomorphic embedding from any earlier tree into any later.\\
+TREE$(1) = 1$, TREE$(2) = 3$\\
+Via Kruskal's theorem, associated length functions dominate $f_\alpha$ for all $\alpha<\theta(\Omega^\omega)$; TREE$(3)$ is far beyond $f_{\varepsilon_0}$-scale growth.
+
+\techheader{Level 7: Busy Beaver}\\
+BB$(n)$ = max steps of any halting $n$-state, 2-symbol TM.\\
+BB$(4) = 107$, BB$(5) = 47{,}176{,}870$ (proven 2024)\\
+BB$(6) > 10\uparrow\uparrow 15$ (lower bound)\\
+Eventually dominates all computable functions.
+
+\techheader{Level 8: Rayo Function}\\
+Rayo$(n)$ = the least natural number greater than every number definable in first-order set theory by a formula of length $\leq n$ (with fixed encoding).\\
+Dominates any $n$-symbol definable function by diagonalization.
+
+\techheader{Growth Comparison}\\
+For large $n$: polynomial $\ll$ exponential $\ll$ Ackermann $\ll$ arrows $\ll f_{\varepsilon_0} \ll$ TREE $\ll$ BB $\ll$ Rayo
+
+Each level uses fundamentally stronger recursion principles. Comparison depends on proof-theoretic bounds (FGH, Kruskal), computability (BB), and definability (Rayo).
+
+\techref
+{\footnotesize
+M. H. Löb and S. S. Wainer, \QSOpen{}Hierarchies of number-theoretic functions I/II,\QSClose{} Archiv für mathematische Logik und Grundlagenforschung (1970–72).\\
+H. Friedman, \QSOpen{}Finite forms of Kruskal's theorem,\QSClose{} Journal of Combinatorial Theory, Series A \textbf{95}, 102–144 (2001).
+}
+\end{technical}

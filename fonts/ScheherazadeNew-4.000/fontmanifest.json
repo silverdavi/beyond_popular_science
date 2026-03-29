@@ -1,0 +1,25 @@
+{
+"scheherazadenew": {
+    "defaults": {
+        "ttf": "ScheherazadeNew-Regular.ttf",
+        "woff": "ScheherazadeNew-Regular.woff",
+        "woff2": "ScheherazadeNew-Regular.woff2"
+    },
+    "family": "Scheherazade New",
+    "files": {
+        "ScheherazadeNew-Bold.ttf": { "axes": { "ital": 0, "wght": 700.0 }, "packagepath": "ScheherazadeNew-Bold.ttf" },
+        "ScheherazadeNew-Bold.woff": { "axes": { "ital": 0, "wght": 700.0 }, "packagepath": "web/ScheherazadeNew-Bold.woff" },
+        "ScheherazadeNew-Bold.woff2": { "axes": { "ital": 0, "wght": 700.0 }, "packagepath": "web/ScheherazadeNew-Bold.woff2" },
+        "ScheherazadeNew-Medium.ttf": { "altfamily": "Scheherazade New Medium", "axes": { "ital": 0, "wght": 500.0 }, "packagepath": "ScheherazadeNew-Medium.ttf" },
+        "ScheherazadeNew-Medium.woff": { "altfamily": "Scheherazade New Medium", "axes": { "ital": 0, "wght": 500.0 }, "packagepath": "web/ScheherazadeNew-Medium.woff" },
+        "ScheherazadeNew-Medium.woff2": { "altfamily": "Scheherazade New Medium", "axes": { "ital": 0, "wght": 500.0 }, "packagepath": "web/ScheherazadeNew-Medium.woff2" },
+        "ScheherazadeNew-Regular.ttf": { "axes": { "ital": 0, "wght": 400.0 }, "packagepath": "ScheherazadeNew-Regular.ttf" },
+        "ScheherazadeNew-Regular.woff": { "axes": { "ital": 0, "wght": 400.0 }, "packagepath": "web/ScheherazadeNew-Regular.woff" },
+        "ScheherazadeNew-Regular.woff2": { "axes": { "ital": 0, "wght": 400.0 }, "packagepath": "web/ScheherazadeNew-Regular.woff2" },
+        "ScheherazadeNew-SemiBold.ttf": { "altfamily": "Scheherazade New SemiBold", "axes": { "ital": 0, "wght": 600.0 }, "packagepath": "ScheherazadeNew-SemiBold.ttf" },
+        "ScheherazadeNew-SemiBold.woff": { "altfamily": "Scheherazade New SemiBold", "axes": { "ital": 0, "wght": 600.0 }, "packagepath": "web/ScheherazadeNew-SemiBold.woff" },
+        "ScheherazadeNew-SemiBold.woff2": { "altfamily": "Scheherazade New SemiBold", "axes": { "ital": 0, "wght": 600.0 }, "packagepath": "web/ScheherazadeNew-SemiBold.woff2" }
+    },
+    "version": "4.000"
+}
+}

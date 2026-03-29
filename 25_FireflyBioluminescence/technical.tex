@@ -1,0 +1,41 @@
+\begin{technical}
+{\Large\textbf{Bioluminescence Quantification}}\\[0.2em]
+
+\techheader{Molecular Reaction}\\
+Firefly luciferase catalyses ATP-driven luciferin oxidation, producing excited oxyluciferin that emits a photon at $\sim 560\,\text{nm}$ ($E \approx 3.55 \times 10^{-19}\,\text{J}$) with quantum yield $\Phi \approx 0.41$ (reported range $\sim 0.41$–0.88, depending on pH and species). Flash duration (200–300 ms) is controlled by oxygen availability via tracheal gating to photocytes. Timmins et al.\ (2001) demonstrated that flash termination occurs via oxygen depletion when tracheoles constrict, cutting O$_2$ supply to photocytes.
+
+\techheader{Bottom-Up Biochemical Calculation}\\
+Total photon emission follows from enzyme abundance and oxygen-limited kinetics:
+$$N_\gamma = N_\text{luc,cell} \times N_\text{cells} \times k_{\text{eff}} \times \Phi \times t$$
+
+\noindent\textit{Parameter ranges from physical bounds and biochemical and anatomical constraints:}
+\begin{itemize}[leftmargin=2em,itemsep=0pt,topsep=3pt]
+\item Luciferase per photocyte: $10^6$ molecules (range: $3 \times 10^5$ to $10^7$).
+\item Photocytes per lantern: $10^5$ cells (range: $5 \times 10^4$ to $3 \times 10^5$).
+\item Quantum yield $\Phi$: $0.41$ (range: $0.41$ to $0.88$).
+\item Effective turnover $k_{\text{eff}}$: $0.01\,\text{s}^{-1}$ (range: $0.01$ to $1\,\text{s}^{-1}$; oxygen-limited to burst discharge).
+\item Flash duration $t$: $0.25\,\text{s}$ (range: $0.25$ to $1.0\,\text{s}$).
+\end{itemize}
+
+\noindent\textit{Representative cases (adapted from Silver, 2025):}
+\begin{align*}
+N_\gamma^{\text{(min)}} &\approx 10^5 \times 10^6 \times 0.01 \times 0.41 \times 0.25 \\
+  &\approx 10^8 \text{ photons/flash} \\[0.3em]
+N_\gamma^{\text{(mid)}} &\approx 10^5 \times 10^6 \times 0.1 \times 0.48 \times 0.25 \\
+  &\approx 10^9 \text{ photons/flash} \\[0.3em]
+N_\gamma^{\text{(max)}} &\approx 10^5 \times 10^6 \times 1.0 \times 0.88 \times 1.0 \\
+  &\approx 4 \times 10^{10} \text{ photons/flash.}
+\end{align*}
+These span oxygen-limited steady flashing through a one-turnover-per-enzyme \QSOpen{}burst\QSClose{} in which a pre-charged enzyme pool is discharged synchronously. The biochemical budget therefore constrains any realistic flash to lie in the range $10^8$–$4 \times 10^{10}$ photons.
+
+\techheader{Resolving the Textbook Discrepancy}\\
+The commonly cited brightness figure, traced to Ives and Coblentz (1924) and paraphrased as \QSOpen{}1/40 candle,\QSClose{} corresponds—under an isotropic, time-averaged interpretation—to $\sim 3 \times 10^{14}$ photons per 250 ms flash. Re-examination of Coblentz's original 1912 monograph, however, shows that \textit{Photinus pyralis} flashes actually ranged from 1/50 to 1/400 candle, with 1/400 predominating, and that visual nulling photometry likely matched peak rather than integrated intensity. Combined with the strongly ventral beaming of the lantern (effective solid angle $\sim 1$–2 sr rather than $4\pi$) and modern luminous-efficiency curves, the corrected historical value drops by an order of magnitude or more. When these corrections are added to direct lux-metre measurements of live fireflies (0.2–0.5 lux at 1–2 cm, giving $10^{10}$–$4 \times 10^{11}$ photons/flash) and to reanalyses of Harvey and Stevens (1928) and Goh et al.\ (2022), all four lines of evidence converge on $10^{10}$–$10^{11}$ photons per flash—fully consistent with the biochemical bounds above and three to four orders of magnitude below the naive 1/40-candle interpretation.
+
+\techref
+{\footnotesize
+Timmins, G.S., et al. (2001). Firefly flashing is controlled by gating oxygen to light-emitting cells. \textit{J. Exp. Biol.}, 204, 2795–2801.\\
+Ives, H.E., and Coblentz, W.W. (1924). Photometric studies of luminous insects. \textit{J. Opt. Soc. Am.}, 9(3), 217–236.\\
+Coblentz, W.W. (1912). \textit{A Physical Study of the Firefly}. Carnegie Institution of Washington, Publ. 164.\\
+Harvey, E.N., and Stevens, K.L. (1928). The brightness of the light of the West Indian elaterid beetle, \textit{Pyrophorus}. \textit{J. Gen. Physiol.}, 12, 269–272.\\
+}
+\end{technical}

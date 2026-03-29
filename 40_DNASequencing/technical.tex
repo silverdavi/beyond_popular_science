@@ -1,0 +1,60 @@
+\begin{technical}
+{\Large\textbf{Illumina Sequencing and De Bruijn Assembly}}\\[0.3em]
+
+\techheader{Sequencing by Synthesis}\\[0.5em]
+Illumina uses reversible terminators with cleavable fluorescent labels. Each cycle:
+\begin{align*}
+&\text{DNA}_n + \text{dNTP-3'-block-fluor}\\
+&\quad\xrightarrow{\text{pol}} \text{DNA}_{n+1}\\
+&\text{Imaging} \rightarrow \text{Base identification}\\
+&\text{Chemical cleavage} \rightarrow \text{3'-OH restoration}.
+\end{align*}
+
+Bridge amplification creates clonal clusters ($\sim10^3$ copies) on flow cell surface. Fluorescence signal $S \propto N_{\text{mol}}$ enables base calling with error rate $\varepsilon \approx 0.1\%$.
+
+\techheader{De Bruijn Graph Construction}\\[0.5em]
+For read set $\mathcal{R}$ with k-mer length $k$:
+\begin{align*}
+V &= \{w \in \Sigma^{k-1} : w \text{ is prefix or suffix}\\
+&\quad\text{of some k-mer in } \mathcal{R}\}\\
+E &= \{w \in \Sigma^k : w \text{ appears in } \mathcal{R}\},
+\end{align*}
+where each k-mer edge connects its $(k-1)$-mer prefix to its $(k-1)$-mer suffix.
+
+Each read of length $L$ contributes $L-k+1$ k-mer edges, compressing redundant sequence information into a compact graph structure.
+
+\techheader{Eulerian Path Assembly}\\[0.5em]
+Assembly seeks Eulerian path through $G$:
+\begin{align*}
+\text{Path} &= e_1e_2...e_m \text{ where}\\
+&\quad \forall i: \text{tail}(e_i) = \text{head}(e_{i+1})\\
+\text{Genome} &= e_1[1..k] + e_2[k] + e_3[k]\\
+&\quad + ... + e_m[k],
+\end{align*}
+where $e_i[k]$ denotes the last base of k-mer $e_i$.
+
+For an Eulerian path to exist, the underlying graph over nonzero-degree vertices must be weakly connected, with all vertices balanced (in-degree = out-degree), or exactly two semi-balanced vertices: one with out-degree = in-degree + 1 and one with in-degree = out-degree + 1.
+
+\techheader{Coverage and k-mer Selection}\\[0.5em]
+Expected k-mer coverage:
+\[C_k = C_{\text{read}} \cdot \frac{L-k+1}{L},\]
+where $C_{\text{read}} = NL/G$ (reads $\times$ length / genome).
+
+Optimal $k$ balances a tradeoff: smaller $k$ yields more connections and higher coverage but introduces ambiguity, while larger $k$ reduces repeat ambiguity at the cost of lower coverage and potential gaps.
+
+Typically $k \in [50, 250]$ for Illumina data.
+
+\techheader{Graph Complexity}\\[0.5em]
+Real graphs contain three main types of structural features: \textbf{bubbles} (parallel paths created by SNPs or errors), \textbf{tips} (dead ends from coverage gaps), and \textbf{repeats} (creating branching and convergence). Error correction typically removes k-mers with coverage below a threshold.
+
+\techheader{Paired-End Constraints}\\[0.5em]
+Insert size $d \sim \mathcal{N}(\mu, \sigma^2)$ provides scaffolding:
+\[|p(r_1, r_2) - \mu| < 3\sigma,\]
+where $p(r_1, r_2)$ is genomic distance between read pairs.
+
+\techref
+{\footnotesize
+Bentley et al. (2008). \textit{Nature} 456:53–59.\\
+Pevzner et al. (2001). \textit{PNAS} 98:9748–9753.
+}
+\end{technical}

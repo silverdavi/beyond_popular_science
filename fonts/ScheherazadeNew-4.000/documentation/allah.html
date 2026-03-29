@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Scheherazade New - Rendering the Allah ligature</title>
+    <meta name="author" content="SIL Writing Systems Technology">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/webfonts.css">
+</head>
+<body>
+<div class="container">
+<article class="article">
+    <header>
+        <h1 class="title">Scheherazade New - Rendering the Allah ligature</h1>
+    </header>
+    <p>In certain types of literature, the name <em>Allah</em> and words related to this name are given unique rendering. Unicode has a <em>presentation form</em> character (U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM) that implements this rendering and, while this can work (in some fonts) for the word in isolation, it doesn’t help users obtain special rendering in other contexts where it is desired. </p>
+    <p>Starting with v3.300, Scheherazade New provides the special rendering for sequences of Arabic letters that meet specific patterns, giving much more flexibility to document authors.</p>
+    <ul>
+    <li>Under certain conditions, a sequence of lam-lam-heh will form an Allah ligature:
+    <ul>
+    <li>The sequence must include either a preceding isolate <em>alef</em> or a <em>shadda</em> on the second <em>lam</em>, or both.</li>
+    <li>If there is an isolate <em>alef</em> but no <em>shadda</em>, a <em>shadda-superscript-alef</em> will be automatically displayed.</li>
+    <li>The <em>shadda</em> may be followed or preceded by either a <em>superscript-alef</em> diacritic or a <em>fatha</em>.</li>
+    <li>The <em>heh</em> may be either the standard <em>heh</em> (0647) or the <em>heh-goal</em> (06C1).</li>
+    <li>The <em>alef</em>, if present may have marks. Similar characters such as <em>alef-hamza</em>, <em>alef-hamza-below</em>, <em>alef-madda</em>, and <em>alef-wasla</em> will also form the ligature.</li>
+    <li>The first <em>lam</em> may include a <em>kasra</em>, but no other diacritics.</li>
+    <li>The special Unicode character U+FDF2 will always display the Allah ligature.</li>
+    </ul></li>
+    </ul>
+    <p>To disable the special ligature, insert a zero-width joiner character (200D) somewhere in the sequence.</p>
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Characters</th>
+    <th>→</th>
+    <th>Glyph</th>
+    <th>Comment</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><span class="scheherazadenewL-R normal">‭ا + ل + ل + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl"> الله </span></td>
+    <td>Ligature is formed (U+0647)</td>
+    </tr>
+    <tr class="even">
+    <td><span class="scheherazadenewL-R normal">‭ا + ل + ل + ہ</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">اللہ </span></td>
+    <td>Ligature is formed (U+06C1)</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="scheherazadenewL-R normal">‭ٱ + ل + ل + ّ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl"> ٱللّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="scheherazadenewL-R normal">‭ا + ل + ل + ّ + َ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">اللَّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="scheherazadenewL-R normal">‭ا + ل + ل + ّ + ٰ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">اللّٰه</span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="scheherazadenewL-R normal">‭ل + ل + ّ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">للّه</span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="scheherazadenewL-R normal">‭ل + ZWJ + ل + ّ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">ل‍لّه</span></td>
+    <td>Ligature is not formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="scheherazadenewL-R normal">‭ل + ل + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">لله</span></td>
+    <td>Ligature is not formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="scheherazadenewL-R normal">‭ل + ِ + ل + ّ + ه + ْ</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">لِلّهْ </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="scheherazadenewL-R normal">‭ا + ل + ْ + ا + ل + ل + ّ + ه + ْ</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">الْاللّهْ </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="scheherazadenewL-R normal">‭ب + ِ + ل + ل + ّ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">بِللّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="scheherazadenewL-R normal">‭ف + ل + ل + ّ + َ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">فللَّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="scheherazadenewL-R normal">‭ف + ل + ل + ّ + َ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">فللَّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="scheherazadenewL-R normal">‭ف + ل + ل + َ + ه</span></td>
+    <td>→</td>
+    <td><span class="scheherazadenew-R normal" dir="rtl">فللَه </span></td>
+    <td>Ligature is not formed</td>
+    </tr>
+    </tbody>
+    </table>
+    <!-- PRODUCT SITE ONLY
+    [font id='scheherazadenew' face='ScheherazadeNew-Regular' size='150%' rtl=1]
+    [font id='scheherazadenewL' face='ScheherazadeNew-Regular' size='150%' ltr=1]
+    -->
+    <footer class="footer">
+        <p>This guide is from the <a href="https://software.sil.org/scheherazade/" title="" class="active">Scheherazade New project</a> version 4.000 and is copyright © 1994-2023 SIL International.</p>
+    </footer>
+</article>
+</div>
+</body>
+</html>

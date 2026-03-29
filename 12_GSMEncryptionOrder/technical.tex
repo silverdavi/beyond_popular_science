@@ -1,0 +1,68 @@
+\begin{technical}
+{\Large\textbf{Toy GSM‑Style Frame: How Post‑Encoding XOR Leaks Keystream}}\\[0.3em]
+
+\techheader{Frame Layout}\\[0.5em]
+We model a simplified SACCH‑style control message with \textit{32 information bits} $s_1,\dots,s_{32}$.  
+GSM inserts fixed training bits, padding, and applies forward‑error correction; we model this with a minimal layout:
+\begin{align*}
+&\underbrace{\color{gray}{1\,1\,0\,0\,1\,0\,1\,1\,0\,1\,1\,0\,0\,1\,0\,1}}_{\text{training}}\;
+\underbrace{s_1\,\dots\,s_8}_{\text{data}}\\
+&\underbrace{\color{gray}{0\,1\,1\,0\,1\,0\,0\,1}}_{\text{pad}}\;
+\underbrace{s_9\,\dots\,s_{16}}_{\text{data}}\\
+&\underbrace{\color{gray}{1\,1\,0\,0\,1\,0\,1\,1}}_{\text{parity}}\;
+\underbrace{s_{17}\,\dots\,s_{24}}_{\text{data}}\;
+\underbrace{s_{25}\,\dots\,s_{32}}_{\text{data}}.
+\tag{1}
+\end{align*}
+Exactly \(\mathbf{64}\) bits form the encoder input: 32 unknown information bits and 32 deterministic bits known to the attacker. This scales toward realistic GSM processing where SACCH messages expand from 184 bits to 456 bits.
+
+\techheader{Redundancy (Mini-Convolutional Code)}\\[0.5em]
+Each input bit \(x_i\) passes through a toy \((1,1/2)\) convolutional code with generator polynomials \((1,\;1+D)\):
+\[
+y_{i,0}=x_i,
+\qquad
+y_{i,1}=x_i \oplus x_{i-1}.
+\]
+Assume zero-state initialization so the bit before each known block is defined. This yields 128 output bits \(Y=[Y_0,\dots,Y_{127}]\) where \(Y_k = y_{\lfloor k/2 \rfloor, k \bmod 2}\).  Every pair satisfies
+\[
+y_{i,1}\;\oplus\;y_{i-1,0}=y_{i,0}
+\quad\forall i\ge 1,
+\tag{2}
+\]
+a parity relation that survives encryption as a linear constraint tying three keystream bits together.
+
+\techheader{Interleaver}\\[0.5em]
+A fixed block interleaver permutes the 128 bits:
+\[
+\pi(i)=\bigl(i\bmod4\bigr)\cdot32+\left\lfloor\frac{i}{4}\right\rfloor,
+\tag{3}
+\]
+a public mapping known to attacker and receiver.
+
+\techheader{Encryption After Coding}\\[0.5em]
+Encryption XORs a keystream \(K_0,\dots,K_{127}\) with the permuted code bits:
+\[
+C_i = Y_{\pi(i)} \oplus K_i\,.
+,\tag{4}
+\]
+Because XOR preserves length and position, all structure in \(Y\) remains in masked form in \(C\).
+
+\techheader{Ciphertext-Only Attack Sketch}\\[0.5em]
+\textit{Training leakage}: From 32 known training/pad/parity input bits, the rate~1/2 encoder produces 64 known coded bits (32 from \(y_{\cdot,0}\) and 32 from \(y_{\cdot,1}\) with state assumption), so the attacker obtains
+\(K_i = C_i \oplus Y_{\pi(i)}\) for 64 positions.
+
+\textit{Parity recursion}: Using Equation (2), each parity relation after interleaving becomes a linear equation in three ciphertext bits and three keystream bits. The known~\(K_i\) values seed a sparse linear system over \(\mathbb{F}_2\) that propagates to many additional \(K_j\). With \textit{multiple frames}, the system typically determines the full keystream through solving a large linear system or using precomputed tables.
+
+\textit{Information bit recovery}: With keystream recovered, the attacker inverts
+the interleaver and convolutional code to extract \(s_1,\dots,s_{32}\) from each frame.
+
+\techheader{Why Encrypt-First Stops the Leak}\\[0.5em]
+If encryption preceded coding, the encoder would process \(X \oplus K'\) rather than \(X\).
+Parity relation (2) would then bind unknown values, blocking the attack. Fixed
+fields would reveal nothing until after decryption.
+
+\techref
+{\footnotesize
+Barkan, E., Biham, E., Keller, N. (2008). Instant ciphertext-only cryptanalysis of GSM encrypted communication. \textit{J. Cryptology} 21(3):392–429.
+}
+\end{technical}

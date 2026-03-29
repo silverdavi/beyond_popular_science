@@ -1,0 +1,83 @@
+% Part 1: Background and the 20cm Game
+Archimedes wrote the \emph{Sand Reckoner} to count sand grains in the cosmos. His real purpose was notation—showing how large numbers could be handled by grouping units into \QSOpen{}orders\QSClose{} and assigning names to powers of powers. This marked one of the first recorded attempts to handle orders of magnitude through notation.
+
+Children discover this principle through play. Counting on fingers reaches ten. Tally marks extend to dozens. Roman numerals handle thousands awkwardly. Arabic numerals with positional notation reach millions effortlessly.
+
+The number $10^{10}$—ten billion—sits at the edge of intuitive grasp. Demographers estimate that about $10^{11}$ humans have ever lived. The observable universe contains approximately $10^{80}$ atoms. Scientific notation makes this tractable: \QSOpen{}1 followed by 80 zeros.\QSClose{} But even this notation meets its limits.
+
+Consider $10^{10^{10}}$. This number has ten billion digits. If each digit were an atom, we would need $10^{10}$ atoms to write it down—an incomprehensibly tiny fraction of the universe's $10^{80}$ atoms ($10^{-70}$ of them). Yet the notation remains compact—just a few symbols capture a magnitude that dwarfs physical representation.
+
+Now build a tower of many years: $10^{10^{10^{\cdot^{\cdot^{\cdot}}}}}$ with ten tens, call it $T_{years}$. To grasp this scale, imagine beings who create universes by setting random initial conditions, attempting to arrange cosmic evolution so that 13.8 billion years later, if a civilisation emerges on the resulting Earth, they launch exactly 100 trillion green peas toward the Moon, and all land in a pre-specified bucket at exactly 8:00:00.00000 PM on Friday, 4 July. The initial conditions must account for every quantum fluctuation, every gravitational interaction, the formation of galaxies, stars, planets, the evolution of life, agriculture, spaceflight technology, and the precise timing of launch.
+
+Most attempts fail—Earth never forms, or forms without life, or life evolves differently, or the civilisation launches peas a second too early. When an attempt fails, they wait $10^{100}$ years until that universe reaches heat death, then start fresh with new initial conditions. To achieve a billion consecutive successes will require much less time than $T_{years}$.
+
+Physical metaphors lose meaning at these scales. No arrangement of atoms, no duration of time, no cosmic process captures numbers this large. We can develop formal notation that builds recursively, where each operation multiplies growth rates.
+
+Knuth's arrow notation compresses this tower-building (Knuth, 1974). One arrow denotes exponentiation, $10 \uparrow 10 = 10^{10}$. Two arrows build a tower, $10 \uparrow\uparrow 10 = 10^{10^{10^{\cdot^{\cdot^{\cdot}}}}}$ with ten 10s. Three arrows iterate the two-arrow operation, $10 \uparrow\uparrow\uparrow 10 = 10 \uparrow\uparrow (10 \uparrow\uparrow\uparrow 9)$, building towers of towers recursively. Each arrow multiplies the growth rate beyond comprehension.
+
+Frame this as a competition. You have ink for 20 centimetres of writing. Produce the largest number possible. Every symbol must be precisely defined. Writing \QSOpen{}$10^{10}$\QSClose{} beats \QSOpen{}$10000000000$\QSClose{}—notation outpaces digits. With Knuth's arrows, $3 \uparrow 3 = 3^3 = 27$, but $3 \uparrow\uparrow 3 = 3^{3^3} = 3^{27}$, already over 7 trillion. Now, instead of manually building recursive stacks, we can define functions that generate them.
+
+The Ackermann function grows faster than any primitive recursive function:
+\[
+\begin{aligned}
+A(0,n) &= n+1 \\
+A(m+1,0) &= A(m,1) \\
+A(m+1,n+1) &= A(m, A(m+1,n))
+\end{aligned}.
+\]
+Starting modestly—$A(1,n) = n+2$, $A(2,n) = 2n+3$, $A(3,n) = 2^{n+3} - 3$—by $A(4,2)$ we reach $2^{65536} - 3$, computed from a power tower five levels high, $2^{2^{2^{2^2}}} - 3$. A well-chosen function reference like \QSOpen{}$A(A(10,10),A(10,10))$\QSClose{} beats unfathomable explicit digits. The best use of ink is no longer to write numbers, but to specify methods of generation.
+
+% Part 2: Concrete to Amorphous Examples
+Beyond recursive towers lies combinatorial explosion. While Ackermann and arrows build through iteration, TREE(3) emerges from a simple game with trees that generates growth surpassing any tower of exponentials. The leap from arithmetic to combinatorics produces numbers that dwarf all previous constructions.
+
+Take a deep breath and play a game called TREE(n). You draw a sequence (Kruskal, 1960) of trees—not botanical trees, but branching diagrams with a single root at top, branches splitting downward, with vertex colours from an $n$-colour set. You have $n$ colours available (say, red, blue, and green for TREE(3)). The rules: the $i$-th tree in your sequence can have at most $i$ vertices; no earlier tree may embed in any later tree.
+
+An earlier tree embeds in a later tree if there is an injective, colour-preserving map of vertices that preserves lowest-common-ancestor relations. In simpler terms, tree A embeds in tree B if you can find a subset of B's vertices that matches A's structure and colours exactly.
+
+TREE(1) = 1. With one colour (say, only red), you draw a single red vertex. The second tree needs two vertices, so it must have two red vertices—but any configuration of two red vertices embeds the single red vertex. Game over.
+
+TREE(2) = 3. With two colours (red and blue), the longest sequence is (1) single red vertex, (2) blue root with blue child below, (3) single blue vertex. Try adding a fourth tree with at most 4 vertices using red and blue—any configuration will embed one of these three.
+
+TREE(3) is where the magnitude explodes. This number dwarfs any fixed-height tower of exponentials and values produced by many natural hierarchies at modest inputs. However, the Ackermann function eventually exceeds any fixed bound for sufficiently large inputs. If every atom in the observable universe became a tower of googolplexes, and these googolplex-atoms multiplied together every nanosecond throughout cosmic history, the result wouldn't approach one trillionth of TREE(3).
+
+TREE(3) is a specific, well-defined number. There exists a definite answer to \QENOpen{}what is the 97th digit of TREE(3)?\QENClose{} We simply cannot compute it. Enter functions that grow even faster through different mechanisms. The next numbers are more dependent on the underlying axioms and the language used to define them.
+
+TREE arises from combinatorial constraints—avoiding embeddings in sequences. The busy beaver function BB(n) shifts from combinatorial to computational (Radó, 1962) limits. Among all n-state Turing machines (theoretical computing devices) that eventually halt, BB(n) equals the maximum number of steps any such machine takes before stopping. The known values are BB(1)=1, BB(2)=6, BB(3)=21, BB(4)=107. For BB(5), the value is known to be $47{,}176{,}870$. BB(6) exceeds $10\,\uparrow\!\uparrow\,15$.
+
+Unlike TREE(3), BB(n) derives its magnitude from undecidability. No algorithm can compute BB(n) for arbitrary n, as this would solve the halting problem (Turing, 1936)—proven impossible by Turing. The function eventually surpasses TREE(n) because it encompasses all computational processes, including those calculating TREE values. Recent analysis suggests BB(2645) likely exceeds TREE(3), and from then on, it grows explosively faster.
+
+The ultimate strategy abandons specific constructions for meta-mathematical limits. Rather than defining a particular fast-growing function, we can ask: what is the largest number definable within the language itself?
+
+Rayo's function does that while venturing into linguistic and logic territory. At MIT's 2007 \QENOpen{}Big Number Duel,\QENClose{} philosopher Agustín Rayo proposed the ultimate strategy—define Rayo($n$) as the largest natural number expressible in first-order set theory using at most n symbols. This approaches the theoretical limit of our 20 cm game—essentially encoding \QENOpen{}the largest number definable with this much notation\QENClose{} within formal logic. 
+
+Rayo($n$) outgrows any function definable in its own language through diagonalization—exceeding every possible definition. It dwarfs both TREE($n$) and BB($n$).
+
+% Part 3: Infinity's Different Rules
+All these finite numbers—from towers of exponentials to TREE(3) to Rayo's function—remain infinitely far from infinity. They demonstrate ingenuity in naming ever-larger quantities, yet each sits at the same infinite distance from the first infinity.
+
+And so, we now turn to infinity. When we cross to infinity, the rules of growth change. Infinity comes in two flavours—cardinals (sizes of sets) and ordinals (positions in well-ordered sequences). Think of \QSOpen{}three\QSClose{} (counting objects) versus \QSOpen{}third\QSClose{} (position in line). The smallest infinite cardinal is $\aleph_0$ (aleph-null), the cardinality of natural numbers. The smallest infinite ordinal is $\omega$, their order type.
+
+Cardinal arithmetic is different from finite arithmetic: $\aleph_0 + 1 = \aleph_0$—Hilbert's Hotel has infinitely many rooms (Hilbert, 1926), all full, yet can accommodate one more guest; $\aleph_0 + \aleph_0 = \aleph_0$—interleave odds and evens; $\aleph_0 \times \aleph_0 = \aleph_0$—arrange rationals in a grid.
+
+But exponentiation breaks this pattern. ${\aleph_0}^{\aleph_0} > \aleph_0$. Exponentiation represents functions between sets. In finite cases, $5^5 = 3125$ is exactly the number of possible functions from $\{1,2,3,4,5\}$ to itself. Similarly, ${\aleph_0}^{\aleph_0}$ represents all functions from naturals to naturals, yielding the continuum's cardinality which is larger than $\aleph_0$. 
+
+With ordinals, exponentiation truly explodes. Form $\omega^\omega$—omega to the omega power. Then $\omega^{\omega^\omega}$—a tower of omegas. But why stop at finite towers? We're already working with infinity! Build an infinite tower: $\omega^{\omega^{\omega^{\cdot^{\cdot^{\cdot}}}}}$ with $\omega$ many $\omega$'s. This is the limit of finite towers, well-defined in ordinal arithmetic. This mind-bending construction yields $\varepsilon_0$, the first epsilon number, satisfying $\omega^{\varepsilon_0} = \varepsilon_0$.
+
+This unimaginably large ordinal, built from an infinite tower of infinities, is tiny in the hierarchy of infinities. It's merely the first in a new regime:
+$\varepsilon_1$ is the next fixed point after $\varepsilon_0$; $\varepsilon_\omega$ is the $\omega$-th fixed point; $\varepsilon_{\varepsilon_0}$ uses our \QSOpen{}massive\QSClose{} infinity as a mere index.
+
+How do we organise these ever-larger infinities? In 1908, mathematician Oswald Veblen developed a hierarchy. Start with the function $\varphi_0(\alpha) = \omega^\alpha$—this generates our familiar exponential towers. The function $\varphi_1$ then enumerates all the epsilon numbers (those fixed points where $\omega^x = x$). The function $\varphi_2$ finds all the fixed points of $\varphi_1$—ordinals so large that even the epsilon-generating function cannot reach them. Each level finds what the previous level missed, climbing an infinite ladder where each rung reveals new unreachable ordinals above.
+
+This process continues through all finite indices: $\varphi_3$, $\varphi_4$, and onward. But now we can define $\varphi_\omega$, then $\varphi_{\omega+1}$, even $\varphi_{\varphi_0(0)}$. The indices themselves become ordinals! Eventually, we reach an ordinal so large it equals its own index in the Veblen hierarchy, $\Gamma_0 = \varphi_{\Gamma_0}(0)$. This is the Feferman-Schütte ordinal, discovered independently by Solomon Feferman and Kurt Schütte in the 1960s.
+
+$\Gamma_0$ marks more than just another large ordinal. Below $\Gamma_0$, we can build ordinals step by step using explicit rules. Beyond it, we need new principles. In technical terms, $\Gamma_0$ is the proof-theoretic ordinal of predicative mathematics—it measures exactly how far we can count using only definitions that refer to previously constructed objects. To go further requires impredicative methods: definitions that refer to totalities containing the very object being defined. It's like trying to lift yourself by your own bootstraps—impossible in physics, but sometimes necessary in mathematics. Beyond $\Gamma_0$ lie ordinals and cardinals requiring ever-stronger principles.
+
+A word of caution—beyond this point (and a little bit before this point to be honest), we enter territory inhabited almost exclusively by logicians and set theorists. These larger ordinals and cardinals, while mathematically precise, have little connection to anything outside specialised logical discussions. They represent abstract possibilities rather than quantities that arise naturally in mathematics. Yet surprises occur—just as TREE(3) emerged from combinatorics to dwarf all previous numbers, these abstract ordinals occasionally appear in analysis. Still, for most purposes, this glimpse into the hierarchy suffices. 
+
+$\omega_1^{CK}$ (Church-Kleene $\omega_1$)—the first ordinal with no computable description. Every ordinal before this can be described by some computer program, even if that program would run forever. But $\omega_1^{CK}$ transcends computation itself. No algorithm, no matter how clever, can specify this ordinal. 
+
+$\omega_1$—the first uncountable ordinal. All ordinals before this can be put in one-to-one correspondence with natural numbers. But $\omega_1$ is the first ordinal too large for any such pairing. If you tried to list all smaller ordinals as first, second, third..., you would run out of natural numbers before reaching $\omega_1$. It's a bigger kind of infinity.
+
+Inaccessible cardinals—infinite numbers unreachable by standard set operations. You cannot reach an inaccessible cardinal by taking powers (such as $2^{\aleph_0}$), unions, or any combination of usual set-theoretic operations starting from smaller cardinals.
+
+Measurable cardinals—infinite numbers large enough to support probability measures. On finite sets, we can assign probabilities—half the integers from 1 to 10 are odd. But on infinite sets, this usually fails. Measurable cardinals are so large that probability makes sense again. Beyond these lie supercompact cardinals, where the entire universe of sets at any level looks like a small-scale model of the universe at the supercompact level.

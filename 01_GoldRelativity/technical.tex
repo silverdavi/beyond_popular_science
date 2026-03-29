@@ -1,0 +1,52 @@
+\begin{technical}
+    \sloppy
+    {\Large\textbf{Relativistic Quantum Chemistry and the Colour of Gold}}\\[0.3em]
+    
+    \techheader{Quantum Mechanical Origin of High Electron Velocities}
+    
+    Electrons in atoms are described by wavefunctions obeying the Schrödinger equation:
+    \[
+    \left[ -\frac{\hbar^2}{2m} \nabla^2 - \frac{Ze^2}{r} \right] \psi = E \psi.
+    \]
+    The kinetic term penalises localization, while the Coulomb term favours proximity to the nucleus. Their balance is constrained by the uncertainty principle: $\Delta x \cdot \Delta p \gtrsim \hbar$.
+    
+    Strong nuclear attraction forces wavefunction localization near $r = 0$, requiring large momentum components and thus high typical velocities.
+    
+    In nonrelativistic quantum mechanics, velocity is an operator:
+    \[
+    \hat{v} = \hat{p}/m, \quad \hat{p} = -i\hbar \nabla.
+    \]
+
+    For Dirac hydrogen-like ions, the characteristic electron speed scale for the innermost shells is $v_{\text{char}} \sim Z\alpha c$, where $ \alpha \approx 1/137 $. For gold (\(Z = 79\)), this yields \(v_{\text{char}} \approx 0.58c\), indicating that inner electrons have characteristic speeds that are a significant fraction of $c$.
+    
+    \techheader{Relativistic Orbital Contraction}
+
+    For Dirac hydrogenic $s$ states, a factor $\sqrt{1-(Z\alpha)^2}$ appears in the energy and radial functions; this is often re-expressed as an effective \QSOpen{}Lorentz factor\QSClose{} $\gamma = 1/\sqrt{1-(Z\alpha)^2}$ and used as a measure of relativistic contraction. As \(Z\) increases, \(\gamma\) increases from 1, indicating stronger relativistic effects. Relativistic corrections cause $\mathrm{s}$ and $\mathrm{p}_{1/2}$ orbitals to contract relative to the non-relativistic case, whereas $\mathrm{d}$ and $\mathrm{f}$ orbitals become more diffuse due to the different angular behaviour and spin–orbit structure. This contraction has consequences for interband transitions and optical properties.
+    
+    \techheader{Electronic Transitions and Optical Properties}
+    
+    Gold's configuration is [Xe]4f$^{14}$5d$^{10}$6s$^1$. Relativistic $6\mathrm{s}$ contraction and $5\mathrm{d}$ expansion reduce the $5\mathrm{d}$–conduction-band gap to roughly:
+    \[
+    \Delta E \sim 2.3\text{–}2.5\,\text{eV} \quad \Rightarrow \quad \lambda \sim 500\text{–}540\,\text{nm},
+    \]
+    in the green–blue region of the visible spectrum.
+    
+    In solids, these transitions span energy bands rather than discrete levels. Finite band widths and electron lifetimes broaden the absorption, leading to selective attenuation of blue light and reflection of red/green—the physical basis for gold’s colour.
+    
+    \techheader{Other Relativistic Effects in Heavy Elements}
+    
+    \begin{itemize}[leftmargin=*]
+    \item \textbf{Platinum (Silvery-White)}: In Pt (5d$^9$6s$^1$), relativistic effects also contract $6\mathrm{s}$ and modify the $5\mathrm{d}$ manifold, but the detailed band filling and $\mathrm{d}$-band position keep the main interband onset in the ultraviolet. As a result, the reflectivity is practically flat across the visible, so platinum appears silvery-white.
+    
+    \item \textbf{Mercury (Liquid)}: Relativistic contraction of the 6s$^2$ shell in Hg lowers and localises these electrons, reducing 6s–6s overlap and narrowing the 6s band. Metallic bonding is therefore unusually weak, and dispersion (van der Waals–type) interactions play a larger role compared to typical metals. This weakened cohesion explains mercury's anomalously low melting point of -38.8°C.
+    \end{itemize}
+    
+
+\techref
+{\footnotesize
+Williams, A. O. (1940). A Relativistic Self-Consistent Field for Cu\(^+\). \textit{Phys. Rev.}, \textbf{58}, 723.\\
+Mayers, D. F. (1957). Relativistic Self-Consistent Field Calculation for Mercury. \textit{Proc. R. Soc. Lond. A}, \textbf{241}, 93.\\
+Norrby, L. J. (1991). Why Is Mercury Liquid? Or, why do relativistic effects not get into chemistry textbooks? \textit{J. Chem. Educ.}, \textbf{68}, 110.\\
+Pyykkö, P., Desclaux, J. P. (1979). Relativity and the periodic system of elements. \textit{Acc. Chem. Res.}, \textbf{12} (8), 276–281.
+}
+\end{technical}

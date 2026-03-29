@@ -1,0 +1,52 @@
+\begin{technical}
+{\Large\textbf{Gravitational Inference and the Distribution of Dark Matter}}\\[0.3em]
+
+\techheader{Virial Mass in Galaxy Clusters (see also \hyperref[ch:osmosisdebye]{Chapter~31})}\\[0.25em]
+Clusters of galaxies are treated as self-gravitating systems in equilibrium. Let a system of \( N \) particles with masses \( m_i \) and velocities \( \mathbf{v}_i \) have total kinetic and potential energy:
+\[
+K = \sum_{i=1}^N \tfrac{1}{2} m_i v_i^2, \qquad
+U = - \sum_{i<j} \frac{G m_i m_j}{r_{ij}}.
+\]
+By the virial theorem:
+\[
+2\langle K \rangle + \langle U \rangle = 0.
+\]
+Assuming an isotropic one-dimensional velocity dispersion so that \( \langle v^2 \rangle = 3\sigma_v^2 \) and, for a roughly uniform sphere, \( U = - \tfrac{3}{5}\tfrac{G M^2}{R} \), we obtain:
+\[
+M_{\text{vir}} \approx \frac{5\,\sigma_v^2 R}{G},
+\]
+where \( R \) is the effective radius of the system. For rich clusters such as Coma, the mass inferred by this formula exceeds luminous mass (stars + gas) by over an order of magnitude.
+
+\techheader{Rotation Curves and Halo Profiles}\\[0.25em]
+In spiral galaxies, stars and gas orbit the galactic centre under gravitational attraction. For circular orbits:
+\[
+\frac{v^2(r)}{r} = \frac{G M(r)}{r^2} \quad \Rightarrow \quad M(r) = \frac{v^2(r)\,r}{G}.
+\]
+Observations show that \( v(r) \) remains nearly constant beyond the optical radius, implying \( M(r) \propto r \), inconsistent with the radial profile of visible mass.
+
+This necessitates a dark matter halo extending beyond the visible disc. Simulations and fits to data often use the Navarro–Frenk–White (NFW) profile:
+\[
+\rho(r) = \frac{\rho_0}{(r/r_s)(1 + r/r_s)^2},
+\]
+where \( \rho_0 \) is a characteristic density and \( r_s \) a scale radius. This profile produces approximately flat rotation curves at large \( r \) and matches the mass distributions required to stabilise galaxies against dispersal.
+
+\techheader{Weak Gravitational Lensing}\\[0.25em]
+Lensing measures projected surface mass. In the weak lensing regime, the convergence \( \kappa(\theta) \) is given by:
+\[
+\kappa(\theta) = \frac{\Sigma(\theta)}{\Sigma_{\text{crit}}}, \quad
+\Sigma_{\text{crit}} = \frac{c^2}{4\pi G} \cdot \frac{D_s}{D_d D_{ds}},
+\]
+with angular diameter distances \( D_s \) (observer to source), \( D_d \) (observer to lens), and \( D_{ds} \) (lens to source). The deflection angle is sensitive to the integrated surface mass density \( \Sigma(\theta) \). Mapping \( \kappa \) via background galaxy distortions reconstructs the total projected mass distribution.
+
+In systems such as the Bullet Cluster, lensing peaks and X-ray emission peaks are spatially offset. This implies that the dominant mass component is not collisional (as hot gas is), but rather behaves as a collisionless fluid, consistent with dark matter expectations.
+
+\techheader{Implications}\\[0.25em]
+The gravitational field inferred from cluster dynamics, orbital motion in galaxies, and lensing geometry all points to a dominant non-luminous mass component. Its spatial distribution is extended, centrally concentrated, and required across all scales. These observations define dark matter phenomenologically: a gravitationally interacting, non-emissive mass component that clumps and seeds structure.
+
+\techref
+{\footnotesize
+Zwicky, F. (1933). Die Rotverschiebung von extragalaktischen Nebeln. \textit{Helv. Phys. Acta}, \textbf{6}, 110–127.\\
+Navarro, J. F., Frenk, C. S., and White, S. D. M. (1997). A Universal Density Profile from Hierarchical Clustering. \textit{ApJ}, \textbf{490}, 493–508.\\
+Clowe, D., Brada\v{c}, M., Gonzalez, A. H., Markevitch, M., Randall, S. W., Jones, C., and Zaritsky, D. (2006). A Direct Empirical Proof of the Existence of Dark Matter. \textit{ApJL}, \textbf{648}, L109-L113.
+}
+\end{technical}

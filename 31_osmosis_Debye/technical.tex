@@ -1,0 +1,48 @@
+\begin{technical}
+{\Large\textbf{Membrane Forces and Competing Models of Osmotic Flow}}\\[0.3em]
+
+Three models compete to explain osmotic transport: thermodynamics (equilibrium only), diffusion (concentration gradients), and mechanical (interfacial forces). All yield van 't Hoff's law but differ in mechanism and predictive power.
+
+\techheader{1. Thermodynamic Model}\\[0.5em]
+Chemical potential equilibration yields:
+\begin{equation*}
+\Delta P = R\,T\,\Delta c_s.
+\end{equation*}
+Correct for equilibrium but provides no mechanism, flux rates, or explanation for $P_f / P_d$ ratios.
+
+\techheader{2. Diffusion Model}\\[0.5em]
+Water moves down concentration gradient:
+\begin{equation*}
+\Phi_D = -D_w \,\nabla c_w.
+\end{equation*}
+Predicts $P_f = P_d$, contradicting experiments where $P_f/P_d$ ranges from 10–730. Cannot explain convective flow or single-file transport.
+
+\techheader{3. Mechanical Model (Debye-Vegard)}\\[0.5em]
+Solute–membrane collisions create local pressure drop:
+\begin{equation*}
+\Phi_V = L_p\,(\Delta P - R\,T\,\Delta c_s).
+\end{equation*}
+Solute exclusion generates pressure gradient $dP/dx = c_s F$, yielding Vegard drop:
+\begin{equation*}
+\Delta P_\text{interface} = R\,T\,c_s.
+\end{equation*}
+Water flows through membrane due to real pressure gradient, not concentration difference.
+
+\techheader{4. Consequences for Permeability and Flow}\\[0.5em]
+The pressure drop across the membrane explains high $P_f / P_d$ ratios and unifies osmotic and pressure-driven flow:
+\begin{equation*}
+\Phi_V = -L_p\,\frac{dP}{dx}, \quad \text{(Darcy-like flow)}.
+\end{equation*}
+This model correctly predicts convective water transport in porous membranes and aquaporin-containing systems. In pure lipid bilayers lacking such channels, solute exclusion is absent and $P_f / P_d = 1$.
+
+\techheader{5. Comparative Summary}\\[0.5em]
+The thermodynamic model correctly predicts equilibrium but provides no mechanism or dynamics. The diffusion model offers dynamics but fails to match the magnitude and direction of flow in most membranes. The Debye–Vegard model provides dynamics, a clear mechanism, and explains the observed $P_f / P_d$. The mechanical pressure model distinguishes itself by explicitly identifying the origin of osmotic force and unifying the formalism with standard fluid mechanics.
+
+\techref
+{\footnotesize
+Debye, P. (1923). Physikalische Eigenschaften von Lösungen und Theorie der Elektrolyte. \textit{Phys. Z.} 24:334–338.\\
+Manning, G.S., and Kay, A.R. (2023). The physical basis of osmosis. \textit{J. Gen. Physiol.} 155:e202313332.\\
+Vegard, L. (1908). Zur Theorie der osmotischen Erscheinungen. \textit{Proc. Camb. Phil. Soc.} 15:13–23.\\
+Finkelstein, A. (1987). Water Movement Through Lipid Bilayers, Pores, and Plasma Membranes. \textit{Wiley}.
+}
+\end{technical}

@@ -1,0 +1,65 @@
+\begin{technical}
+{\Large\textbf{Allowed Tilings via Local Rules: SFTs, Wang Tiles, and Decidability}}\\[0.3em]
+
+\techheader{Setup:} Fix a finite alphabet $\mathcal{A}$. A configuration is $x\in\mathcal{A}^{\mathbb{Z}^d}$.  
+A finite \emph{forbidden list} $\mathcal{F}$ is a set of patterns $p:S\to\mathcal{A}$ with $S\subset\mathbb{Z}^d$ finite.  
+The \emph{allowed tilings} (a shift of finite type, SFT) are
+\begin{align*}
+X(\mathcal{F}) &= \bigl\{ x\in\mathcal{A}^{\mathbb{Z}^d} : \text{no translate of any } \\
+    & \qquad p\in\mathcal{F} \text{ occurs in } x \bigr\},
+\end{align*}
+For $d=2$, nearest-neighbour SFTs correspond exactly to Wang tilings: unit square tiles with coloured edges, where colours must match across adjacent edges.
+
+\techheader{Positive Baseline (1D):}  
+For $d=1$, any nearest-neighbour SFT is determined by a finite directed graph $G$ with adjacency matrix $A$. Then
+\[
+|\{\text{allowed words of length } n\}| = \mathbf{1}^\top A^{n-1} \mathbf{1}
+\]
+\vspace{0.25em}
+\begin{align*}
+h_{\text{top}}(X) &= \lim_{n\to\infty} \frac{1}{n} \log \bigl( \mathbf{1}^\top A^{n} \mathbf{1} \bigr) \\
+    &= \log \rho(A),
+\end{align*}
+and \emph{emptiness} is decidable: $X\neq\varnothing$ iff $G$ contains a directed cycle.
+
+\techheader{Undecidability in 2D (Domino Problem):}  
+\textbf{Problem:} Given $\mathcal{F}$ (or a set of Wang tiles), decide if $X(\mathcal{F})\neq\varnothing$.  
+\textbf{Theorem (Berger, Robinson):} There is no algorithm solving the Domino Problem.  
+\textbf{Idea:} Encode the space–time diagram of a Turing machine with local constraints. Non-emptiness of $X(\mathcal{F}_M)$ is equivalent to the existence of an infinite valid computation.
+
+\techheader{Aperiodic but Allowed:}
+\begin{align*}
+\exists\ &\text{finite tile sets } \mathcal{T}\ \text{with }X(\mathcal{T})\neq\varnothing \\
+ &\text{but no }x\in X(\mathcal{T})\text{ is periodic}.
+\end{align*}
+Local matching rules can therefore force nonperiodicity.
+
+\techheader{Expressiveness (Simulation Theorem):}  
+Every effective subshift $Y\subset\mathcal{B}^{\mathbb{Z}}$ (whose forbidden words form a recursively enumerable set) is a factor of some nearest-neighbour $\mathbb{Z}^2$ SFT $X(\mathcal{F})$.  
+Consequences: arbitrary recursively enumerable constraint systems, prescribed entropies, and computable dynamical encodings can be realised by 2D allowed tilings.
+
+\techheader{Tractable Subclass (Planar Dimers):}  
+For planar bipartite graphs, allowed tilings by dominoes (dimers) are exactly perfect matchings. The number of tilings satisfies
+\begin{align*}
+Z &= \#\{\text{allowed tilings}\} = |\det K|, \\
+    &\quad \text{where } K \text{ is the Kasteleyn-signed bipartite}\\
+    &\quad \text{adjacency (Kasteleyn) matrix.}
+\end{align*}
+This gives polynomial-time counting and closed-form correlation functions.  
+The solvability derives from planar Pfaffian structure rather than general local rules.
+
+\vspace{0.5em}
+\techheader{Takeaways:}
+\begin{itemize}\itemsep0.2em
+\item 1D allowed tilings: matrix methods; emptiness and entropy are computable.
+\item 2D allowed tilings: emptiness, periodicity, and many properties are undecidable.
+\item Restricted planar dimers remain exactly solvable via Pfaffian techniques.
+\end{itemize}
+
+\techref
+{\footnotesize
+Berger, R. (1966). \textit{The Undecidability of the Domino Problem}. Mem. AMS.\\
+Robinson, R. M. (1971). \textit{Undecidability and Nonperiodicity for Tilings of the Plane}. Invent. Math.\\
+Kasteleyn, P. W. (1961–67). \textit{Dimer Statistics and Pfaffians}. J. Math. Phys., Physica.
+}
+\end{technical}

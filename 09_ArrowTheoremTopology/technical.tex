@@ -1,0 +1,42 @@
+\begin{technical}
+{\Large\textbf{Topological Proof of Arrow's Impossibility Theorem}}\\[0.3em]
+
+Let \(\Omega_m\) be the set of all strict total orderings over \(m\) alternatives. Each ranking is a permutation of the \(m\) options, so \(\Omega_m\) has \(m!\) elements. For \(n\) voters, a preference profile is a point in the product space
+\[
+\mathcal{P} = \Omega_m^n,
+\]
+which contains every possible combination of rankings across the electorate. A social welfare function (SWF) is a map
+\[
+F : \mathcal{P} \to \Omega_m,
+\]
+assigning to each profile a collective ordering. 
+
+Arrow's theorem asserts that no such function exists satisfying all of the following properties (for \(m \geq 3\), \(n \geq 2\)):
+
+\begin{enumerate}
+    \item \textit{Unrestricted Domain}: The SWF must accept \emph{any} logically possible profile from \(\mathcal{P} = \Omega_m^n\) as input—no restrictions on which combinations of voter preferences are permitted.
+    \item \textit{Pareto Efficiency}: If every voter ranks \(x \succ y\), then \(F(\mathbf{P})\) must also rank \(x \succ y\).
+    \item \textit{Independence of Irrelevant Alternatives (IIA)}: The social ranking of \(x\) and \(y\) depends only on how voters rank \(x\) versus \(y\), not on preferences over other candidates.
+    \item \textit{Non-Dictatorship}: No single voter's preferences always determine the group ranking.
+    \item \textit{Transitivity}: The output \(F(\mathbf{P}) \in \Omega_m\) is inherently a strict total order, so transitivity is guaranteed by construction—\(F\) must map into the space of transitive orderings.
+\end{enumerate}
+
+To describe the topological version, consider \(\mathcal{P}\) as a discrete high-dimensional complex. Each profile is a vertex, and edges connect profiles differing by a single adjacent transposition in one voter’s list. This adjacency pattern turns \(\mathcal{P}\) into a combinatorial manifold with rich connectivity, encoding the geometry of preference space.
+
+IIA implies that for each pair \((x,y)\), the collective ranking between \(x\) and \(y\) is determined by the projection
+\[
+\pi_{xy} : \mathcal{P} \to \{ \text{$x \succ y$}, \text{$y \succ x$} \}^n,
+\]
+where \(\pi_{xy}(\mathbf{P})\) records, for each voter, whether they prefer \(x\) or \(y\). Thus, the function \(F\) factors through these binary-valued projections. The total group ranking is assembled from pairwise decisions, each constrained to depend only on corresponding slices of the profile space. This induces a factorization over a lower-dimensional cube of binary comparison data.
+
+The fibres of these projection maps—the preimages of fixed pairwise patterns—form the basic objects on which \(F\) must be consistent. The Pareto condition fixes behaviour on unanimous fibres, while non-dictatorship prevents collapse to a single voter’s coordinate. The key insight is that these fibres cannot be globally stitched together without encountering a topological obstruction.
+
+These obstructions cannot be resolved without violating one of the assumptions. Cycles force discontinuities, unanimity fails to propagate, or dictatorship emerges. No aggregation rule can navigate the profile space while satisfying all four conditions.
+
+\techref
+{\footnotesize
+Arrow, K. J. (1963). \textit{Social Choice and Individual Values}. Wiley.\\
+Baryshnikov, Y. (1997). Topological and discrete social choice: in a search of a theory. \textit{Social Choice and Welfare}, \textbf{14}(2), 199–209.\\
+Saari, D. G. (1994). \textit{Geometry of Voting}. Springer.
+}
+\end{technical}

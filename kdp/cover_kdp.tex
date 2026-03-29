@@ -1,0 +1,167 @@
+\documentclass[10pt]{article}
+% KDP hardcover cover: 15.486" x 10.250"
+% Trim: 7" x 10", spine: 1.236" (549pp standard color), bleed: 0.125"
+\usepackage[paperwidth=15.486in,paperheight=10.250in,margin=0in]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fontspec}
+\usepackage{microtype}
+
+% Book title - single source of truth
+\input{../name}
+
+% Typography
+\setmainfont{Palatino}
+\setsansfont{Futura Medium}
+\newfontfamily\titlefont{Futura Medium}
+\newfontfamily\spinefont{Futura Medium}
+\newfontfamily\authorfont{Futura Medium}
+\newfontfamily\backlabelfont{TeX Gyre Heros}
+
+% Colors
+\definecolor{textblack}{RGB}{15,15,15}
+\definecolor{whitebox}{RGB}{255,255,255}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% KDP dimensions
+\newlength{\bleedwidth}
+\newlength{\coverwidth}
+\newlength{\coverheight}
+\newlength{\spinewidth}
+
+\setlength{\bleedwidth}{0.125in}
+\setlength{\coverwidth}{7in}
+\setlength{\coverheight}{10in}
+\setlength{\spinewidth}{1.236in}
+
+% Modern styling with refined typography
+\tcbset{
+  coverbox/.style={
+    skin=standard jigsaw,
+    colback=whitebox, 
+    opacityback=0.98,
+    colframe=whitebox,
+    opacityframe=0,
+    boxrule=0pt,
+    arc=0pt,
+    left=8pt, 
+    right=8pt,
+    top=15pt,
+    bottom=15pt,
+    fontupper=\color{textblack}
+  }
+}
+
+\begin{document}
+\null
+\begin{tikzpicture}[remember picture,overlay]
+  % Background — oversized to cover full page including bleed
+  \node[anchor=center, inner sep=0pt] at (current page.center) {
+    \includegraphics[width=17.5in,height=11.8in,keepaspectratio=false]{../cover/cover_wrap_hires_White.png}
+  };
+  
+  % SPINE — geometric layout with separate positioned nodes
+  % White strip (background band)
+  \node[rotate=-90, anchor=center] at (current page.center) {
+    \begin{tcolorbox}[coverbox, width=7.6in, height=0.62in, opacityback=0.95, top=0pt, bottom=0pt, left=0pt, right=0pt]
+      \null
+    \end{tcolorbox}
+  };
+  % Spine title
+  \node[rotate=-90, anchor=center] at ([yshift=1.4in]current page.center) {
+    \spinefont\fontsize{14.6}{16.4}\selectfont UNPOPULAR SCIENCE
+  };
+  % Spine author
+  \node[rotate=-90, anchor=center] at ([yshift=-1.2in]current page.center) {
+    \spinefont\fontsize{12.1}{14.2}\selectfont DAVID H.\ SILVER
+  };
+  % Spine publisher
+  \node[rotate=-90, anchor=center] at ([yshift=-3.0in]current page.center) {
+    \spinefont\fontsize{6.8}{7.6}\selectfont
+    \begin{tabular}{@{}c@{}}KERNEL\\KEYS\\PRESS\end{tabular}
+  };
+  
+  % FRONT COVER
+  \pgfmathsetmacro{\frontoffset}{0.5*\spinewidth + 0.5*\coverwidth}
+  
+  % Title
+  \node[anchor=center] at ([xshift=\frontoffset, yshift=3in]current page.center) {
+    \begin{tcolorbox}[coverbox, width=5.0in, opacityback=0.95]
+      \centering\titlefont
+      \fontsize{48}{56}\selectfont
+      UNPOPULAR\\[10pt]
+      SCIENCE
+    \end{tcolorbox}
+  };
+
+  % Author
+  \node[anchor=center] at ([xshift=\frontoffset, yshift=-2.5in]current page.center) {
+    \begin{tcolorbox}[coverbox, width=3.4in, opacityback=0.95]
+      \centering\authorfont
+      \fontsize{24}{28}\selectfont
+      DAVID H.\ SILVER
+    \end{tcolorbox}
+  };
+
+
+  % BACK COVER
+  \pgfmathsetmacro{\backoffset}{-0.5*\spinewidth - 0.5*\coverwidth}
+  
+  % Blurb
+  \node[anchor=north] (blurb) at ([xshift=\backoffset, yshift=4in]current page.center) {
+    \begin{tcolorbox}[coverbox, width=6.0in, opacityback=0.97]
+      \fontsize{12}{17}\selectfont
+      Fifty phenomena from humanity's exploration of nature. Each chapter moves from historical context through the main exposition to rigorous technical analysis.
+      
+      \vspace{0.8em}
+      The Banach-Tarski paradox mathematically duplicates spheres. Quantum tunneling powers the sun despite insufficient temperatures. Gold's yellow color comes from relativistic effects at $58\%$ light speed in vacuum. Trees build themselves from thin air, converting CO$_2$ into solid mass. Maxwell's Demon sorts molecules to reverse entropy until information theory intervenes. Topological insulators conduct electricity only on their surfaces. Time dilation from gravity drives apples to fall from trees. The false vacuum could annihilate our universe with zero notice. Cosmic ray muons reach Earth's surface only because clocks tick slower at high velocity.
+      
+      \vspace{0.8em}
+      \textit{For readers curious enough to want the actual mathematics, tired of science communication that oversimplifies or sensationalizes. Science as it actually is: demanding, complex, but well worth the effort.}
+    \end{tcolorbox}
+  };
+
+  % ALIGNMENT LOGIC
+  \path (blurb.west) coordinate (blurbLeft);
+  \path (blurb.east) coordinate (blurbRight);
+  
+  \coordinate (stickerBaseY) at ($(current page.south) + (0,2.0in)$);
+
+  % Sticker - Right aligned to Blurb Right
+  \node[anchor=south east] (sticker) at (blurbRight |- stickerBaseY) {
+    \begin{tcolorbox}[coverbox, width=2.5in, opacityback=0.97]
+      \centering
+      \fontsize{9}{12}\selectfont\backlabelfont
+      {\bfseries VARIOUS FIELDS OF SCIENCE}\\[4pt]
+      Hardcover • 549 pages\\[4pt]
+      \fontsize{8}{10}\selectfont
+      {\itshape with 50 illustrations by}\\[-2pt]
+      \includegraphics[height=30pt]{../Jess.png}
+    \end{tcolorbox}
+  };
+
+  % Barcode - Centered under Sticker
+  \node[anchor=north] at ([yshift=-0.2in]sticker.south) {
+    \begin{tcolorbox}[coverbox, width=2.0in, height=1.2in, valign=center, halign=center, opacityback=1.0]
+      \includegraphics[width=1.6in]{../cover/barcode.pdf}
+    \end{tcolorbox}
+  };
+
+  % Bio - Left aligned to Blurb Left, Top aligned to Sticker Top
+  \node[anchor=north west] at (blurbLeft |- sticker.north) {
+    \begin{tcolorbox}[coverbox, width=3.0in, opacityback=0.97]
+      \fontsize{10}{13}\selectfont
+      {\bfseries\backlabelfont About the Author}
+      
+      \vspace{0.4em}
+      David H. Silver is an industrial researcher bridging science and engineering. With academic education in mathematics, computer science, and life sciences, his published work ranges from biology in \textit{Nature} to game-show theory in \textit{PLoS One}. He has held R\&D positions at Apple, Intel and Microsoft. He has also served as CTO of several companies, while maintaining academic collaborations worldwide.
+    \end{tcolorbox}
+  };
+
+\end{tikzpicture}
+\end{document}

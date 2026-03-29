@@ -1,0 +1,11 @@
+\begin{SideNotePage}{
+  \textbf{Top (Pixel-Level Edge Detection):}  
+  Each observer inspects a single pixel and flags whether it looks like part of an edge. This approach produces isolated detections without context—assembling a full line requires comparing scattered responses after the fact. It's data-rich but structure-poor: the system sees points, not lines. \par
+
+  \textbf{Middle (Line-Level Hough Detection):}  
+  Observers instead scan the whole image through virtual rulers at specific angles and offsets. Each one votes if their ruler aligns with edge evidence. The same number of detectors now deliver global outputs: lines directly. This is the core idea behind the Hough Transform—accumulating evidence in a parameter space where lines become peaks. \par
+
+  \textbf{Bottom (Phase Space Riddle):}  
+  Two roads connect cities A and B without crossing. A pair of cars, tied by a rope of length < $2R$, can travel side by side on these roads from A to B. Now consider two circular wagons of radius $R$, each centred on its own path—one going A to B, the other B to A. Let $(x, y)$ track their positions along the two roads, forming a trajectory in the unit square $I = \{(x, y) : 0 \leq x, y \leq 1\}$. The cars’ path goes from $(0, 0)$ to $(1, 1)$; the wagons' from $(1, 0)$ to $(0, 1)$. By topology, these curves must intersect. At the intersection, the wagons occupy the same positions as the cars once did, yet their centres are < $2R$ apart, and each wagon has radius $R$, so a collision is unavoidable. A fact that is difficult to prove directly. (After Konstantinov, in Arnold's \textit{ODEs}.) \par    
+}{41_HoughTransfrom/41_ It Is Just a Phase.pdf}
+\end{SideNotePage}

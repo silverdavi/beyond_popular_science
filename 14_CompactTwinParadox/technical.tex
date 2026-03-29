@@ -1,0 +1,57 @@
+\begin{technical}
+{\Large\textbf{The Twin Paradox and Chirality}}\\[0.3em]
+
+\techheader{Compact Minkowski Geometry}\\[0.5em]
+Consider a (1+1)-dimensional Minkowski spacetime with metric
+\[
+ds^2 = -c^2 dt^2 + dx^2,
+\]
+under the identification \(x \sim x + L\), forming a spatial circle of circumference \(L\). A twin (A) remains stationary at \(x = 0\). Twin B travels at constant velocity \(v > 0\) along the compact direction and returns after $n$ full loops, where \(n \in \mathbb{Z}^+\). The path is globally closed but locally inertial throughout.
+
+Define \(\beta \equiv v/c\). Let the coordinate reunion time be \(\Delta t = \frac{nL}{v}\). Twin A's proper time is
+\[
+\tau_A = \Delta t = \frac{nL}{v}.
+\]
+Twin B's proper time is reduced by the standard Lorentz factor:
+\[
+\tau_B = \Delta t \sqrt{1 - \beta^2} = \frac{nL}{v} \sqrt{1 - \beta^2}.
+\]
+The ratio
+\[
+\frac{\tau_B}{\tau_A} = \sqrt{1 - \beta^2}
+\]
+is strictly less than 1. The proper-time difference is nonzero, despite both worldlines being geodesic.
+
+\vspace{0.5em}
+\techheader{Lorentz Symmetry and Preferred Frames}\\[0.5em]
+In infinite Minkowski space, all inertial frames are equivalent. Compactification breaks this symmetry. The identification \(x \sim x + L\) selects a preferred frame in which the identification is purely spatial. In other frames boosted along the $x$-axis, the identification becomes mixed with time.
+
+To detect this asymmetry, send light signals in opposite directions around the loop. An observer moving at velocity \(v\) relative to the compact frame measures asymmetric round-trip times:
+\[
+t_{\pm} = \frac{L}{c(1 \mp \beta)}, \qquad \Delta t = t_+ + t_- = \frac{2L}{c(1 - \beta^2)}.
+\]
+This directional difference reveals the observer's motion relative to the compact topology. The spacetime remains locally Minkowskian, but the global topology renders the compact frame observationally distinct.
+
+\vspace{0.5em}
+\techheader{Non-Orientable Identification and Chirality Reversal}\\[0.5em]
+Now replace the identification with a non-orientable one:
+\[
+x \sim -x + L,
+\]
+which reverses orientation upon completing a loop. This defines a compact, boundaryless, non-orientable manifold—the spacetime analogue of a Klein bottle.
+
+Let a traveller carry an orthonormal frame \(e^\mu(t)\) along a geodesic parameterized by proper time \(t\). After one full traversal, parallel transport yields:
+\[
+e^\mu(t + T) = R^\mu_{\ \nu} e^\nu(t),
+\]
+where \(R^\mu_{\ \nu}\) is a linear transformation with determinant \(\det R = -1\). This inversion flips handedness: the transported frame returns as a mirror image of itself.
+
+Fields that are sensitive to orientation—such as spinors or chiral matter—cannot be globally defined without modification. While scalar fields remain unaffected, spinor bundles require consistent orientation to maintain chirality. In this topology, left-handed and right-handed states are exchanged after global propagation, even in the absence of any local interaction or curvature.
+
+\techref
+{\footnotesize
+Misner, C. W., Thorne, K. S., Wheeler, J. A. (1973). \textit{Gravitation}. Freeman.\\
+Geroch, R. (1967). \textit{J. Math. Phys.}, \textbf{8}.\\
+Isham, C. J. (1989). \textit{Modern Differential Geometry for Physicists}. World Scientific.
+}
+\end{technical}

@@ -1,0 +1,59 @@
+Thermal systems are characterised by macroscopic quantities—temperature, pressure, and volume—that arise from the statistical behaviour of countless microscopic constituents. Each molecule in a gas possesses position and velocity at every instant. Macroscopic observables summarise the collective dynamics of trillions of particles.
+
+A single macroscopic state corresponds to countless microscopic configurations. The same pressure and temperature can arise from different combinations of molecular positions and velocities. This multiplicity is central to statistical mechanics, where macroscopic descriptions average over the microstates that realise them.
+
+Entropy quantifies the logarithm of the number of microstates compatible with a given macrostate. In the Boltzmann formulation, the entropy (Boltzmann, 1877) $S$ of a system is expressed as $S = k_B \ln \Omega$, where $k_B$ is Boltzmann's constant and $\Omega$ denotes the number of microstates. This mathematical framework captures both the multiplicity of configurations and the incompleteness of macroscopic information.
+
+The Boltzmann constant $k_B = 1.380649 \times 10^{-23}$ J/K (exact, SI) bridges microscopic and macroscopic worlds. It converts between energy scales of individual particles (joules) and thermal energy (kelvins). At room temperature ($T \approx 300$ K), the thermal energy $k_B T \approx 4.14 \times 10^{-21}$ J sets the scale for molecular motion and thermal fluctuations.
+
+The second law of thermodynamics asserts that in an isolated system, entropy cannot decrease. Natural processes tend toward macrostates with greater multiplicity because they are overwhelmingly more probable—there are more ways to achieve a general, high-entropy macrostate than to achieve a lower-entropy, specific macrostate, so any \QSOpen{}random\QSClose{} process will tend to increase entropy. The law governs irreversibility in macroscopic phenomena and forbids spontaneous reorganisation into low-entropy configurations. Though microscopic dynamics allow rare fluctuations, most accessible microstates correspond to thermal equilibrium.
+
+The second law admits equivalent formulations: Clausius forbids spontaneous heat flow from cold to hot; Kelvin rules out complete conversion of heat to work in cyclic processes. Both capture energy's unidirectional dispersal.
+
+While microscopic laws (Newtonian mechanics, Schrödinger equation) are time-reversal invariant, macroscopic irreversibility emerges from statistical asymmetry. Individual molecular collisions remain reversible, but aggregate behaviour favours higher-entropy macrostates due to their numerical dominance.
+
+Although the total phase space volume occupied by a system is conserved under Hamiltonian evolution, as guaranteed by Liouville's theorem, entropy can increase. Fine-grained distributions evolve into intricate structures that, when viewed with any coarse-graining appropriate to macroscopic observations, appear more uniform, corresponding to higher entropy.
+
+Temperature reflects the average kinetic energy per degree of freedom in a system. In classical gases, the distribution of particle energies follows the Maxwell–Boltzmann distribution, while in more general statistical ensembles, the Boltzmann distribution governs the probability of finding the system in a given microstate, establishing a link between microscopic motion and macroscopic thermodynamic parameters.
+
+Thermodynamic processes exchange energy through work and heat. Entropy tracks irreversible energy dispersal and loss of microscopic information. Work represents organised energy transfer; heat denotes disorganised exchange. The second law ensures some energy becomes unavailable for work.
+
+The second law introduces the thermodynamic arrow of time. This arrow derives not from time-symmetric laws of motion, but from statistical tendencies toward higher entropy. Systems evolve from ordered to disordered states, establishing asymmetry between past and future.
+
+Entropy represents the missing information about the system's precise microstate. In this view, thermodynamic entropy parallels concepts from information theory, linking the physical evolution of systems with the informational limitations inherent in macroscopic descriptions.
+
+In 1867, James Clerk Maxwell introduced a thought experiment that challenged the apparent absoluteness of the second law of thermodynamics. He imagined a sealed box filled with gas at thermal equilibrium, where molecules moved randomly at a range of speeds and directions. A partition divided the box into two chambers, A and B, with a small frictionless door controlled by a hypothetical observer: the demon.
+
+The demon monitors molecules approaching the door without mechanical work or external energy. Fast molecules from A pass to B; slow molecules from B pass to A. Others are blocked. Faster molecules accumulate in B, slower ones in A.
+
+This sorting creates a temperature gradient. Heat flows from cold to hot without external energy, contradicting Clausius's formulation. Entropy decreases: the uniform configuration becomes ordered by temperature difference.
+
+The paradox: without work or external energy, the system evolves toward lower entropy. The demon appears to circumvent thermodynamic constraints.
+
+Two approaches resolve this paradox:
+
+\textbf{The Work-Based Approach} argues that the demon cannot operate without performing thermodynamic work. To distinguish between fast and slow molecules, the demon must interact with them, perhaps by shining light to measure their velocities or by mechanically probing their kinetic energies. These measurement processes necessarily require energy input and generate entropy. However, this approach faces a limitation: it cannot establish a precise quantitative relationship between the work invested in measurement and the entropy reduction achieved through sorting. The energy costs of individual molecular measurements depend on the specific measurement apparatus and protocols, making it difficult to prove that the entropy increase from measurement operations exactly compensates for the entropy decrease from molecular sorting.
+
+\textbf{The Information-Erasure Approach} offers a more satisfactory resolution by focusing not on measurement costs, but on the logical requirements of cyclic operation. This approach, developed by Rolf Landauer and Charles Bennett, recognises that for the demon to operate cyclically, it must eventually erase the information stored in its memory. Landauer's principle establishes that erasing one bit of information (Landauer, 1961) requires a minimum energy dissipation of $k_B T \ln 2$, where $k_B$ is Boltzmann's constant and $T$ the temperature of the environment. This energy cost is independent of the physical implementation—it represents a thermodynamic limit on information processing.
+
+Bennett's insight was that this erasure cost provides exact entropy accounting. In each cycle, the demon reduces the gas entropy by $k_B \ln 2$ (corresponding to one bit of information about molecular positions). To continue operating, the demon must erase one bit from its memory, which necessarily increases the environment's entropy by at least $k_B \ln 2$. The entropy reduction from molecular sorting is precisely compensated by the entropy increase from information erasure. No net entropy decrease occurs when all components, gas, demon memory, and thermal environment, are included in the accounting.
+
+This information-theoretic resolution is remarkable because it establishes that \textbf{information is physical}. The demon's memory, though conceptually abstract, must be realised in some material substrate subject to thermodynamic laws. The act of erasing information is not merely a computational operation but a physical process that generates heat and increases entropy.
+
+The information-erasure approach also reveals why attempts to circumvent the erasure requirement fail. If the demon preserves information indefinitely to avoid erasure costs, its memory eventually becomes full, preventing further operation. If the demon attempts to reset its memory without erasure, perhaps through reversible computation, the information is merely transferred elsewhere in the system, requiring eventual erasure at some location. The second law cannot be circumvented by clever information management; it emerges inevitably from the statistical nature of many-body systems and the physical reality of information storage.
+
+The \QSOpen{}piston-demon\QSClose{} model suggests the moving partition itself serves as memory, its position encoding molecular information. The resolution depends on system boundaries and whether demon-plus-gas constitutes a closed system.
+
+Quantum mechanics adds complexities: measurement disturbs systems, and indistinguishability constrains sorting. Quantum Maxwell's demons demonstrate how coherence and decoherence affect entropy accounting, probing connections between information, measurement, and thermodynamics.
+
+\begin{commentary}[Does a Full Hard Drive Weigh More?]
+    If information is physical, does a full hard drive weigh more than an empty one? Some theoretical arguments suggest tiny differences, though not in any measurable way.
+    
+    \textbf{Information Entropy}: A terabyte ($8\times10^{12}$ bits) of random data carries maximal Shannon entropy. Erasing that data would, by Landauer's principle, dissipate at least 
+    $E = N k_B T \ln 2 \approx 2.3\times10^{-8}\,\text{J}$ at room temperature, equivalent to $\Delta m = E/c^2 \approx 2.6\times10^{-22}\,\text{g}$. This represents heat released during erasure, not extra energy stored in the drive—no more than a $(6,6)$ dice throw weighs more than $(1,4)$.
+    
+    \textbf{Solid-State Drives}: In flash memory, a \QSOpen{}1\QSClose{} corresponds to additional trapped electrons in a floating gate. A terabyte written entirely with \QSOpen{}1\QSClose{} bits contains roughly $10^{16}$ extra electrons, adding about $10^{-11}\,\text{g}$. This effect is real but fifteen orders of magnitude smaller than the drive's total mass and far beyond detectability.
+\end{commentary}
+    
+    
+

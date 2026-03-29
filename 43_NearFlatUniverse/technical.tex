@@ -1,0 +1,74 @@
+\begin{technical}
+{\Large\textbf{Calculating Timescales}}\\[0.2em]
+
+\techheader{Recombination: Why 380,000 Years?}\\[0.25em]
+Recombination occurs when the universe cools enough for protons and electrons to form neutral hydrogen. The ionisation fraction is governed by the Saha equation:
+\begin{align*}
+\frac{n_e n_p}{n_H} = \left(\frac{m_e k_B T}{2\pi\hbar^2}\right)^{3/2} e^{-E_I/k_B T},
+\end{align*}
+where \(E_I = 13.6\,\text{eV}\) is hydrogen's ionisation energy. At \(T \sim 3000\,\text{K}\), \(n_H/n_e \sim 1000\): the plasma becomes neutral. 
+
+In a radiation-dominated universe, temperature scales as \(T \propto a^{-1} \propto t^{-1/2}\). From the Friedmann equation:
+\begin{align*}
+H^2 = \frac{8\pi G}{3}\rho_r, \quad \rho_r = \frac{\pi^2}{30}g_* k_B^4 T^4/(\hbar c)^3,
+\end{align*}
+where \(g_* \approx 3.36\) at recombination. Solving for \(t\):
+\begin{align*}
+t = \frac{1}{2H} \approx \frac{\sqrt{45}}{4\sqrt{2\pi^3 G g_*}} \frac{\hbar c}{k_B^2 T^2}.
+\end{align*}
+Substituting \(T = 3000\,\text{K}\) yields \(t \approx 380{,}000\,\text{yr}\).
+
+\techheader{Matter-Radiation Equality: 47,000 Years}\\[0.25em]
+Radiation density scales as \(\rho_r \propto a^{-4}\); matter density as \(\rho_m \propto a^{-3}\). Equality occurs when:
+\begin{align*}
+\rho_r(a_{\text{eq}}) = \rho_m(a_{\text{eq}}).
+\end{align*}
+Today's CMB temperature is \(T_0 = 2.725\,\text{K}\). At equality, \(T_{\text{eq}} = T_0 (1+z_{\text{eq}})\), where \(z_{\text{eq}} = a_0/a_{\text{eq}} - 1\). From Planck data:
+\begin{align*}
+\Omega_m h^2 = 0.143, \quad \Omega_r h^2 = 4.18 \times 10^{-5},
+\end{align*}
+giving \(z_{\text{eq}} \approx 3400\). Using the same temperature-time relation:
+\begin{align*}
+t_{\text{eq}} \approx 47{,}000\,\text{yr}.
+\end{align*}
+
+\techheader{Dark Energy Domination: 9 Billion Years}\\[0.25em]
+Dark energy density \(\rho_\Lambda\) remains constant as matter dilutes. Domination begins when \(\rho_\Lambda = \rho_m(a)\). Today's densities:
+\begin{align*}
+\Omega_\Lambda = 0.69, \quad \Omega_m = 0.31.
+\end{align*}
+Since \(\rho_m \propto a^{-3}\):
+\begin{align*}
+\rho_m(a) = \rho_{m,0} a^{-3}, \quad \rho_\Lambda = \text{const.}
+\end{align*}
+Equality at:
+\begin{align*}
+a_\Lambda = \left(\frac{\Omega_m}{\Omega_\Lambda}\right)^{1/3} \approx 0.75.
+\end{align*}
+The scale factor evolves as \(a(t) \propto t^{2/3}\) in matter era. Integrating from \(a = a_\Lambda\) to \(a = 1\) over 13.8 Gyr:
+\begin{align*}
+t_\Lambda \approx 9.8\,\text{Gyr}.
+\end{align*}
+
+\techheader{Nucleosynthesis Window: 1–20 Minutes}\\[0.25em]
+BBN requires \(T \sim 0.1\,\text{MeV}\) for deuterium formation but must occur before neutrons decay (\(\tau_{n} = 880\,\text{s}\)). At \(T = 0.8\,\text{MeV}\):
+\begin{align*}
+t_{\text{start}} \approx 1\,\text{s}.
+\end{align*}
+Reactions freeze out at \(T \sim 0.07\,\text{MeV}\):
+\begin{align*}
+t_{\text{end}} \approx 1200\,\text{s} \approx 20\,\text{min}.
+\end{align*}
+The neutron-to-proton ratio at freeze-out determines helium abundance:
+\begin{align*}
+Y_p = \frac{2(n/p)}{1 + (n/p)} \approx 0.25,
+\end{align*}
+matching observations precisely.
+
+\techref
+{\footnotesize
+Dodelson, S. (2003). \textit{Modern Cosmology}.\\
+Kolb, E. W., and Turner, M. S. (1990). \textit{The Early Universe}.\\
+Planck Collaboration (2020). \textit{A\&A}, \textbf{641}, A6.
+}
+\end{technical}

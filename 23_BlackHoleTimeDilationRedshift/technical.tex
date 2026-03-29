@@ -1,0 +1,64 @@
+\begin{technical}
+{\Large\textbf{Coordinate Reversal}}\\[0.1em]
+
+\techheader{Schwarzschild Metric and the Horizon}\\[0.5em]
+The Schwarzschild metric describes spacetime outside a static mass \(M\). In spherical coordinates \((t, r, \theta, \phi)\), it takes the form (with \( r_s = 2GM/c^2 \)):
+\begin{align*}
+\mathrm{d}s^2 =\ 
+& -\left(1 - \frac{r_s}{r}\right)c^2\,\mathrm{d}t^2 \nonumber \\
+& + \left(1 - \frac{r_s}{r}\right)^{-1}\mathrm{d}r^2 \nonumber \\
+& + r^2\,\mathrm{d}\theta^2 + r^2\sin^2\theta\,\mathrm{d}\phi^2.
+\end{align*}
+
+
+At \(r = r_s\), \(g_{tt} = 0\), \(g_{rr} \to \infty\). This signals a breakdown in coordinates, not in geometry.
+
+\vspace{0.3em}
+\techheader{Time Dilation and Gravitational Redshift}\\[0.5em]
+A static observer at fixed radius \(r > r_s\) experiences proper time:
+\begin{equation*}
+\mathrm{d}\tau = \sqrt{1 - \frac{r_s}{r}}\,\mathrm{d}t.
+\end{equation*}
+As \(r \to r_s\), \(\mathrm{d}\tau/\mathrm{d}t \to 0\). Distant clocks appear to tick normally, but local clocks slow near the horizon.
+
+Photons emitted at \(r_{\text{em}}\) and received at \(r_{\text{obs}} \to \infty\) undergo redshift:
+\begin{equation*}
+1 + z = \left(1 - \frac{r_s}{r_{\text{em}}}\right)^{-1/2}.
+\end{equation*}
+As \(r_{\text{em}} \to r_s\), \(z \to \infty\). Light from near the horizon becomes infinitely stretched and fades from view.
+
+\vspace{0.3em}
+\techheader{Finite Infall and Apparent Freezing}\\[0.5em]
+A freely falling observer released from rest at radius \(r_0 > r_s\) reaches radius \(r \le r_0\) in proper time:
+\begin{equation*}
+\tau(r; r_0) = \frac{2}{3}\,\frac{r_0^{3/2} - r^{3/2}}{\sqrt{2GM}}.
+\end{equation*}
+For any finite \(r_0\), the proper time to reach the horizon is finite. The infaller feels no discontinuity; the horizon is not a physical surface. Even an infaller starting from rest at infinity crosses the horizon in finite proper time, and continues to \(r=0\) also in finite proper time.
+
+However, to a distant observer, the infaller appears to freeze at \(r = r_s\), due to the divergence of coordinate time: $
+t(r) \to \infty \quad \text{as} \quad r \to r_s$.
+
+\vspace{0.3em}
+\techheader{Coordinate Inversion Below the Horizon}\\[0.5em]
+Inside the horizon (\(r < r_s\)), the signs of metric components reverse in Schwarzschild coordinates: $g_{tt} > 0, \qquad g_{rr} < 0$.
+In this coordinate choice \(r\) behaves timelike and \(t\) spacelike; in horizon-regular coordinates (e.g., Eddington–Finkelstein, Kruskal) this interpretation is seen as a coordinate effect while causal futures still point to decreasing \(r\).
+
+The physical implication is that movement in \(r\) becomes mandatory. All future-directed timelike paths lead to smaller \(r\), ending at the singularity \(r = 0\). The singularity is not \QSOpen{}a place inside\QSClose{} but a moment in the infaller’s proper future.
+
+This inversion  reflects the geometry. Any attempt to \QSOpen{}hover\QSClose{} or remain at constant \(r\) is no longer physically possible once inside the horizon.
+
+\vspace{0.3em}
+\techheader{Light Cones and Irreversibility}\\[0.5em]
+At the horizon, outgoing light rays remain on the surface: $\frac{\mathrm{d}r}{\mathrm{d}t} = 0 \quad \text{for outgoing null rays at } r = r_s$.
+
+Below the horizon, all light cones tip inward. Future lightlike and timelike paths are directed toward decreasing \(r\). There is no direction within the cone that leads to increasing radius.
+
+This defines the event horizon as a one-way temporal boundary: a surface from which causal influence cannot escape outward.
+
+\techref
+{\footnotesize
+Misner, C. W., Thorne, K. S., Wheeler, J. A. (1973). \textit{Gravitation}.\\
+Carroll, S. M. (2004). \textit{Spacetime and Geometry}.\\
+Wald, R. M. (1984). \textit{General Relativity}.
+}
+\end{technical}

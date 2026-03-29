@@ -1,0 +1,62 @@
+\begin{technical}
+{\Large\textbf{Quantitative Analysis of Astronomical Colour}}\\[0.3em]
+
+
+\techheader{Radiative Transfer and Blackbody Radiation}\\[0.2em]
+The propagation of specific intensity \( I_\nu \) along a path \( s \) is governed by the equation of radiative transfer:
+\begin{align*}
+\frac{dI_\nu}{ds} &= j_\nu - \alpha_\nu I_\nu - \sigma_\nu I_\nu \\
+&\quad + \iint \sigma_\nu(\Omega', \Omega) I_\nu(\Omega')\, d\Omega',
+\end{align*}
+where \( j_\nu \) is the emission coefficient, \( \alpha_\nu \) is the absorption coefficient, and \( \sigma_\nu \) is the scattering coefficient. The optical depth is \( d\tau_\nu = (\alpha_\nu + \sigma_\nu)\, ds \). In local thermodynamic equilibrium (LTE) without scattering, the source function reduces to \( S_\nu = j_\nu/\alpha_\nu \), which approaches the Planck function for thermal emission. With scattering present, the total source function mixes thermal emission and angle-averaged scattered intensity: \( S_\nu = (\alpha_\nu B_\nu + \sigma_\nu J_\nu) / (\alpha_\nu + \sigma_\nu) \), where \( J_\nu \) is the mean intensity.
+\[
+B_\nu(T) = \frac{2h\nu^3}{c^2} \left[ \exp\left( \frac{h\nu}{kT} \right) - 1 \right]^{-1}.
+\]
+The wavelength of peak emission is given by Wien's law:
+\[
+\lambda_{\text{max}} T = b \approx 2.898 \times 10^{-3} \, \text{m} \cdot \text{K}
+\]
+and the total emitted flux per unit area follows the Stefan-Boltzmann law:
+\[
+F = \sigma T^4, \quad \sigma = \frac{2\pi^5 k^4}{15c^2 h^3}.
+\]
+Stellar temperatures can be inferred by fitting observed continua or via colour indices (e.g., \( B-V \)), which measure differences in magnitude across filtered bands.
+
+\techheader{Spectral Lines and Atmospheric Composition}\\[0.2em]
+Spectral lines originate from electronic transitions with energy \( \Delta E = h\nu = E_u - E_l \). In LTE, population ratios follow the Boltzmann distribution:
+\[
+\frac{N_u}{N_l} = \frac{g_u}{g_l} \exp\left( -\frac{E_u - E_l}{kT} \right).
+\]
+Ionization states are governed by the Saha equation:
+\[
+\frac{N_{i+1} N_e}{N_i} = \frac{2 g_{i+1}}{g_i} \left( \frac{2\pi m_e kT}{h^2} \right)^{3/2} \exp\left( -\frac{\chi_i}{kT} \right)
+\]
+where \( \chi_i \) is the ionisation energy and \( N_e \) is the electron density. Line shapes are broadened by natural width, thermal Doppler broadening:
+\[
+\Delta \lambda_D = \lambda_0 \left( \frac{2kT}{mc^2} \right)^{1/2}
+\]
+and collisional (pressure) broadening, which scales with density. Observed line intensities allow reconstruction of chemical abundances and physical conditions.
+
+\techheader{Motion, Redshift, and Extinction}\\[0.2em]
+The Doppler effect shifts wavelengths by
+\[
+\frac{\Delta \lambda}{\lambda_0} = \frac{v_r}{c}, \quad (v_r \ll c)
+\]
+where \( v_r \) is the radial velocity. Redshift (\( \Delta \lambda > 0 \)) indicates recession; blueshift indicates approach. For distant galaxies, the cosmological redshift \( z \) is related to the scale factor \( R(t) \) via $1 + z = R(t_{\text{obs}})/R(t_{\text{emit}})$ and follows Hubble's law for \( z \ll 1 \): \( v = H_0 d \).
+
+Extinction by dust is quantified by
+\[
+A_\lambda = 1.086\, \tau_\lambda = -2.5 \log_{10} \left( {F_\lambda}/{F_{\lambda,0}} \right)
+\]
+where \( \tau_\lambda \) is the optical depth. Reddening is the differential extinction between bands:
+\[
+E(B - V) = A_B - A_V
+\]
+and the total-to-selective extinction ratio \( R_V = A_V / E(B - V) \) typically has a value near 3.1 for the diffuse interstellar medium. For small particles \( a \ll \lambda \), Rayleigh scattering dominates, with efficiency \( \propto \lambda^{-4} \). For \( a \sim \lambda \), Mie scattering applies, with weaker wavelength dependence.
+
+\techref
+{\footnotesize
+Rybicki, G. B., and Lightman, A. P. (1979). \textit{Radiative Processes in Astrophysics}. Wiley.\\
+Draine, B. T. (2003). Interstellar Dust Grains. \textit{Annual Review of Astronomy and Astrophysics}.
+}
+\end{technical}

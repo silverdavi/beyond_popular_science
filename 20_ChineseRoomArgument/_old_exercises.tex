@@ -1,0 +1,53 @@
+\fullpageexercises[Symbol Completion as Structure Recognition]{
+
+\noindent\textbf{Premise:} Let $\mathcal{S}$ denote a symbolic vocabulary with no presumed semantic interpretation:
+
+\[
+\mathcal{S} = \left\{ \heartsuit, \mathbb{\Omega}, \sum, \approx, \Psi, \S, \text{β} \right\}
+\]
+
+All sequences are of fixed length 4 and drawn from $\mathcal{S}$ under latent generative constraints. These constraints are not explicitly defined but must be inferred inductively from the set of valid exemplars:
+
+\begin{center}
+\begin{tabular}{llll}
+$\heartsuit$ & $\mathbb{\Omega}$ & $\S$ & β \\
+$\sum$ & $\Psi$ & $\mathbb{\Omega}$ & $\approx$ \\
+$\heartsuit$ & $\sum$ & $\S$ & $\approx$ \\
+$\sum$ & $\mathbb{\Omega}$ & $\S$ & $\approx$ \\
+$\heartsuit$ & $\Psi$ & $\mathbb{\Omega}$ & β \\
+$\sum$ & $\sum$ & $\S$ & β \\
+$\heartsuit$ & $\S$ & $\mathbb{\Omega}$ & $\approx$ \\
+$\sum$ & $\S$ & $\mathbb{\Omega}$ & β \\
+\end{tabular}
+\end{center}
+
+These sequences reflect both deterministic constraints and context-sensitive statistical dependencies. The task is to infer completions consistent with such patterns.
+
+\vspace{1em}
+\noindent\textbf{Challenge A:} Complete the sequence: $\sum \ \Psi \ \_ \ \approx$
+
+\vspace{0.3em}
+\noindent\textbf{Observation:} Only one sequence in the corpus contains $\Psi$ in position 2—namely, $\sum \ \Psi \ \mathbb{\Omega} \ \approx$. Furthermore, in all three sequences where $\mathbb{\Omega}$ appears in position 3 (rows 1, 2, 5), its placement coincides with $\Psi$ or $\S$ in position 2, suggesting a soft preference for $\mathbb{\Omega}$ to follow these symbols. No conflicting evidence appears for the triple $\sum \ \Psi \ \_$. In the absence of counterexamples and given alignment with a full sequence already present, the third symbol is inferred to be $\mathbb{\Omega}$.
+
+\noindent\textbf{Answer:} \boxed{\mathbb{\Omega}}
+
+\vspace{1em}
+\noindent\textbf{Challenge B:} Complete the sequence: $\heartsuit \ \S \ \mathbb{\Omega} \ \_$
+
+\vspace{0.3em}
+\noindent\textbf{Observation:} The prefix $\heartsuit \ \S$ appears exactly once (row 7), where it yields $\mathbb{\Omega} \ \approx$. The symbol $\approx$ appears at position 4 in every sequence where $\heartsuit$ is the initial symbol and $\S$ appears anywhere. More generally, whenever $\heartsuit$ and $\S$ co-occur with $\mathbb{\Omega}$, the terminal symbol is always $\approx$. The combination thus forms a closed 4-gram with a stable final token. No sequence ends with β when this triplet occurs. The regularity suggests a deterministic or near-deterministic rule that when $\heartsuit$ is followed by $\S$ and then $\mathbb{\Omega}$, the closing symbol is $\approx$.
+
+\noindent\textbf{Answer:} \boxed{\approx}
+
+\vspace{1em}
+\noindent\textbf{Challenge C:} Complete the sequence: $\sum \ \S \ \mathbb{\Omega} \ \_$
+
+\vspace{0.3em}
+\noindent\textbf{Observation:} This exact prefix matches one observed sequence (row 8), where it terminates in β. To test the stability of this prediction, consider all sequences with $\sum$ in position 1 and $\S$ in position 2. Two such sequences exist: rows 6 and 8. Both end with β, and both include $\mathbb{\Omega}$ in position 3. This consistent co-occurrence pattern supports the inference that β is favoured as the fourth symbol under this structural prefix. There is no evidence of $\approx$ closing such sequences when $\sum \ \S \ \mathbb{\Omega}$ is present.
+
+\noindent\textbf{Answer:} \boxed{\text{β}}
+
+\vspace{1em}
+
+Each query above demonstrates a different inferential mode: deterministic lookup via exact prefix match (Challenge C), statistical extrapolation from limited data (Challenge A), and structured pattern extraction with limited variation (Challenge B). 
+}

@@ -1,0 +1,42 @@
+\fullpageexercises{%
+\textbf{1. Wine/Water Paradox} \\[0.5em]
+A mixture contains wine and water in a ratio \( x = \frac{\text{wine}}{\text{water}} \), with \( x \in [\tfrac{1}{3}, 3] \). Assuming \( x \) is uniformly distributed, compute the probability that the mixture has \( x \leq 2 \). Now let \( y = \frac{1}{x} \), representing the water-to-wine ratio, and assume \( y \) is uniformly distributed instead. What is the probability that \( y \geq \tfrac{1}{2} \)? Why are the two results inconsistent?
+
+\textit{Hint:} Use
+\[
+P(x \leq x_t) = \frac{x_t - x_{\min}}{x_{\max} - x_{\min}}, \qquad
+P(y \geq y_t) = \frac{x_{\max}(1 - x_{\min} y_t)}{x_{\max} - x_{\min}}.
+\]
+Evaluate both at \( x_t = 2 \), \( y_t = \tfrac{1}{2} \). What contradiction arises?
+
+\vspace{1em}
+\textbf{2. Monty Hall Problem} \\[0.5em]
+Three closed doors hide a car and two goats. You choose Door 1. The host, who knows what is behind each door, opens Door 3, revealing a goat, and offers you the option to switch to Door 2. Should you switch?
+
+\textit{Hint:} The host never opens your door and never reveals the car. Compute:
+\[
+P(\text{Car behind D1} \mid \text{Host opens D3}) \quad \text{vs} \quad
+P(\text{Car behind D2} \mid \text{Host opens D3}).
+\]
+Use Bayes's theorem. The host’s choice depends on your initial pick and the hidden car's placement.
+
+\vspace{1em}
+\textbf{3. Tuesday Boy Problem} \\[0.5em]
+A family has two children. You are told that one of them is a boy born on a Tuesday. What is the probability that both are boys?
+
+\textit{Hint:} Let \( \varepsilon = \tfrac{1}{7} \). Then:
+\[
+\mathrm{P(BB \mid B_T)} = \frac{\left(1-(1-\varepsilon)^{2}\right) \times \tfrac{1}{4}}{0 + \tfrac{1}{4}\varepsilon + \tfrac{1}{4}\varepsilon + \tfrac{1}{4}\left(\varepsilon + \varepsilon - \varepsilon^{2}\right)} = \frac{1-(1-\varepsilon)^{2}}{4\varepsilon - \varepsilon^{2}} = \frac{(2 - \varepsilon)}{(4 - \varepsilon)}
+\]
+
+\vspace{1em}
+\textbf{4. Two-Black-Sides Card Problem} \\[0.5em]
+You randomly select a card from a box containing: one black-black card, one white-white card, and one black-white card. You see a black face. What is the probability the other side is black?
+
+\vspace{1em}
+\textbf{5. Sleeping Beauty Problem} \\[0.5em]
+Sleeping Beauty is put to sleep. A fair coin is tossed. If heads, she is woken on Monday only. If tails, she is woken on Monday and Tuesday (but forgets Monday). Upon waking, what is her credence that the coin landed on heads?
+
+\textit{Hint:} Model the wake-up events: \( \{\text{H-M}, \text{T-M}, \text{T-T}\} \). Normalise using the condition: \QSOpen{}I am awake now.\QSClose{}
+
+}

@@ -1,0 +1,51 @@
+\begin{technical}
+{\Large\textbf{Quantum Transitions and the Limits of Clock Stability}}\\[0.3em]
+Atomic and nuclear clocks define time by referencing a sharply resonant transition between two quantum states. The frequency of this transition is determined by fundamental constants and is reproducible across identical systems. The precision with which this frequency can be measured depends on the linewidth of the transition, the stability of the interrogation system, and the protocol used to extract frequency information. This section formalises the mathematical quantities that govern frequency stability, relates them to the physical structure of the transition, and identifies the limits imposed by spacetime curvature and coupling constants.
+
+\techheader{Spectral Linewidth and Quality Factor}\\[0.5em]
+Let $f_0$ denote the central transition frequency and $\Delta f$ the full width at half maximum (FWHM). The quality factor is defined by:
+\[
+Q = \frac{f_0}{\Delta f}.
+\]
+In Ramsey interrogation, $\Delta f \approx 1/(2T)$, where $T$ is the free evolution time between pulses. Hence,
+\[
+Q \approx 2 f_0 T.
+\]
+Optical lattice clocks probing transitions in strontium or ytterbium atoms with $f_0 \sim 10^{15}\,\mathrm{Hz}$ and $T \sim 1\,\mathrm{s}$ routinely achieve $Q > 10^{15}$.
+
+\techheader{Allan Deviation and Averaging Behaviour}\\[0.5em]
+The fractional instability of a clock over averaging time $\tau$ is quantified by the Allan deviation:
+\[
+\sigma_y(\tau) \approx \frac{1}{Q} \cdot \frac{1}{\mathrm{SNR}} \cdot \sqrt{\frac{T_c}{\tau}},
+\]
+where $\mathrm{SNR}$ is the signal-to-noise ratio and $T_c$ the cycle time. Increasing $Q$, improving detection fidelity, and lengthening $\tau$ all contribute to reduced $\sigma_y(\tau)$.
+
+\techheader{Hyperfine and Nuclear Transition Energies}\\[0.5em]
+In cesium-133, the clock transition arises from magnetic dipole coupling between nuclear spin $\vec{I}$ and electron angular momentum $\vec{J}$, producing total angular momentum $\vec{F} = \vec{I} + \vec{J}$ and energy splitting:
+\[
+E_F = \frac{A}{2} \left[ F(F+1) - I(I+1) - J(J+1) \right].
+\]
+The $F=3 \leftrightarrow F=4$ transition at $f_0 = 9.192\,631\,770$ GHz defines the SI second. In $^{229}$Th, the nuclear excitation energy $E \approx 8.3\,\mathrm{eV}$ corresponds to:
+\[
+f_{\mathrm{Th}} = \frac{E}{h} \approx 2.0 \times 10^{15}\,\mathrm{Hz}, \quad Q_{\mathrm{Th}} \gtrsim 10^{19}.
+\]
+
+\techheader{Relativistic Shift and Coupling Sensitivity}\\[0.5em]
+In general relativity, clocks at different gravitational potentials $W$ accumulate proper time at different rates. The fractional frequency shift is:
+\[
+\frac{\Delta f}{f} = \frac{\Delta W}{c^2} \approx \frac{gh}{c^2},
+\]
+where $g$ is gravitational acceleration and $h$ the height difference. At $10^{-18}$ resolution, height differences of 1 cm are resolvable.
+
+Clock transitions sensitive to the fine-structure constant $\alpha$ respond to coupling variations via:
+\[
+\frac{\Delta f}{f} = K_\alpha \cdot \frac{\Delta \alpha}{\alpha},
+\]
+where $K_\alpha$ is a dimensionless sensitivity coefficient. In nuclear systems such as $^{229}$Th, this coefficient may exceed $10^4$, amplifying the clock’s utility in probing scalar fields or dark sector interactions.
+
+\techref
+{\footnotesize
+Ludlow, A. D. et al. (2015). \textit{Optical atomic clocks}. Rev. Mod. Phys. 87(2), 637–701.\\
+Safronova, M. S. et al. (2018). \textit{Search for new physics with atomic clocks}. Rev. Mod. Phys. 90(2), 025008.
+}
+\end{technical}

@@ -1,0 +1,59 @@
+\fullpageexercises[Exercise: Fermat’s Principle from Path Interference]{
+
+\noindent \textbf{Objective:} Show how Fermat’s Principle follows from summing over quantum amplitudes associated with all possible optical paths.
+
+\begin{enumerate}
+    \item \textbf{Phase of a Path.} \\
+    In a uniform medium with refractive index \( n \), let \( \gamma \) be a path from point A to B with geometric length \( L_\gamma \). Define:
+    \[
+    v = \frac{c}{n}, \quad k = \frac{\omega}{v} = k_0 n, \quad \phi_\gamma = k L_\gamma
+    \]
+    where \( \omega \) is the angular frequency and \( k_0 = \omega/c \) is the vacuum wavenumber.
+
+    \item \textbf{Amplitude Contribution.} \\
+    The amplitude assigned to each path is a unit phasor:
+    \[
+    A(\gamma) = e^{i \phi_\gamma} = e^{i k L_\gamma}
+    \]
+    The total amplitude is the sum over all such paths:
+    \[
+    \Psi_{AB} = \int e^{i k L_\gamma} \, \mathcal{D}[\gamma]
+    \]
+
+    \item \textbf{Modelling Small Variations.} \\
+    Let \( \gamma_0 \) be the classical path (shortest optical length). For nearby paths, model the length as:
+    \[
+    L(\epsilon) = L_0 + \alpha \epsilon^2
+    \]
+    with \( \epsilon \in \mathbb{R} \) describing path variation and \( \alpha > 0 \) a curvature term. Then:
+    \[
+    e^{i k L(\epsilon)} = e^{i k L_0} \cdot e^{i k \alpha \epsilon^2}
+    \]
+
+    \item \textbf{Simplified Integral.} \\
+    Approximate the path sum by integrating over \( \epsilon \):
+    \[
+    \Psi_{AB} \approx e^{i k L_0} \int_{-\infty}^{\infty} e^{i k \alpha \epsilon^2} d\epsilon
+    \]
+    This is a Fresnel-type integral. It converges due to rapid oscillation of the exponential.
+
+    \item \textbf{Interference Behaviour.} \\
+    Compute the rate of phase change:
+    \[
+    \frac{d\phi}{d\epsilon} = \frac{d}{d\epsilon}(k L(\epsilon)) = 2k\alpha \epsilon
+    \]
+    Near \( \epsilon = 0 \), the phase changes slowly, and contributions add constructively. For large \( |\epsilon| \), the phase swings rapidly, leading to cancellation.
+
+    \item \textbf{Stationary Phase Condition.} \\
+    The integral is dominated by paths satisfying:
+    \[
+    \delta L_\gamma = 0 \quad \text{or more generally} \quad \delta \int_\gamma n(s) \, ds = 0
+    \]
+    This is Fermat’s Principle: the optical path length is stationary under small variations in the path.
+
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Strongly Recommended Reading:} \textit{QED: The Strange Theory of Light and Matter} by Richard Feynman presents this principle through phase summation over all paths. The account is accessible but avoids distortion.
+}

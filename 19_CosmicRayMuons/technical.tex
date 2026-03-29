@@ -1,0 +1,58 @@
+\begin{technical}
+    {\Large\textbf{Relativistic Lifetimes of Cosmic Muons}}\\[0.3em]
+
+    \techheader{Introduction}\\[0.5em]
+    Muons decay via the weak interaction with a proper lifetime $\tau_0 \approx 2.2\,\mu\text{s}$ in their rest frame. This value was determined experimentally by observing muons at rest in controlled environments. High-energy muons, produced either in cosmic ray interactions or particle accelerators, are slowed down using materials such as carbon or liquid hydrogen until they are brought to rest. Once stationary, their decays are monitored using detectors that record the timing and energy of the emitted positrons from the decay process:
+    \[
+    \mu^+ \to e^+ + \nu_e + \bar{\nu}_\mu.
+    \]
+    
+    The time distribution of detected positrons follows an exponential decay law:
+    \[
+    N(t) = N_0 e^{-t / \tau_0},
+    \]
+    where $N(t)$ is the number of decays observed at time $t$, and $\tau_0$ is the proper lifetime of the muon. By fitting the observed decay curve, $\tau_0$ was measured with high precision to be approximately $2.2\,\mu\text{s}$.
+    
+    When moving at relativistic speeds, time dilation modifies this observed lifetime according to special relativity. From the perspective of an observer on Earth, the muon's lifetime appears stretched by a Lorentz factor $\gamma$, allowing it to travel much farther than expected before decaying.
+    
+    \techheader{1. Time Dilation Factor}\\[0.5em]
+    Let $v$ be the muon’s speed and $\gamma$ the Lorentz factor:
+    \begin{equation*}
+        \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}.
+    \end{equation*}
+    For $v \approx 0.9995\,c$, the factor is:
+    \[
+        \gamma \approx 32.
+    \]
+    Consequently, the muon’s observed lifetime in the lab frame is
+    \begin{equation*}
+        \tau_{\mathrm{obs}} = \gamma \,\tau_0 \approx 32 \times 2.2\,\mu\text{s} \approx 70\,\mu\text{s}.
+    \end{equation*}
+
+    \techheader{2. Distance Travelled}\\[0.5em]
+    During this dilated lifetime, a muon can travel:
+    \begin{equation*}
+        d = v \,\tau_{\mathrm{obs}} 
+          \approx 0.9995\,c \times 70\,\mu\text{s}
+          \approx 21\,\text{km}.
+    \end{equation*}
+    This exceeds the 15 km from the upper atmosphere to sea level, explaining why so many muons survive to reach detectors.
+
+    \techheader{3. Alternate View: Length Contraction}\\[0.5em]
+    In the muon’s reference frame, its lifetime remains $2.2\,\mu\text{s}$, but the distance to Earth is contracted by $1/\gamma$, shrinking 15 km to under 500 m. Both descriptions are consistent, reflecting the symmetry of special relativity.
+
+    \techheader{Conclusion}\\[0.5em]
+    The unexpected abundance of muons at sea level offered a compelling demonstration of relativistic time dilation. These measurements confirmed that high-speed particles experience significantly slowed decay rates, matching Einstein’s predictions and underscoring the profound role of relativity in particle physics.
+
+        \techref
+{\footnotesize
+Rossi, B., and Hall, D. B., \textit{Physical Review}, 59(3), 223–228 (1941).\\    
+HyperPhysics Muon Simulation: \textcolor{black}{\url{http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/muon.html}}\\
+}
+    
+    \textit{Scan the QR code below to access the simulator:} \\
+
+    \begin{center}
+    \pdftooltip{\includegraphics[width=3cm]{19_CosmicRayMuons/no_customization_frame.pdf}}{QR code linking to an interactive cosmic ray muon detector simulator.} 
+    \end{center}
+\end{technical}

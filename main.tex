@@ -1,0 +1,256 @@
+
+\documentclass[11pt,openright]{book}
+
+\input{name}
+\input{preamble}
+
+% Enable only specific chapters
+
+
+% Second Set
+
+
+\begin{comment}
+
+\end{comment}
+% Title and author
+\title{\booktitle}
+\author{David H. Silver}
+\date{\today}
+
+\begin{document}
+
+% Use Roman numerals for front matter (title, intro, TOC, prologue)
+\pagenumbering{roman}
+
+% Cover removed for print-ready interior
+% Front matter: half-title (recto), blank (verso), title (recto), copyright (verso)
+\input{halftitle}
+\thispagestyle{empty}
+\mbox{}
+\clearpage
+% Academic title page
+\input{titlepage}
+\input{copyright}
+
+% Introduction
+\chapter*{Introduction}
+\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{Introduction}
+\vfill
+\input{intro}
+\vfill
+\clearpage  % End introduction page
+% Blank page so Contents will be recto after OBP front matter is added
+\thispagestyle{empty}
+\mbox{}
+\clearpage
+% Table of contents — suppress page number on first page
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents
+\newpage
+% Prologue
+\chapter*{Prologue}
+\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{Prologue}
+\input{prologue}
+
+\markboth{}{}          % Clear header marks before main matter
+\cleardoublepage       % Ensure next page is recto (blank page gets Roman numeral if needed)
+% Start main matter with Arabic page numbering
+\pagenumbering{arabic}
+
+\chapterwithsummaryfromfile[ch:goldrelativity]{01_GoldRelativity}
+\inputstory{01_GoldRelativity} %Approved
+
+\chapterwithsummaryfromfile[ch:acceleratinguniverse]{02_AcceleratingUniverse}
+\inputstory{02_AcceleratingUniverse} %Approved
+
+\chapterwithsummaryfromfile[ch:banach]{03_BanachTarskiParadox}
+\inputstory{03_BanachTarskiParadox} %Approved
+
+\chapterwithsummaryfromfile[ch:energytransmission]{04_EMFieldsEnergyFlow}
+\inputstory{04_EMFieldsEnergyFlow} %Approved
+
+\chapterwithsummaryfromfile[ch:circlewheel]{05_CircleWheel}
+\inputstory{05_CircleWheel}
+
+\chapterwithsummaryfromfile[ch:gravitytimedilation]{06_GravityTimeDilation}
+\inputstory{06_GravityTimeDilation} %Approved
+
+\chapterwithsummaryfromfile[ch:billiardsconicsporism]{07_BilliardsConicsPorism} 
+\inputstory{07_BilliardsConicsPorism} %Approved
+
+\chapterwithsummaryfromfile[ch:boundedprimegaps]{08_BoundedPrimeGaps} 
+\inputstory{08_BoundedPrimeGaps} 
+
+\chapterwithsummaryfromfile[ch:arrowtheoremtopology]{09_ArrowTheoremTopology} %Approved
+\inputstory{09_ArrowTheoremTopology}
+
+\chapterwithsummaryfromfile[ch:solarfusionquantumtunneling]{10_SolarFusionQuantumTunneling}
+\inputstory{10_SolarFusionQuantumTunneling} %Approved
+
+\chapterwithsummaryfromfile[ch:topologicalinsulators]{11_TopologicalInsulators}
+\inputstory{11_TopologicalInsulators} %Approved
+
+\chapterwithsummaryfromfile[ch:gsmencryptionorder]{12_GSMEncryptionOrder}
+\inputstory{12_GSMEncryptionOrder} %Approved
+
+\chapterwithsummaryfromfile[ch:poissonsspot]{13_PoissonsSpot}
+\inputstory{13_PoissonsSpot} %Approved
+    
+\chapterwithsummaryfromfile[ch:compacttwinparadox]{14_CompactTwinParadox}
+\inputstory{14_CompactTwinParadox} %Approved
+
+\chapterwithsummaryfromfile[ch:envelopeparadox]{15_EnvelopeParadox}
+\inputstory{15_EnvelopeParadox} %Approved
+
+\chapterwithsummaryfromfile[ch:falsevacuumthreat]{16_FalseVacuumThreat}
+\inputstory{16_FalseVacuumThreat} %Approved
+
+\chapterwithsummaryfromfile[ch:bignumbers]{17_BigNumbers}
+\inputstory{17_BigNumbers} %Approved
+
+\chapterwithsummaryfromfile[ch:speculativeexecutionattacks]{18_SpeculativeExecutionAttacks}
+\inputstory{18_SpeculativeExecutionAttacks}%Approved
+
+\chapterwithsummaryfromfile[ch:cosmicraymuons]{19_CosmicRayMuons}
+\inputstory{19_CosmicRayMuons} %Approved
+
+\chapterwithsummaryfromfile[ch:chineseroomargument]{20_ChineseRoomArgument}
+\inputstory{20_ChineseRoomArgument}  %Approved
+
+\chapterwithsummaryfromfile[ch:exponentialmapslietheory]{21_ExponentialMapsLieTheory}
+\inputstory{21_ExponentialMapsLieTheory} %Approved
+
+\chapterwithsummaryfromfile[ch:minecraftcreeper]{22_MinecraftCreeper}
+\inputstory{22_MinecraftCreeper} %Approved
+
+\chapterwithsummaryfromfile[ch:blackholetimedilationredshift]{23_BlackHoleTimeDilationRedshift}
+\inputstory{23_BlackHoleTimeDilationRedshift} %Approved
+
+\chapterwithsummaryfromfile[ch:4dspacetime]{24_FourDSpacetime}
+\inputstory{24_FourDSpacetime}  %Approved
+
+\chapterwithsummaryfromfile[ch:fireflybioluminescence]{25_FireflyBioluminescence}
+\inputstory{25_FireflyBioluminescence}
+
+\chapterwithsummaryfromfile[ch:jewishcalendar]{26_JewishCalendar} %Approved
+\inputstory{26_JewishCalendar}
+
+\chapterwithsummaryfromfile[ch:planetaryskycolors]{27_PlanetarySkyColors}  %Approved
+\inputstory{27_PlanetarySkyColors}
+
+\chapterwithsummaryfromfile[ch:negativetemperature]{28_NegativeTemp}
+\inputstory{28_NegativeTemp} %Approved
+
+\chapterwithsummaryfromfile[ch:hatmonotile]{29_HatMonotile}
+\inputstory{29_HatMonotile} %Approved
+
+\chapterwithsummaryfromfile[ch:simpsonsparadox]{30_SimpsonsParadox}
+\inputstory{30_SimpsonsParadox}  %Approved
+
+\chapterwithsummaryfromfile[ch:osmosisdebye]{31_osmosis_Debye}
+\inputstory{31_osmosis_Debye} %Approved
+
+\chapterwithsummaryfromfile[ch:atomic]{32_AtomicClocks}
+\inputstory{32_AtomicClocks} %Approved
+
+\chapterwithsummaryfromfile[ch:incubationinequality]{33_IncubationInequality}
+\inputstory{33_IncubationInequality} %Approved
+
+\chapterwithsummaryfromfile[ch:boltzmannbrain]{34_BoltzmannBrain}
+\inputstory{34_BoltzmannBrain} %Approved
+
+\chapterwithsummaryfromfile[ch:treesfromair]{35_TreesFromAir}
+\inputstory{35_TreesFromAir} %Approved
+
+\chapterwithsummaryfromfile[ch:qftvsgr]{36_qft_vs_gr}
+\inputstory{36_qft_vs_gr} %Approved
+
+\chapterwithsummaryfromfile[ch:darkmatterevidence]{37_DarkMatterEvidence}
+\inputstory{37_DarkMatterEvidence} %Approved
+
+\chapterwithsummaryfromfile[ch:christmastruce1914]{38_ChristmasTruce1914}
+\inputstory{38_ChristmasTruce1914} %Approved
+
+\chapterwithsummaryfromfile[ch:superpermutationsbreakthrough]{39_SuperpermutationsBreakthrough}
+\inputstory{39_SuperpermutationsBreakthrough} %Approved
+
+\chapterwithsummaryfromfile[ch:dnasequencing]{40_DNASequencing}
+\inputstory{40_DNASequencing} 
+
+\chapterwithsummaryfromfile[ch:hough]{41_HoughTransfrom}
+\inputstory{41_HoughTransfrom} 
+
+\chapterwithsummaryfromfile[ch:iceslipperiness]{42_IceSlipperiness}
+\inputstory{42_IceSlipperiness} %Approved
+
+\chapterwithsummaryfromfile[ch:nearflatuniverse]{43_NearFlatUniverse}
+\inputstory{43_NearFlatUniverse} %Approved
+
+\chapterwithsummaryfromfile[ch:ironmask]{44_IronMask}
+\inputstory{44_IronMask} %Approved
+
+\chapterwithsummaryfromfile[ch:maxwelldemon]{45_MaxwellDemon}
+\inputstory{45_MaxwellDemon} %Approved
+
+\chapterwithsummaryfromfile[ch:woodwardhoffmannrules]{46_WoodwardHoffmannRules}
+\inputstory{46_WoodwardHoffmannRules} %Approved
+
+\chapterwithsummaryfromfile[ch:observervac]{47_ObserverDependentVacuum}
+\inputstory{47_ObserverDependentVacuum} %Approved
+
+\chapterwithsummaryfromfile[ch:threebody]{48_three_body}
+\inputstory{48_three_body}  %Approved
+
+\chapterwithsummaryfromfile[ch:ivfmtdna]{49_IVFmtDNA}
+\inputstory{49_IVFmtDNA} 
+
+\chapterwithsummaryfromfile[ch:consciousness]{50_Consciousness}
+\inputstory{50_Consciousness} 
+
+% ============================================================
+% SUBJECT INDEX
+% ============================================================
+
+\cleardoublepage
+\input{subject_index}
+
+% ============================================================
+% BIOGRAPHICAL REFERENCE
+% ============================================================
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Biographical Reference}
+
+\chapter*{Biographical Reference}
+\markboth{BIOGRAPHICAL REFERENCE}{BIOGRAPHICAL REFERENCE}
+
+% Two-column layout for compact one-line biographies
+\begin{multicols}{2}
+\setlength{\columnsep}{0.4in}
+\small
+\setlength{\parskip}{0.5em}
+\input{oneline_bios_content}
+\end{multicols}
+
+% ============================================================
+% BIBLIOGRAPHY
+% ============================================================
+
+\input{bibliography}
+
+% ============================================================
+% ABOUT THE TEAM (supplied by Open Book Publishers)
+% ============================================================
+
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+\clearpage
+\input{about_team}
+
+\end{document}
+

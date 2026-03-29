@@ -1,0 +1,60 @@
+\begin{technical}
+{\Large\textbf{Perturbative Stability and Exponential Sensitivity in Deterministic Systems}}\\[0.5em]
+
+Classical mechanics is deterministic: given initial conditions and governing forces, the trajectory of a system is uniquely determined. However, predictability depends on the evolution of perturbations. In chaotic systems, infinitesimal deviations grow exponentially, whereas in many complex but dissipative systems, fluctuations are suppressed or averaged out, leading to reliable large-scale predictions.
+
+\techheader{1. Lyapunov Exponents and Sensitivity}\\
+The maximal Lyapunov exponent $\lambda$ quantifies sensitivity to initial conditions. For trajectories separated by $\delta_0$, the separation evolves as $\delta(t) \approx \delta_0 e^{\lambda t}$. Formally:
+\[
+\lambda = \lim_{t \to \infty} \lim_{\delta_0 \to 0} \frac{1}{t} \ln \frac{\delta(t)}{\delta_0}.
+\]
+Positive $\lambda$: exponential divergence (chaos). Negative $\lambda$: exponential convergence (dissipation). Zero $\lambda$: marginal stability with polynomial growth.
+
+\techheader{2. Chaotic Dynamics in a Double Pendulum}\\
+Let $\theta_1(t)$ and $\theta_2(t)$ denote the angular positions of a double pendulum with masses $m_1$, $m_2$ and rod lengths $l_1$, $l_2$. The Lagrangian formulation yields the coupled equations of motion:
+\begin{align*}
+(m_1 + m_2) l_1 \ddot{\theta}_1 
++ m_2 l_2 \ddot{\theta}_2 \cos(\theta_1 - \theta_2) 
+=&\\ -m_2 l_2 \dot{\theta}_2^2 \sin(\theta_1 - \theta_2) 
+- (m_1 + m_2) g \sin\theta_1, \\[0.5em]
+m_2 l_2 \ddot{\theta}_2 
++ m_2 l_1 \ddot{\theta}_1 \cos(\theta_1 - \theta_2) 
+=&\\ m_2 l_1 \dot{\theta}_1^2 \sin(\theta_1 - \theta_2) 
+- m_2 g \sin\theta_2.
+\end{align*}
+These are second-order nonlinear differential equations with explicit coupling between the degrees of freedom. For many energy regimes, this system exhibits positive Lyapunov exponents: infinitesimally close initial conditions produce trajectories that diverge exponentially in time.
+
+\techheader{3. Stability in Dissipative Systems}\\
+Now consider a falling object subject to linear drag. Assuming the drag force is proportional to velocity, the centre-of-mass motion is governed by
+$$
+m \frac{d^2 \mathbf{r}}{dt^2} = m \mathbf{g} - \gamma \frac{d\mathbf{r}}{dt},
+$$
+where $\gamma$ is the damping coefficient. The velocity $\mathbf{v}(t) = d\mathbf{r}/dt$ evolves as
+\begin{align*}
+\mathbf{v}(t) = \mathbf{v}_\infty + (\mathbf{v}_0 - \mathbf{v}_\infty) e^{-\frac{\gamma}{m} t}\\
+\quad \text{with} \quad \mathbf{v}_\infty = \frac{m \mathbf{g}}{\gamma}.
+\end{align*}
+
+The position follows: $\mathbf{r}(t) = \mathbf{r}_0 + \mathbf{v}_\infty t + (m/\gamma)(\mathbf{v}_0 - \mathbf{v}_\infty)(1 - e^{-\gamma t/m})$. Perturbations decay exponentially with time constant $\tau = m/\gamma$, suppressing initial differences.
+
+\techheader{4. Perturbation Scaling and Averaging}\\
+For a perturbed trajectory $\mathbf{x}_\epsilon(t) = \mathbf{x}_0(t) + \epsilon \delta \mathbf{x}(t)$, the perturbation behaviour distinguishes:
+\[
+\begin{cases}
+\|\delta \mathbf{x}(t)\| \sim \epsilon e^{\lambda t} & \text{chaotic,} \\[0.5em]
+\|\delta \mathbf{x}(t)\| \lesssim \epsilon & \text{damped/bounded.}
+\end{cases}\,.
+\]
+For $N$ microscopic degrees of freedom, macroscopic observables $\mathbf{X}(t) = N^{-1} \sum_{i=1}^N \mathbf{x}_i(t)$ have variance $\mathrm{Var}(\mathbf{X}) \sim N^{-1} \mathrm{Var}(\mathbf{x}_i)$ by the central limit theorem. Thus:
+\[
+\mathbf{X}(t) \approx \langle \mathbf{x}_i(t) \rangle + \mathcal{O}(N^{-1/2}).
+\]
+Fluctuations scale as $\mathcal{O}(N^{-1/2})$, becoming negligible for large $N$. Microscopic uncertainty remains confined at the macroscopic level.
+
+\techref
+{\footnotesize  \\
+Poincaré, H. (1890). Sur le problème des trois corps et les équations de la dynamique. \textit{Acta Mathematica}, 13, 1–270.\\
+Lorenz, E. N. (1963). Deterministic nonperiodic flow. \textit{Journal of the Atmospheric Sciences}, 20(2), 130–141.\\
+Feigenbaum, M. J. (1978). Quantitative universality for a class of nonlinear transformations. \textit{Journal of Statistical Physics}, 19, 25–52.
+}
+\end{technical}

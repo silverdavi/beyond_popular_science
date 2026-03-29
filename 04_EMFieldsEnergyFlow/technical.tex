@@ -1,0 +1,58 @@
+\begin{technical}
+% Add at the beginning of the file
+{\Large\textbf{Electromagnetic Energy Flow Outside Wires}}\\[0.3em]
+
+Maxwell’s equations reveal that \textit{electromagnetic fields}, rather than moving electrons, transport energy. In free space, Maxwell’s equations in SI units are:
+\begin{align*}
+\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0}, 
+&\quad \nabla \cdot \mathbf{B} &= 0,\\
+\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t},
+&\quad \nabla \times \mathbf{B} &= \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t},
+\end{align*}
+where $\mathbf{E}$ and $\mathbf{B}$ are the electric and magnetic fields, $\rho$ is charge density, and $\mathbf{J}$ is current density. The \textit{Poynting vector}, defined as
+\[
+\mathbf{S} = \mathbf{E} \times \mathbf{H},
+\]
+describes the direction and magnitude of energy flow, where $\mathbf{H} = \mathbf{B}/\mu_0$ in vacuum. In a typical circuit, $\mathbf{S}$ is concentrated in the space around conductors, not within them, showing that fields, not electron drift, convey energy.
+
+\vspace{0.7em}
+\techheader{Near a Conductor: Shaping the Fields}\\[0.5em]
+Wires carry charges that generate $\mathbf{E}$ and $\mathbf{B}$, but the power flux $\mathbf{S}$ remains predominantly outside. Applied voltage establishes the electric field $\mathbf{E}$, current generates the magnetic field $\mathbf{B}$ and auxiliary field $\mathbf{H}$, and their cross product $\mathbf{E} \times \mathbf{H}$ directs energy flow outside the conductor. Conductors constrain and guide the fields, enabling controlled power transfer with minimal radiation losses.
+
+\vspace{0.7em}
+\techheader{Electrons Are Slow}\\[0.5em]
+The speed of electrons in a wire, known as the \textit{drift velocity}, is given by $v_d = I/n q A$, where $I$ is the current, $n$ is the number density of free electrons in the conductor, $q$ is the elementary charge, and $A$ is the cross-sectional area of the wire.
+
+\noindent\textbf{Example.} For a copper wire of cross-sectional area $A = 1 \, \text{mm}^2 = 10^{-6} \, \text{m}^2$, carrying a current of $I = 3 \, \text{A}$, and using:
+\[
+n \approx 10^{29} \, \text{electrons/m}^3, \quad q \approx 1.6 \times 10^{-19} \, \text{C},
+\]
+the drift velocity is:
+\begin{align*}
+v_d &\approx \frac{3}{(10^{29})(1.6 \times 10^{-19})(10^{-6})}\\
+ &\approx 1.9 \times 10^{-4} \, \text{m/s}.
+\end{align*}
+
+\vspace{0.4em}
+\techheader{Bonus Section: Maxwell’s Equations in 4D Differential Forms (Warning: Jargon Ahead)}\\[0.5em]
+A remarkably elegant formulation uses differential forms in four-dimensional spacetime. Instead of treating electric and magnetic fields separately, one defines the field-strength 2-form $F$ from a potential 1-form $A$: $F = \mathrm{d}A$. Maxwell's equations in vacuum then reduce to:
+\[
+\mathrm{d}F = 0, 
+\quad
+\mathrm{d}(\star F) = \mu_0 J,
+\]
+where $\star F$ is the Hodge dual of $F$, and $J$ is the 3-form representing charge and current density, Gauss's law. These equations encapsulate:
+\begin{itemize}[leftmargin=*]
+\item $\mathrm{d}F = 0$: Magnetic fields are divergence-free (no monopoles), and electric fields induce magnetic circulation.
+\item $\mathrm{d}(\star F) = \mu_0 J$: Charge and current generate fields, unifying Gauss's law and Ampère's law.
+\end{itemize}
+This formulation emphasises that electromagnetic phenomena, including the Poynting vector, arise naturally from spacetime geometry rather than as separate electric and magnetic field concepts in three-dimensional space. 
+
+While defining these objects and proving their properties can take months, the payoff is nice: results like Maxwell’s equations emerge from simple geometric principles. Other results, such as the generalised Stokes’ theorem, follow with similar elegance.
+
+\techref
+{\footnotesize
+Feynman, R. P., Leighton, R. B., and Sands, M. (1964). \textit{The Feynman Lectures on Physics}.\\
+Baez, J. C., and Muniain, J. P. (1994). \textit{Gauge Fields, Knots and Gravity}.\\
+}
+\end{technical}

@@ -1,0 +1,28 @@
+\begin{technical}
+{\Large\textbf{Orbital Symmetry}}\\[0.4em]
+
+\techheader{Symmetry in the Schrödinger Framework}\\[0.3em]
+The Schrödinger equation \( \hat{H}\psi = E\psi \) governs the electronic structure of molecules. When the molecular Hamiltonian \( \hat{H} \) commutes with a symmetry operator \( \hat{S} \), the system's eigenfunctions must reflect that symmetry: \([\hat{H}, \hat{S}] = 0 \Rightarrow \hat{S}\psi = \lambda\psi\). This imposes a conserved quantum label (irreducible representation) on the wavefunction throughout any geometry-preserving deformation. In a concerted reaction such as a pericyclic transformation, where all bond changes occur in a cyclic, symmetry-retaining transition state, this leads to a constraint: only reactions that preserve orbital symmetry continuity are allowed. This is the foundation of the Woodward–Hoffmann rules.
+
+\techheader{Phase Symmetry and Frontier Orbitals}\\[0.3em]
+The molecular orbitals (MOs) of conjugated systems can be described as linear combinations of atomic $\mathrm{p}$ orbitals. For a linear polyene with \( n \) $\mathrm{p}$ orbitals, the \( k^\text{th} \) MO has the form \(\Psi_k = \sum_{j=1}^n \sin(\pi k j/(n+1))\, \mathrm{p}_j\), where \( \mathrm{p}_j \) are orthogonal atomic orbitals. The phase of the terminal lobes in the HOMO (highest occupied MO) determines the allowed mode of bond formation. For example:
+\begin{itemize}
+\item Butadiene (4 π electrons): HOMO has opposite terminal phases → conrotatory closure aligns lobes → allowed thermally.
+\item Hexatriene (6 π electrons): HOMO has same terminal phases → disrotatory closure preserves overlap → allowed thermally.
+\end{itemize}
+These rules emerge not from empirical fits but from the symmetry character of the MOs under conserved operations (like a \( C_2 \) axis or mirror plane in the transition state).
+
+\techheader{General Selection Rules}\\[0.3em]
+Pericyclic selection rules can be framed using the Möbius–Hückel approach (Heilbronner–Zimmerman). A concerted transition state with Hückel topology (even number of phase inversions) is thermally allowed for \(4q+2\) electrons and forbidden for \(4q\); with Möbius topology (odd number of phase inversions) the situation reverses (thermally allowed for \(4q\), forbidden for \(4q+2\)). Under photochemical activation, these parities invert. This framework consistently reproduces the canonical outcomes for electrocyclic reactions, cycloadditions, and sigmatropic shifts.
+
+\techheader{Correlation Diagrams and Symmetry Conservation}\\[0.3em]
+A more formal approach uses correlation diagrams, where each MO is labelled by its symmetry character under a conserved symmetry operation (e.g., S for symmetric, A for antisymmetric). The MOs of reactants and products are then connected across the reaction coordinate. For butadiene: \(\Psi_1\) (A), \(\Psi_2\) (S); for cyclobutene: \(\pi\) (A), \(\sigma\) (S). Under a \( C_2 \) axis (conrotatory path), the symmetry labels match, and the transformation preserves orbital occupation → allowed. Under a mirror plane (disrotatory path), the correlation fails (occupied orbital would map to unoccupied antibonding orbital) → forbidden.
+
+\techheader{Sigmatropic Shifts and Topological Classifications}\\[0.3em]
+Sigmatropic shifts involve the migration of a σ-bonded atom across a delocalized π system. The cyclic transition state contains the migrating group plus the π system—usually a 6-electron or 4-electron arrangement. For \([i,j]\) shifts, thermal selection depends on topology: a suprafacial \([i,j]\) shift is allowed when \(i + j = 4q + 2\), whereas an antarafacial \([i,j]\) shift is allowed when \(i + j = 4q\). Thus, a \([1,5]\)-hydrogen shift is allowed suprafacially (6 electrons), while a \([1,3]\) shift (4 electrons) is thermally allowed only in an antarafacial topology, which is usually sterically blocked.
+
+\techref
+{\footnotesize
+Woodward, R. B., and Hoffmann, R. (1970). \textit{The Conservation of Orbital Symmetry}. Addison–Wesley.
+}
+\end{technical}

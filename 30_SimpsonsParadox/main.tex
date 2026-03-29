@@ -1,0 +1,146 @@
+In North Carolina's 2012 congressional elections, Democratic candidates received about 51\% of votes statewide yet won only 4 of 13 seats. Republicans secured 9 seats with roughly 49\% of votes. The reversal occurred through district boundaries—lines drawn to group voters in ways that inverted the relationship between votes and representation.
+
+Statistical association hinges on how data are grouped. The same population can yield opposite conclusions depending on the partition chosen. In extreme cases, a relationship positive in every subgroup becomes negative when groups combine—or a democratic majority becomes a legislative minority through strategic line-drawing.
+
+Simpson's paradox demonstrates correlation reversal (Simpson, 1951). A kidney stone treatment shows 93\% success for small stones and 73\% for large stones. A competing treatment achieves only 87\% for small stones and 69\% for large stones. The first treatment beats the second in both categories. Yet overall success rates reverse: 79\% versus 85.5\%. The reversal arises because doctors used the superior treatment primarily on difficult cases—70\% of its patients had large stones, while 91\% of the inferior treatment's patients had small stones.
+
+Gerrymandering engineers deliberate reversal. Both major parties employ this tactic when they control redistricting. Wisconsin's 2012 state assembly elections saw Democrats win 53\% of votes but only 39\% of seats. The mechanism: district lines packed Democratic voters into urban districts where they won by 70–80\% margins, while Republican victories spread efficiently across suburban and rural districts with 55–60\% margins. Both phenomena—Simpson's paradox and gerrymandering—exploit the mathematics of aggregation, but with different intent. The mathematics underlying both phenomena reduces to weighted averages. When calculating any aggregate statistic—whether treatment success rates or electoral outcomes—the result depends on two factors: the values within each group and the relative sizes of groups. Change either factor and the aggregate changes.
+
+In formal terms, if groups have success rates $p_1, p_2, ..., p_k$ and sizes $n_1, n_2, ..., n_k$, the overall rate is:
+\[
+\bar{p} = \frac{\sum_{i=1}^k n_i p_i}{\sum_{i=1}^k n_i}.
+\]
+Simpson's paradox occurs when natural imbalances in group sizes $(n_i)$ cause $\bar{p}$ to misrepresent the relationship seen in individual $p_i$ values. Gerrymandering manipulates the same formula by choosing group boundaries to engineer specific $(n_i)$ values.
+
+The kidney stone example illustrates the reversal:
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+ & Success Rate & Patients & Successes \\
+\midrule
+Treatment A, Small stones & 93\% & 30 & 28 \\
+Treatment B, Small stones & 87\% & 200 & 174 \\
+Treatment A, Large stones & 73\% & 70 & 51 \\
+Treatment B, Large stones & 69\% & 20 & 14 \\
+\midrule
+Treatment A, Overall & 79\% & 100 & 79 \\
+Treatment B, Overall & 85.5\% & 220 & 188 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Treatment A wins in both stone categories yet loses overall. Treatment A handled 70\% difficult cases (large stones), Treatment B only 9\%. When groups combine, Treatment B's easy-case bias overwhelms its inferior performance.
+
+Gerrymandering employs similar mathematics with manipulative intent. Consider a simplified state with 10 districts, 5 million voters split evenly between parties:
+
+\begin{center}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{District} & \textbf{Voters (A)} & \textbf{Voters (B)} & \textbf{Winner} & \textbf{Strategy} \\
+\midrule
+1 & 20\% & 80\% & B & Packed (B stronghold) \\
+2 & 22\% & 78\% & B & Packed (B stronghold) \\
+3 & 18\% & 82\% & B & Packed (B stronghold) \\
+4 & 56\% & 44\% & A & Cracked (A edge win) \\
+5 & 55\% & 45\% & A & Cracked (A edge win) \\
+6 & 54\% & 46\% & A & Cracked (A edge win) \\
+7 & 57\% & 43\% & A & Cracked (A edge win) \\
+8 & 53\% & 47\% & A & Cracked (A edge win) \\
+9 & 56\% & 44\% & A & Cracked (A edge win) \\
+10 & 55\% & 45\% & A & Cracked (A edge win) \\
+\midrule
+\textbf{Totals} & \textbf{50\%} & \textbf{50\%} & \textbf{A wins 7, B wins 3} & Gerrymandered for A \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+In the UC Berkeley admissions case (1973), similar patterns appeared. Women showed lower overall acceptance rates (35\%) than men (44\%), suggesting discrimination. At the department level, women had equal or higher acceptance rates in 4 of 6 departments. The reversal occurred because women disproportionately applied to competitive departments—English admitted 3.4\% of applicants while Engineering admitted 65\%. 
+
+Simpson’s paradox and gerrymandering exploit the disagreement between local and global measures. In Simpson's paradox, local measures (department-specific admission rates) tell the truth while global measures (overall rates) mislead. In gerrymandering, local measures (district-level victories) are manipulated to distort global truth (statewide voter preference).
+
+For any partition of data into groups, the overall average equals:
+\[
+\bar{y} = \sum_{i} w_i \bar{y}_i
+\]
+where $w_i = n_i/N$ represents the fraction of data in group $i$, and $\bar{y}_i$ is that group's average.
+
+Simpson’s paradox exposes existing groupings in the data; gerrymandering constructs groupings to exploit the same arithmetic.
+
+The efficiency gap quantifies gerrymandering's success (Stephanopoulos \& McGhee, 2015) by measuring \QSOpen{}wasted\QSClose{} votes—those beyond the 50\%+1 needed to win a district. A party that wins districts by slim margins while losing others by wide margins achieves maximum efficiency. The formula:
+\[
+\text{Efficiency Gap} = \frac{|\text{Wasted}_A - \text{Wasted}_B|}{\text{Total Votes}}.
+\]
+Values around 7–8\% have been proposed in the political science literature as a heuristic threshold for durable advantage; courts have not adopted a single standard, and experts treat it as one indicator among others. Thus, gerrymandering leaves fingerprints. Districts snake through neighbourhoods, splitting cities and joining disparate communities. Pennsylvania's 7th district (pre-2018) stretched like tentacles across five counties to link Republican areas while avoiding Democratic ones. Maryland's 3rd district exhibits similar contortions, engineered by Democrats to dilute Republican votes across Baltimore suburbs. 
+
+Simpson's paradox is revealed through careful analysis. Statisticians discover reversals by examining subgroups. Early COVID-19 comparisons illustrated how age structure can confound: countries with older populations showed higher overall death rates even when age-specific rates were comparable. Proper age standardisation is necessary before drawing conclusions.
+
+Simpson's paradox warns that natural parameters (patient severity, department selectivity) can mislead when ignored. Gerrymandering demonstrates that artificial boundaries can be weaponized to subvert democratic representation.
+
+Solutions to Simpson's paradox require disaggregating data and examining subgroups. Medical trials now routinely report results by patient characteristics. Universities analyse admissions by department.
+
+The solution to gerrymandering requires judicial reform: independent redistricting commissions, mathematical constraints on district compactness, or algorithmic districting that minimises partisan advantage. Several states now use efficiency gap calculations in legal challenges to districting plans.
+
+\inlineimage{0.35}{30_SimpsonsParadox/guyavas.png}{What are the odds a bomb hits the only person holding three guavas?}{Cartoon captioned "What are the odds a bomb hits the only person holding three guavas?"}
+
+
+\newpage
+
+\begin{center}
+{\Large \textbf{More Statistical Paradoxes and Interpretation Failures}}
+
+\end{center}
+
+\vspace{1em}
+
+\begin{tcolorbox}[
+  colback=gray!2,
+  colframe=gray!60,
+  boxrule=0.4pt,
+  width=\textwidth,
+  arc=1pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt,
+  shadow={0mm}{-0.5mm}{0mm}{gray!30}
+]
+\setstretch{1}
+
+\textbf{1. Berkson’s Paradox}  
+\emph{Conditioning on a common effect induces spurious negative (Berkson, 1946) correlation.}  
+If two independent variables both affect a selection criterion, then restricting attention to cases that satisfy that criterion creates an artificial negative correlation. This occurs in hospital datasets, where independent risk factors may appear inversely related when conditioned on admission. The association is real in the conditional data but does not reflect a relationship in the population.
+
+\vspace{1em}
+
+\textbf{2. Ecological Fallacy}  
+\emph{Group-level associations are wrongly projected onto individuals (Robinson, 1950).}  
+When a statistical association holds across aggregated units—such as regions or schools—it does not necessarily hold within them. For example, a country with higher average education may have higher average income, but this does not imply that more educated individuals earn more within each region. Unlike Simpson’s paradox, ecological fallacy involves misapplying group-level trends to individual inference without requiring any reversal. The error lies in cross-level extrapolation, not confounding.
+
+\vspace{1em}
+
+\textbf{3. Will Rogers Phenomenon}  
+\emph{Reclassification improves group averages without improving any member.}  
+If individuals from the low end of one group are reclassified into another group with an even lower average, both groups may show improved mean outcomes. This occurs in cancer staging and school performance tracking, and reflects the fact that averages are sensitive to how groups are defined.
+
+\vspace{1em}
+
+\textbf{4. Modifiable Areal Unit Problem (MAUP)}  
+\emph{Statistical results depend on the choice of spatial or administrative (Openshaw, 1984)ative boundaries.}  
+In spatial analysis, correlations and rates can shift significantly depending on how geographic regions are aggregated. A pattern observed at the county level may not hold at the district level or when boundaries are redrawn.
+
+\vspace{1em}
+
+\textbf{5. Low Birth-Weight Paradox}  
+\emph{Conditioning on an intermediate variable reverses risk comparisons.}  
+Infants born to smoking mothers have higher rates of low birth-weight, and low birth-weight is associated with higher mortality. But among low birth-weight babies, those born to smokers may show lower mortality than those of non-smokers. The paradox appears because birth-weight is both an effect of smoking and a predictor of mortality. Conditioning on it introduces collider bias, obscuring causal direction.
+
+\vspace{1em}
+
+\textbf{6. Prosecutor’s Fallacy}  
+\emph{Confusing the likelihood of evidence with the probability of guilt.}  
+In forensic contexts, the probability of observing the evidence assuming innocence is often mistaken for the probability of innocence given the evidence. For example, a DNA match with a false positive rate of $1/1000$ is incorrectly interpreted as implying a $0.1\%$ chance of innocence, ignoring base rates. The fallacy reflects improper inversion of conditional probability.
+
+\end{tcolorbox}

@@ -1,0 +1,57 @@
+\begin{technical}
+{\Large\textbf{Bounded Gaps Between Primes}}
+
+\techheader{Statement of Result and Outline of Method}\\[0.5em]
+In 2013, Yitang Zhang proved that there exists a constant \( N \) such that infinitely many prime pairs \( (p, q) \) satisfy \( q - p \leq N \). The initial bound was \( N < 7\times10^7 \). Zhang's approach refined the Goldston–Pintz–Yıldırım (GPY) method through two components:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Distribution in Arithmetic Progressions:} Primes remain evenly distributed across residue classes beyond the Bombieri–Vinogradov range.
+    \item \textbf{Weighted Sieve:} Modified sieve to detect multiple primes within admissible tuples \( n + h_i \).
+\end{itemize}
+
+\vspace{0.7em}
+\techheader{Sieve Setup and Admissibility}\\[0.5em]
+A tuple \( \mathcal{H} = \{h_1, \dots, h_k\} \) is admissible if for every prime \( p \), the set \( \mathcal{H} \mod p \) does not cover all residue classes modulo \( p \).
+
+The GPY strategy constructs a weighted sum:
+\[
+S(n) := \left( \sum_{i=1}^k \Lambda(n + h_i) \right) w(n),
+\]
+where \( \Lambda \) is the von Mangoldt function and \( w(n) \) is a smooth function supported on \( n \in [x, 2x] \). The weights emphasise values where multiple \( n + h_i \) are likely prime:
+\[
+\sum_{n} S(n) = \sum_{n} \left( \sum_i \Lambda(n + h_i) \right) w(n).
+\]
+If this exceeds the random baseline, then for some \( n \), at least two \( n + h_i \) are prime.
+
+\vspace{0.7em}
+\techheader{Example}\\[0.5em]
+The admissible set \( \{0, 2, 6\} \) avoids covering all residue classes modulo any prime. For \( n = 5 \), we get \( \{5, 7, 11\} \)—three primes. The method proves such cases occur infinitely often.
+
+\vspace{0.7em}
+\techheader{Zhang's Level of Distribution}\\[0.5em]
+Zhang proved that primes remain equidistributed up to moduli \( q \le x^\theta \) for \( \theta > 1/2 \), surpassing the Bombieri–Vinogradov barrier (\( \theta = 1/2 \)).
+
+Define:
+\[
+\theta(x; q, a) = \sum_{\substack{p \le x \\ p \equiv a \,(\mathrm{mod}\,q)}} \log p.
+\]
+The deviation of \( \theta(x; q, a) \) from \( x / \phi(q) \) remains small across a wide range of moduli, enabling uniform error control. Zhang bypassed the Elliott–Halberstam conjecture by achieving a weaker but sufficient level of distribution.
+
+\vspace{0.7em}
+\techheader{Maynard's Modification and Polymath Refinements}\\[0.5em]
+Maynard introduced new sieve weights detecting primes in admissible tuples without requiring \( \theta > 1/2 \), simplifying the construction.
+
+The Polymath8 project refined and extended both approaches:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Polymath8a:} Improved error analysis, reduced \( N \) to 4,680.
+    \item \textbf{Maynard's Variant:} Lowered \( N \) further, generalised to \( m \) primes in bounded intervals.
+    \item \textbf{Polymath8b:} Reduced bound below 250.
+\end{itemize}
+
+\techref
+{\footnotesize
+Zhang, Y. (2014). Bounded gaps between primes. \textit{Annals of Mathematics}, 179(3), 1121–1174.\\
+Maynard, J. (2015). Small gaps between primes. \textit{Annals of Mathematics}, 181(1), 383–413.
+}
+
+\end{technical}

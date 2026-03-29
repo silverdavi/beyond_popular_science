@@ -1,0 +1,52 @@
+\begin{technical}
+{\Large\textbf{Gravity as Curved Time: The Time-Only Ansatz}}\\[0.3em]
+
+General relativity describes gravity through the curvature of spacetime. But which part of spacetime does the work? Rather than beginning with the full Schwarzschild solution, we follow a more direct route: assume space is perfectly flat and ask whether variations in the rate of time alone can reproduce Newtonian gravity. The answer is yes—and the derivation shows why spatial curvature is irrelevant for everyday gravitational phenomena.
+
+\techheader{The Ansatz: Flat Space, Variable Time}\\[0.5em]
+We assume Euclidean spatial geometry but allow the rate at which clocks tick to depend on position. This gives a spacetime interval of the form:
+\begin{equation*}
+ds^2 = -f(\mathbf{x})\, c^2\, dt^2 + dx^2 + dy^2 + dz^2,
+\end{equation*}
+where \( f(\mathbf{x}) \) is a static function encoding how fast a clock runs at location \(\mathbf{x}\). In the absence of any gravitational source, \( f = 1 \) everywhere and we recover the flat Minkowski metric of special relativity.
+
+\vspace{0.5em}
+\techheader{Connecting \( f \) to the Newtonian Potential}\\[0.5em]
+The Newtonian gravitational potential outside a mass \( M \) is \( \Phi(\mathbf{x}) = -GM/r \), where \( r = |\mathbf{x}| \). We set:
+\begin{equation*}
+f(\mathbf{x}) = 1 + \frac{2\Phi(\mathbf{x})}{c^2}.
+\end{equation*}
+Since \( \Phi < 0 \) near a mass, we have \( f < 1 \): clocks deeper in the gravitational well tick slower. The dimensionless ratio \( |\Phi|/c^2 \) measures the strength of the effect. At Earth's surface, \( GM/(c^2 R_\oplus) \approx 7 \times 10^{-10} \)—a tiny perturbation, but one with real consequences.
+
+\vspace{0.5em}
+\techheader{Proper Time and the Geodesic Equation}\\[0.5em]
+A freely falling particle follows a geodesic—the path that maximises proper time between two events. The proper time along a worldline is:
+\begin{equation*}
+d\tau^2 = f(\mathbf{x})\, dt^2 - \frac{1}{c^2}(dx^2 + dy^2 + dz^2).
+\end{equation*}
+For a particle moving slowly (\( v \ll c \)), the spatial terms are negligible compared to the time term, and \( d\tau \approx \sqrt{f}\, dt \). The particle's four-velocity is dominated by \( u^0 \approx c/\sqrt{f} \), with spatial components \( u^i \ll u^0 \).
+
+The geodesic equation \( \ddot{x}^\mu + \Gamma^\mu_{\alpha\beta}\, \dot{x}^\alpha \dot{x}^\beta = 0 \) then simplifies. Because spatial velocities are small, only the \( \Gamma^i_{00} \) Christoffel symbol matters. For our diagonal metric with flat spatial part $\Gamma^i_{00} = -\frac{1}{2}\, \delta^{ij}\, \frac{\partial f}{\partial x^j} = -\frac{1}{c^2}\, \frac{\partial \Phi}{\partial x^i}$.
+
+\vspace{0.5em}
+\techheader{Recovering Newton's Second Law}\\[0.5em]
+Substituting into the spatial geodesic equation gives the coordinate acceleration:
+\begin{equation*}
+\frac{d^2 x^i}{dt^2} \approx -c^2\, \Gamma^i_{00} = -\frac{\partial \Phi}{\partial x^i}.
+\end{equation*}
+In vector form: \( \mathbf{a} = -\nabla \Phi \). For a point mass, \( \Phi = -GM/r \) yields \( \mathbf{a} = -GM\,\hat{\mathbf{r}}/r^2 \), which is Newton's inverse-square law. No spatial curvature was needed at any step. The gravitational acceleration arises entirely from the spatial gradient of the clock-rate function \( f \).
+
+\vspace{0.5em}
+\techheader{How Small Is the Spatial Curvature Correction?}\\[0.5em]
+In the full Schwarzschild solution, the spatial metric component \( g_{rr} = (1 - 2GM/c^2 r)^{-1} \) also deviates from unity. This introduces an additional Christoffel symbol \( \Gamma^r_{rr} \approx -GM/(c^2 r^2) \), which contributes to the geodesic equation via the term \( -\Gamma^r_{rr}(v^r)^2 \). For an object falling from rest near Earth's surface, \( v^2 \sim 2GM/R_\oplus \), so the spatial curvature contribution to acceleration is of order:
+\begin{equation*}
+\frac{a_{\text{spatial}}}{a_{\text{temporal}}} \sim \frac{v^2}{c^2} \approx 2\frac{GM}{c^2 R_\oplus} \approx 1.4 \times 10^{-9}.
+\end{equation*}
+The spatial geometry of general relativity contributes less than two parts per billion to the gravitational acceleration of a falling apple. For all non-relativistic experience, gravity is an effect of temporal curvature alone.
+
+\techref
+{\footnotesize
+Misner, C. W., Thorne, K. S., and Wheeler, J. A. (1973). \textit{Gravitation}. (Section 17.4: Newton's Theory in the Language of Spacetime Curvature). \\
+I thank Prof.\ A. Winkler for suggesting this presentation.
+}
+\end{technical}

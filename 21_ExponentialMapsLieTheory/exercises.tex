@@ -1,0 +1,29 @@
+\fullpageexercises[Exponential Maps Across Contexts]
+{
+\section*{\normalsize How does each general definition specialise to the complex exponential function \(\exp(z) = e^z\)?}
+
+\begin{enumerate}
+
+    \item \textbf{Formal Power Series.} \\ 
+    The exponential is the formal series \( \exp(x) = \sum_{n=0}^\infty \frac{x^n}{n!} \) in any commutative \( \mathbb{Q} \)-algebra. When we set the domain to \( \mathbb{C} \) and consider analytic convergence, this yields \( \exp(z) = e^z \colon \mathbb{C} \to \mathbb{C}^* \), which satisfies \( \exp(z + w) = \exp(z)\exp(w) \).    
+    \\
+    \item \textbf{Lie Theory.}  \\
+    The exponential map sends an element \( X \) in a Lie algebra \( \mathfrak{g} \) to the time-1 flow of the corresponding left-invariant vector field on a Lie group \( G \). Viewing \( G = \mathbb{C}^* \) as a real Lie group with \( \mathfrak{g} = T_1\mathbb{C}^* \cong \mathbb{C} \), the left-invariant vector field for \( X \) is \( V_X(z) = Xz\,\tfrac{d}{dz} \), whose flow is \( z \mapsto e^{Xt}z \). Hence \( \exp(X) = e^X \), giving the classical exponential.
+    \\
+    \item \textbf{Eigenfunction of a Derivation.}  \\
+    An exponential is any solution \( f \) to \( Df = \lambda f \) with \( f(0) = 1 \), where \( D \) is a derivation. Choosing \( D = \frac{d}{dz} \) on holomorphic functions and \( \lambda = 1 \), \( f(z) = e^z \) is the unique solution.
+    \\
+    \item \textbf{Sheaf Theory.}  \\
+    The exponential sheaf sequence is the exact sequence \( 0 \to 2\pi i\,\mathbb{Z} \to \mathcal{O}_M \to \mathcal{O}_M^* \to 0 \), where the middle map sends a holomorphic function \( f \) to \( e^f \). When \( M = \mathbb{C} \), this gives \( \exp(z) = e^z \colon \mathbb{C} \to \mathbb{C}^* \), and the kernel \( 2\pi i \mathbb{Z} \) is the obstruction to defining a global logarithm.
+    \\
+    \item \textbf{Algebraic Homomorphism.}  \\
+    An exponential is a group homomorphism \( \phi \colon A \to M^\times \) such that \( \phi(x + y) = \phi(x)\phi(y) \). If we let \( A = \mathbb{C} \) and \( M^\times = \mathbb{C}^* \), all continuous such homomorphisms are \( \phi(z) = e^{\lambda z} \) for some \( \lambda \in \mathbb{C} \), and choosing \( \lambda = 1 \) gives the classical exponential \( e^z \colon \mathbb{C} \to \mathbb{C}^* \).
+    \\
+    \item \textbf{Category Theory.}  \\
+    In a cartesian closed category, the exponential object \( Y^X \) satisfies the adjunction \( \mathrm{Hom}(A \times X, Y) \cong \mathrm{Hom}(A, Y^X) \). When \( X = \mathbb{C} \), \( Y = \mathbb{C}^* \), and \( A = \mathbb{C} \), the morphism \( (a, x) \mapsto e^{a x} \) corresponds to a function \( a \mapsto (x \mapsto e^{a x}) \), thus \( z \mapsto e^z \) lives in \( (\mathbb{C}^*)^{\mathbb{C}} \).
+    \\
+    \item \textbf{Riemannian Geometry.}  \\
+    The exponential sends \( v \in T_p M \) to the endpoint of the geodesic starting at \( p \) with initial velocity \( v \). Letting \( M = \mathbb{C}^* \) and equipping it with the left-invariant metric \( \langle u, v \rangle_z = \frac{\mathrm{Re}(u\bar{v})}{|z|^2} \), geodesics through \( 1 \) are \( t \mapsto e^{tX} \), so \( \exp_1(X) = e^X \colon \mathbb{C} \to \mathbb{C}^* \).
+
+\end{enumerate}
+}

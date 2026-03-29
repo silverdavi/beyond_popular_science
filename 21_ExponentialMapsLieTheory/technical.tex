@@ -1,0 +1,90 @@
+% Custom semantic coloring
+\newcommand{\A}[1]{\textcolor{green!35!black}{#1}}          % Elements from domain A (dark green)
+\newcommand{\B}[1]{\textcolor{red!55!black}{#1}} % Elements from codomain B (dark red)
+\newcommand{\OpA}[1]{\textcolor{green!45!black}{#1}}        % Operations/Identities in A (dark green)
+\newcommand{\OpB}[1]{\textcolor{red!60!black}{#1}} % Operations/Identities in B (dark red)
+\newcommand{\axlabel}[1]{\makebox[1.2em][l]{(#1)}}
+
+\begin{technical}
+{\Large\textbf{How \( f' = f \) ⇒ \( f(x+y) = f(x)f(y) \)}}\\[0.25em]
+
+Let \( (\A{A}, \OpA{+}, \OpA{0}) \) be an additive monoid and \( (\B{B}, \OpB{+}, \OpB{\cdot}, \OpB{0}, \OpB{1}) \) a unital commutative ring. Let \( \mathrm{Func}(\A{A}, \B{B}) \) be the ring of functions with pointwise operations.
+
+Define shift operator \( T_{\A{y}}: \mathrm{Func}(\A{A}, \B{B}) \to \mathrm{Func}(\A{A}, \B{B}) \) by \( (T_{\A{y}}g)(\A{x}) := g(\A{x} \OpA{+} \A{y}) \).
+
+Suppose \( K: \mathrm{Func}(\A{A}, \B{B}) \to \mathrm{Func}(\A{A}, \B{B}) \) satisfies:
+
+\vspace{-0.25em}
+\begin{itemize}[leftmargin=2.5em,labelwidth=1.5em,labelsep=0.5em,topsep=0pt,itemsep=0pt]
+  \item[\axlabel{A}] Additivity: \( K(g \OpB{+} h) = K(g) \OpB{+} K(h) \).
+  \item[\axlabel{L}] Leibniz: \( K(g \OpB{\cdot} h) = K(g) \OpB{\cdot} h \OpB{+} g \OpB{\cdot} K(h) \).
+  \item[\axlabel{C}] Kills Constants: \( K(c_{\B{b}}) = c_{\OpB{0}} \) where \( c_{\B{b}}(\A{x}) \equiv \B{b} \).
+  \item[\axlabel{T}] Translation Invariance: \( K \circ T_{\A{y}} = T_{\A{y}} \circ K \).
+\end{itemize}
+
+Let \( f \in \mathrm{Func}(\A{A}, \B{B}) \) and \( \B{\lambda} \in \B{B} \) satisfy:
+
+\vspace{-0.25em}
+\begin{itemize}[leftmargin=2.5em,labelwidth=1.5em,labelsep=0.5em,topsep=0pt,itemsep=0pt]
+  \item[\axlabel{E}] Eigenfunction: \( K(f) = \B{\lambda} \OpB{\cdot} f \).
+  \item[\axlabel{N}] Normalisation: \( f(\OpA{0}) = \OpB{1} \).
+  \item[\axlabel{U}] Uniqueness: Evaluation at \( \OpA{0} \) is injective on \( \ker(K - \B{\lambda} I) \).
+\end{itemize}
+For \( f \) satisfying (E), let \( g_{\A{y}} := T_{\A{y}}f \). Then:
+\begin{align*}
+K(g_{\A{y}}) &= K(T_{\A{y}}f) \\
+&= T_{\A{y}}(K(f)) = T_{\A{y}}(\B{\lambda} \OpB{\cdot} f) \\
+&= \B{\lambda} \OpB{\cdot} T_{\A{y}}(f) = \B{\lambda} \OpB{\cdot} g_{\A{y}}.
+\end{align*}
+Define the function \( g := g_{\A{y}} \OpB{-} f \OpB{\cdot} c_{f(\A{y})} \) where \( c_{f(\A{y})} \) is the constant function with value \( f(\A{y}) \) (i.e., pointwise \( g(\A{x}) = f(\A{x} \OpA{+} \A{y}) \OpB{-} f(\A{x}) \OpB{\cdot} f(\A{y}) \)).
+
+Evaluating at \( \OpA{0} \):
+\begin{align*}
+g(\OpA{0}) &= f(\A{y}) \OpB{-} f(\OpA{0}) \OpB{\cdot} f(\A{y}) = \OpB{0}.
+\end{align*}
+Computing \( K(g) \):
+\begin{align*}
+K(g) &= K(g_{\A{y}} \OpB{-} f \OpB{\cdot} c_{f(\A{y})}) \\
+&= K(g_{\A{y}}) \OpB{-} K(f \OpB{\cdot} c_{f(\A{y})}) \tag{by (A)}\\
+&= K(g_{\A{y}}) \OpB{-} (K(f) \OpB{\cdot} c_{f(\A{y})} \OpB{+} f \OpB{\cdot} K(c_{f(\A{y})})) \tag{by (L)}\\
+&= \B{\lambda} \OpB{\cdot} g_{\A{y}} \OpB{-} (\B{\lambda} \OpB{\cdot} f \OpB{\cdot} c_{f(\A{y})} \OpB{+} f \OpB{\cdot} c_{\OpB{0}}) \tag{by (E), (C)}\\
+&= \B{\lambda} \OpB{\cdot} g_{\A{y}} \OpB{-} \B{\lambda} \OpB{\cdot} f \OpB{\cdot} c_{f(\A{y})} \\
+&= \B{\lambda} \OpB{\cdot} (g_{\A{y}} \OpB{-} f \OpB{\cdot} c_{f(\A{y})}) \\
+&= \B{\lambda} \OpB{\cdot} g.
+\end{align*}
+Since \( K(g) = \B{\lambda} \OpB{\cdot} g \) and \( g(\OpA{0}) = \OpB{0} \), uniqueness (U) gives \( g = c_{\OpB{0}} \) (the zero function). Thus:
+% (no extra vspace needed)
+\begin{align*}
+f(\A{x} \OpA{+} \A{y}) = f(\A{x}) \OpB{\cdot} f(\A{y}).
+\end{align*} 
+Hence the additive exponential property emerges from the derivation properties:
+\textbf{(A)} additivity, \textbf{(L)} Leibniz, \textbf{(C)} annihilation of constants, \textbf{(T)} translational symmetry,
+and \textbf{(U)} uniqueness at $\OpA{0}$.
+The functional equation \( f(x+y) = f(x)f(y) \) is a geometric necessity,
+of which the real exponential \( e^{x+y} = e^x e^y \) is a special case.
+
+\textit{Remark}:
+If (U) fails, we obtain
+{\setlength{\abovedisplayskip}{0.25em}%
+ \setlength{\belowdisplayskip}{0.25em}%
+ \setlength{\abovedisplayshortskip}{0.2em}%
+ \setlength{\belowdisplayshortskip}{0.2em}%
+ \begin{align*}
+f(\A{x} \OpA{+} \A{y}) &= f(\A{x}) \OpB{\cdot} f(\A{y}) \OpB{+} h_{\A{y}}(\A{x}), \\
+h_{\A{y}} &\in V_{\B{\lambda}}^{\OpA{0}} := \{ g : K(g) = \B{\lambda} \OpB{\cdot} g,\ g(\OpA{0}) = \OpB{0} \}\,.
+ \end{align*}}
+This error term satisfies a cocycle condition central to group cohomology,
+measuring how far \( f \) is from being a homomorphism.
+
+\textit{Intuition}:
+Translation invariance makes $K$ commute with shifts: $K(T_{\A{y}} f) = T_{\A{y}} K(f)$. Thus every translation $T_{\A{y}} f$ of an eigenfunction remains in the $\lambda$-eigenspace of $K$. By (U), translation acts on this eigenspace by scalar multiplication: $T_{\A{y}}f = c_{f(\A{y})} \OpB{\cdot} f$, meaning that translating $f$ by $\A{y}$ yields the function $\A{x} \mapsto f(\A{y}) \OpB{\cdot} f(\A{x})$. Commuting with the derivation therefore forces addition in the domain (the group operation generating translations) to correspond to multiplication in the codomain (the scalar action on the eigenspace).
+
+\vspace{0.3em}
+\techheader{Example: Classical Derivative}\\
+Let \( \A{A} = (\mathbb{R}, +, 0) \), \( \B{B} = (\mathbb{R}, +, \cdot, 0, 1) \), and \( K = \frac{d}{dx} \) on smooth real functions. Define \( f(x) := e^{\lambda x} \) for \( \lambda \in \mathbb{R} \).
+
+Then \( K \) satisfies (A) \( (f+g)' = f' + g' \), (L) \( (fg)' = f'g + fg' \), (C) \( (\text{constant})' = 0 \), and (T) \( (T_y f)'(x) = f'(x+y) = (T_y f')(x) \). Condition (U) holds since any solution to \( g' = \lambda g \) with \( g(0) = 0 \) is \( g \equiv 0 \) by uniqueness of ODE solutions.
+
+Since \( f' = \lambda e^{\lambda x} = \lambda f \) and \( f(0) = 1 \), all hypotheses (A)–(U) hold, hence \( e^{\lambda(x+y)} = e^{\lambda x} e^{\lambda y} \).
+
+\end{technical}

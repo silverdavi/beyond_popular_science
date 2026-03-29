@@ -1,0 +1,41 @@
+\begin{technical}
+{\Large\textbf{Origins of Ice Slipperiness}}\\[0.3em]
+
+\techheader{Surface Premelting and Quasi-Liquid Layer Formation}\\[0.2em]
+A quasi-liquid layer (QLL) forms on ice when the solid–vapour interfacial energy exceeds the combined solid–liquid and liquid–vapour energies. Let $\gamma_{sv}$, $\gamma_{sl}$, and $\gamma_{lv}$ denote these interfacial energies, respectively. The criterion for spontaneous surface disordering is:
+\[
+\gamma_{sv} > \gamma_{sl} + \gamma_{lv}.
+\]
+This lowers the Gibbs free energy ($G$) and drives disordered layer formation. Surface molecules are undercoordinated, forming fewer hydrogen bonds and possessing higher vibrational entropy. The QLL exhibits molecular mobility without full phase change.
+
+\techheader{Frictional Heating and Velocity-Dependent Melt Film Generation}\\[0.5em]
+Frictional sliding converts mechanical work to interface heat. Heat generation rate: $P_{\text{fric}} = \mu F_N v$, where $\mu$ is kinetic friction coefficient, $F_N$ is normal load, and $v$ is sliding velocity. For high $v$, generated heat exceeds thermal dissipation, raising interface temperature and potentially inducing melt layers below bulk melting point $T_m$. This dynamic meltwater film can exceed equilibrium QLL thickness and reduce shear resistance.
+
+\techheader{QLL Rheology and Shear Lubrication}\\[0.5em]
+QLL or meltwater lubrication depends on rheological response. Let $\eta(T, \dot{\gamma})$ denote the effective viscosity (units: Pa·s), where $T$ is temperature and $\dot{\gamma}$ is shear rate. In confined geometries, viscosity deviates from bulk water and may exhibit non-Newtonian behaviour. The shear stress $\tau = \eta \dot{\gamma}$ determines frictional resistance. Enhanced molecular mobility near $T_m$ yields lower $\eta$ and reduced $\tau$ under shear, enabling efficient nanometric lubrication.
+
+\techheader{Thickness Divergence and Interfacial Scaling Laws}\\[0.5em]
+As temperature approaches the melting point, QLL thickness $d(T)$ increases following:
+\[
+d(T) \sim \left(1 - T/T_m \right)^{-\alpha}, \quad \alpha \in [0.3, 0.5],
+\]
+where $\alpha$ is a critical exponent. This reflects gradual surface disordering and successive molecular layer formation. Ellipsometry and vibrational spectroscopy confirm this scaling; simulations support entropic and energetic growth origins.
+
+\techheader{Pressure Effects and Contact Mechanics}\\[0.5em]
+The Clausius–Clapeyron relation governs melting point depression under pressure: $dT/dp = T \Delta V/\Delta H$, where $\Delta V < 0$ is the volume change upon melting and $\Delta H$ is the latent heat of fusion. For macroscopic loads (e.g., skates), the average pressure-induced melting-point shift is small, typically less than $1^\circ\text{C}$ under realistic loads. Local pressure at asperities—real contact points within the nominal contact area—can be much higher. These localised hotspots drive frictional heating and melting. Real contact area controls heat distribution and deformation.
+
+\techheader{Composite Friction Model: Thermo-Mechanical Coupling}\\[0.5em]
+In the lubricated regime, friction reduces to viscous shear across the interfacial film:
+\[
+\mu \approx \eta(T)\, v / (p \cdot h(T,v)),
+\]
+where $\eta(T)$ is the film viscosity, $p$ the contact pressure, and $h(T,v)$ the lubricating layer thickness—set by the equilibrium QLL and any frictional melt. As $T \to T_m$, $h$ grows (from the scaling above) and $\eta$ drops, reducing $\mu$. At low $T$ or $v$, $h$ is thin and friction is high. Near $T_m$, ice softens and the slider ploughs into the surface. The minimum $\mu$ near $-7^\circ$C reflects the balance: the film is thick enough to lubricate but the ice is stiff enough to resist penetration. Molecular dynamics simulations (Atila et al., 2024) suggest that during sliding, displacement-driven amorphization—not melting—produces the dominant lubricating layer, with thickness scaling as $w \propto \sqrt{d}$ where $d$ is the slid distance.
+
+\techref
+{\footnotesize
+Slater, B., and Michaelides, A. (2019). \textit{Nat. Rev. Chem.}, \textbf{3}, 172.\\
+Weber, B. et al. (2018). \textit{J. Phys. Chem. Lett.}, \textbf{9}, 2838.\\
+Atila, A., Sukhomlinov, S. V., and M\"{u}ser, M. H. (2024). \textit{Phys. Rev. Lett.}, \textbf{133}, 236201.
+}
+
+\end{technical}

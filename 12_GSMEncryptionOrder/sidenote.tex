@@ -1,0 +1,8 @@
+\begin{SideNotePage}{
+  \textbf{Top (Multiplex → Encrypt):} The same message (ACBB) is first combined with different colour-coded templates through multiplexing. Each variant is then independently encrypted using a shared key. This leads to distinct ciphertexts, but if the templates are known or public, attackers can reverse the multiplexing process and end up with multiple ciphertexts of the same underlying message, enabling algebraic attacks that exploit the known relationships between the variants. \par
+
+  \textbf{Bottom (Encrypt → Multiplex):} The message is first encrypted (producing, for example, CBAB from the original message), and the resulting ciphertext is then duplicated and wrapped in different colour-coded templates. Because all copies are cryptographically identical before templating, multiplexing adds no diversity to the encrypted content. This offers attackers fewer opportunities for correlation-based attacks. \par
+
+  \textbf{Signal Flow (Communication Path):} The bottom illustration shows the complete communication path: microphone input → multiplexing → encryption → transmission → decryption → demultiplexing → speaker output. \par
+}{12_GSMEncryptionOrder/12_ You Would Like to Order First.pdf}
+\end{SideNotePage}

@@ -1,0 +1,99 @@
+A voting system takes as input a collection of individual preference rankings and produces a single collective outcome. Each voter submits a total ordering of the available options, specifying a sequence from most to least preferred, without ties. The voting rule processes these inputs and returns either a single winner or a complete ranking of the options according to the aggregated preferences.
+
+These systems formalise the process of collective decision-making—their applications extend beyond political elections and include committee procedures, academic appointments, boardroom voting, and algorithmic decision-making in multi-agent systems and recommendation engines.
+
+The input to a voting system is called a profile: a multiset of total orders, with one such order for each voter. Each total order ranks the finite set of alternatives such that every candidate is assigned a unique position. This representation provides the basis on which aggregation rules operate.
+
+The number of possible total orderings grows rapidly with the number of options. For three candidates, there are $3! = 6$ distinct rankings; for five candidates, there are $5! = 120$. This factorial growth introduces combinatorial complexity, making it infeasible to analyse all possible configurations exhaustively once the number of alternatives exceeds a small threshold.
+
+Certain properties are often desired of voting rules. Anonymity requires that the outcome not depend on which voter submitted which ballot. Neutrality requires that all candidates be treated symmetrically. These properties enforce symmetries on the rule and ensure that it operates independently of irrelevant identifiers.
+
+Additional desirable properties include monotonicity and consistency. A system is monotonic if ranking a candidate higher on a ballot cannot reduce that candidate’s chances of winning. It is consistent if identical outcomes from separate groups imply the same outcome when those groups are merged. These properties aim to prevent procedural anomalies that would violate intuitive fairness.
+
+Several voting systems are widely implemented in practice. These include Plurality voting, the Borda count, Condorcet methods, and instant-runoff voting. Each of these systems interprets the profile differently and emphasises different aspects of the ranking data.
+
+Plurality voting considers only the top-ranked candidate on each ballot. The candidate receiving the most first-place votes is declared the winner. All lower-ranked information is discarded, making the system computationally simple but sensitive to strategic voting and vote splitting. Most U.S. House and state legislative races, and U.K. parliamentary constituencies, use this \QSOpen{}first-past-the-post\QSClose{} system. U.S. presidential electors are chosen by state-level plurality in most states.
+
+The Borda count assigns a score (de Borda, 1781) to each candidate based on their rank position on each ballot. For example, in a three-candidate election, a first-place vote may yield two points, second place one point, and third place zero. These points are then summed across all ballots, and the candidate with the highest total score wins. This method incorporates more information from the ranking but can fail to elect a candidate who would beat all others in head-to-head contests. Some academic societies and professional organisations use Borda counting for internal elections.
+
+Condorcet methods use pairwise majority comparisons (Condorcet, 1785) between candidates. For each pair, the number of voters who prefer one candidate to the other is counted. If a candidate defeats every other candidate in these head-to-head contests, that candidate is called the Condorcet winner. Not all profiles contain such a candidate, and additional rules are required when cycles occur. The Debian Project, a Linux distribution, uses a Condorcet method to elect its project leader.
+
+Instant-runoff voting proceeds through iterative elimination. In each round, the candidate with the fewest first-place votes is eliminated, and those ballots are reassigned to the next preferred remaining candidate. The process continues until a single candidate remains. This system allows voters to express multiple preferences but can still produce paradoxical reversals when a candidate gains additional support. Australia’s House of Representatives, Ireland's presidency, and several U.S. cities including San Francisco employ instant-runoff voting.
+
+Each of these methods can produce different results on the same input profile—the choice of rule determines which features of the preferences are preserved and which are ignored. No method fully captures all intuitively fair principles, and the differences between them reflect the trade-offs inherent in social choice.
+
+Cycles in group preferences arise even when individual preferences are fully ordered and consistent. Each voter's ballot may assign a strict ranking to all options, but the collective result may still fail to satisfy transitivity. For example, candidate A may be preferred to B by a majority, B preferred to C, and yet C preferred to A, forming a cycle. This outcome cannot be mapped to a total order and reveals a limitation that no voting rule can avoid in all cases.
+
+Any system that outputs a full group ranking must address such cycles. One approach is to discard some pairwise comparisons and resolve the ranking using the remaining ones. Another approach is to introduce external tie-breaking rules, which may depend on arbitrary or external criteria. Both strategies impose coherence on an input that may not support it.
+
+Kenneth Arrow proposed a system to evaluate the reasonableness of complete voting systems. He identified four conditions that any acceptable aggregation rule might aim to satisfy: unanimity, non-dictatorship, independence of irrelevant alternatives, and transitivity.
+
+Unanimity requires that if all voters rank option $X$ above option $Y$, then the group outcome must reflect that same order. Non-dictatorship ensures that no single voter can always determine the result regardless of the others' preferences. These two conditions express responsiveness and fairness.
+
+The third condition, independence of irrelevant alternatives (IIA), states that the group preference between any two options $X$ and $Y$ should depend only on how voters rank $X$ relative to $Y$. Preferences involving other options must not affect the outcome of this pairwise comparison. This condition ensures that unrelated rankings cannot distort local outcomes.
+
+Transitivity requires consistency across comparisons: if the group prefers $X$ to $Y$ and $Y$ to $Z$, it must also prefer $X$ to $Z$. If transitivity fails, the output cannot be interpreted as a ranking at all. It contains loops that prevent any ordering from being formed. 
+
+Arrow’s impossibility theorem proves that no method (Arrow, 1951) satisfies all four conditions (unanimity, non-dictatorship, IIA, and transitivity) when there are at least three options and at least two voters. 
+
+Trade-offs are unavoidable in voting systems—which does not imply that voting is invalid. Some methods give up IIA to maintain collective agreement and equal treatment of voters. Others allow intransitive outcomes in order to preserve independence or avoid concentrated control. Every system must fail at least one of the criteria.
+
+\begin{commentary}[Mathematics Beyond Physics]
+I included this chapter to demonstrate that mathematical limitations, though typically associated with physical systems, can apply to social processes as well.
+
+As an undergraduate, I took courses in game theory given by Ron Holzman, who has Erdős number 1 for a paper on maximal triangle-free graphs (where any added edge creates a triangle).
+
+Ron also co-authored, in 2001 with Tom Bohman and Dan Kleitman, a proof of the $n = 6$ case of the Lonely Runner Conjecture (Wills, 1967). This conjecture states that for any $n$ runners moving at constant but distinct speeds around a circular track of unit length, there exists a time when each runner is at least $1/n$ of the track away from every other runner. The problem models the moment when each one is \QSOpen{}lonely,\QSClose{} meaning far enough from all others to be considered isolated.
+
+I loved this problem because the cases $n = 2$ and $n = 3$ are easy to visualise and prove (albeit lengthy for $n = 3$) using elementary arguments, yet the general case has resisted a proof for over fifty years. It has been proven for $n \leq 7$, with recent preprints claiming $n \leq 10$.
+
+The conjecture has an elegant reformulation in terms of number theory and approximation on the unit circle. For a runner moving at integer speed $v$, define the Bohr set $B(v,\delta) = \{ t \in \mathbb{R}/\mathbb{Z} : \|vt\| \leq \delta \}$, where $\|x\|$ denotes the distance from $x$ to the nearest integer. This set consists of all times when the runner is within a distance $\delta$ of their starting point.
+
+This question, about runners on a track, can be rephrased in terms of fractional parts, Bohr sets, and the geometry of coverings in $\mathbb{R}/\mathbb{Z}$, which illustrates how problems from everyday intuition often touch the edge of what mathematics can currently answer.
+
+When Matthieu Rosenfeld proved the $n = 8$ case in 2025 using computer-assisted backtracking over prime divisors, I thought I could help push the result further. His verification reduces, for each prime $p$, to showing that no \QSOpen{}bad\QSClose{} covering exists—a problem close to set cover, which is close to SAT. I reformulated his conditions as a Boolean satisfiability instance and ran Kissat, a state-of-the-art SAT solver. The result was humbling: for $k = 5$ and $d = 31$, his ad-hoc backtracking finished in 0.02 seconds; Kissat took 59 seconds on the same instance. The SAT encoding, with its monotone clauses and pseudorandom structure, fell outside the regime where conflict-driven clause learning excels. Rosenfeld cited the attempt in his subsequent $n = 9$ proof, which was generous given that I contributed a negative result. He then proved $n = 9$; Trakulthongchai independently proved $n = 9$ and $n = 10$ shortly after.
+\end{commentary}
+
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=1, >=Stealth]
+
+  % Helper to draw runner with arrow
+  \newcommand{\runnerarrow}[2]{%
+    \draw[->, thick] (#1:1) ++({cos(#1+90)*0.05},{sin(#1+90)*0.05}) -- ++({cos(#1+90)*0.2},{sin(#1+90)*0.2});
+    \fill[black] (#1:1) circle (0.03);
+    \node at (#1:1.25) {\tiny #2};
+  }
+
+  % N = 2
+  \begin{scope}[shift={(-4,0)}]
+    \draw[thick] (0,0) circle (1);
+    \runnerarrow{0}{R1}
+    \runnerarrow{180}{R2}
+    \node at (0,-1.3) {\footnotesize $n = 2$};
+  \end{scope}
+
+  % N = 3
+  \begin{scope}
+    \draw[thick] (0,0) circle (1);
+    \runnerarrow{0}{R1}
+    \runnerarrow{120}{R2}
+    \runnerarrow{240}{R3}
+    \node at (0,-1.3) {\footnotesize $n = 3$};
+  \end{scope}
+
+  % N = 4
+  \begin{scope}[shift={(4,0)}]
+    \draw[thick] (0,0) circle (1);
+    \runnerarrow{0}{R1}
+    \runnerarrow{90}{R2}
+    \runnerarrow{180}{R3}
+    \runnerarrow{270}{R4}
+    \node at (0,-1.3) {\footnotesize $n = 4$};
+  \end{scope}
+
+\end{tikzpicture}
+
+\caption{Figure by author. The Lonely Runner Conjecture for $n = 2$, $3$, and $4$. Each circle shows a time when every runner is at least $1/n$ of the track away from all others. Arrows indicate the direction of motion.}
+\end{figure}

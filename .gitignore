@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+
+# Markdown files (except README)
+*.md
+!README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled PDF and cover (released separately)
+BPS_v*.pdf
+US_v*.pdf
+main_*.pdf
+main.pdf
+cover/
+
+# Sidenote PDF backups (pre-flattening originals)
+*.pdf.bak
+
+# Acrobat preflight reports
+BPS_v*.xml
+
+# Obsolete utilities
+utils/centre_margins.py
+
+# Email drafts
+*.html
+
+# Environment
+.env
+
+audit_bios.py

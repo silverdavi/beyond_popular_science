@@ -1,0 +1,52 @@
+\begin{technical}
+{\Large\textbf{Radon, Hough, and the Geometry of Detection}}\\[0.3em]
+
+
+\techheader{Continuous vs Discrete Detection}\\[0.5em]
+Detecting a geometric structure in an image means finding parameters $p$ for which the curve or surface $C(x;p)=0$ is present in the intensity field $I(x)$. The Radon and Hough transforms implement this same idea in two complementary ways: one performs a continuous \emph{read-out} along shapes, the other a discrete \emph{write-in} from feature points.
+
+
+\techheader{Transform Duality: Reading vs Writing}\\[0.5em]
+Let $I(x)$ be a spatial image and $p \in P$ a parameter vector. The Radon transform is the integral projection:
+\[
+R(p) = \int_{\mathbb{R}^n} I(x)\, \delta(C(x; p))\, dx.
+\]
+Here each parameter $p$ queries all $x$ satisfying $C(x;p)=0$ and accumulates their intensity. In contrast, the Hough transform iterates over image locations: for each $x_0$ where $I(x_0)\neq 0$, it computes all $p$ with $C(x_0;p)=0$ and increments $H(p)$.
+
+
+Let $\mathcal{C}_p = \{x \in \mathbb{R}^n \mid C(x; p) = 0\}$ denote the locus of points on shape $p$, and $\mathcal{M}_x = \{p \in P \mid C(x; p) = 0\}$ the set of shapes passing through point $x$. Then:
+\begin{align*}
+R(p) &= \int_{\mathcal{C}_p} I(x)\, d\mu(x),\\
+&\text{(Radon: continuous read-out)}\\
+H(p) &= \sum_{x \in \mathrm{supp}(I)} \mathbf{1}_{\mathcal{M}_x}(p),\\
+&\text{(Hough: discrete write-in).}
+\end{align*}
+Radon computes an inner product between $I(x)$ and a template restricted to $\mathcal{C}_p$, while Hough builds up a histogram in parameter space whose peaks indicate well-supported shapes.
+
+
+\techheader{Unified Operator View}\\[0.5em]
+Both transforms can be expressed as linear operators with a kernel $C(p,x)$:
+\[
+(\mathcal{L}_C I)(p) = \int_{\mathbb{R}^n} C(p,x)\, I(x)\, dx.
+\]
+Choosing $C(p,x)=\delta(C(x; p))$ recovers Radon-type projections. Replacing the integral by a sum over discrete feature points and incrementing an accumulator at each $p$ with $C(x; p)=0$ yields Hough-type transforms.
+
+
+If $C(p,x)$ is shift-invariant, i.e., $C(p,x) = K(x - \phi(p))$, the operator reduces to convolution with a shifted template. This links Radon/Hough methods to classical matched filtering and Fourier-analytic descriptors.
+
+
+\techheader{Intersections in Parameter Space}\\[0.5em]
+Every edge point $x$ defines a manifold $\mathcal{M}_x \subset P$. True structures correspond to parameters $p^\star$ where multiple such manifolds intersect, producing sharp peaks in $H(p)$. In this view, detection is about the geometry of intersections: coherent data produce persistent intersections that survive noise and discretization, whereas random or spurious features yield only weak or isolated crossings.
+
+
+\techref
+{\footnotesize
+Radon, J. (1917). \"Uber die Bestimmung von Funktionen durch ihre Integralwerte l\"angs gewisser Mannigfaltigkeiten. \textit{Berichte der S\"achsischen Akademie der Wissenschaften zu Leipzig}, 69, 262–277.\\
+Hough, P. V. C. (1962). Method and Means for Recognizing Complex Patterns. U.S. Patent 3,069,654.\\
+Duda, R. O., and Hart, P. E. (1972). Use of the Hough Transformation to Detect Lines and Curves in Pictures. \textit{Commun. ACM} 15(1), 11–15.\\
+van Ginkel, M., Luengo Hendriks, C. L., and van Vliet, L. J. (2004). A short introduction to the Radon and Hough transforms and how they relate to each other. \textit{TU Delft Technical Report QI-2004–01}.
+}
+\end{technical}
+
+
+

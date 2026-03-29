@@ -1,0 +1,68 @@
+\begin{technical}
+{\Large\textbf{Technical Derivation of the Unruh Effect}}\\[0.3em]
+
+The Unruh effect manifests within the framework of quantum field theory in flat Minkowski spacetime. Consider a massless scalar field $\hat{\phi}(x)$ governed by the Klein–Gordon equation
+\[
+\Box \hat{\phi}(x) = 0,
+\]
+where $\Box$ denotes the d'Alembertian operator associated with the Minkowski metric $\eta_{\mu\nu}$, with signature $(-,+,+,+)$. Explicitly,
+\[
+\Box = -\frac{\partial^2}{\partial t^2} + \frac{\partial^2}{\partial z^2} + \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}.
+\]
+
+An inertial observer describes spacetime using Cartesian Minkowski coordinates $(t, z, x, y)$, in which the line element is
+\[
+ds^2 = -dt^2 + dz^2 + dx^2 + dy^2.
+\]
+The field $\hat{\phi}(x)$ is quantized by expanding in terms of plane wave modes that are eigenfunctions of the time translation operator $\partial_t$, exploiting the global timelike Killing vector field $\partial_t$ of Minkowski spacetime.
+
+Uniformly accelerated observers, however, do not naturally perceive the Minkowski time $t$ as their proper time. Instead, their worldlines trace hyperbolic trajectories characterised by constant proper acceleration $\alpha$. These trajectories are described by
+\[
+z^2 - t^2 = \alpha^{-2}.
+\]
+To describe the experience of such observers, it is natural to introduce Rindler coordinates $(\eta, \xi, x, y)$, defined by the transformations
+\[
+\begin{aligned}
+t &= \xi \sinh(a\eta), \\
+z &= \xi \cosh(a\eta),
+\end{aligned}
+\quad \text{with} \quad \xi > 0,  \eta \in \mathbb{R},
+\]
+where $a$ is an arbitrary constant with dimensions of inverse length, conventionally chosen so that $\eta$ has dimensions of time. 
+
+Substituting into the Minkowski line element yields
+\[
+\begin{aligned}
+dt &= a \xi \cosh(a\eta) d\eta + \sinh(a\eta) d\xi, \\
+dz &= a \xi \sinh(a\eta) d\eta + \cosh(a\eta) d\xi,
+\end{aligned}
+\]
+so that
+\[
+\begin{aligned}
+-dt^2 + dz^2 &= -(a\xi)^2 d\eta^2 + d\xi^2.
+\end{aligned}.
+\]
+Thus, the Minkowski metric becomes
+\[
+ds^2 = - (a\xi)^2 d\eta^2 + d\xi^2 + dx^2 + dy^2.
+\]
+The coordinate $\xi$ measures the proper distance from the Rindler horizon located at $\xi = 0$, and $\eta$ serves as the observer's proper time scaled by $a^{-1}$. The proper acceleration $\alpha$ experienced by an observer at fixed $\xi$ satisfies $\alpha = 1/\xi$.
+
+Hence, smaller $\xi$ corresponds to larger proper acceleration.
+
+It is important to note that the Rindler coordinates $(\eta, \xi)$ cover only a subset of Minkowski spacetime, specifically the right Rindler wedge defined by $z > |t|$.
+
+The surface $\xi = 0$, corresponding to $z = |t|$, acts as a causal boundary: signals from beyond this horizon cannot reach the accelerated observer. This causal restriction implies that uniformly accelerated observers perceive only part of the global spacetime, fundamentally altering their notion of vacuum and particle content.
+
+The hyperbolic trajectories of constant $\xi$ correspond to observers moving with constant proper acceleration $\alpha = 1/\xi$, whose four-velocity $u^\mu$ and four-acceleration $a^\mu$ satisfy
+\[
+u^\mu u_\mu = -1, \quad a^\mu a_\mu = \alpha^2.
+\]
+The presence of a causal horizon and the distinct mode structure in Rindler coordinates underlie the emergence of the Unruh effect, which will now be derived by solving the field equations in this coordinate system.
+
+\techref
+{\footnotesize
+M. Socolovsky, Rindler Space and the Unruh Effect, arXiv:1304.2833 [gr-qc], 2013.
+}
+\end{technical}

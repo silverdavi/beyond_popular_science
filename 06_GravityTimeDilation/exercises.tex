@@ -1,0 +1,46 @@
+\fullpageexercises[Exercise: Deriving the Schwarzschild Metric]{
+\noindent \textbf{Objective:} Derive the Schwarzschild metric, which describes spacetime outside a spherically symmetric, non-rotating, uncharged mass \(M\).
+
+\noindent \textbf{Assumptions:} Spherical symmetry, static spacetime, vacuum solution (\(R_{\mu\nu} = 0\)), and the Newtonian limit at large \(r\).
+
+\begin{enumerate}
+    \item \textbf{General Form of the Metric.}  
+    A spherically symmetric, static spacetime is described by the most general metric:
+    \[
+    ds^2 = -A(r)c^2 dt^2 + B(r) dr^2 + r^2 d\Omega^2,
+    \]
+    where \(d\Omega^2 = d\theta^2 + \sin^2\theta d\phi^2\), and \(A(r)\), \(B(r)\) are functions of \(r\) only.  
+    \textit{(Why only \(r\)? Symmetry! Time-independence and spherical symmetry ensure that metric components cannot depend on \(t\), \(\theta\), or \(\phi\)).}
+
+    \item \textbf{Newtonian Limit.}  
+    In the weak-field, slow-motion limit, the metric must reduce to the Newtonian potential: \(g_{00} \approx -(1 + 2\Phi/c^2)\), where \(\Phi = -GM/r\) is the Newtonian potential of a point mass \(M\). This implies \(A(r) = 1 - 2GM/rc^2\).
+    
+    Define the \textbf{Schwarzschild radius} \(r_s = 2GM/c^2\), so \(A(r) = 1 - r_s/r\).
+
+    \item \textbf{Key Assumption: Relationship Between \(A(r)\) and \(B(r)\).}  
+    Instead of solving Einstein’s field equations explicitly, we assume that \( B(r) = 1/A(r) \).  
+    \textit{Why?}  
+    \begin{itemize}
+        \item[a)] \textbf{Birkhoff's Theorem:} The unique spherically symmetric vacuum solution must be static and match the Schwarzschild metric.
+        \item[b)] \textbf{Energy Conservation in Radial Free-Fall:} If an object falls radially inward, the proper time and coordinate time should be related in a way that matches Newtonian conservation of energy in the weak-field limit.
+    \end{itemize}
+    This assumption gives:
+    \[
+    B(r) = \frac{1}{1 - r_s/r}.
+    \]
+
+    \item \textbf{The Schwarzschild Metric.}  
+    Substituting \( A(r) = 1 - r_s/r \) and \( B(r) = (1 - r_s/r)^{-1} \) into the general metric:
+    \[
+    ds^2 = -\left(1 - r_s/r \right) c^2 dt^2 + \frac{dr^2}{1 - r_s/r} + r^2 d\Omega^2.
+    \]
+
+    \item \textbf{Physical Consequences:}  
+    \begin{itemize}
+        \item[a)] \textbf{Event Horizon (\(r = r_s\)):} The metric component \( g_{00} \) vanishes and \( g_{rr} \) diverges. This is a coordinate singularity, marking the event horizon of a black hole.
+        \item[b)] \textbf{Inside the Schwarzschild Radius (\(r < r_s\)):} The roles of space and time effectively switch, leading to an inevitable collapse toward \( r = 0 \).
+        \item[c)] \textbf{Observational Predictions:} The Schwarzschild metric predicts gravitational time dilation, light bending, and the precession of planetary orbits (as seen in Mercury).
+    \end{itemize}
+\end{enumerate}
+
+}

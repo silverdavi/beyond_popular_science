@@ -1,0 +1,56 @@
+% Main Text (Page One)
+Prime numbers are integers greater than 1 that have no positive divisors other than 1 and themselves. They form the multiplicative building blocks of arithmetic. The first few primes, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, occur without any obvious pattern. Their spacing varies.
+
+As numbers increase, primes become less frequent, because they have more possible factors. The Prime Number Theorem formalises this observation (Hadamard, 1896; de la Vallée Poussin, 1896): the number of primes less than $x$ grows like $x / \log x$. This gives an average spacing between primes near $x$ of about $\log x$, but does not constrain individual gaps.
+
+The differences between consecutive primes can be small or large. Pairs such as (3, 5), (5, 7), (11, 13), (17, 19), and (29, 31) each differ by 2. The smallest prime gap of 2 recurs often at the start of the number line. By contrast, the primes 370,261 and 370,373 are separated by 112, with no primes between them. For any given $n$, there exist consecutive primes with a gap larger than $n$. One construction uses the sequence $(n+1)! + 2,  (n+1)! + 3,  \dots,  (n+1)! + (n+1)$, which yields $n$ consecutive composite numbers, hence a gap of at least $n$ between the bounding primes.
+
+What remains unknown is whether small gaps, such as a fixed difference of 2, occur infinitely often. The Twin Prime Conjecture asserts that there are infinitely many primes $p$ such that $p + 2$ is also prime. This remains one of the major conjectures in number theory.
+
+In 2013, Yitang Zhang proved that there exists a constant $B$ such that infinitely many pairs of primes differ by at most $B$ (as opposed to exactly a fixed gap such as 2 in the twin prime conjecture). His original bound was $B < 70{,}000{,}000$—while this does not resolve the twin prime conjecture, it proves that small prime gaps occur infinitely often.
+
+Zhang's method extended work by Goldston, Pintz, and Yıldırım. He combined improved estimates on the distribution of primes in arithmetic progressions with a weighted sieve construction that amplified configurations where primes appear close together. This yielded a finite bound on the gap size that recurs infinitely often.
+
+Following Zhang's proof, the Polymath8 collaboration reduced the bound from 70 million to below 250 through analytic refinements. Later on, James Maynard introduced a simplified sieve method that removed the need for strong distributional estimates and extended the technique to detect many primes within bounded intervals.
+
+Zhang's result drew attention for its mathematical content and the circumstances of its discovery—after completing his doctorate, he spent years outside academic mathematics, with no permanent university position and limited research output. His proof was written and submitted independently, lacking collaborators or institutional support. The publication of his result led to rapid follow-up work, large-scale collaboration, and the re-entry of a long-standing problem into the mathematical mainstream.
+
+While Zhang's work addressed bounded gaps, the opposite question—how large prime gaps can become—has also attracted intense study. Let $G(x)$ be the largest gap between consecutive primes less than $x$. It is known that $G(x)$ increases faster than $\log x$, which is the average spacing predicted by the Prime Number Theorem. A classical result due to Paul Erdős shows that $G(x)$ exceeds a constant multiple of $\log x$ times another slowly growing function. This means that although most prime gaps are relatively small, unusually large gaps must still occur infinitely often. The best known upper bounds on $G(x)$ remain far from matching the lower bounds. Some of the strongest predictions, such as Cramér's conjecture, suggest that the maximal gap should grow no faster than $\log^2 x$, but this has not been proven.
+
+Alongside these increasingly long gaps, primes can also appear in patterns. In 2004, Ben Green and Terence Tao proved that the primes contain arbitrarily long arithmetic progressions. For any integer $k$, there exists a sequence of the form $p,  p + d,  p + 2d,  \dots,  p + (k - 1)d$ in which all terms are prime. The length $k$ can be taken as large as desired. Although such progressions become rarer as $k$ increases, the result shows that they never stop appearing.
+
+The Green–Tao theorem uses tools from ergodic theory and additive combinatorics—it begins by approximating the set of primes using related sequences whose behaviour is easier to control. A transference principle then carries results from these surrogate sequences back to the primes themselves. The original result was later extended by Green and Ziegler to cover polynomial progressions, such as $p,  p + q,  p + 4q,  p + 9q,  p + 16q$ in which the differences between terms follow a fixed polynomial pattern and all terms are again required to be prime.
+
+Many questions regarding the distribution of primes, including the spacing between them and the occurrence of patterned arrangements, remain unresolved. Some of these questions cannot be settled with current methods because their answers depend on an open conjecture in complex analysis and number theory. This conjecture is known as the Riemann Hypothesis (Riemann, 1859).
+
+The Riemann Hypothesis (RH) concerns a function called the Riemann zeta function. This function is initially defined as a sum over positive integers, $\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s},$
+which converges when the complex number $s$ has real part greater than $1$. Through a process known as analytic continuation, the function is extended to other values of $s$ in the complex plane. The hypothesis asserts that all nontrivial zeros of $\zeta(s)$ — that is, all values of $s$ for which $\zeta(s) = 0$ and which are not negative even integers — lie on the vertical line $\mathrm{Re}(s) = \tfrac{1}{2}$.
+
+Assuming RH, bounds on the error terms in prime-counting functions become significantly tighter. For example, the difference between the actual number of primes up to $x$ and the estimate $x / \log x$ can be bounded more sharply. The hypothesis also leads to improved estimates on how often primes occur in short intervals and how large the gaps between consecutive primes can be. Without a proof, many of these refinements remain conditional. The Riemann Hypothesis has been verified for many individual zeros through numerical computation, and no counterexamples have been found. Nevertheless, the general statement remains unproven.
+\newpage
+
+\begin{commentary}[Transparent Statements, Resistant Proofs]
+The central claim of this chapter can be stated in one line and requires no definitions beyond the integers. This is typical of many problems in number theory. Simplicity of formulation does not imply tractability.
+
+Consider these easy-to-state problems that remain unsolved:
+\begin{itemize}
+\item \textbf{Twin Prime Conjecture}: Are there infinitely many primes $p$ such that $p+2$ is also prime?
+\item \textbf{Goldbach's Conjecture}: Can every even integer greater than 2 be written as the sum of two primes?
+\item \textbf{Odd Perfect Numbers}: Does there exist an odd perfect number (a number equal to the sum of its proper divisors)?
+\end{itemize}
+
+Each can be explained to a child, yet they have resisted centuries of mathematical effort. They can be tested on billions of examples, but no general proof exists.
+
+Zhang's proof is concise and intricate. Its validity depends on a balance between distributional estimates and the sieve framework. Subsequent refinements by the Polymath8 project, led by Terence Tao, and by Maynard's independent method reduced the bound but did not simplify the analytic core.
+
+This chapter is included because of Zhang's personal trajectory and because it illustrates this broader principle: many problems in number theory are easy to state and test numerically, yet remain inaccessible to current methods. Let's demonstrate it further.
+
+The following questions of existence, stated in a single line, can fall anywhere along the spectrum of difficulty:
+
+\begin{itemize}
+\item \textbf{Impossible to answer}: Hilbert's Tenth Problem asked for a general procedure to decide whether any Diophantine equation (equation in integer variables with polynomial coefficients) has a solution. Matiyasevich's work, building on Davis–Putnam–Robinson, showed (Matiyasevich, 1970) that no such algorithm can exist.
+\item \textbf{Unknown}: The \textit{Collatz Conjecture} asks whether repeated iteration of the rule $n \mapsto n/2$ if $n$ is even and $3n+1$ if $n$ is odd always reaches 1. No proof is known.
+\item \textbf{Hard No}: Fermat’s Last Theorem—that $x^n+y^n=z^n$ has no nontrivial integer solutions for $n>2$—resisted proof until Wiles.
+\end{itemize}
+
+\end{commentary}

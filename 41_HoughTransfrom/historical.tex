@@ -1,0 +1,10 @@
+
+\begin{historical}
+In 1959, Paul V. C. Hough filed a patent—issued in 1962 as U.S. Patent 3,069,654—for a method of identifying complex patterns in visual data by mapping image features into a parameter space. His technique framed detection as finding parameter settings supported by many edge points. The familiar sinusoidal loci in a polar-coordinate domain arise with the normal parameterisation \((\rho,\theta)\), which was formalised and popularised subsequently.
+
+Early implementations relied on analogue hardware and optical computing elements. Limitations in memory and processing speed constrained accumulator resolution and the range of detectable geometries. Despite these constraints, the method was adopted in early automation systems for detecting weld lines, highway markings, and parts in mechanical assemblies.
+
+In 1972, Richard Duda and Peter Hart provided the first formal exposition of the method in their landmark paper, reframing it as a discrete voting process over a bounded parameter space and introducing the normal parameterisation \(\rho = x\cos\theta + y\sin\theta\) that treats all orientations uniformly. Their formulation gave the method the name \QSOpen{}Hough transform\QSClose{} and connected it to broader principles in statistical decision theory. Subsequent extensions by Ballard and others generalised the idea to arbitrary curves and spatial templates, enabling detection of circles, ellipses, and parabolas.
+
+By the 1980s and 1990s, with advances in digital signal processors and parallel computing, the Hough transform became a foundational tool in industrial vision systems, robotics, and medical image reconstruction. Its structure-preserving mapping from image to parameter space allowed for robust detection even in the presence of occlusion, fragmentation, and noise — a capacity that remains central to modern implementations in lane detection, tomography, and motion analysis. 
+\end{historical}

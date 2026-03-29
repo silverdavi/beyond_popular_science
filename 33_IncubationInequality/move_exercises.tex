@@ -1,0 +1,66 @@
+\fullpageexercises[The Universality of Linearity of Expectation]
+{
+\section*{Riddles Solved by Linearity of Expectation}
+
+\noindent
+Linearity of expectation states that for any finite collection of random variables \( X_1, \dots, X_n \), regardless of dependence,
+\[
+\mathbb{E}\left[\sum_{i=1}^n X_i\right] = \sum_{i=1}^n \mathbb{E}[X_i].
+\]
+This principle applies even when the variables interact in complex or unknown ways. The following riddles highlight its surprising power: each involves a probabilistic setting with hidden structure, yet a clean result follows from applying linearity directly—without requiring independence, variance, or even probability mass functions.
+
+\vspace{1em}
+\begin{enumerate}
+
+    \item \textbf{Red Sphere and Cube.}\\
+    The surface of a sphere is painted red and blue, with 90\% of the area red. A cube is placed inside the sphere such that all eight vertices touch the surface.\\
+    Prove that there exists an orientation where all 8 vertices lie on red.\\[0.5em]
+    \textit{Hint:} What happens if you average over all possible cube rotations?
+
+    \item \textbf{Coins Covering Arbitrary Points.}\\
+    Show that any 10 points in the plane can be simultaneously covered by 10 non-overlapping unit coins.\\[0.5em]
+    \textit{Hint:} Think spatially: what would happen if a dense coin tiling were randomly shifted?
+
+    \item \textbf{Empty Bins.}\\
+    Throw \( n \) balls uniformly at random into \( n \) bins. What is the expected number of empty bins?\\[0.5em]
+    \textit{Hint:} Define indicator variables for each bin being empty, then evaluate their expectation.
+
+    \item \textbf{Coupon Collector.}\\
+    What is the expected number of samples required to collect all \( n \) types of coupons, where each draw returns a uniformly random coupon?\\[0.5em]
+    \textit{Hint:} Consider the waiting time to acquire each new coupon, one at a time.
+
+    \item \textbf{Permutation Fixed Points.}\\
+    Let \( \sigma \) be a uniformly random permutation of \( n \) elements. What is the expected number of fixed points?\\[0.5em]
+    \textit{Hint:} Think in terms of expected value per element, rather than analysing cycles.
+
+    \item \textbf{Two Beverages per Villager.}\\
+    Each villager drinks exactly two out of three beverages: tea, beer, or wine. Suppose that 1/2 of villagers drink tea, 2/3 drink beer, and 3/4 drink wine. Prove that this situation is impossible.\\[0.5em]
+    \textit{Hint:} Add up the expected beverage counts across the population.
+
+    \item \textbf{Expected Maximum Red Degree.}\\
+    Consider the complete graph on 100 people, where each edge is independently coloured red with probability $1/2$ (blue otherwise). Let $D_i$ be the red degree of person $i$. Show that the expected maximum red degree is at least $49$.\\[0.5em]
+    \textit{Hint:} Use $\mathbb{E}[D_i]=99/2$ and that $\max_i D_i \ge D_j$ for any fixed $j$.
+
+\end{enumerate}
+
+\noindent\hrulefill
+
+\begin{center}
+\rotatebox[origin=c]{180}{%
+\begin{minipage}{0.95\textwidth}
+\small
+\noindent
+\(
+\textbf{Answers: }\ 
+\text{1: } \mathbb{E}[\text{\# red vertices}] = 7.2 \Rightarrow \text{some rotation achieves 8} \quad
+\text{2: } \text{expected coverage } > 9 \Rightarrow \text{some shift covers all 10} \quad
+\text{3: } \text{Each bin empty w.p. } (1 - 1/n)^n \Rightarrow \mathbb{E} \approx n/e \quad
+\text{4: } \mathbb{E} = n \sum_{k=1}^n \frac{1}{k} \sim n \log n \quad
+\text{5: } \mathbb{E} = \sum_{i=1}^n \frac{1}{n} = 1 \quad
+\text{6: } \frac{1}{2} + \frac{2}{3} + \frac{3}{4} = \frac{23}{12} < 2 \ (\text{contradicts exactly 2 per villager}) \quad
+\text{7: } \mathbb{E}[D_i]=99/2 \Rightarrow \mathbb{E}[\max_i D_i] \ge 99/2 > 49.
+\)
+\end{minipage}
+}
+\end{center}
+}

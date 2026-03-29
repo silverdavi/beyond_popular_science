@@ -1,0 +1,59 @@
+\begin{technical}
+{\Large\textbf{False Vacuum Decay: Mathematical Formulation}}\\[0.3em]
+
+\techheader{Higgs Potential and Vacuum Stability}\\[0.5em]
+The Higgs potential in the Standard Model takes the form
+$$
+V(\phi) = \mu^2 \phi^2 + \lambda \phi^4,
+$$
+where $\phi$ is the Higgs field, $\mu^2 < 0$ for spontaneous symmetry breaking, and $\lambda > 0$ for stability. The vacuum expectation value is $\langle \phi \rangle = v = \sqrt{-\mu^2/\lambda} \approx 246$ GeV. Up to an additive constant, this is the Mexican-hat form $\lambda(\phi^2 - v^2)^2$ with $\mu^2 = -2\lambda v^2$.
+
+However, renormalization group running modifies the effective potential at high energies. The quartic coupling evolves as
+\begin{align*}
+(16\pi^2)\,\beta_\lambda &= 12\lambda^2 + (12 y_t^2 - 9 g^2 - 3 g'^2)\lambda \\
+&\quad - 12 y_t^4 + \frac{9}{8} g^4 + \frac{3}{4} g^2 g'^2 + \frac{3}{8} g'^4,
+\end{align*}
+where $y_t$ is the top quark Yukawa coupling, $g$ and $g'$ are the SU(2)$ _L$ and U(1)$ _Y$ gauge couplings, and $Q$ is the energy scale. For Higgs mass $m_H \approx 125$ GeV and top mass $m_t \approx 173$ GeV, $\lambda$ runs negative at scales $Q \sim 10^{10}$-$10^{11}$ GeV, creating a second minimum at large field values.
+
+\techheader{Coleman-De Luccia Instanton}\\[0.5em]
+Vacuum decay proceeds via bubble nucleation described by the Euclidean action
+$$
+S_E = \int d^4x \left[\frac{1}{2}(\partial_\mu \phi)^2 + V(\phi)\right].
+$$
+The critical bubble solution has $O(4)$ symmetry in Euclidean space, satisfying
+$$
+\frac{d^2\phi}{d\rho^2} + \frac{3}{\rho}\frac{d\phi}{d\rho} = \frac{dV}{d\phi},
+$$
+where $\rho = \sqrt{x_1^2 + x_2^2 + x_3^2 + x_4^2}$ is the four-dimensional radius.
+
+The nucleation rate per unit volume is
+$$
+\Gamma = A e^{-S_E/\hbar},
+$$
+where $A$ is a prefactor and $S_E$ is the Euclidean action of the bounce solution. For the Standard Model, current estimates give $S_E/\hbar \sim 400-500$, making spontaneous decay negligible over cosmic timescales.
+
+\techheader{High-Energy Triggers}\\[0.5em]
+Local few-particle collisions (in colliders or from ultra-high-energy cosmic rays) are not expected to nucleate the required $O(4)$-symmetric critical bubble. Observed cosmic rays reach energies up to $\sim 3\times 10^{20}$ eV without any indication of catalysed vacuum decay, consistent with the nonperturbative, extended nature of the tunnelling process.
+
+\techheader{Bubble Dynamics}\\[0.5em]
+Once nucleated, the bubble wall accelerates due to the pressure difference between vacua. The wall Lorentz factor obeys
+$$
+\gamma^2 = \frac{1}{1-v^2},
+$$
+where $v$ is the wall velocity. In the thin-wall limit, the pressure difference $\epsilon$ across the wall drives $v$ rapidly toward the speed of light ($v \to 1$) as the bubble expands; the detailed dynamics depend on the surface tension $\sigma$, the energy difference $\epsilon$, and the background spacetime.
+
+\techheader{Renormalization Group Uncertainty}\\[0.5em]
+The stability analysis depends critically on precise measurements of Standard Model parameters. The most sensitive quantities are:
+\begin{align*}
+m_t &= 173.1 \pm 0.9 \text{ GeV} \\
+m_H &= 125.25 \pm 0.17 \text{ GeV} \\
+\alpha_s(M_Z) &= 0.1179 \pm 0.0010.
+\end{align*}
+An increase of order $\sim$1 GeV in the top mass would shift the stability assessment toward instability, while a $\sim$3 GeV increase in the Higgs mass would favour absolute stability.
+
+\techref
+{\footnotesize
+Coleman and De Luccia, \textit{Phys. Rev. D} \textbf{21}, 3305 (1980).\\
+Degrassi et al., \textit{JHEP} \textbf{08}, 098 (2012).
+}
+\end{technical}

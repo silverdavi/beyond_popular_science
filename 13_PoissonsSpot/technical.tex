@@ -1,0 +1,57 @@
+\begin{technical}
+{\Large\textbf{The Arago Spot}}\\[0.25em]
+
+We use scalar diffraction theory—based on the Helmholtz equation and the Rayleigh–Sommerfeld integral—together with Babinet's principle to compute the on-axis field behind a circular disc.
+
+\techheader{Scalar Framework}\\[0.4em]
+For a monochromatic field $\Psi(\mathbf{r})$ with wavenumber $k=2\pi/\lambda$,
+\[
+\nabla^2 \Psi + k^2 \Psi = 0.
+\]
+We use the Rayleigh–Sommerfeld formulation, which satisfies boundary conditions at the aperture plane. In what follows, $\Psi$ denotes the complex amplitude and $U$ the on-axis field.
+
+\techheader{Babinet and the Axial Field}\\[0.4em]
+Let $U_{\rm inc} = A_0 e^{ikb}$ be a normally incident plane wave, and let $U_{\rm ap}(0)$ (aperture) and $U_{\rm disc}(0)$ (complementary disc) be the \emph{on-axis} fields a distance $b$ downstream. Babinet's principle gives
+\[
+U_{\rm disc}(0) = U_{\rm inc}(0) - U_{\rm ap}(0).
+\]
+For a \emph{circular aperture} of radius $a$, the axial Rayleigh–Sommerfeld integral in the Fresnel approximation evaluates to
+\[
+U_{\rm ap}(0) = A_0 e^{ikb} \bigl(1 - e^{i\pi N}\bigr),
+\]
+where the Fresnel number $N = a^{2}/(\lambda b)$. By Babinet's principle, the complementary \emph{disc} gives
+\[
+U_{\rm disc}(0) = A_0 e^{ikb} e^{i\pi N}.
+\]
+The magnitude is $|U_{\rm disc}(0)| = |A_0|$ for \emph{all} $N$, so the on-axis intensity equals the incident intensity—the Arago spot. What varies with $N$ is the phase $\arg U_{\rm disc}(0) = kb + \pi N$ and the surrounding rings. In real experiments, finite source size, partial coherence, edge imperfections, and detector averaging slightly lower the on-axis intensity.
+
+\techheader{What Controls the Pattern}\\[0.4em]
+The Fresnel number $N = a^{2}/(\lambda b)$ determines whether the diffraction lies in the Fresnel or Fraunhofer regime and characterises how many Fresnel zones fit within the disc radius. When $N\gtrsim 1$ (near-field regime), the disc edge is within the first few Fresnel zones, producing pronounced concentric Fresnel rings with high contrast around the central spot. The axial field coherently combines contributions from the circular rim because the phase variation around the rim is quadratic and vanishes to first order on axis, making rim contributions nearly in phase. When $N\ll 1$ (Fraunhofer regime), the aperture field magnitude $|U_{\rm ap}(0)| \to 0$ and ring contrast becomes weak, though the central disc intensity remains at the incident level for all $N$.
+
+\techheader{Integral Evaluation}\\[0.4em]
+On axis, the Rayleigh–Sommerfeld integral for a circular aperture reduces to
+\[
+U_{\rm ap}(0) = -\frac{iA_0 e^{ikb}}{\lambda b} \, 2\pi \int_0^a r\, e^{\,i\pi r^{2}/(\lambda b)}\, dr.
+\]
+Substituting $u = i\pi r^{2}/(\lambda b)$ gives $r\, dr = (\lambda b)/(2i\pi)\, du$, so
+\begin{align*}
+U_{\rm ap}(0) &= -\frac{iA_0 e^{ikb}}{\lambda b} \cdot 2\pi \cdot \frac{\lambda b}{2i\pi} \int_0^{i\pi N} e^{u}\, du \\
+&= -i A_0 e^{ikb} \cdot \frac{1}{i} \bigl(e^{i\pi N} - 1\bigr) \\
+&= A_0 e^{ikb} \bigl(1 - e^{i\pi N}\bigr).
+\end{align*}
+Rewriting:
+\begin{align*}
+U_{\rm ap}(0) &= -2i A_0 e^{ikb} e^{i\pi N/2} \sin(\pi N/2), \\
+|U_{\rm ap}(0)| &= 2|A_0| |\sin(\pi N/2)|.
+\end{align*}
+The aperture phase is
+\[
+\arg U_{\rm ap}(0) = kb + \tfrac{\pi N}{2} - \tfrac{\pi}{2}
+\]
+with $\pi$-jumps where $\sin(\tfrac{\pi N}{2}) < 0$. The disc phase is $\arg U_{\rm disc}(0) = kb + \pi N$. Ultrasound experiments confirm this $N$-dependent phase.
+
+\techref
+{\footnotesize
+Hitachi, A., and Takata, M. (2009). Babinet's principle in the Fresnel regime studied using ultrasound. arXiv:0904.1269.
+}
+\end{technical}
