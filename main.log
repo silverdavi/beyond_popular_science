@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  28 MAR 2026 19:42
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  28 MAR 2026 20:36
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -7458,12 +7458,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [351
 
 ] (./36_qft_vs_gr/sidenote.tex
-<36_qft_vs_gr/36_ When Theories Collide.pdf, id=3282, 975.645pt x 433.62pt>
+<36_qft_vs_gr/36_ When Theories Collide.pdf, id=3282, 433.62pt x 975.645pt>
 File: 36_qft_vs_gr/36_ When Theories Collide.pdf Graphic file (type pdf)
 <use 36_qft_vs_gr/36_ When Theories Collide.pdf>
 Package luatex.def Info: 36_qft_vs_gr/36_ When Theories Collide.pdf  used on in
 put line 20.
-(luatex.def)             Requested size: 254.39119pt x 113.06274pt.
+(luatex.def)             Requested size: 254.39119pt x 572.38017pt.
 
 Overfull \hbox (8.67365pt too wide) in paragraph at lines 20--20
 [][]  
@@ -9793,7 +9793,7 @@ ist, 1 margin_kern, 4 glyph, 514 attribute, 157 glue_spec, 514 attribute_list, 4
    avail lists: 1:7,2:6827,3:6726,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26,
 11:1804
  99875 multiletter control sequences out of 65536+600000
- 321 fonts using 151551847 bytes
+ 321 fonts using 151551639 bytes
  103i,22n,118p,4615b,3412s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesome
 5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf></u
@@ -9822,7 +9822,7 @@ usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liberti
 nusSerif-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/l
 ibertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73692841 bytes).
+Output written on main.pdf (568 pages, 73692875 bytes).
 
 PDF statistics: 5766 PDF objects out of 6186 (max. 8388607)
  716 named destinations out of 1000 (max. 131072)

@@ -36,9 +36,9 @@ David H. Silver is an industrial researcher whose career bridges computer vision
 Each chapter includes a full-page illustrated sidenote by Jess DG Hayes:
 
 <p align="center">
-  <img src="readme_assets/sidenote_trees_from_air.png" alt="Chapter 35 sidenote — From Air to Arbor: how trees build their mass from atmospheric CO₂" width="320"/>
+  <img src="readme_assets/sidenote_trees_from_air.png" alt="Chapter 35 sidenote — From Air to Arbor: how trees build their mass from atmospheric CO₂" width="360"/>
   &emsp;&emsp;
-  <img src="readme_assets/sidenote_when_theories_collide.png" alt="Chapter 36 sidenote — When Theories Collide: six thought experiments where general relativity and quantum field theory give contradictory predictions" width="520"/>
+  <img src="readme_assets/sidenote_when_theories_collide.png" alt="Chapter 36 sidenote — When Theories Collide: six thought experiments where general relativity and quantum field theory give contradictory predictions" width="360"/>
 </p>
 
 <p align="center">
