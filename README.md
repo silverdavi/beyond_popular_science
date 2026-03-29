@@ -27,7 +27,7 @@ Every chapter was written, typeset, and compiled by the author in LaTeX. The ful
 
 ## About the author
 
-David H. Silver is an industrial researcher whose career bridges computer vision, computational biology, and science communication. He studied mathematics, computer science, and biology at the Technion — Israel Institute of Technology as a Rothschild Scholar, and was awarded a Microsoft Research PhD Fellowship for his doctoral work in computational biology at Cambridge, UK. Silver's peer-reviewed publications span computational biology (*Nature*, *PNAS*), computer vision (*IEEE TPAMI*), medical AI (*Human Reproduction*, *MIDL*), and entertainment analysis (*PLoS One*). He holds over a dozen patents in depth sensing, medical imaging, and generative AI.
+David H. Silver is an industrial researcher whose career bridges computer vision, computational biology, and science communication. He studied mathematics, computer science, and biology at the Technion — Israel Institute of Technology as a Rothschild Scholar, and was awarded a Microsoft Research PhD Fellowship for his doctoral work in computational biology at Cambridge, UK. Silver's peer-reviewed publications span computational biology (*Nature*, *PNAS*), computer vision (*IEEE TPAMI*), medical AI (*Human Reproduction*, *MIDL*), and entertainment analysis (*PLoS One*). He holds over a dozen patents in depth sensing, medical imaging, and data-driven algorithms.
 
 ---
 
