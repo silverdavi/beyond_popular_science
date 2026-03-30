@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  28 MAR 2026 20:36
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  30 MAR 2026 07:26
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -9779,7 +9779,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 91C9A34ACBAA4F5F85B1DE36110813DA;168858.
+(rerunfilecheck)             Checksum: D43B96C58FDE5A334C00676170606C65;168863.
 
 )
 
@@ -9822,7 +9822,7 @@ usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liberti
 nusSerif-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/l
 ibertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73692875 bytes).
+Output written on main.pdf (568 pages, 73692874 bytes).
 
 PDF statistics: 5766 PDF objects out of 6186 (max. 8388607)
  716 named destinations out of 1000 (max. 131072)

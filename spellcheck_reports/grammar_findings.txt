@@ -1,0 +1,1001 @@
+=== ./01_GoldRelativity/main.tex ===
+* L20C185-L20C199 This word is normally spelled as one.. Suggestions:
+  [multielectron] (2457) [lt:en:EN_COMPOUNDS]
+  etry is broken in multi-electron atoms, where elec
+                    ^^^^^^^^^^^^^^^
+
+* L22C224-L22C225 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (2783) [lt:en:EN_A_VS_AN]
+  etry axes. For instance, a $3\mathrm{d}$ orbital h
+                           ^^
+
+=== ./35_TreesFromAir/main.tex ===
+* L5C242-L5C247 In the context of cars (automobiles), 'trunk' is American
+  English. For British English use 'boot'.. Suggestions:
+  [boot] (1090) [lt:en:TRUNK_BOOT]
+  hat endures in a dried trunk, cellulose, lignin, h
+                         ^^^^^^
+
+* L37C53-L37C55 Possible agreement error. You should probably use:
+  'are'.. Suggestions: [are] (8035)
+  [lt:en:AGREEMENT_SENT_START]
+  om a tree, what remains is a carbon-rich composite
+                          ^^^
+
+* L39C838-L39C842 Did you mean 'three'?. Suggestions:
+  [three] (8721) [lt:en:TREE_THREE]
+  cules that entered the tree decades earlier. A tre
+                         ^^^^^
+
+* L49C33-L49C43 This expression is normally spelled as one or with a hyphen..
+  Suggestions: [north-west, northwest] (9390) [lt:en:EN_COMPOUNDS]
+  ay!5] (current page.north west) rectangle (current
+                      ^^^^^^^^^^^
+
+* L49C69-L49C79 This expression is normally spelled as one or with a hyphen..
+  Suggestions: [south-east, southeast] (9426) [lt:en:EN_COMPOUNDS]
+  angle (current page.south east); % was green!8, ch
+                      ^^^^^^^^^^^
+
+* L67C11-L67C16 In the context of cars (automobiles), 'trunk' is American
+  English. For British English use 'boot'.. Suggestions:
+  [boot] (9671) [lt:en:TRUNK_BOOT]
+  climb her trunk,\\
+            ^^^^^^
+
+=== ./20_ChineseRoomArgument/main.tex ===
+* L42C131-L42C132 Use `` and '' instead of "". [sh:d:008]
+  wn reflection, captioned "Cross-Validation", refer
+                           ^^
+
+* L42C148-L42C149 Use `` and '' instead of "". [sh:d:008]
+  ptioned "Cross-Validation", referencing machine le
+                           ^^
+
+=== ./47_ObserverDependentVacuum/main.tex ===
+* L3C231-L3C237 A determiner may be missing.. Suggestions: [the lowest] (544)
+  [lt:en:THE_SUPERLATIVE]
+   the configuration of lowest possible energy consi
+                        ^^^^^^^
+
+* L28C294-L28C297 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (5032) [lt:en:EN_A_VS_AN]
+   a/(2\pi c k_B)$, where $a$ is the proper accelera
+                          ^^^^
+
+=== ./50_Consciousness/main.tex ===
+* L61C415-L61C425 Consider capitalizing this term if you mean the northernmost
+  point of the earth.. Suggestions: [North Pole] (14720) [lt:en:NORTH_POLE]
+   data, but because we have reached the north pole.
+                                         ^^^^^^^^^^^
+
+=== ./41_HoughTransfrom/technical.tex ===
+* L44C20-L44C21 Use `` and '' instead of "". [sh:d:008]
+  Radon, J. (1917). \"Uber die Bestimmung von Funkti
+                     ^^
+
+* L44C83-L44C84 Use `` and '' instead of "". [sh:d:008]
+  rch ihre Integralwerte l\"angs gewisser Mannigfalt
+                           ^^
+
+* L44C141-L44C142 Use `` and '' instead of "". [sh:d:008]
+  . \textit{Berichte der S\"achsischen Akademie der
+                           ^^
+
+=== ./25_FireflyBioluminescence/main.tex ===
+* L58C206-L58C207 Use `` and '' instead of "". [sh:d:008]
+  olour flashes, captioned "I'm sorry, but I don't s
+                           ^^
+
+* L58C240-L58C240 Use `` and '' instead of "". [sh:d:008]
+  es, captioned "I'm sorry, but I don't speak red."}
+                                                  ^
+
+=== ./18_SpeculativeExecutionAttacks/main.tex ===
+* L46C173-L46C174 Use `` and '' instead of "". [sh:d:008]
+  ose{}}{Cartoon captioned "Don't quote me, but the
+                           ^^
+
+* L46C215-L46C216 Use `` and '' instead of "". [sh:d:008]
+  but the oracle is leaking", depicting a figure rep
+                           ^^
+
+* L27C107-L27C115 Did you mean the noun 'personnel'?.
+  Suggestions: [personnel] (7034) [lt:en:PERSONAL_PERSONNEL]
+   cryptographic keys, personal files, browser histo
+                       ^^^^^^^^^
+
+=== ./20_ChineseRoomArgument/technical.tex ===
+* L5C46-L5C50 Use a comma before 'but' if it connects two independent clauses
+  (unless they are closely connected and short).. Suggestions: [, but] (139)
+  [lt:en:COMMA_COMPOUND_SENTENCE_2]
+  t an empirical argument but a methodological criti
+                         ^^^^^
+
+=== ./34_BoltzmannBrain/main.tex ===
+* L55C138-L55C139 Use `` and '' instead of "". [sh:d:008]
+  }{Illustration captioned "It's Boltzmann brains al
+                           ^^
+
+* L55C178-L55C179 Use `` and '' instead of "". [sh:d:008]
+   brains all the way down!", showing a recursive st
+                           ^^
+
+* L15C338-L15C342 Use a comma before 'but' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, but]
+  (4409) [lt:en:COMMA_COMPOUND_SENTENCE_2]
+   reflections of reality but random data encoded in
+                         ^^^^^
+
+* L33C587-L33C590 Use a comma before "or" if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, or]
+  (9526) [lt:en:COMMA_COMPOUND_SENTENCE_2]
+  ill probably be nonsense or the BB will vanish ent
+                          ^^^^
+
+* L37C139-L37C148 When a number forms part of an adjectival compound, use a
+  hyphen.. Suggestions: [10-second] (10074) [lt:en:MISSING_HYPHEN]
+   existed before your 10 second wait, but one that
+                       ^^^^^^^^^^
+
+* L37C630-L37C634 The pronoun 'it' requires a third-person verb or a past
+  tense.. Suggestions: [needs, needed] (10546) [lt:en:HE_NEED]
+  erver continuously; it need only create an observe
+                         ^^^^^
+
+=== ./12_GSMEncryptionOrder/main.tex ===
+* L15C387-L15C390 It seems that an article is missing.. Suggestions: [a bit]
+  (4357) [lt:en:A_BIT]
+   time so that localised bit corruption does not ov
+                          ^^^^
+
+=== ./47_ObserverDependentVacuum/summary.tex ===
+* L1C50-L1C55 Did you mean 'whose'?. Suggestions:
+  [whose] (49) [lt:en:WHOS]
+  d even that depends on who's looking. The quantum
+                         ^^^^^^
+
+=== ./12_GSMEncryptionOrder/technical.tex ===
+* L26C33-L26C36 Use a comma before 'so' if it connects two independent clauses
+  (unless they are closely connected and short).. Suggestions: [, so] (675)
+  [lt:en:COMMA_COMPOUND_SENTENCE_2]
+  ero-state initialization so the bit before each kn
+                          ^^^^
+
+=== ./11_TopologicalInsulators/technical.tex ===
+* L8C155-L8C161 The double modal "requires broken" is nonstandard (only
+  accepted in certain dialects). Consider 'to be
+  broken'.. Suggestions: [to be broken] (668) [lt:en:NEEDS_FIXED]
+  umber (which requires broken time-reversal), this
+                        ^^^^^^^
+
+=== ./17_BigNumbers/sidenote.tex ===
+* L3C274-L3C286 The article "a" is not needed here.. Suggestions: [googolplex]
+  (327) [lt:en:A_CD_NNS]
+  ogolplex by itself a googolplex times is comically
+                     ^^^^^^^^^^^^^
+
+* L5C19-L5C26 A determiner may be missing.. Suggestions: [The Largest] (391)
+  [lt:en:THE_SUPERLATIVE]
+    \textbf{Bottom (Largest Number Competition):}
+                    ^^^^^^^^
+
+=== ./26_JewishCalendar/bkp_exercises.tex ===
+* L26C41-L26C63 Did you mean to refer to the current year? September 14, 2026
+  is not a Thursday, but a Monday. (1350) [lt:en:DATE_WEEKDAY_WITHOUT_YEAR]
+  es at 9 PM on Thursday, September 14 (just before
+                ^^^^^^^^^^^^^^^^^^^^^^^
+
+* L26C125-L26C145 Did you mean to refer to the current year? September 15,
+  2026 is not a Friday, but a Tuesday. (1434) [lt:en:DATE_WEEKDAY_WITHOUT_YEAR]
+  yo at 11 PM on Friday, September 15 local time, wi
+                 ^^^^^^^^^^^^^^^^^^^^^
+
+=== ./09_ArrowTheoremTopology/main.tex ===
+* L3C230-L3C241 This word is normally spelled as one.. Suggestions:
+  [multiagent] (630) [lt:en:EN_COMPOUNDS]
+   decision-making in multi-agent systems and recomm
+                      ^^^^^^^^^^^^
+
+* L19C1-L19C18 The genitive ('s) may be missing.. Suggestions: [Condorcet's
+  methods] (3397) [lt:en:MISSING_GENITIVE]
+  Condorcet methods use pairwise majority comparison
+  ^^^^^^^^^^^^^^^^^^
+
+=== ./23_BlackHoleTimeDilationRedshift/bk_joke.tex ===
+* L24C42-L24C46 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (1287) [lt:en:COMMA_COMPOUND_SENTENCE]
+  Open{}My car broke down and I need to call AAA. Bu
+                         ^^^^^
+
+* L36C22-L36C26 It appears that an article is missing.. Suggestions: [the
+  time, a time] (1538) [lt:en:WHAT_IS_REASON]
+  \QENOpen{}But what’s time to a ferret?\QENClose{}
+                       ^^^^^
+
+=== ./37_DarkMatterEvidence/main.tex ===
+* L13C26-L13C45 The usual preposition for "concentrate" is "on", "in", or
+  "at", not "toward". Do you mean 'concentrated on',
+  'concentrated in', or 'concentrated
+  at'?. Suggestions: [concentrated on, concentrated in,
+  concentrated at] (3161) [lt:en:CONCENTRATE_WITH_ON]
+   in a galaxy is concentrated toward the centre, or
+                  ^^^^^^^^^^^^^^^^^^^^
+
+* L111C176-L111C187 This word is normally spelled as one.. Suggestions:
+  [narrowband] (11284) [lt:en:EN_COMPOUNDS]
+  ent occupies only a narrow band between $10^{-17}$
+                      ^^^^^^^^^^^^
+
+=== ./10_SolarFusionQuantumTunneling/main.tex ===
+* L81C154-L81C155 Use `` and '' instead of "". [sh:d:008]
+  soner behind bars saying "There's a nonzero probab
+                           ^^
+
+* L81C200-L81C201 Use `` and '' instead of "". [sh:d:008]
+  obability I'll tunnel out", referencing quantum tu
+                           ^^
+
+* L24C28-L24C43 Consider using an extreme adjective for 'small'.. Suggestions:
+  [tiny, minimal, minuscule] (3589) [lt:en:EXTREME_ADJECTIVES]
+  neutrinos possess extremely small mass and interac
+                    ^^^^^^^^^^^^^^^^
+
+* L44C624-L44C635 This word is normally spelled as one.. Suggestions:
+  [narrowband] (7347) [lt:en:EN_COMPOUNDS]
+  ar burning within a narrow band of core conditions
+                      ^^^^^^^^^^^^
+
+=== ./30_SimpsonsParadox/main.tex ===
+* L86C139-L86C140 Use `` and '' instead of "". [sh:d:008]
+  avas?}{Cartoon captioned "What are the odds a bomb
+                           ^^
+
+* L86C207-L86C207 Use `` and '' instead of "". [sh:d:008]
+   bomb hits the only person holding three guavas?"}
+                                                  ^
+
+* L33C11-L33C17 The plural noun "wins" cannot be used with the article "A".
+  Did you mean 'A win' or
+  'wins'?. Suggestions: [A win, Wins] (2479)
+  [lt:en:A_NNS]
+  Treatment A wins in both stone categories yet lose
+            ^^^^^^^
+
+* L144C258-L144C259 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (9142) [lt:en:EN_A_VS_AN]
+   interpreted as implying a $0.1\%$ chance of innoc
+                           ^^
+
+=== ./50_Consciousness/technical.tex ===
+* L33C33-L33C41 The word 'requires' is not a noun. Did you mean
+  'requirements'?. Suggestions: [requirements] (1055)
+  [lt:en:PREPOSITION_VERB]
+  K_S$ by removing $A$ requires performing an operat
+                       ^^^^^^^^^
+
+* L42C171-L42C185 Possible typo. Did you mean 'The' or
+  'I'?. Suggestions: [The, I] (1638) [lt:en:DT_PRP]
+  tured experience. The \QSOpen{}I think\QSClose{} m
+                    ^^^^^^^^^^^^^^^
+
+* L46C290-L46C302 It seems that the adverb "not" is incorrect in this
+  context.. Suggestions: [no circular] (2455) [lt:en:NO_NOT]
+  . Reflexivity here is not circular but generative.
+                        ^^^^^^^^^^^^^
+
+=== ./02_AcceleratingUniverse/main.tex ===
+* L47C104-L47C125 Consider using an extreme adjective for 'small'..
+  Suggestions: [tiny, minimal, minuscule] (9057) [lt:en:EXTREME_ADJECTIVES]
+  al constant is extraordinarily small compared to t
+                 ^^^^^^^^^^^^^^^^^^^^^^
+
+=== ./26_JewishCalendar/main.tex ===
+* L84C342-L84C343 Use `` and '' instead of "". [sh:d:008]
+  ow can it fit the Haari Z"L comment that the total
+                           ^^
+
+* L53C387-L53C406 The correct preposition in this context is "on"..
+  Suggestions: [on Friday afternoon] (8904) [lt:en:IN_WEEKDAY]
+  Americans still in Friday afternoon, which tempora
+                  ^^^^^^^^^^^^^^^^^^^^
+
+* L84C226-L84C230 Did you mean 'form'?. Suggestions:
+  [form] (11811) [lt:en:FROM_FORM]
+  ruck out the \QENOpen{}from this\QENClose{} part a
+                         ^^^^^
+
+=== ./45_MaxwellDemon/sidenote.tex ===
+* L4C333-L4C336 It seems that an article is missing.. Suggestions: [a bit]
+  (1016) [lt:en:A_BIT]
+   at least $k \ln 2$ per bit erased (Landauer’s Pri
+                          ^^^^
+
+* L5C23-L5C32 The word 'Entropy_s' is not standard English. Did you mean
+  'Entropy’s' (curly apostrophe) or
+  'Entropy's' (straight apostrophe)?. Suggestions:
+  [Entropy’s, Entropy's] (1217) [lt:en:NON_STANDARD_WORD]
+  }{45_MaxwellDemon/45_ Entropy_s Gatekeeper.pdf}
+                        ^^^^^^^^^^
+
+=== ./11_TopologicalInsulators/main.tex ===
+* L7C49-L7C55 A determiner may be missing.. Suggestions: [the lowest] (1159)
+  [lt:en:THE_SUPERLATIVE]
+  rons fill states from lowest energy upward, stoppi
+                        ^^^^^^^
+
+* L19C242-L19C256 Consider using 'many'.. Suggestions:
+  [many] (3299) [lt:en:NUMEROUS_DIFFERENT]
+   crystal repeats, many different \( \mathbf{k} \)
+                    ^^^^^^^^^^^^^^^
+
+* L19C479-L19C483 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (3514) [lt:en:COMMA_COMPOUND_SENTENCE]
+  oo far in any direction and you're back where you
+                         ^^^^^
+
+* L21C249-L21C256 The verb form 'depends' does not seem to match the subject
+  'conducts'.. Suggestions: [depend, depended, will depend] (3785)
+  [lt:en:SUBJECT_VERB_AGREEMENT_PLURAL]
+  the material conducts depends on the presence of a
+                        ^^^^^^^^
+
+* L29C302-L29C317 This word is normally spelled as one.. Suggestions:
+  [semiconducting] (4692) [lt:en:EN_COMPOUNDS]
+   have billions of semi-conducting junctures. This
+                    ^^^^^^^^^^^^^^^^
+
+* L35C471-L35C481 Consider capitalizing this term if you mean the northernmost
+  point of the earth.. Suggestions: [North Pole] (6128) [lt:en:NORTH_POLE]
+  quator, walk to the north pole keeping your arrow
+                      ^^^^^^^^^^^
+
+* L46C147-L46C152 'movie' is a common American expression. Consider using
+  expressions more common to British English.. Suggestions: [film] (9568)
+  [lt:en:EN_GB_SIMPLE_REPLACE]
+  me whether you run the movie forward or backward.
+                         ^^^^^^
+
+=== ./09_ArrowTheoremTopology/technical.tex ===
+* L14C65-L14C75 Consider using 'all the'.. Suggestions:
+  [all the] (506) [lt:en:ALL_OF_THE]
+  n exists satisfying all of the following propertie
+                      ^^^^^^^^^^^
+
+=== ./24_FourDSpacetime/exercises.tex ===
+* L25C51-L25C51 A word may be missing after 'a'. (839) [lt:en:THE_PUNCT]
+   \draw[thick] (B) -- (C) node[midway, left] {$a$};
+                                               ^
+
+* L61C355-L61C366 Did you mean 'SpaceX' (= aerospace
+  company)?. Suggestions: [SpaceX] (1948) [lt:en:SPACEX]
+  nts within the same space $V^d$. For example, a qu
+                      ^^^^^^^^^^^^
+
+=== ./49_IVFmtDNA/technical.tex ===
+* L16C36-L16C43 When '10-hour' is used as a modifier, it is usually spelled
+  with a hyphen.. Suggestions: [10-hour] (970) [lt:en:HOUR_HYPHEN]
+  ansfer exploits the 8–10 hour window post-fertilis
+                        ^^^^^^^^
+
+=== ./42_IceSlipperiness/technical.tex ===
+* L38C38-L38C40 Use `` and '' instead of "". [sh:d:008]
+  khomlinov, S. V., and M\"{u}ser, M. H. (2024). \te
+                          ^^^
+
+* L15C130-L15C134 The word 'Pa·s' is not standard English. Did you mean
+  'Pa’s' (curly apostrophe) or
+  'Pa's' (straight apostrophe)?. Suggestions: [Pa’s,
+  Pa's] (1259) [lt:en:NON_STANDARD_WORD]
+  tive viscosity (units: Pa·s), where $T$ is tempera
+                         ^^^^^
+
+* L32C460-L32C464 Use a comma before 'but' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, but]
+  (3087) [lt:en:COMMA_COMPOUND_SENTENCE_2]
+  ick enough to lubricate but the ice is stiff enoug
+                         ^^^^^
+
+=== ./17_BigNumbers/main.tex ===
+* L10C458-L10C472 Did you mean to refer to the current year? 4 July 2026 is
+  not a Friday, but a Saturday. (1528) [lt:en:DATE_WEEKDAY_WITHOUT_YEAR]
+  00:00.00000 PM on Friday, 4 July. The initial cond
+                    ^^^^^^^^^^^^^^^
+
+* L75C44-L75C54 Reduce redundancy by using 'little' or
+  'bit'.. Suggestions: [little, bit] (10776)
+  [lt:en:LITTLE_BIT]
+  d this point (and a little bit before this point t
+                      ^^^^^^^^^^^
+
+=== ./24_FourDSpacetime/main.tex ===
+* L17C130-L17C131 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (5886) [lt:en:EN_A_VS_AN]
+  hydrogen-like atoms with a $1/r^{\,n-2}$ potential
+                           ^^
+
+=== ./08_BoundedPrimeGaps/technical.tex ===
+* L46C19-L46C29 Possible typo detected.. Suggestions: [Polymath, Polymaths,
+  Polymath a] (1784) [lt:en:NUMBERS_IN_WORDS]
+      \item \textbf{Polymath8a:} Improved error anal
+                    ^^^^^^^^^^^
+
+* L48C19-L48C29 Possible typo detected.. Suggestions: [Polymath, Polymaths]
+  (1933) [lt:en:NUMBERS_IN_WORDS]
+      \item \textbf{Polymath8b:} Reduced bound below
+                    ^^^^^^^^^^^
+
+=== ./44_IronMask/main.tex ===
+* L11C322-L11C339 Consider using 'necessities'..
+  Suggestions: [necessities] (2766) [lt:en:BASIC_FUNDAMENTALS]
+  forbidden beyond basic necessities. Following the
+                   ^^^^^^^^^^^^^^^^^^
+
+=== ./26_JewishCalendar/technical.tex ===
+* L9C108-L9C119 It might be better to use 'days' with the time-relative
+  pronoun 'when'. (Alternatively, use 'in/on which'.). Suggestions: [days when]
+  (173) [lt:en:WHEN_WHERE]
+  -6} \times N$ \text{days} where $N$ is months elap
+                      ^^^^^^^^^^^^
+
+* L33C91-L33C98 Possible agreement error. The noun 'pattern' seems to be
+  countable.. Suggestions: [patterns] (1168) [lt:en:CD_NN]
+  , two short\QSClose{} pattern and fixes their rela
+                        ^^^^^^^^
+
+=== ./32_AtomicClocks/main.tex ===
+* L9C496-L9C506 This word is normally spelled as one.. Suggestions:
+  [timescale] (2404) [lt:en:EN_COMPOUNDS]
+   result is a global time scale without assertion o
+                      ^^^^^^^^^^^
+
+=== ./40_DNASequencing/main.tex ===
+* L29C189-L29C193 Use a comma before 'but' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, but]
+  (7007) [lt:en:COMMA_COMPOUND_SENTENCE]
+  ents are 500 bases long but you only read 150 base
+                         ^^^^^
+
+* L37C264-L37C268 Make sure that the ambiguous verb form 'span' is correct.
+  (It can either be the base form 'span', or the past tense of a different
+  verb.) (8984) [lt:en:DID_FOUND_AMBIGUOUS]
+  but short reads cannot span long repeats, requirin
+                         ^^^^^
+
+=== ./17_BigNumbers/historical.tex ===
+* L3C316-L3C324 Use 'a thousand', or use a number
+  before 'thousand'.. Suggestions: [a thousand] (267) [lt:en:NODT_DOZEN]
+  venly host: \QSOpen{}thousand thousands ministered
+                       ^^^^^^^^^
+
+=== ./48_three_body/main.tex ===
+* L25C146-L25C150 Use a comma before "and" if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (7567) [lt:en:COMMA_COMPOUND_SENTENCE_2]
+  ace volume is preserved and small perturbations ar
+                         ^^^^^
+
+* L49C346-L49C350 Use a comma before 'but' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, but]
+  (14828) [lt:en:COMMA_COMPOUND_SENTENCE_2]
+  m fights not randomness but the deterministic inst
+                         ^^^^^
+
+=== ./17_BigNumbers/summary.tex ===
+* L1C68-L1C72 Use a comma before 'and' if it connects two independent clauses
+  (unless they are closely connected and short).. Suggestions: [, and] (67)
+  [lt:en:COMMA_COMPOUND_SENTENCE]
+  to write 20 centimetres and you are to write the b
+                         ^^^^^
+
+=== ./38_ChristmasTruce1914/main.tex ===
+* L52C206-L52C207 Use `` and '' instead of "". [sh:d:008]
+  d as a piñata, captioned "The Trojan Piñata was a
+                           ^^
+
+* L52C291-L52C291 Use `` and '' instead of "". [sh:d:008]
+  ier affair, though rarely covered by historians."}
+                                                  ^
+
+* L31C614-L31C618 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (8531) [lt:en:COMMA_COMPOUND_SENTENCE]
+  hey met and shook hands and then we all got out of
+                         ^^^^^
+
+* L35C456-L35C460 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (9580) [lt:en:COMMA_COMPOUND_SENTENCE]
+  llow them in our trench and they did not allow us
+                         ^^^^^
+
+* L37C273-L37C277 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (9891) [lt:en:COMMA_COMPOUND_SENTENCE]
+  rolled the barrels over and we took them into our
+                         ^^^^^
+
+* L37C668-L37C672 A comma is probably missing here.. Suggestions: [dusk,]
+  (10286) [lt:en:MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE]
+  ld end at midnight. At dusk we went back to our re
+                         ^^^^^
+
+* L43C59-L43C67 A verb may be missing between "they" and "the", or a word may
+  be misspelled. (11108) [lt:en:PRP_THE]
+  er fired a shot, and they the same, each side seem
+                       ^^^^^^^^^
+
+* L52C41-L52C47 'pinata' is an imported foreign expression, which originally
+  has a diacritic. Consider using 'piñata'. Suggestions:
+  [piñata] (12121) [lt:en:EN_DIACRITICS_REPLACE]
+  38_ChristmasTruce1914/pinata.png}{The Trojan Piñat
+                        ^^^^^^^
+
+=== ./07_BilliardsConicsPorism/main.tex ===
+* L89C250-L89C251 Use `` and '' instead of "". [sh:d:008]
+   shot path, with caption "Mike's understanding of
+                           ^^
+
+* L89C346-L89C346 Use `` and '' instead of "". [sh:d:008]
+  beatable, but considerably slowed down the game."}
+                                                  ^
+
+* L52C273-L52C279 A determiner may be missing.. Suggestions: [the lowest]
+  (6933) [lt:en:THE_SUPERLATIVE]
+  \alpha = 2\pi p/q$ in lowest terms, then every orb
+                        ^^^^^^^
+
+=== ./40_DNASequencing/technical.tex ===
+* L45C1-L45C10 A comma may be missing after the conjunctive/linking adverb
+  'Typically'.. Suggestions: [Typically,] (1275)
+  [lt:en:SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA]
+  Typically $k \in [50, 250]$ for Illumina data.
+  ^^^^^^^^^^
+
+=== ./27_PlanetarySkyColors/main.tex ===
+* L7C208-L7C212 The English name for this Austrian city is
+  'Vienna'.. Suggestions: [Vienna] (2695) [lt:en:WIEN]
+  temperature increases, Wien's displacement law (Wi
+                         ^^^^^
+
+* L7C233-L7C237 The English name for this Austrian city is
+  'Vienna'.. Suggestions: [Vienna] (2720) [lt:en:WIEN]
+  en's displacement law (Wien, 1896) dictates that t
+                         ^^^^^
+
+* L13C298-L13C312 The genitive ('s) may be missing.. Suggestions: [Mira's
+  variables] (4874) [lt:en:MISSING_GENITIVE]
+  rather than days. Mira variables—long-period pulsa
+                    ^^^^^^^^^^^^^^^
+
+* L31C498-L31C509 This word is normally spelled as one.. Suggestions:
+  [Narrowband] (10320) [lt:en:EN_COMPOUNDS]
+   hidden structures. Narrow-band filters isolate sp
+                      ^^^^^^^^^^^^
+
+=== ./41_HoughTransfrom/main.tex ===
+* L33C359-L33C376 Specify a number, remove phrase, or simply use
+  'many' or 'numerous'.
+  Suggestions: [many, numerous] (4344) [lt:en:LARGE_NUMBER_OF]
+  dge map contains a large number of isolated pixels
+                   ^^^^^^^^^^^^^^^^^^
+
+* L37C423-L37C440 Specify a number, remove phrase, use 'a
+  few', or use 'some'. Suggestions: [a few,
+  some] (5450) [lt:en:SMALL_NUMBER_OF]
+  thesis space for a small number of consistent patt
+                   ^^^^^^^^^^^^^^^^^^
+
+=== ./15_EnvelopeParadox/sidenote.tex ===
+* L6C151-L6C152 Use 'the' before the superlative..
+  Suggestions: [the] (720) [lt:en:THE_SUPERLATIVE]
+  duces asymmetry: there's a smallest possible value
+                           ^^
+
+=== ./04_EMFieldsEnergyFlow/main.tex ===
+* L28C184-L28C186 Use 'a' instead of 'an' if the
+  following word doesn't start with a vowel sound, e.g. 'a sentence', 'a
+  university'.. Suggestions: [a] (8978) [lt:en:EN_A_VS_AN]
+  pically on the order of an ångström). The Debye le
+                          ^^^
+
+=== ./13_PoissonsSpot/technical.tex ===
+* L18C42-L18C46 A word may be missing after 'a'. (704) [lt:en:THE_PUNCT]
+  ar aperture} of radius $a$, the axial Rayleigh–Som
+                         ^^^^^
+
+=== ./23_BlackHoleTimeDilationRedshift/penrose_diagram_small.tex ===
+* L11C24-L11C29 If a new sentence starts here, add a space and start with an
+  uppercase letter.. Suggestions: [ Meta,  meta] (74) [lt:en:LC_AFTER_PERIOD]
+  \usetikzlibrary{arrows.meta} % for arrow size
+                         ^^^^^^
+
+=== ./06_GravityTimeDilation/historical.tex ===
+* L14C35-L14C44 Did you mean 'physics's' or
+  'physics''?. Suggestions: [physics's, physics'] (2351)
+  [lt:en:WRONG_GENITIVE_APOSTROPHE]
+  ivity remains one of physics's most tested theorie
+                       ^^^^^^^^^^
+
+=== ./46_WoodwardHoffmannRules/sidenote.tex ===
+* L13C32-L13C42 The word 'Symmetry_s' is not standard English. Did you mean
+  'Symmetry’s' (curly apostrophe) or
+  'Symmetry's' (straight apostrophe)?. Suggestions:
+  [Symmetry’s, Symmetry's] (921) [lt:en:NON_STANDARD_WORD]
+  rdHoffmannRules/46_ Symmetry_s Chemical Logic.pdf}
+                      ^^^^^^^^^^^
+
+=== ./29_HatMonotile/historical.tex ===
+* L6C68-L6C71 'Hao' is an imported foreign expression, which originally has a
+  diacritic. Consider using 'hào'. Suggestions: [Hào]
+  (1110) [lt:en:EN_DIACRITICS_REPLACE]
+  ed in the 1960s through Hao Wang's study of the do
+                          ^^^^
+
+=== ./27_PlanetarySkyColors/main_new.tex ===
+* L31C276-L31C280 Use a comma before 'but' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, but]
+  (5918) [lt:en:COMMA_COMPOUND_SENTENCE_2]
+  ren't aesthetic choices but quantum mechanics made
+                         ^^^^^
+
+=== ./14_CompactTwinParadox/main.tex ===
+* L3C734-L3C736 Possible agreement error. You should probably use:
+  'are'.. Suggestions: [are] (1088)
+  [lt:en:AGREEMENT_SENT_START]
+  anics. Something must change—what changes is time.
+                                            ^^^
+
+* L15C310-L15C314 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (3943) [lt:en:COMMA_COMPOUND_SENTENCE]
+  gh in the $x$-direction and you return to your sta
+                         ^^^^^
+
+* L43C182-L43C186 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (11682) [lt:en:COMMA_COMPOUND_SENTENCE]
+  l arrow around any path and it will always point t
+                         ^^^^^
+
+=== ./07_BilliardsConicsPorism/technical.tex ===
+* L30C266-L30C270 A comma may be missing after the conjunctive/linking adverb
+  'Thus'.. Suggestions: [Thus,] (2245)
+  [lt:en:SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA]
+  as a positive infimum. Thus \( \int_{C'} d\tilde{s
+                         ^^^^^
+
+* L38C73-L38C79 A determiner may be missing.. Suggestions: [the lowest] (2779)
+  [lt:en:THE_SUPERLATIVE]
+  alpha = {m}/{n} \) in lowest terms. Then all orbit
+                        ^^^^^^^
+
+=== ./44_IronMask/historical.tex ===
+* L6C539-L6C541 Comparison requires 'than', not 'then'
+  nor 'as'.. Suggestions: [than] (1865) [lt:en:COMP_THAN]
+  n begins to appear less as an anomaly and more as
+                          ^^^
+
+=== ./18_SpeculativeExecutionAttacks/technical.tex ===
+* L22C34-L22C41 The word 'probe[s' is not standard English. Did you mean
+  'probe’s' (curly apostrophe) or
+  'probe's' (straight apostrophe)?. Suggestions:
+  [probe’s, probe's] (768) [lt:en:NON_STANDARD_WORD]
+  3: Loads from \texttt{probe[s × 4096]}, caching a
+                        ^^^^^^^^
+
+=== ./19_CosmicRayMuons/main.tex ===
+* L33C201-L33C221 When '15-kilometre' is used as a modifier, it is usually
+  spelled with a hyphen.. Suggestions: [15-kilometre journey] (3040)
+  [lt:en:MILE_HYPHEN]
+   $\gamma$. The 15 kilometre journey from productio
+                 ^^^^^^^^^^^^^^^^^^^^^
+
+* L52C453-L52C468 Consider using an extreme adjective for 'small'..
+  Suggestions: [tiny, minimal, minuscule] (7004) [lt:en:EXTREME_ADJECTIVES]
+  vity, and possess extremely small masses—each less
+                    ^^^^^^^^^^^^^^^^
+
+=== ./21_ExponentialMapsLieTheory/technical.tex ===
+* L11C117-L11C118 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (69) [lt:en:EN_A_VS_AN]
+  t}, \OpB{0}, \OpB{1}) \) a unital commutative ring
+                           ^^
+
+=== ./42_IceSlipperiness/summary.tex ===
+* L1C298-L1C300 Use 'nor' with neither.. Suggestions:
+  [nor] (297) [lt:en:NEITHER_NOR]
+  ice's slickness at rest or across wide temperature
+                          ^^^
+
+=== ./33_IncubationInequality/main.tex ===
+* L43C139-L43C169 If the term is a proper noun, use the suggested
+  capitalization.. Suggestions: [University of Applied Sciences] (8302)
+  [lt:en:EN_SPECIFIC_CASE]
+  cian at a university of applied sciences in Bingen
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+=== ./22_MinecraftCreeper/main.tex ===
+* L39C249-L39C250 Use `` and '' instead of "". [sh:d:008]
+  the applicant, captioned "Your resume is... intere
+                           ^^
+
+* L39C345-L39C345 Use `` and '' instead of "". [sh:d:008]
+  ensive experience in probability determination'."}
+                                                  ^
+
+* L13C47-L13C49 This abbreviation for "identification" is spelled
+  all-uppercase.. Suggestions: [ID] (5234) [lt:en:ID_CASING]
+  dardised architectures. id Tech (1993), Unreal Eng
+                          ^^^
+
+* L17C672-L17C678 Consider using either the past participle
+  'wandered' or the present participle
+  'wandering' here.. Suggestions: [wandered, wandering]
+  (7522) [lt:en:BEEN_PART_AGREEMENT]
+  icTask}.  The cow was wander + follow player holdi
+                        ^^^^^^^
+
+=== ./47_ObserverDependentVacuum/technical.tex ===
+* L31C7-L31C10 Use 'an' instead of 'a' if the following
+  word starts with a vowel sound, e.g. 'an article', 'an hour'.. Suggestions:
+  [an] (1049) [lt:en:EN_A_VS_AN]
+  where $a$ is an arbitrary constant with dimensions
+        ^^^^
+
+=== ./13_PoissonsSpot/bkpexercises.tex ===
+* L24C47-L24C55 A determiner may be missing.. Suggestions: [the shortest]
+  (494) [lt:en:THE_SUPERLATIVE]
+   the classical path (shortest optical length). For
+                       ^^^^^^^^^
+
+=== ./23_BlackHoleTimeDilationRedshift/main.tex ===
+* L86C49-L86C53 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (8727) [lt:en:COMMA_COMPOUND_SENTENCE]
+  Open{}My car broke down and I need to call AAA. Bu
+                         ^^^^^
+
+* L95C29-L95C33 It appears that an article is missing.. Suggestions: [the
+  time, a time] (8972) [lt:en:WHAT_IS_REASON]
+  it{\QSOpen{}But what's time to a ferret?\QSClose{}
+                         ^^^^^
+
+=== ./31_osmosis_Debye/main.tex ===
+* L68C147-L68C148 Use `` and '' instead of "". [sh:d:008]
+  sing randomly, captioned "Confusion-based diffusio
+                           ^^
+
+* L68C173-L68C174 Use `` and '' instead of "". [sh:d:008]
+  Confusion-based diffusion", referencing Brownian m
+                           ^^
+
+=== ./36_qft_vs_gr/main.tex ===
+* L48C237-L48C238 Use `` and '' instead of "". [sh:d:008]
+  ng their work, captioned "One of us takes care of
+                           ^^
+
+* L48C319-L48C319 Use `` and '' instead of "". [sh:d:008]
+   stuff, the other the big stuff—it's Field Work."}
+                                                  ^
+
+* L1C353-L1C365 Consider using 'all space' or
+  'all of the space'.. Suggestions: [all space, all of
+  the space] (352) [lt:en:ALL_MOST_SOME_OF_NOUN]
+  forth. Fields span all of space and time, and part
+                     ^^^^^^^^^^^^^
+
+* L27C172-L27C173 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (7816) [lt:en:EN_A_VS_AN]
+  netic force, governed by a $U(1)$ symmetry, acts o
+                           ^^
+
+* L35C413-L35C442 This phrase is duplicated. You should probably use
+  'trillion times' only once.. Suggestions: [trillion
+  times] (10852) [lt:en:PHRASE_REPETITION]
+  magnitude (trillion times trillion times trillion,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+=== ./31_osmosis_Debye/technical.tex ===
+* L18C72-L18C83 Nonstandard phrase. Did you mean: 'from 10 to
+  730'?. Suggestions: [from 10 to 730] (590) [lt:en:FROM_X_Y]
+  re $P_f/P_d$ ranges from 10–730. Cannot explain co
+                      ^^^^^^^^^^^^
+
+=== ./10_SolarFusionQuantumTunneling/technical.tex ===
+* L47C71-L47C84 The word 'cross-section' is spelled
+  with a hyphen.. Suggestions: [cross-section] (1605) [lt:en:CROSS_COMPOUNDS]
+   governed by the thermally averaged cross section:
+                                      ^^^^^^^^^^^^^^
+
+=== ./15_EnvelopeParadox/technical.tex ===
+* L4C131-L4C132 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (177) [lt:en:EN_A_VS_AN]
+  f two amounts related by a $1:2$ ratio. The naive
+                           ^^
+
+=== ./06_GravityTimeDilation/technical.tex ===
+* L11C173-L11C177 Use a comma before 'and' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, and]
+  (826) [lt:en:COMMA_COMPOUND_SENTENCE]
+   \( f = 1 \) everywhere and we recover the flat Mi
+                         ^^^^^
+
+=== ./27_PlanetarySkyColors/historical.tex ===
+* L4C424-L4C428 The English name for this Austrian city is
+  'Vienna'.. Suggestions: [Vienna] (1038) [lt:en:WIEN]
+  tury with Planck's and Wien's radiation laws and t
+                         ^^^^^
+
+=== ./43_NearFlatUniverse/main.tex ===
+* L19C171-L19C183 Consider using 'all space' or
+  'all of the space'.. Suggestions: [all space, all of
+  the space] (4318) [lt:en:ALL_MOST_SOME_OF_NOUN]
+  eld that permeates all of space. The CMB originate
+                     ^^^^^^^^^^^^^
+
+* L70C13-L70C13 Possible typo detected.. Suggestions: [parsnip, parsnips]
+  (9756) [lt:en:NUMBERS_IN_WORDS]
+  \setlength{\parskip}{3pt}
+              ^
+
+=== ./03_BanachTarskiParadox/main.tex ===
+* L86C188-L86C189 Use `` and '' instead of "". [sh:d:008]
+  t off a hat with caption "For the following trick
+                           ^^
+
+* L86C248-L86C248 Use `` and '' instead of "". [sh:d:008]
+  lowing trick we will require the axiom of choice"}
+                                                  ^
+
+* L5C147-L5C148 Use 'the' before the superlative..
+  Suggestions: [the] (810) [lt:en:THE_SUPERLATIVE]
+  ery non-empty subset has a least element with resp
+                           ^^
+
+* L28C74-L28C94 Did you mean 'SpaceX' (= aerospace
+  company)?. Suggestions: [SpaceX] (4568) [lt:en:SPACEX]
+  area in the 2D space $\mathbb{R}^2$ or volume in t
+                 ^^^^^^^^^^^^^^^^^^^^^
+
+* L28C115-L28C135 Did you mean 'SpaceX' (= aerospace
+  company)?. Suggestions: [SpaceX] (4596) [lt:en:SPACEX]
+  lume in the 3D space $\mathbb{R}^3$. But even in t
+                 ^^^^^^^^^^^^^^^^^^^^^
+
+=== ./23_BlackHoleTimeDilationRedshift/penrose_diagram.tex ===
+* L111C16-L111C17 Use `` and '' instead of "". [sh:d:008]
+    \draw pic[->,"$45^\circ$"{above,scale=0.9},draw=
+                 ^^
+
+* L111C27-L111C29 Use `` and '' instead of "". [sh:d:008]
+  \draw pic[->,"$45^\circ$"{above,scale=0.9},draw=bl
+                          ^^^
+
+* L15C24-L15C29 If a new sentence starts here, add a space and start with an
+  uppercase letter.. Suggestions: [ Meta,  meta] (74) [lt:en:LC_AFTER_PERIOD]
+  \usetikzlibrary{arrows.meta} % for arrow size
+                         ^^^^^^
+
+* L42C14-L42C17 The word ',\t' is not standard English. Did you mean
+  ',’t' (curly apostrophe) or
+  ','t' (straight apostrophe)?. Suggestions: [,’t, ,'t]
+  (1099) [lt:en:NON_STANDARD_WORD]
+    penroseu(\x,\t) = {\fpeval{atan(\x+\t)/pi+atan(\
+               ^^^^
+
+* L43C14-L43C17 The word ',\t' is not standard English. Did you mean
+  ',’t' (curly apostrophe) or
+  ','t' (straight apostrophe)?. Suggestions: [,’t, ,'t]
+  (1150) [lt:en:NON_STANDARD_WORD]
+    penrosev(\x,\t) = {\fpeval{atan(\x+\t)/pi-atan(\
+               ^^^^
+
+* L169C35-L169C38 The word ',\d' is not standard English. Did you mean
+  ',’d' (curly apostrophe) or
+  ','d' (straight apostrophe)?. Suggestions: [,’d, ,'d]
+  (4472) [lt:en:NON_STANDARD_WORD]
+  nate (X) at ({penroseu(\d,\d)},{penrosev(\d,\d)});
+                           ^^^^
+
+* L169C53-L169C56 The word ',\d' is not standard English. Did you mean
+  ',’d' (curly apostrophe) or
+  ','d' (straight apostrophe)?. Suggestions: [,’d, ,'d]
+  (4488) [lt:en:NON_STANDARD_WORD]
+  nate (X) at ({penroseu(\d,\d)},{penrosev(\d,\d)});
+                                             ^^^^
+
+=== ./24_FourDSpacetime/technical.tex ===
+* L15C5-L15C6 Use 'An' instead of 'A' if the following
+  word starts with a vowel sound, e.g. 'an article', 'an hour'.. Suggestions:
+  [An] (649) [lt:en:EN_A_VS_AN]
+      A $1/r$ potential in $n=3$ produces near-circu
+      ^^
+
+=== ./46_WoodwardHoffmannRules/main.tex ===
+* L36C88-L36C89 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (6004) [lt:en:EN_A_VS_AN]
+  involve the migration of a $\sigma$-bonded group a
+                           ^^
+
+=== ./01_GoldRelativity/sidenote.tex ===
+* L6C147-L6C163 The genitive ('s) may be missing.. Suggestions: [Lorentz's
+  symmetry] (832) [lt:en:MISSING_GENITIVE]
+  tion contribute. Lorentz symmetry packages energy
+                   ^^^^^^^^^^^^^^^^^
+
+* L8C66-L8C77 The usual collocation for "absorbed" is "in", not "at". Did you
+  mean 'absorbed in'?. Suggestions: [absorbed in,
+  absorbed with, absorbed into] (1027) [lt:en:ABSORB_AT_IN]
+  anel, blue light is absorbed at the surface of a g
+                      ^^^^^^^^^^^^
+
+=== ./06_GravityTimeDilation/main.tex ===
+* L43C143-L43C144 Use `` and '' instead of "". [sh:d:008]
+  a cliff face, with caption "A race against time."}
+                             ^^
+
+* L43C164-L43C164 Use `` and '' instead of "". [sh:d:008]
+  a cliff face, with caption "A race against time."}
+                                                  ^
+
+* L14C697-L14C701 Use a comma before 'but' if it connects two independent
+  clauses (unless they are closely connected and short).. Suggestions: [, but]
+  (3498) [lt:en:COMMA_COMPOUND_SENTENCE_2]
+  es at regular intervals but receivers measure chan
+                         ^^^^^
+
+=== ./46_WoodwardHoffmannRules/technical.tex ===
+* L8C384-L8C391 A determiner may be missing.. Suggestions: [the highest]
+  (1020) [lt:en:THE_SUPERLATIVE]
+  al lobes in the HOMO (highest occupied MO) determi
+                        ^^^^^^^^
+
+* L13C120-L13C121 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (1458) [lt:en:EN_A_VS_AN]
+  nserved operations (like a \( C_2 \) axis or mirro
+                           ^^
+
+* L19C370-L19C371 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (2482) [lt:en:EN_A_VS_AN]
+  ), \(\sigma\) (S). Under a \( C_2 \) axis (conrota
+                           ^^
+
+* L22C420-L22C421 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (3164) [lt:en:EN_A_VS_AN]
+  en \(i + j = 4q\). Thus, a \([1,5]\)-hydrogen shif
+                           ^^
+
+* L22C493-L22C494 Use 'an' instead of 'a' if the
+  following word starts with a vowel sound, e.g. 'an article', 'an hour'..
+  Suggestions: [an] (3229) [lt:en:EN_A_VS_AN]
+  lly (6 electrons), while a \([1,3]\) shift (4 elec
+                           ^^
+
+=== ./47_ObserverDependentVacuum/sidenote.tex ===
+* L11C34-L11C44 The word 'Optimist_s' is not standard English. Did you mean
+  'Optimist’s' (curly apostrophe) or
+  'Optimist's' (straight apostrophe)?. Suggestions:
+  [Optimist’s, Optimist's] (914) [lt:en:NON_STANDARD_WORD]
+  DependentVacuum/47_ Optimist_s Take on Vacuum.pdf}
+                      ^^^^^^^^^^^
+
+=== ./24_FourDSpacetime/historical.tex ===
+* L6C526-L6C551 This sounds awkward in English. The standard is
+  'the question of why'.. Suggestions: [the question of
+  why] (1845) [lt:en:THE_QUESTION_WH]
+  lishing that the question \QSOpen{}why three dimen
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
