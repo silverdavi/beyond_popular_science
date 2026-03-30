@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  30 MAR 2026 13:05
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  30 MAR 2026 13:54
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2513,14 +2513,14 @@ Package hyperref Info: Link coloring ON on input line 21.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(54.2025pt, 397.485pt, 54.2025pt)
+* h-part:(L,W,R)=(63.23624pt, 397.48502pt, 45.16875pt)
 * v-part:(T,H,B)=(54.2025pt, 614.295pt, 54.2025pt)
 * \paperwidth=505.89pt
 * \paperheight=722.7pt
-* \textwidth=397.485pt
+* \textwidth=397.48502pt
 * \textheight=614.295pt
-* \oddsidemargin=-18.06749pt
-* \evensidemargin=-18.06749pt
+* \oddsidemargin=-9.03375pt
+* \evensidemargin=-27.10124pt
 * \topmargin=-49.94128pt
 * \headheight=14.0pt
 * \headsep=19.8738pt
@@ -2991,7 +2991,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (11.20169pt too wide) in paragraph at lines 2--3
+Overfull \hbox (11.20168pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 Arnold Som-mer-feld’s 1916 work on rel-a-tivis-t
 ic ex-ten-sions to the Bohr model laid the ground-
  []
@@ -3004,7 +3004,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [4
 
 ]
-Overfull \hbox (11.76968pt too wide) in paragraph at lines 12--13
+Overfull \hbox (11.76967pt too wide) in paragraph at lines 12--13
 []\TU/LibertinusSerif(0)/m/n/10.95 No two elec-trons in a sin-gle atom may oc-cu
 py the same quan-tum state. This con-straint—known
  []
@@ -3086,19 +3086,19 @@ Package luatex.def Info: fractal_trees/with_fruits/2.png  used on input line 67
 (./02_AcceleratingUniverse/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (14.80688pt too wide) in paragraph at lines 2--3
+Overfull \hbox (14.80687pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In the late 1990s, two in-de-pen-dent col-lab-o-ra
 -tions study-ing dis-tant Type Ia su-per-novae—the
  []
 
 
-Overfull \hbox (0.10565pt too wide) in paragraph at lines 4--5
+Overfull \hbox (0.10564pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 Early the-o-ret-i-cal ground-work on cos-mic ex-pa
 n-sion stemmed from so-lu-tions to Ein-stein’s
  []
 
 
-Overfull \hbox (3.48103pt too wide) in paragraph at lines 6--7
+Overfull \hbox (3.48102pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 dence arose from mea-sure-ments of cos-mic mi-crowav
 e back-ground anisotropies and large-
  []
@@ -3204,22 +3204,22 @@ File: 03_BanachTarskiParadox/BANACH1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/BANACH1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/BANACH1.png  used on input line
  86.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 03_BanachTarskiParadox/BANACH1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/BANACH1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/BANACH1.png  used on input line
  86.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 03_BanachTarskiParadox/BANACH1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/BANACH1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/BANACH1.png  used on input line
  86.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 03_BanachTarskiParadox/BANACH1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/BANACH1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/BANACH1.png  used on input line
  86.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 )
 
 [28<./03_BanachTarskiParadox/BANACH1.png>]
@@ -3234,7 +3234,7 @@ File: 03_BanachTarskiParadox/F2_Cayley_Graph_tp1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/F2_Cayley_Graph_tp1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/F2_Cayley_Graph_tp1.png  used o
 n input line 45.
-(luatex.def)             Requested size: 152.07545pt x 152.0717pt.
+(luatex.def)             Requested size: 152.07547pt x 152.0717pt.
 )
 Overfull \vbox (28.16487pt too high) has occurred while \output is active []
 
@@ -3285,13 +3285,13 @@ Package luatex.def Info: fractal_trees/with_fruits/4.png  used on input line 73
 (./04_EMFieldsEnergyFlow/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (6.61787pt too wide) in paragraph at lines 2--3
+Overfull \hbox (6.61786pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 Early in-ves-ti-ga-tions link-ing elec-tric-ity an
 d mag-netism be-gan with Hans Chris-tian Ørsted’s
  []
 
 
-Overfull \hbox (2.14885pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.14883pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 1820 ob-ser-va-tion that a current-carrying wire de-
 flected a nearby com-pass nee-dle, demon-
  []
@@ -3321,7 +3321,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [37]
 Package mdframed Info: mdframed works in twoside mode on input line 40.
 
-Overfull \hbox (2.7439pt too wide) in paragraph at lines 47--48
+Overfull \hbox (2.74388pt too wide) in paragraph at lines 47--48
 \TU/CrimsonPro(0)/m/n/10.95 about the dis-tant break has not yet ar-rived. The 
 early be-haviour re-flects only the nearby 
  []
@@ -3339,7 +3339,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-Overfull \hbox (5.50557pt too wide) detected at line 11
+Overfull \hbox (5.50555pt too wide) detected at line 11
 []
  []
 
@@ -3949,13 +3949,13 @@ LaTeX Font Warning: Font shape `TU/SILEOT.ttf(0)/m/sc' undefined
 (./05_CircleWheel/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (0.14958pt too wide) in paragraph at lines 2--3
+Overfull \hbox (0.14957pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 turies, when philol-o-gists be-gan iden-ti-fy-ing re
 g-u-lar cor-re-spon-dences be-tween phonemes,
  []
 
 
-Overfull \hbox (2.8924pt too wide) in paragraph at lines 6--7
+Overfull \hbox (2.89238pt too wide) in paragraph at lines 6--7
 []\TU/CrimsonPro(0)/m/n/10.95 The PIE daugh-ter branches—Indo-Iranian, Hel-len
 ic, Italic, Celtic, Ger-manic, Balto-Slavic,
  []
@@ -4290,19 +4290,19 @@ Package luatex.def Info: fractal_trees/with_fruits/6.png  used on input line 79
 (./06_GravityTimeDilation/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (0.80923pt too wide) in paragraph at lines 2--3
+Overfull \hbox (0.80922pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 the un-ex-plained ex-cess pre-ces-sion of Mer-cury's
  or-bit, which New-to-nian me-chan-ics could
  []
 
 
-Overfull \hbox (0.46712pt too wide) in paragraph at lines 10--11
+Overfull \hbox (0.4671pt too wide) in paragraph at lines 10--11
 []\TU/CrimsonPro(0)/m/n/10.95 By the late twen-ti-eth cen-tury, rel-a-tivis-tic ef-fects had be-come en-gi-neer-ing con-cerns
 —GPS
  []
 
 
-Overfull \hbox (4.43434pt too wide) in paragraph at lines 14--15
+Overfull \hbox (4.43433pt too wide) in paragraph at lines 14--15
 []\TU/CrimsonPro(0)/m/n/10.95 Gen-eral rel-a-tiv-ity re-mains one of physics's 
 most tested the-o-ries, val-i-dated from sub-atomic
  []
@@ -4324,7 +4324,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [56]
 Package mdframed Info: mdframed works in twoside mode on input line 31.
 
-Overfull \hbox (3.93681pt too wide) in paragraph at lines 39--40
+Overfull \hbox (3.9368pt too wide) in paragraph at lines 39--40
 \TU/CrimsonPro(0)/m/n/10.95 space. But in gen-eral rel-a-tiv-ity, freely falling
  ob-jects fol-low the most di-rect path through 
  []
@@ -4334,22 +4334,22 @@ File: 06_GravityTimeDilation/climber.png Graphic file (type png)
 <use 06_GravityTimeDilation/climber.png>
 Package luatex.def Info: 06_GravityTimeDilation/climber.png  used on input line
  43.
-(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
 File: 06_GravityTimeDilation/climber.png Graphic file (type png)
 <use 06_GravityTimeDilation/climber.png>
 Package luatex.def Info: 06_GravityTimeDilation/climber.png  used on input line
  43.
-(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
 File: 06_GravityTimeDilation/climber.png Graphic file (type png)
 <use 06_GravityTimeDilation/climber.png>
 Package luatex.def Info: 06_GravityTimeDilation/climber.png  used on input line
  43.
-(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
 File: 06_GravityTimeDilation/climber.png Graphic file (type png)
 <use 06_GravityTimeDilation/climber.png>
 Package luatex.def Info: 06_GravityTimeDilation/climber.png  used on input line
  43.
-(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
 ) (./06_GravityTimeDilation/exercises.tex
 
 [57<./06_GravityTimeDilation/climber.png>])
@@ -4442,22 +4442,22 @@ File: 07_BilliardsConicsPorism/BILLIARDS1.png Graphic file (type png)
 <use 07_BilliardsConicsPorism/BILLIARDS1.png>
 Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
  line 89.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 07_BilliardsConicsPorism/BILLIARDS1.png Graphic file (type png)
 <use 07_BilliardsConicsPorism/BILLIARDS1.png>
 Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
  line 89.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 07_BilliardsConicsPorism/BILLIARDS1.png Graphic file (type png)
 <use 07_BilliardsConicsPorism/BILLIARDS1.png>
 Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
  line 89.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 07_BilliardsConicsPorism/BILLIARDS1.png Graphic file (type png)
 <use 07_BilliardsConicsPorism/BILLIARDS1.png>
 Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
  line 89.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 )
 
 [68<./07_BilliardsConicsPorism/BILLIARDS1.png>]
@@ -4513,7 +4513,7 @@ Package luatex.def Info: fractal_trees/with_fruits/8.png  used on input line 85
 (./08_BoundedPrimeGaps/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (0.62587pt too wide) in paragraph at lines 8--9
+Overfull \hbox (0.62585pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 fine-ments by Sel-berg and Bombieri led to the Bombi
 eri–Vino-gradov the-o-rem (an average-
  []
@@ -4608,12 +4608,12 @@ Package luatex.def Info: fractal_trees/with_fruits/9.png  used on input line 88
 (./09_ArrowTheoremTopology/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (2.51076pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.51074pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In the mid-twentieth cen-tury, for-mal mod-els of col-lec-tive decision-making be-gan to draw
  []
 
 
-Overfull \hbox (1.84657pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.84656pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 ing vot-ing as a pro-ce-du-ral arte-fact, re-searche
 rs sought to char-ac-terise what could or could
  []
@@ -4700,7 +4700,7 @@ Package luatex.def Info: fractal_trees/with_fruits/10.png  used on input line 9
 (./10_SolarFusionQuantumTunneling/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (11.80417pt too wide) in paragraph at lines 6--7
+Overfull \hbox (11.80415pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 brought con-fir-ma-tion through so-lar neu-trino de-
 tec-tion and im-proved nu-clear cross-section
  []
@@ -4719,7 +4719,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [96]
 
 [97]
-Overfull \hbox (16.94434pt too wide) in paragraph at lines 77--78
+Overfull \hbox (16.94432pt too wide) in paragraph at lines 77--78
 []\TU/LibertinusSerif(0)/m/n/10.95 Analysing os-cil-la-tion mode fre-quen-cies 
 re-veals the Sun’s in-te-rior struc-ture—a three-dimensional
  []
@@ -4729,22 +4729,22 @@ File: 10_SolarFusionQuantumTunneling/prisoner.png Graphic file (type png)
 <use 10_SolarFusionQuantumTunneling/prisoner.png>
 Package luatex.def Info: 10_SolarFusionQuantumTunneling/prisoner.png  used on i
 nput line 81.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 10_SolarFusionQuantumTunneling/prisoner.png Graphic file (type png)
 <use 10_SolarFusionQuantumTunneling/prisoner.png>
 Package luatex.def Info: 10_SolarFusionQuantumTunneling/prisoner.png  used on i
 nput line 81.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 10_SolarFusionQuantumTunneling/prisoner.png Graphic file (type png)
 <use 10_SolarFusionQuantumTunneling/prisoner.png>
 Package luatex.def Info: 10_SolarFusionQuantumTunneling/prisoner.png  used on i
 nput line 81.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 10_SolarFusionQuantumTunneling/prisoner.png Graphic file (type png)
 <use 10_SolarFusionQuantumTunneling/prisoner.png>
 Package luatex.def Info: 10_SolarFusionQuantumTunneling/prisoner.png  used on i
 nput line 81.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 )
 
 [98<./10_SolarFusionQuantumTunneling/prisoner.png>]
@@ -4795,31 +4795,31 @@ Package luatex.def Info: fractal_trees/with_fruits/11.png  used on input line 9
 /11_TopologicalInsulators/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (13.39973pt too wide) in paragraph at lines 4--5
+Overfull \hbox (13.39972pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 Two years later, a quar-tet of the-o-rists—Thou-
 less, Kohmoto, Nightin-gale, and den Nijs—pro-
  []
 
 
-Overfull \hbox (0.72585pt too wide) in paragraph at lines 6--7
+Overfull \hbox (0.72583pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 ing with the-o-ret-i-cal mod-els of graphene—sin-g
 le sheets of car-bon atoms—they pre-dicted
  []
 
 
-Overfull \hbox (4.39143pt too wide) in paragraph at lines 8--9
+Overfull \hbox (4.39142pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 Kane, and Eu-gene Mele ex-tended these ideas from tw
 o-dimensional to three-dimensional
  []
 
 
-Overfull \hbox (4.25629pt too wide) in paragraph at lines 8--9
+Overfull \hbox (4.25627pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 ma-te-ri-als, iden-ti-fy-ing Bi$[][]$Sb as a three-d
 imensional topo-log-i-cal in-su-la-tor; shortly there-
  []
 
 
-Overfull \hbox (17.05592pt too wide) in paragraph at lines 10--11
+Overfull \hbox (17.05591pt too wide) in paragraph at lines 10--11
 []\TU/CrimsonPro(0)/m/n/10.95 By 2009, ex-per-i-men-tal physi-cists us-ing angle
 -resolved pho-toe-mis-sion spec-troscopy (ARPES)
  []
@@ -5006,24 +5006,24 @@ Package luatex.def Info: fractal_trees/with_fruits/13.png  used on input line 1
 (./13_PoissonsSpot/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (6.30528pt too wide) in paragraph at lines 2--3
+Overfull \hbox (6.30527pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 where se-nior math-e-mati-cians like Siméon De-nis Pois-son and the re-cently de-ceased Joseph-
  []
 
 
-Overfull \hbox (2.07819pt too wide) in paragraph at lines 6--7
+Overfull \hbox (2.07817pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 doxy while of-fer-ing recog-ni-tion. When the 1818 
 diffrac-tion prize was an-nounced, it tested
  []
 
 
-Overfull \hbox (1.40436pt too wide) in paragraph at lines 8--9
+Overfull \hbox (1.40434pt too wide) in paragraph at lines 8--9
 []\TU/CrimsonPro(0)/m/n/10.95 Into this charged en-vi-ron-ment en-tered Augustin
 -Jean Fres-nel, a provin-cial en-gi-neer with-
  []
 
 
-Overfull \hbox (4.66225pt too wide) in paragraph at lines 8--9
+Overfull \hbox (4.66223pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 prin-ci-ple with in-te-grals and phase re-la-tions 
 to pre-dict in-ten-sity pat-terns. For the Academy
  []
@@ -5141,7 +5141,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (13.75531pt too wide) detected at line 32
+Overfull \hbox (13.7553pt too wide) detected at line 32
 \TU/latinmodern-math.otf(1)/m/n/10 𝑡[] = [],  Δ𝑡 = 𝑡[] + 𝑡[] = [].
  []
 
@@ -5194,7 +5194,7 @@ Package luatex.def Info: fractal_trees/with_fruits/15.png  used on input line 1
 (./15_EnvelopeParadox/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.86789pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.86787pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 The en-ve-lope para-dox traces its ori-gins to Bel
 -gian math-e-mati-cian Mau-rice Kraitchik, who
  []
@@ -5204,7 +5204,7 @@ Overfull \hbox (1.86789pt too wide) in paragraph at lines 2--3
 [144
 
 ]
-Overfull \hbox (14.1708pt too wide) in paragraph at lines 23--24
+Overfull \hbox (14.17079pt too wide) in paragraph at lines 23--24
 []\TU/LibertinusSerif(0)/m/n/10.95 A uni-form dis-tri-bu-tion over an in-fi-nite
  num-ber of val-ues can-not ex-ist (Kol-mogorov, 1933)—there
  []
@@ -5281,7 +5281,7 @@ LaTeX Font Warning: Font shape `TU/SILEOT.ttf(0)/m/it' undefined
 (./16_FalseVacuumThreat/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 2.
 
-Overfull \hbox (8.1862pt too wide) in paragraph at lines 9--10
+Overfull \hbox (8.18619pt too wide) in paragraph at lines 9--10
 \TU/CrimsonPro(0)/m/n/10.95 scale. The renor-mal-i-sa-tion group equa-tions trac
 k how the Higgs quar-tic cou-pling $\TU/latinmodern-math.otf(1)/m/n/10.95 𝜆$
  \TU/CrimsonPro(0)/m/n/10.95 evolves
@@ -5316,7 +5316,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (5.85872pt too wide) detected at line 15
+Overfull \hbox (5.8587pt too wide) detected at line 15
 []
  []
 
@@ -5477,13 +5477,13 @@ Package luatex.def Info: fractal_trees/with_fruits/18.png  used on input line 1
 (./18_SpeculativeExecutionAttacks/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (2.65898pt too wide) in paragraph at lines 4--5
+Overfull \hbox (2.65897pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 Mean-while, side-channel at-tacks emerged in-de-pe
 n-dently in cryp-tog-ra-phy. Kocher (1996)
  []
 
 
-Overfull \hbox (2.05159pt too wide) in paragraph at lines 4--5
+Overfull \hbox (2.05157pt too wide) in paragraph at lines 4--5
 \TU/CrimsonPro(0)/m/n/10.95 demon-strated tim-ing at-tacks on mod-u-lar ex-po-ne
 n-ti-a-tion. Cache tim-ing at-tacks fol-lowed,
  []
@@ -5511,22 +5511,22 @@ File: 18_SpeculativeExecutionAttacks/Oracle.png Graphic file (type png)
 <use 18_SpeculativeExecutionAttacks/Oracle.png>
 Package luatex.def Info: 18_SpeculativeExecutionAttacks/Oracle.png  used on inp
 ut line 46.
-(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
 File: 18_SpeculativeExecutionAttacks/Oracle.png Graphic file (type png)
 <use 18_SpeculativeExecutionAttacks/Oracle.png>
 Package luatex.def Info: 18_SpeculativeExecutionAttacks/Oracle.png  used on inp
 ut line 46.
-(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
 File: 18_SpeculativeExecutionAttacks/Oracle.png Graphic file (type png)
 <use 18_SpeculativeExecutionAttacks/Oracle.png>
 Package luatex.def Info: 18_SpeculativeExecutionAttacks/Oracle.png  used on inp
 ut line 46.
-(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
 File: 18_SpeculativeExecutionAttacks/Oracle.png Graphic file (type png)
 <use 18_SpeculativeExecutionAttacks/Oracle.png>
 Package luatex.def Info: 18_SpeculativeExecutionAttacks/Oracle.png  used on inp
 ut line 46.
-(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
 ) (./18_SpeculativeExecutionAttacks/joke.tex
 
 [177<./18_SpeculativeExecutionAttacks/Oracle.png>]
@@ -5559,7 +5559,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (1.15277pt too wide) in paragraph at lines 33--33
+Overfull \hbox (1.15276pt too wide) in paragraph at lines 33--33
 []    \TU/lmtt/m/n/10 temp = probe[secret[x] * 4096];[] 
  []
 
@@ -5630,25 +5630,25 @@ File: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf Graphic file
 <use 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf>
 Package luatex.def Info: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particl
 es.pdf  used on input line 63.
-(luatex.def)             Requested size: 357.73407pt x 342.29286pt.
+(luatex.def)             Requested size: 357.73409pt x 342.29286pt.
 File: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf Graphic file
  (type pdf)
 <use 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf>
 Package luatex.def Info: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particl
 es.pdf  used on input line 63.
-(luatex.def)             Requested size: 357.73407pt x 342.29286pt.
+(luatex.def)             Requested size: 357.73409pt x 342.29286pt.
 File: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf Graphic file
  (type pdf)
 <use 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf>
 Package luatex.def Info: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particl
 es.pdf  used on input line 63.
-(luatex.def)             Requested size: 357.73407pt x 342.29286pt.
+(luatex.def)             Requested size: 357.73409pt x 342.29286pt.
 File: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf Graphic file
  (type pdf)
 <use 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf>
 Package luatex.def Info: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particl
 es.pdf  used on input line 63.
-(luatex.def)             Requested size: 357.73407pt x 342.29286pt.
+(luatex.def)             Requested size: 357.73409pt x 342.29286pt.
 )
 
 [188
@@ -5741,13 +5741,13 @@ Package luatex.def Info: fractal_trees/with_fruits/20.png  used on input line 1
 (./20_ChineseRoomArgument/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (7.74469pt too wide) in paragraph at lines 4--5
+Overfull \hbox (7.74467pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 By the late 1970s, op-ti-mism sur-round-ing sym-bo
 lic ap-proaches be-gan to col-lide with deeper
  []
 
 
-Overfull \hbox (23.05632pt too wide) in paragraph at lines 6--7
+Overfull \hbox (23.0563pt too wide) in paragraph at lines 6--7
 []\TU/CrimsonPro(0)/m/n/10.95 Con-tem-po-ra-ne-ously, Daniel Den-nett pro-posed the 
 ‘in-ten-tional stance,’ em-pha-sis-ing observer-
  []
@@ -5775,22 +5775,22 @@ File: 20_ChineseRoomArgument/Robot.png Graphic file (type png)
 <use 20_ChineseRoomArgument/Robot.png>
 Package luatex.def Info: 20_ChineseRoomArgument/Robot.png  used on input line 4
 2.
-(luatex.def)             Requested size: 198.7425pt x 132.49467pt.
+(luatex.def)             Requested size: 198.74251pt x 132.49467pt.
 File: 20_ChineseRoomArgument/Robot.png Graphic file (type png)
 <use 20_ChineseRoomArgument/Robot.png>
 Package luatex.def Info: 20_ChineseRoomArgument/Robot.png  used on input line 4
 2.
-(luatex.def)             Requested size: 198.7425pt x 132.49467pt.
+(luatex.def)             Requested size: 198.74251pt x 132.49467pt.
 File: 20_ChineseRoomArgument/Robot.png Graphic file (type png)
 <use 20_ChineseRoomArgument/Robot.png>
 Package luatex.def Info: 20_ChineseRoomArgument/Robot.png  used on input line 4
 2.
-(luatex.def)             Requested size: 198.7425pt x 132.49467pt.
+(luatex.def)             Requested size: 198.74251pt x 132.49467pt.
 File: 20_ChineseRoomArgument/Robot.png Graphic file (type png)
 <use 20_ChineseRoomArgument/Robot.png>
 Package luatex.def Info: 20_ChineseRoomArgument/Robot.png  used on input line 4
 2.
-(luatex.def)             Requested size: 198.7425pt x 132.49467pt.
+(luatex.def)             Requested size: 198.74251pt x 132.49467pt.
 
 
 [197<./20_ChineseRoomArgument/Robot.png>]
@@ -5925,7 +5925,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 
-Overfull \hbox (10.0561pt too wide) detected at line 75
+Overfull \hbox (10.05609pt too wide) detected at line 75
 []
  []
 
@@ -5977,18 +5977,18 @@ Package luatex.def Info: fractal_trees/with_fruits/22.png  used on input line 1
 (./22_MinecraftCreeper/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.2869pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.28688pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 Fortress (2009). He be-gan de-vel-op-ment on 10 May 2009, us-ing Java with the Lightweight
  []
 
 
-Overfull \hbox (1.4404pt too wide) in paragraph at lines 4--5
+Overfull \hbox (1.44038pt too wide) in paragraph at lines 4--5
 \TU/CrimsonPro(0)/m/n/10.95 (known as Jeb) joined and later took over lead de-ve
 l-op-ment. The game of-fi-cially launched
  []
 
 
-Overfull \hbox (4.02234pt too wide) in paragraph at lines 6--7
+Overfull \hbox (4.02232pt too wide) in paragraph at lines 6--7
 []\TU/CrimsonPro(0)/m/n/10.95 In 2014, Mi-crosoft ac-quired Mo-jang and Minecraf
 t for $2.5 bil-lion. At that point, Minecraft
  []
@@ -6020,43 +6020,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: 22_MinecraftCreeper/DICE.png Graphic file (type png)
 <use 22_MinecraftCreeper/DICE.png>
 Package luatex.def Info: 22_MinecraftCreeper/DICE.png  used on input line 39.
-(luatex.def)             Requested size: 218.61795pt x 218.61307pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 22_MinecraftCreeper/DICE.png Graphic file (type png)
 <use 22_MinecraftCreeper/DICE.png>
 Package luatex.def Info: 22_MinecraftCreeper/DICE.png  used on input line 39.
-(luatex.def)             Requested size: 218.61795pt x 218.61307pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 22_MinecraftCreeper/DICE.png Graphic file (type png)
 <use 22_MinecraftCreeper/DICE.png>
 Package luatex.def Info: 22_MinecraftCreeper/DICE.png  used on input line 39.
-(luatex.def)             Requested size: 218.61795pt x 218.61307pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 22_MinecraftCreeper/DICE.png Graphic file (type png)
 <use 22_MinecraftCreeper/DICE.png>
 Package luatex.def Info: 22_MinecraftCreeper/DICE.png  used on input line 39.
-(luatex.def)             Requested size: 218.61795pt x 218.61307pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+)
 
-
-[218])
-
-[219<./22_MinecraftCreeper/DICE.png>] (./22_MinecraftCreeper/technical.tex
+[218<./22_MinecraftCreeper/DICE.png>] (./22_MinecraftCreeper/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 
-Overfull \hbox (10.33821pt too wide) detected at line 51
+Overfull \hbox (10.3382pt too wide) detected at line 51
 []
  []
 
 
-Overfull \hbox (6.64015pt too wide) in paragraph at lines 102--103
+Overfull \hbox (6.64014pt too wide) in paragraph at lines 102--103
  [] 
  []
 
 )
 
-[220]
+[219]
 
-[221
+[220
 
 ]
 
@@ -6073,10 +6071,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./23_BlackHoleTimeDilationRedshift/title.tex)
 
-[222
+[221
 
 ] (./23_BlackHoleTimeDilationRedshift/sidenote.tex
-<23_BlackHoleTimeDilationRedshift/23_ A Place at the End of Time.pdf, id=2583, 
+<23_BlackHoleTimeDilationRedshift/23_ A Place at the End of Time.pdf, id=2579, 
 433.62pt x 975.645pt>
 File: 23_BlackHoleTimeDilationRedshift/23_ A Place at the End of Time.pdf Graph
 ic file (type pdf)
@@ -6091,13 +6089,13 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 5--5
 
 
 
-[223
+[222
 
 
 <./23_BlackHoleTimeDilationRedshift/23_ A Place at the End of Time.pdf>])
 (./23_BlackHoleTimeDilationRedshift/title.tex)
 (./23_BlackHoleTimeDilationRedshift/summary.tex)
-<fractal_trees/with_fruits/23.png, id=2590, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/23.png, id=2586, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/23.png Graphic file (type png)
 <use fractal_trees/with_fruits/23.png>
 Package luatex.def Info: fractal_trees/with_fruits/23.png  used on input line 1
@@ -6107,7 +6105,7 @@ Package luatex.def Info: fractal_trees/with_fruits/23.png  used on input line 1
 (./23_BlackHoleTimeDilationRedshift/topicmap.tex)
 (./23_BlackHoleTimeDilationRedshift/quote.tex)
 
-[224
+[223
 
 
 <./fractal_trees/with_fruits/23.png>]
@@ -6115,7 +6113,7 @@ Package luatex.def Info: fractal_trees/with_fruits/23.png  used on input line 1
 (./23_BlackHoleTimeDilationRedshift/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (11.61667pt too wide) in paragraph at lines 8--9
+Overfull \hbox (11.61665pt too wide) in paragraph at lines 8--9
 []\TU/CrimsonPro(0)/m/n/10.95 Through-out the twen-ti-eth cen-tury, in-di-rect 
 as-tro-phys-i-cal ev-i-dence for black holes mounted,
  []
@@ -6125,17 +6123,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[225
+[224
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[226]
+[225]
 Package mdframed Info: mdframed works in twoside mode on input line 28.
 
-Overfull \hbox (5.22874pt too wide) in paragraph at lines 39--40
+Overfull \hbox (5.22873pt too wide) in paragraph at lines 39--40
 \TU/CrimsonPro(0)/m/n/10.95 ing space-like. The dra-matic co-or-di-nate in-ver-s
 ions de-scribed through-out this chapter—$\TU/latinmodern-math.otf(1)/m/n/10.
 95 𝑟$ 
@@ -6143,11 +6141,11 @@ ions de-scribed through-out this chapter—$\TU/latinmodern-math.otf(1)/m/n/10.
 
 
 
-[227]
+[226]
 
-[228])
+[227])
 
-[229] (./23_BlackHoleTimeDilationRedshift/technical.tex
+[228] (./23_BlackHoleTimeDilationRedshift/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -6168,9 +6166,9 @@ Overfull \vbox (2.07053pt too high) has occurred while \output is active []
 
 
 
-[230]
+[229]
 
-[231
+[230
 
 ]
 
@@ -6191,10 +6189,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./24_FourDSpacetime/title.tex)
 
-[232
+[231
 
 ] (./24_FourDSpacetime/sidenote.tex
-<24_FourDSpacetime/24_ Put on Your 4D Glasses.pdf, id=2631, 433.62pt x 975.645p
+<24_FourDSpacetime/24_ Put on Your 4D Glasses.pdf, id=2627, 433.62pt x 975.645p
 t>
 File: 24_FourDSpacetime/24_ Put on Your 4D Glasses.pdf Graphic file (type pdf)
 <use 24_FourDSpacetime/24_ Put on Your 4D Glasses.pdf>
@@ -6208,12 +6206,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 8--8
 
 
 
-[233
+[232
 
 
 <./24_FourDSpacetime/24_ Put on Your 4D Glasses.pdf>])
 (./24_FourDSpacetime/title.tex) (./24_FourDSpacetime/summary.tex)
-<fractal_trees/with_fruits/24.png, id=2639, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/24.png, id=2635, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/24.png Graphic file (type png)
 <use fractal_trees/with_fruits/24.png>
 Package luatex.def Info: fractal_trees/with_fruits/24.png  used on input line 1
@@ -6222,14 +6220,14 @@ Package luatex.def Info: fractal_trees/with_fruits/24.png  used on input line 1
 
 (./24_FourDSpacetime/topicmap.tex) (./24_FourDSpacetime/quote.tex)
 
-[234
+[233
 
 
 <./fractal_trees/with_fruits/24.png>] (./24_FourDSpacetime/title.tex)
 (./24_FourDSpacetime/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (8.71138pt too wide) in paragraph at lines 6--7
+Overfull \hbox (8.71136pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 could only arise in three spa-tial di-men-sions—an
  ex-am-ple of an-thropic rea-son-ing. Whitrow
  []
@@ -6239,41 +6237,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[235
+[234
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[236]
+[235]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[237]
+[236]
 Package mdframed Info: mdframed works in twoside mode on input line 35.
 ) (./24_FourDSpacetime/exercises.tex
 
-[238])
+[237])
 
-[239
+[238
 
 ] (./24_FourDSpacetime/technical.tex)
 Overfull \vbox (3.9137pt too high) has occurred while \output is active []
 
 
 
-[240]
+[239]
 
-[241
+[240
 
 ] (./25_FireflyBioluminescence/title.tex)
 
-[242
+[241
 
 ] (./25_FireflyBioluminescence/sidenote.tex
-<25_FireflyBioluminescence/25_ Let There Be Bioluminsecence.pdf, id=2688, 433.6
+<25_FireflyBioluminescence/25_ Let There Be Bioluminsecence.pdf, id=2684, 433.6
 2pt x 975.645pt>
 File: 25_FireflyBioluminescence/25_ Let There Be Bioluminsecence.pdf Graphic fi
 le (type pdf)
@@ -6288,13 +6286,13 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 23--23
 
 
 
-[243
+[242
 
 
 <./25_FireflyBioluminescence/25_ Let There Be Bioluminsecence.pdf>])
 (./25_FireflyBioluminescence/title.tex)
 (./25_FireflyBioluminescence/summary.tex)
-<fractal_trees/with_fruits/25.png, id=2696, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/25.png, id=2692, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/25.png Graphic file (type png)
 <use fractal_trees/with_fruits/25.png>
 Package luatex.def Info: fractal_trees/with_fruits/25.png  used on input line 1
@@ -6304,7 +6302,7 @@ Package luatex.def Info: fractal_trees/with_fruits/25.png  used on input line 1
 (./25_FireflyBioluminescence/topicmap.tex)
 (./25_FireflyBioluminescence/quote.tex)
 
-[244
+[243
 
 
 <./fractal_trees/with_fruits/25.png>]
@@ -6312,19 +6310,19 @@ Package luatex.def Info: fractal_trees/with_fruits/25.png  used on input line 1
 (./25_FireflyBioluminescence/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (11.39426pt too wide) in paragraph at lines 2--3
+Overfull \hbox (11.39424pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 framed bi-o-lu-mi-nes-cence as a dis-tinct phys-i-o-
 log-i-cal phe-nomenon. Her-bert Ives and William
  []
 
 
-Overfull \hbox (6.53233pt too wide) in paragraph at lines 2--3
+Overfull \hbox (6.53232pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 Coblentz (1924) per-formed early quan-ti-ta-tive bri
 ght-ness com-par-isons us-ing pho-to-graphic
  []
 
 
-Overfull \hbox (1.42946pt too wide) in paragraph at lines 6--7
+Overfull \hbox (1.42944pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 Buck doc-u-mented syn-chronous flash-ing in South-ea
 st Asian fire-flies, es-tab-lish-ing the field
  []
@@ -6334,47 +6332,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[245
+[244
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[246]
+[245]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[247]
+[246]
 Package mdframed Info: mdframed works in twoside mode on input line 47.
 
 
-[248]
-<25_FireflyBioluminescence/fireflies.png, id=2719, 1027.84pt x 1027.84pt>
+[247]
+<25_FireflyBioluminescence/fireflies.png, id=2715, 1027.84pt x 1027.84pt>
 File: 25_FireflyBioluminescence/fireflies.png Graphic file (type png)
 <use 25_FireflyBioluminescence/fireflies.png>
 Package luatex.def Info: 25_FireflyBioluminescence/fireflies.png  used on input
  line 58.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 25_FireflyBioluminescence/fireflies.png Graphic file (type png)
 <use 25_FireflyBioluminescence/fireflies.png>
 Package luatex.def Info: 25_FireflyBioluminescence/fireflies.png  used on input
  line 58.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 25_FireflyBioluminescence/fireflies.png Graphic file (type png)
 <use 25_FireflyBioluminescence/fireflies.png>
 Package luatex.def Info: 25_FireflyBioluminescence/fireflies.png  used on input
  line 58.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 25_FireflyBioluminescence/fireflies.png Graphic file (type png)
 <use 25_FireflyBioluminescence/fireflies.png>
 Package luatex.def Info: 25_FireflyBioluminescence/fireflies.png  used on input
  line 58.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 )
 
-[249<./25_FireflyBioluminescence/fireflies.png>]
+[248<./25_FireflyBioluminescence/fireflies.png>]
 (./25_FireflyBioluminescence/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -6382,16 +6380,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 )
 
-[250]
+[249]
 
-[251
+[250
 
 ] (./26_JewishCalendar/title.tex)
 
-[252
+[251
 
 ] (./26_JewishCalendar/sidenote.tex
-<26_JewishCalendar/26_ When Midnight Means Nothing.pdf, id=2740, 433.62pt x 975
+<26_JewishCalendar/26_ When Midnight Means Nothing.pdf, id=2736, 433.62pt x 975
 .645pt>
 File: 26_JewishCalendar/26_ When Midnight Means Nothing.pdf Graphic file (type 
 pdf)
@@ -6406,12 +6404,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 15--15
 
 
 
-[253
+[252
 
 
 <./26_JewishCalendar/26_ When Midnight Means Nothing.pdf>])
 (./26_JewishCalendar/title.tex) (./26_JewishCalendar/summary.tex)
-<fractal_trees/with_fruits/26.png, id=2748, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/26.png, id=2744, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/26.png Graphic file (type png)
 <use fractal_trees/with_fruits/26.png>
 Package luatex.def Info: fractal_trees/with_fruits/26.png  used on input line 1
@@ -6423,7 +6421,7 @@ LaTeX Font Info:    Font shape `TU/SILEOT.ttf(0)/m/it' will be
 (Font)              scaled to size 9.30756pt on input line 4.
 )
 
-[254
+[253
 
 
 <./fractal_trees/with_fruits/26.png>] (./26_JewishCalendar/title.tex)
@@ -6434,9 +6432,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[255
+[254
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[255]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6446,14 +6449,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[257]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[257])
 
-
-
-[258])
-
-[259] (./26_JewishCalendar/technical.tex
+[258] (./26_JewishCalendar/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -6475,16 +6473,16 @@ Overfull \vbox (26.07053pt too high) has occurred while \output is active []
 
 
 
-[260]
+[259]
 
-[261
+[260
 
 ] (./27_PlanetarySkyColors/title.tex)
 
-[262
+[261
 
 ] (./27_PlanetarySkyColors/sidenote.tex
-<27_PlanetarySkyColors/27_ A Spectrum of Skies.pdf, id=2793, 433.62pt x 975.645
+<27_PlanetarySkyColors/27_ A Spectrum of Skies.pdf, id=2789, 433.62pt x 975.645
 pt>
 File: 27_PlanetarySkyColors/27_ A Spectrum of Skies.pdf Graphic file (type pdf)
 
@@ -6499,12 +6497,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 9--9
 
 
 
-[263
+[262
 
 
 <./27_PlanetarySkyColors/27_ A Spectrum of Skies.pdf>])
 (./27_PlanetarySkyColors/title.tex) (./27_PlanetarySkyColors/summary.tex)
-<fractal_trees/with_fruits/27.png, id=2806, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/27.png, id=2802, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/27.png Graphic file (type png)
 <use fractal_trees/with_fruits/27.png>
 Package luatex.def Info: fractal_trees/with_fruits/27.png  used on input line 1
@@ -6513,7 +6511,7 @@ Package luatex.def Info: fractal_trees/with_fruits/27.png  used on input line 1
 
 (./27_PlanetarySkyColors/topicmap.tex) (./27_PlanetarySkyColors/quote.tex)
 
-[264
+[263
 
 
 <./fractal_trees/with_fruits/27.png>] (./27_PlanetarySkyColors/title.tex)
@@ -6524,23 +6522,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[265
+[264
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[266]
+[265]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[267]
+[266]
 
-[268]
+[267]
 Package mdframed Info: mdframed works in twoside mode on input line 37.
-<27_PlanetarySkyColors/SKIES1.png, id=2829, 213.25574pt x 213.25574pt>
+<27_PlanetarySkyColors/SKIES1.png, id=2825, 213.25574pt x 213.25574pt>
 File: 27_PlanetarySkyColors/SKIES1.png Graphic file (type png)
 <use 27_PlanetarySkyColors/SKIES1.png>
 Package luatex.def Info: 27_PlanetarySkyColors/SKIES1.png  used on input line 4
@@ -6563,14 +6561,14 @@ Package luatex.def Info: 27_PlanetarySkyColors/SKIES1.png  used on input line 4
 (luatex.def)             Requested size: 317.98921pt x 317.99547pt.
 )
 
-[269<./27_PlanetarySkyColors/SKIES1.png>]
+[268<./27_PlanetarySkyColors/SKIES1.png>]
 (./27_PlanetarySkyColors/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 
-Overfull \hbox (7.13605pt too wide) detected at line 33
+Overfull \hbox (7.13603pt too wide) detected at line 33
 [] \TU/latinmodern-math.otf(1)/m/n/10 = [] [][] [] []
  []
 
@@ -6579,16 +6577,16 @@ Overfull \vbox (50.07053pt too high) has occurred while \output is active []
 
 
 
-[270]
+[269]
 
-[271
+[270
 
 ] (./28_NegativeTemp/title.tex)
 
-[272
+[271
 
 ] (./28_NegativeTemp/sidenote.tex
-<28_NegativeTemp/28_ Too Hot or Too Cold.pdf, id=2850, 433.62pt x 975.645pt>
+<28_NegativeTemp/28_ Too Hot or Too Cold.pdf, id=2846, 433.62pt x 975.645pt>
 File: 28_NegativeTemp/28_ Too Hot or Too Cold.pdf Graphic file (type pdf)
 <use 28_NegativeTemp/28_ Too Hot or Too Cold.pdf>
 Package luatex.def Info: 28_NegativeTemp/28_ Too Hot or Too Cold.pdf  used on i
@@ -6601,12 +6599,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 11--11
 
 
 
-[273
+[272
 
 
 <./28_NegativeTemp/28_ Too Hot or Too Cold.pdf>])
 (./28_NegativeTemp/title.tex) (./28_NegativeTemp/summary.tex)
-<fractal_trees/with_fruits/28.png, id=2857, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/28.png, id=2853, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/28.png Graphic file (type png)
 <use fractal_trees/with_fruits/28.png>
 Package luatex.def Info: fractal_trees/with_fruits/28.png  used on input line 1
@@ -6615,14 +6613,14 @@ Package luatex.def Info: fractal_trees/with_fruits/28.png  used on input line 1
 
 (./28_NegativeTemp/topicmap.tex) (./28_NegativeTemp/quote.tex)
 
-[274
+[273
 
 
 <./fractal_trees/with_fruits/28.png>] (./28_NegativeTemp/title.tex)
 (./28_NegativeTemp/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.03607pt too wide) in paragraph at lines 4--5
+Overfull \hbox (1.03606pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 The the-o-ret-i-cal ba-sis for tem-per-a-ture ma-t
 ured along-side the for-mu-la-tion of clas-si-cal ther-
  []
@@ -6632,9 +6630,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[275
+[274
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[275]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6644,30 +6647,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[277]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[277])
 
-
-
-[278])
-
-[279] (./28_NegativeTemp/technical.tex
+[278] (./28_NegativeTemp/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 )
 
-[280]
+[279]
 
-[281
+[280
 
 ] (./29_HatMonotile/title.tex)
 
-[282
+[281
 
 ] (./29_HatMonotile/sidenote.tex
-<29_HatMonotile/29_ The Plane Hat of Einstein.pdf, id=2900, 433.62pt x 975.645p
+<29_HatMonotile/29_ The Plane Hat of Einstein.pdf, id=2896, 433.62pt x 975.645p
 t>
 File: 29_HatMonotile/29_ The Plane Hat of Einstein.pdf Graphic file (type pdf)
 <use 29_HatMonotile/29_ The Plane Hat of Einstein.pdf>
@@ -6681,12 +6679,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 8--8
 
 
 
-[283
+[282
 
 
 <./29_HatMonotile/29_ The Plane Hat of Einstein.pdf>])
 (./29_HatMonotile/title.tex) (./29_HatMonotile/summary.tex)
-<fractal_trees/with_fruits/29.png, id=2908, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/29.png, id=2904, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/29.png Graphic file (type png)
 <use fractal_trees/with_fruits/29.png>
 Package luatex.def Info: fractal_trees/with_fruits/29.png  used on input line 1
@@ -6695,14 +6693,14 @@ Package luatex.def Info: fractal_trees/with_fruits/29.png  used on input line 1
 
 (./29_HatMonotile/topicmap.tex) (./29_HatMonotile/quote.tex)
 
-[284
+[283
 
 
 <./fractal_trees/with_fruits/29.png>] (./29_HatMonotile/title.tex)
 (./29_HatMonotile/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.59915pt too wide) in paragraph at lines 10--11
+Overfull \hbox (1.59914pt too wide) in paragraph at lines 10--11
 \TU/CrimsonPro(0)/m/n/10.95 ape-ri-od-i-cally re-mained un-re-solved for decades
 . This so-called ‘ein Stein’ (‘one tile’) stood
  []
@@ -6712,52 +6710,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[285
+[284
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[286]
+[285]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[287]
+[286]
 Package mdframed Info: mdframed works in twoside mode on input line 35.
 
-Overfull \hbox (1.08157pt too wide) in paragraph at lines 36--37
+Overfull \hbox (1.08156pt too wide) in paragraph at lines 36--37
 \TU/CrimsonPro(0)/m/n/10.95 thirteen-sided shape re-sisted pe-ri-odic ar-range-m
 ent. He con-tacted Craig Ka-plan, Joseph 
  []
 
 
 
-[288])
+[287])
 
-[289] (./29_HatMonotile/technical.tex
+[288] (./29_HatMonotile/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 
-Overfull \hbox (4.83282pt too wide) detected at line 47
+Overfull \hbox (4.83281pt too wide) detected at line 47
 []
  []
 
 )
 
-[290]
+[289]
 
-[291
+[290
 
 ] (./30_SimpsonsParadox/title.tex)
 
-[292
+[291
 
 ] (./30_SimpsonsParadox/sidenote.tex
-<30_SimpsonsParadox/30_ Divide & Conquer.pdf, id=2949, 433.62pt x 975.645pt>
+<30_SimpsonsParadox/30_ Divide & Conquer.pdf, id=2945, 433.62pt x 975.645pt>
 File: 30_SimpsonsParadox/30_ Divide & Conquer.pdf Graphic file (type pdf)
 <use 30_SimpsonsParadox/30_ Divide & Conquer.pdf>
 Package luatex.def Info: 30_SimpsonsParadox/30_ Divide & Conquer.pdf  used on i
@@ -6770,12 +6768,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 8--8
 
 
 
-[293
+[292
 
 
 <./30_SimpsonsParadox/30_ Divide & Conquer.pdf>])
 (./30_SimpsonsParadox/title.tex) (./30_SimpsonsParadox/summary.tex)
-<fractal_trees/with_fruits/30.png, id=2962, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/30.png, id=2958, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/30.png Graphic file (type png)
 <use fractal_trees/with_fruits/30.png>
 Package luatex.def Info: fractal_trees/with_fruits/30.png  used on input line 1
@@ -6784,20 +6782,20 @@ Package luatex.def Info: fractal_trees/with_fruits/30.png  used on input line 1
 
 (./30_SimpsonsParadox/topicmap.tex) (./30_SimpsonsParadox/quote.tex)
 
-[294
+[293
 
 
 <./fractal_trees/with_fruits/30.png>] (./30_SimpsonsParadox/title.tex)
 (./30_SimpsonsParadox/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (0.14485pt too wide) in paragraph at lines 10--11
+Overfull \hbox (0.14484pt too wide) in paragraph at lines 10--11
 \TU/CrimsonPro(0)/m/n/10.95 tion through ger-ry-man-der-ing. El-bridge Gerry sig
 ned a re-dis-trict-ing bill in Mas-sachusetts
  []
 
 
-Overfull \hbox (15.24532pt too wide) in paragraph at lines 12--13
+Overfull \hbox (15.2453pt too wide) in paragraph at lines 12--13
 \TU/CrimsonPro(0)/m/n/10.95 gres-sional bal-ance of power, courts in-creas-ingly
  em-ployed math-e-mat-i-cal di-ag-nos-tics—such
  []
@@ -6807,56 +6805,56 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[295
+[294
 
 ]
 Underfull \vbox (badness 6876) has occurred while \output is active []
 
 
 
+[295]
+
 [296]
-
-[297]
-<30_SimpsonsParadox/guyavas.png, id=2981, 1027.84pt x 1027.84pt>
+<30_SimpsonsParadox/guyavas.png, id=2977, 1027.84pt x 1027.84pt>
 File: 30_SimpsonsParadox/guyavas.png Graphic file (type png)
 <use 30_SimpsonsParadox/guyavas.png>
 Package luatex.def Info: 30_SimpsonsParadox/guyavas.png  used on input line 86.
 
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 30_SimpsonsParadox/guyavas.png Graphic file (type png)
 <use 30_SimpsonsParadox/guyavas.png>
 Package luatex.def Info: 30_SimpsonsParadox/guyavas.png  used on input line 86.
 
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 30_SimpsonsParadox/guyavas.png Graphic file (type png)
 <use 30_SimpsonsParadox/guyavas.png>
 Package luatex.def Info: 30_SimpsonsParadox/guyavas.png  used on input line 86.
 
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 30_SimpsonsParadox/guyavas.png Graphic file (type png)
 <use 30_SimpsonsParadox/guyavas.png>
 Package luatex.def Info: 30_SimpsonsParadox/guyavas.png  used on input line 86.
 
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 
 
-[298<./30_SimpsonsParadox/guyavas.png>])
+[297<./30_SimpsonsParadox/guyavas.png>])
 
-[299] (./30_SimpsonsParadox/technical.tex)
+[298] (./30_SimpsonsParadox/technical.tex)
 Overfull \vbox (26.07053pt too high) has occurred while \output is active []
 
 
 
-[300]
+[299]
 
-[301
+[300
 
 ] (./31_osmosis_Debye/title.tex)
 
-[302
+[301
 
 ] (./31_osmosis_Debye/sidenote.tex
-<31_osmosis_Debye/31_ Concentrate on Osmosis.pdf, id=3006, 433.62pt x 975.645pt
+<31_osmosis_Debye/31_ Concentrate on Osmosis.pdf, id=3002, 433.62pt x 975.645pt
 >
 File: 31_osmosis_Debye/31_ Concentrate on Osmosis.pdf Graphic file (type pdf)
 <use 31_osmosis_Debye/31_ Concentrate on Osmosis.pdf>
@@ -6870,12 +6868,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 16--16
 
 
 
-[303
+[302
 
 
 <./31_osmosis_Debye/31_ Concentrate on Osmosis.pdf>])
 (./31_osmosis_Debye/title.tex) (./31_osmosis_Debye/summary.tex)
-<fractal_trees/with_fruits/31.png, id=3019, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/31.png, id=3015, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/31.png Graphic file (type png)
 <use fractal_trees/with_fruits/31.png>
 Package luatex.def Info: fractal_trees/with_fruits/31.png  used on input line 1
@@ -6884,7 +6882,7 @@ Package luatex.def Info: fractal_trees/with_fruits/31.png  used on input line 1
 
 (./31_osmosis_Debye/topicmap.tex) (./31_osmosis_Debye/quote.tex)
 
-[304
+[303
 
 
 <./fractal_trees/with_fruits/31.png>] (./31_osmosis_Debye/title.tex)
@@ -6895,22 +6893,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[305
+[304
 
 ]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
 
 
-[306]
+[305]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[307]
+[306]
 
-[308]
-<31_osmosis_Debye/confusion.png, id=3044, 1027.84pt x 1027.84pt>
+[307]
+<31_osmosis_Debye/confusion.png, id=3040, 1027.84pt x 1027.84pt>
 File: 31_osmosis_Debye/confusion.png Graphic file (type png)
 <use 31_osmosis_Debye/confusion.png>
 Package luatex.def Info: 31_osmosis_Debye/confusion.png  used on input line 68.
@@ -6933,7 +6931,7 @@ Package luatex.def Info: 31_osmosis_Debye/confusion.png  used on input line 68.
 (luatex.def)             Requested size: 258.36282pt x 258.35521pt.
 )
 
-[309<./31_osmosis_Debye/confusion.png>] (./31_osmosis_Debye/technical.tex
+[308<./31_osmosis_Debye/confusion.png>] (./31_osmosis_Debye/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -6945,9 +6943,9 @@ Underfull \hbox (badness 5431) in paragraph at lines 4--5
 
 )
 
-[310]
+[309]
 
-[311
+[310
 
 ]
 
@@ -7000,10 +6998,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./32_AtomicClocks/title.tex)
 
-[312
+[311
 
 ] (./32_AtomicClocks/sidenote.tex
-<32_AtomicClocks/32_ Timing is Everything.pdf, id=3065, 433.62pt x 975.645pt>
+<32_AtomicClocks/32_ Timing is Everything.pdf, id=3061, 433.62pt x 975.645pt>
 File: 32_AtomicClocks/32_ Timing is Everything.pdf Graphic file (type pdf)
 <use 32_AtomicClocks/32_ Timing is Everything.pdf>
 Package luatex.def Info: 32_AtomicClocks/32_ Timing is Everything.pdf  used on 
@@ -7016,12 +7014,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 10--10
 
 
 
-[313
+[312
 
 
 <./32_AtomicClocks/32_ Timing is Everything.pdf>])
 (./32_AtomicClocks/title.tex) (./32_AtomicClocks/summary.tex)
-<fractal_trees/with_fruits/32.png, id=3072, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/32.png, id=3068, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/32.png Graphic file (type png)
 <use fractal_trees/with_fruits/32.png>
 Package luatex.def Info: fractal_trees/with_fruits/32.png  used on input line 1
@@ -7030,14 +7028,14 @@ Package luatex.def Info: fractal_trees/with_fruits/32.png  used on input line 1
 
 (./32_AtomicClocks/topicmap.tex) (./32_AtomicClocks/quote.tex)
 
-[314
+[313
 
 
 <./fractal_trees/with_fruits/32.png>] (./32_AtomicClocks/title.tex)
 (./32_AtomicClocks/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (11.31555pt too wide) in paragraph at lines 2--18
+Overfull \hbox (11.31554pt too wide) in paragraph at lines 2--18
 [][] 
  []
 
@@ -7046,31 +7044,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[315
+[314
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[316]
+[315]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[317]) (./32_AtomicClocks/exercises.tex
+[316]) (./32_AtomicClocks/exercises.tex
 
-[318]
+[317]
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
 
  []
 
 )
 
-[319
+[318
 
 ] (./32_AtomicClocks/technical.tex
-Overfull \hbox (4.04808pt too wide) detected at line 27
+Overfull \hbox (4.04807pt too wide) detected at line 27
 \TU/latinmodern-math.otf(1)/m/n/10 𝐸[] = [] [] .
  []
 
@@ -7084,16 +7082,16 @@ Overfull \vbox (12.09253pt too high) has occurred while \output is active []
 
 
 
-[320]
+[319]
 
-[321
+[320
 
 ] (./33_IncubationInequality/title.tex)
 
-[322
+[321
 
 ] (./33_IncubationInequality/sidenote.tex
-<33_IncubationInequality/33_ Gaussian Correlation Inequality.pdf, id=3115, 433.
+<33_IncubationInequality/33_ Gaussian Correlation Inequality.pdf, id=3111, 433.
 62pt x 975.645pt>
 File: 33_IncubationInequality/33_ Gaussian Correlation Inequality.pdf Graphic f
 ile (type pdf)
@@ -7108,12 +7106,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 7--7
 
 
 
-[323
+[322
 
 
 <./33_IncubationInequality/33_ Gaussian Correlation Inequality.pdf>])
 (./33_IncubationInequality/title.tex) (./33_IncubationInequality/summary.tex)
-<fractal_trees/with_fruits/33.png, id=3131, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/33.png, id=3127, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/33.png Graphic file (type png)
 <use fractal_trees/with_fruits/33.png>
 Package luatex.def Info: fractal_trees/with_fruits/33.png  used on input line 1
@@ -7121,13 +7119,13 @@ Package luatex.def Info: fractal_trees/with_fruits/33.png  used on input line 1
 (luatex.def)             Requested size: 202.05498pt x 99.58464pt.
 
 (./33_IncubationInequality/topicmap.tex) (./33_IncubationInequality/quote.tex
-Overfull \hbox (1.39917pt too wide) in paragraph at lines 7--8
+Overfull \hbox (1.39915pt too wide) in paragraph at lines 7--8
  []
  []
 
 )
 
-[324
+[323
 
 
 <./fractal_trees/with_fruits/33.png>] (./33_IncubationInequality/title.tex) (./
@@ -7135,35 +7133,35 @@ Overfull \hbox (1.39917pt too wide) in paragraph at lines 7--8
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 ) (./33_IncubationInequality/main.tex
 
-[325
+[324
 
 ]
+
+[325]
 
 [326]
 
 [327]
-
-[328]
 Package mdframed Info: mdframed works in twoside mode on input line 50.
 )
 
-[329] (./33_IncubationInequality/technical.tex
+[328] (./33_IncubationInequality/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 \TU/LibertinusSerif(2)/b/n/14.4 Mono-tonic-ity via Co-vari-
  []
 
 )
 
-[330]
+[329]
 
-[331
+[330
 
 ] (./34_BoltzmannBrain/title.tex)
 
-[332
+[331
 
 ] (./34_BoltzmannBrain/sidenote.tex
-<34_BoltzmannBrain/34_ A Thought About Nothing.pdf, id=3178, 433.62pt x 975.645
+<34_BoltzmannBrain/34_ A Thought About Nothing.pdf, id=3174, 433.62pt x 975.645
 pt>
 File: 34_BoltzmannBrain/34_ A Thought About Nothing.pdf Graphic file (type pdf)
 
@@ -7178,12 +7176,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 7--7
 
 
 
-[333
+[332
 
 
 <./34_BoltzmannBrain/34_ A Thought About Nothing.pdf>])
 (./34_BoltzmannBrain/title.tex) (./34_BoltzmannBrain/summary.tex)
-<fractal_trees/with_fruits/34.png, id=3186, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/34.png, id=3182, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/34.png Graphic file (type png)
 <use fractal_trees/with_fruits/34.png>
 Package luatex.def Info: fractal_trees/with_fruits/34.png  used on input line 1
@@ -7192,20 +7190,20 @@ Package luatex.def Info: fractal_trees/with_fruits/34.png  used on input line 1
 
 (./34_BoltzmannBrain/topicmap.tex) (./34_BoltzmannBrain/quote.tex)
 
-[334
+[333
 
 
 <./fractal_trees/with_fruits/34.png>] (./34_BoltzmannBrain/title.tex)
 (./34_BoltzmannBrain/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (2.34912pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.3491pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In 1895, Lud-wig Boltz-mann pro-posed that the ob-
 served low en-tropy of the uni-verse might
  []
 
 
-Overfull \hbox (2.76611pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.7661pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 tis-ti-cally dom-i-nated by high-entropy con-fig-u-r
 a-tions, then any low-entropy re-gion—such
  []
@@ -7215,52 +7213,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[335
+[334
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[336]
+[335]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[337]
+[336]
 
-[338]
+[337]
 Package mdframed Info: mdframed works in twoside mode on input line 41.
 
-Overfull \hbox (13.07594pt too wide) in paragraph at lines 52--53
+Overfull \hbox (13.07593pt too wide) in paragraph at lines 52--53
 []\TU/CrimsonPro(0)/m/n/10.95 In the ab-sence of ex-ter-nal com-mit-ments—phil
 o-soph-i-cal, the-o-log-i-cal, or oth-er-wise—mod- 
  []
 
-<34_BoltzmannBrain/boltzmann.png, id=3209, 1027.84pt x 1027.84pt>
+<34_BoltzmannBrain/boltzmann.png, id=3205, 1027.84pt x 1027.84pt>
 File: 34_BoltzmannBrain/boltzmann.png Graphic file (type png)
 <use 34_BoltzmannBrain/boltzmann.png>
 Package luatex.def Info: 34_BoltzmannBrain/boltzmann.png  used on input line 55
 .
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 34_BoltzmannBrain/boltzmann.png Graphic file (type png)
 <use 34_BoltzmannBrain/boltzmann.png>
 Package luatex.def Info: 34_BoltzmannBrain/boltzmann.png  used on input line 55
 .
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 34_BoltzmannBrain/boltzmann.png Graphic file (type png)
 <use 34_BoltzmannBrain/boltzmann.png>
 Package luatex.def Info: 34_BoltzmannBrain/boltzmann.png  used on input line 55
 .
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 34_BoltzmannBrain/boltzmann.png Graphic file (type png)
 <use 34_BoltzmannBrain/boltzmann.png>
 Package luatex.def Info: 34_BoltzmannBrain/boltzmann.png  used on input line 55
 .
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 )
 
-[339<./34_BoltzmannBrain/boltzmann.png>] (./34_BoltzmannBrain/technical.tex
+[338<./34_BoltzmannBrain/boltzmann.png>] (./34_BoltzmannBrain/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 \TU/LibertinusSerif(2)/b/n/14.4 Uni-verse vs Boltz-mann
  []
@@ -7272,9 +7270,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 )
 
-[340]
+[339]
 
-[341
+[340
 
 ]
 
@@ -7303,10 +7301,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./35_TreesFromAir/title.tex)
 
-[342
+[341
 
 ] (./35_TreesFromAir/sidenote.tex
-<35_TreesFromAir/35_ From Air to Arbor.pdf, id=3230, 433.62pt x 975.645pt>
+<35_TreesFromAir/35_ From Air to Arbor.pdf, id=3226, 433.62pt x 975.645pt>
 File: 35_TreesFromAir/35_ From Air to Arbor.pdf Graphic file (type pdf)
 <use 35_TreesFromAir/35_ From Air to Arbor.pdf>
 Package luatex.def Info: 35_TreesFromAir/35_ From Air to Arbor.pdf  used on inp
@@ -7319,12 +7317,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 3--3
 
 
 
-[343
+[342
 
 
 <./35_TreesFromAir/35_ From Air to Arbor.pdf>])
 (./35_TreesFromAir/title.tex) (./35_TreesFromAir/summary.tex)
-<fractal_trees/with_fruits/35.png, id=3239, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/35.png, id=3235, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/35.png Graphic file (type png)
 <use fractal_trees/with_fruits/35.png>
 Package luatex.def Info: fractal_trees/with_fruits/35.png  used on input line 1
@@ -7333,20 +7331,20 @@ Package luatex.def Info: fractal_trees/with_fruits/35.png  used on input line 1
 
 (./35_TreesFromAir/topicmap.tex) (./35_TreesFromAir/quote.tex)
 
-[344
+[343
 
 
 <./fractal_trees/with_fruits/35.png>] (./35_TreesFromAir/title.tex)
 (./35_TreesFromAir/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (3.94223pt too wide) in paragraph at lines 2--3
+Overfull \hbox (3.94221pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 would later be-come em-blem-atic of early quan-ti-ta
 -tive bi-ol-ogy. He planted a wil-low sapling
  []
 
 
-Overfull \hbox (2.41327pt too wide) in paragraph at lines 6--7
+Overfull \hbox (2.41325pt too wide) in paragraph at lines 6--7
 []\TU/CrimsonPro(0)/m/n/10.95 In the late eigh-teenth cen-tury, Joseph Priest-le
 y and Jan In-gen-housz dis-cov-ered that plants
  []
@@ -7356,40 +7354,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[345
+[344
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[346]
+[345]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[347]
+[346]
 \g__tikzsymbols_savebox_F_0 0 0 rg 0 0 0 RG_10.95_Fire_1_box=\box152
-<35_TreesFromAir/Cellulose.png, id=3258, 2168.1pt x 2168.1pt>
+<35_TreesFromAir/Cellulose.png, id=3254, 2168.1pt x 2168.1pt>
 File: 35_TreesFromAir/Cellulose.png Graphic file (type png)
 <use 35_TreesFromAir/Cellulose.png>
 Package luatex.def Info: 35_TreesFromAir/Cellulose.png  used on input line 42.
-(luatex.def)             Requested size: 198.7425pt x 198.72658pt.
+(luatex.def)             Requested size: 198.74251pt x 198.72658pt.
 File: 35_TreesFromAir/Cellulose.png Graphic file (type png)
 <use 35_TreesFromAir/Cellulose.png>
 Package luatex.def Info: 35_TreesFromAir/Cellulose.png  used on input line 42.
-(luatex.def)             Requested size: 198.7425pt x 198.72658pt.
+(luatex.def)             Requested size: 198.74251pt x 198.72658pt.
 File: 35_TreesFromAir/Cellulose.png Graphic file (type png)
 <use 35_TreesFromAir/Cellulose.png>
 Package luatex.def Info: 35_TreesFromAir/Cellulose.png  used on input line 42.
-(luatex.def)             Requested size: 198.7425pt x 198.72658pt.
+(luatex.def)             Requested size: 198.74251pt x 198.72658pt.
 File: 35_TreesFromAir/Cellulose.png Graphic file (type png)
 <use 35_TreesFromAir/Cellulose.png>
 Package luatex.def Info: 35_TreesFromAir/Cellulose.png  used on input line 42.
-(luatex.def)             Requested size: 198.7425pt x 198.72658pt.
+(luatex.def)             Requested size: 198.74251pt x 198.72658pt.
 
 
-[348<./35_TreesFromAir/Cellulose.png>]
+[347<./35_TreesFromAir/Cellulose.png>]
 LaTeX Font Info:    Trying to load font information for TU+cmss on input line 5
 2.
 LaTeX Font Info:    No file TUcmss.fd. on input line 52.
@@ -7428,8 +7426,8 @@ Underfull \hbox (badness 5519) in paragraph at lines 65--71
 
 )
 
-[349] (./35_TreesFromAir/technical.tex
-Overfull \hbox (2.56445pt too wide) detected at line 81
+[348] (./35_TreesFromAir/technical.tex
+Overfull \hbox (2.56444pt too wide) detected at line 81
 []
  []
 
@@ -7438,9 +7436,9 @@ Overfull \vbox (2.07053pt too high) has occurred while \output is active []
 
 
 
-[350]
+[349]
 
-[351
+[350
 
 ]
 
@@ -7457,10 +7455,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./36_qft_vs_gr/title.tex)
 
-[352
+[351
 
 ] (./36_qft_vs_gr/sidenote.tex
-<36_qft_vs_gr/36_ When Theories Collide.pdf, id=3286, 433.62pt x 975.645pt>
+<36_qft_vs_gr/36_ When Theories Collide.pdf, id=3282, 433.62pt x 975.645pt>
 File: 36_qft_vs_gr/36_ When Theories Collide.pdf Graphic file (type pdf)
 <use 36_qft_vs_gr/36_ When Theories Collide.pdf>
 Package luatex.def Info: 36_qft_vs_gr/36_ When Theories Collide.pdf  used on in
@@ -7473,12 +7471,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 20--20
 
 
 
-[353
+[352
 
 
 <./36_qft_vs_gr/36_ When Theories Collide.pdf>]) (./36_qft_vs_gr/title.tex) (./
 36_qft_vs_gr/summary.tex)
-<fractal_trees/with_fruits/36.png, id=3299, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/36.png, id=3295, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/36.png Graphic file (type png)
 <use fractal_trees/with_fruits/36.png>
 Package luatex.def Info: fractal_trees/with_fruits/36.png  used on input line 1
@@ -7487,7 +7485,7 @@ Package luatex.def Info: fractal_trees/with_fruits/36.png  used on input line 1
  (./36_qft_vs_gr/topicmap.tex)
 (./36_qft_vs_gr/quote.tex)
 
-[354
+[353
 
 
 <./fractal_trees/with_fruits/36.png>] (./36_qft_vs_gr/title.tex)
@@ -7498,15 +7496,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[355
+[354
 
 ]
-Overfull \hbox (9.43994pt too wide) in paragraph at lines 17--18
+Overfull \hbox (9.43993pt too wide) in paragraph at lines 17--18
 []\TU/LibertinusSerif(0)/m/n/10.95 Mea-sured prop-er-ties of the Higgs bo-son
 —its mass, de-cay rates, and cou-pling strengths—closely
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[355]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -7517,37 +7520,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [357]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[358]
-<36_qft_vs_gr/guv.png, id=3322, 1027.84pt x 1027.84pt>
+<36_qft_vs_gr/guv.png, id=3318, 1027.84pt x 1027.84pt>
 File: 36_qft_vs_gr/guv.png Graphic file (type png)
 <use 36_qft_vs_gr/guv.png>
 Package luatex.def Info: 36_qft_vs_gr/guv.png  used on input line 48.
-(luatex.def)             Requested size: 198.7425pt x 198.742pt.
+(luatex.def)             Requested size: 198.74251pt x 198.742pt.
 File: 36_qft_vs_gr/guv.png Graphic file (type png)
 <use 36_qft_vs_gr/guv.png>
 Package luatex.def Info: 36_qft_vs_gr/guv.png  used on input line 48.
-(luatex.def)             Requested size: 198.7425pt x 198.742pt.
+(luatex.def)             Requested size: 198.74251pt x 198.742pt.
 File: 36_qft_vs_gr/guv.png Graphic file (type png)
 <use 36_qft_vs_gr/guv.png>
 Package luatex.def Info: 36_qft_vs_gr/guv.png  used on input line 48.
-(luatex.def)             Requested size: 198.7425pt x 198.742pt.
+(luatex.def)             Requested size: 198.74251pt x 198.742pt.
 File: 36_qft_vs_gr/guv.png Graphic file (type png)
 <use 36_qft_vs_gr/guv.png>
 Package luatex.def Info: 36_qft_vs_gr/guv.png  used on input line 48.
-(luatex.def)             Requested size: 198.7425pt x 198.742pt.
+(luatex.def)             Requested size: 198.74251pt x 198.742pt.
 )
 
-[359<./36_qft_vs_gr/guv.png>] (./36_qft_vs_gr/technical.tex
+[358<./36_qft_vs_gr/guv.png>] (./36_qft_vs_gr/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Overfull \hbox (7.1588pt too wide) detected at line 35
+Overfull \hbox (7.15878pt too wide) detected at line 35
 \TU/latinmodern-math.otf(1)/m/n/10 ℒ[] = [][][] + 𝛼[]𝑅[] + 𝛼[]𝑅[]
 𝑅[] + … []
  []
@@ -7557,16 +7555,16 @@ Overfull \vbox (55.07053pt too high) has occurred while \output is active []
 
 
 
-[360]
+[359]
 
-[361
+[360
 
 ] (./37_DarkMatterEvidence/title.tex)
 
-[362
+[361
 
 ] (./37_DarkMatterEvidence/sidenote.tex
-<37_DarkMatterEvidence/37_ The Invisible Scaffold.pdf, id=3343, 433.62pt x 975.
+<37_DarkMatterEvidence/37_ The Invisible Scaffold.pdf, id=3339, 433.62pt x 975.
 645pt>
 File: 37_DarkMatterEvidence/37_ The Invisible Scaffold.pdf Graphic file (type p
 df)
@@ -7581,12 +7579,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 14--14
 
 
 
-[363
+[362
 
 
 <./37_DarkMatterEvidence/37_ The Invisible Scaffold.pdf>])
 (./37_DarkMatterEvidence/title.tex) (./37_DarkMatterEvidence/summary.tex)
-<fractal_trees/with_fruits/37.png, id=3356, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/37.png, id=3352, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/37.png Graphic file (type png)
 <use fractal_trees/with_fruits/37.png>
 Package luatex.def Info: fractal_trees/with_fruits/37.png  used on input line 1
@@ -7595,14 +7593,14 @@ Package luatex.def Info: fractal_trees/with_fruits/37.png  used on input line 1
 
 (./37_DarkMatterEvidence/topicmap.tex) (./37_DarkMatterEvidence/quote.tex)
 
-[364
+[363
 
 
 <./fractal_trees/with_fruits/37.png>] (./37_DarkMatterEvidence/title.tex)
 (./37_DarkMatterEvidence/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (16.14215pt too wide) in paragraph at lines 6--7
+Overfull \hbox (16.14214pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 ne-ces-sity of dark mat-ter to ex-plain large-scale struc-ture for-ma-tion. With-out a non-luminous
  []
 
@@ -7611,45 +7609,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[365
+[364
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[366]
+[365]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[367]
-<37_DarkMatterEvidence/m33_rotation_curve.png, id=3379, 867.24pt x 578.16pt>
+[366]
+<37_DarkMatterEvidence/m33_rotation_curve.png, id=3375, 867.24pt x 578.16pt>
 File: 37_DarkMatterEvidence/m33_rotation_curve.png Graphic file (type png)
 <use 37_DarkMatterEvidence/m33_rotation_curve.png>
 Package luatex.def Info: 37_DarkMatterEvidence/m33_rotation_curve.png  used on 
 input line 31.
-(luatex.def)             Requested size: 298.11374pt x 198.742pt.
+(luatex.def)             Requested size: 298.11375pt x 198.742pt.
 File: 37_DarkMatterEvidence/m33_rotation_curve.png Graphic file (type png)
 <use 37_DarkMatterEvidence/m33_rotation_curve.png>
 Package luatex.def Info: 37_DarkMatterEvidence/m33_rotation_curve.png  used on 
 input line 31.
-(luatex.def)             Requested size: 298.11374pt x 198.742pt.
+(luatex.def)             Requested size: 298.11375pt x 198.742pt.
 File: 37_DarkMatterEvidence/m33_rotation_curve.png Graphic file (type png)
 <use 37_DarkMatterEvidence/m33_rotation_curve.png>
 Package luatex.def Info: 37_DarkMatterEvidence/m33_rotation_curve.png  used on 
 input line 31.
-(luatex.def)             Requested size: 298.11374pt x 198.742pt.
+(luatex.def)             Requested size: 298.11375pt x 198.742pt.
 File: 37_DarkMatterEvidence/m33_rotation_curve.png Graphic file (type png)
 <use 37_DarkMatterEvidence/m33_rotation_curve.png>
 Package luatex.def Info: 37_DarkMatterEvidence/m33_rotation_curve.png  used on 
 input line 31.
-(luatex.def)             Requested size: 298.11374pt x 198.742pt.
+(luatex.def)             Requested size: 298.11375pt x 198.742pt.
 
 
-[368<./37_DarkMatterEvidence/m33_rotation_curve.png>])
+[367<./37_DarkMatterEvidence/m33_rotation_curve.png>])
 
-[369] (./37_DarkMatterEvidence/technical.tex
+[368] (./37_DarkMatterEvidence/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -7659,16 +7657,16 @@ Overfull \vbox (14.07053pt too high) has occurred while \output is active []
 
 
 
-[370]
+[369]
 
-[371
+[370
 
 ] (./38_ChristmasTruce1914/title.tex)
 
-[372
+[371
 
 ] (./38_ChristmasTruce1914/sidenote.tex
-<38_ChristmasTruce1914/38_ A Pause in Pattern.pdf, id=3406, 433.62pt x 975.645p
+<38_ChristmasTruce1914/38_ A Pause in Pattern.pdf, id=3402, 433.62pt x 975.645p
 t>
 File: 38_ChristmasTruce1914/38_ A Pause in Pattern.pdf Graphic file (type pdf)
 <use 38_ChristmasTruce1914/38_ A Pause in Pattern.pdf>
@@ -7682,12 +7680,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 7--7
 
 
 
-[373
+[372
 
 
 <./38_ChristmasTruce1914/38_ A Pause in Pattern.pdf>])
 (./38_ChristmasTruce1914/title.tex) (./38_ChristmasTruce1914/summary.tex)
-<fractal_trees/with_fruits/38.png, id=3414, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/38.png, id=3410, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/38.png Graphic file (type png)
 <use fractal_trees/with_fruits/38.png>
 Package luatex.def Info: fractal_trees/with_fruits/38.png  used on input line 1
@@ -7696,14 +7694,14 @@ Package luatex.def Info: fractal_trees/with_fruits/38.png  used on input line 1
 
 (./38_ChristmasTruce1914/topicmap.tex) (./38_ChristmasTruce1914/quote.tex)
 
-[374
+[373
 
 
 <./fractal_trees/with_fruits/38.png>] (./38_ChristmasTruce1914/title.tex)
 (./38_ChristmasTruce1914/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (9.08374pt too wide) in paragraph at lines 4--5
+Overfull \hbox (9.08372pt too wide) in paragraph at lines 4--5
 \TU/CrimsonPro(0)/m/n/10.95 Novem-ber, both Ger-man and Al-lied armies had be-gu
 n to dig in, tran-si-tion-ing to en-trenched
  []
@@ -7713,9 +7711,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[375
+[374
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[375]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -7726,35 +7729,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [377]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[378]
-<38_ChristmasTruce1914/pinata.png, id=3437, 1027.84pt x 1027.84pt>
+<38_ChristmasTruce1914/pinata.png, id=3433, 1027.84pt x 1027.84pt>
 File: 38_ChristmasTruce1914/pinata.png Graphic file (type png)
 <use 38_ChristmasTruce1914/pinata.png>
 Package luatex.def Info: 38_ChristmasTruce1914/pinata.png  used on input line 5
 2.
-(luatex.def)             Requested size: 198.7425pt x 198.742pt.
+(luatex.def)             Requested size: 198.74251pt x 198.742pt.
 File: 38_ChristmasTruce1914/pinata.png Graphic file (type png)
 <use 38_ChristmasTruce1914/pinata.png>
 Package luatex.def Info: 38_ChristmasTruce1914/pinata.png  used on input line 5
 2.
-(luatex.def)             Requested size: 198.7425pt x 198.742pt.
+(luatex.def)             Requested size: 198.74251pt x 198.742pt.
 File: 38_ChristmasTruce1914/pinata.png Graphic file (type png)
 <use 38_ChristmasTruce1914/pinata.png>
 Package luatex.def Info: 38_ChristmasTruce1914/pinata.png  used on input line 5
 2.
-(luatex.def)             Requested size: 198.7425pt x 198.742pt.
+(luatex.def)             Requested size: 198.74251pt x 198.742pt.
 File: 38_ChristmasTruce1914/pinata.png Graphic file (type png)
 <use 38_ChristmasTruce1914/pinata.png>
 Package luatex.def Info: 38_ChristmasTruce1914/pinata.png  used on input line 5
 2.
-(luatex.def)             Requested size: 198.7425pt x 198.742pt.
+(luatex.def)             Requested size: 198.74251pt x 198.742pt.
 )
 
-[379<./38_ChristmasTruce1914/pinata.png>]
+[378<./38_ChristmasTruce1914/pinata.png>]
 (./38_ChristmasTruce1914/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -7765,16 +7763,16 @@ Overfull \vbox (50.9205pt too high) has occurred while \output is active []
 
 
 
-[380]
+[379]
 
-[381
+[380
 
 ] (./39_SuperpermutationsBreakthrough/title.tex)
 
-[382
+[381
 
 ] (./39_SuperpermutationsBreakthrough/sidenote.tex
-<39_SuperpermutationsBreakthrough/39_ Superanonymous.pdf, id=3458, 433.62pt x 9
+<39_SuperpermutationsBreakthrough/39_ Superanonymous.pdf, id=3454, 433.62pt x 9
 75.645pt>
 File: 39_SuperpermutationsBreakthrough/39_ Superanonymous.pdf Graphic file (typ
 e pdf)
@@ -7789,13 +7787,13 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 4--4
 
 
 
-[383
+[382
 
 
 <./39_SuperpermutationsBreakthrough/39_ Superanonymous.pdf>])
 (./39_SuperpermutationsBreakthrough/title.tex)
 (./39_SuperpermutationsBreakthrough/summary.tex)
-<fractal_trees/with_fruits/39.png, id=3465, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/39.png, id=3461, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/39.png Graphic file (type png)
 <use fractal_trees/with_fruits/39.png>
 Package luatex.def Info: fractal_trees/with_fruits/39.png  used on input line 1
@@ -7805,7 +7803,7 @@ Package luatex.def Info: fractal_trees/with_fruits/39.png  used on input line 1
 (./39_SuperpermutationsBreakthrough/topicmap.tex)
 (./39_SuperpermutationsBreakthrough/quote.tex)
 
-[384
+[383
 
 
 <./fractal_trees/with_fruits/39.png>]
@@ -7818,42 +7816,42 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[385
+[384
 
 ]
-<39_SuperpermutationsBreakthrough/GRAPH2.png, id=3476, 628.0263pt x 456.7464pt>
+<39_SuperpermutationsBreakthrough/GRAPH2.png, id=3472, 628.0263pt x 456.7464pt>
 
 File: 39_SuperpermutationsBreakthrough/GRAPH2.png Graphic file (type png)
 <use 39_SuperpermutationsBreakthrough/GRAPH2.png>
 Package luatex.def Info: 39_SuperpermutationsBreakthrough/GRAPH2.png  used on i
 nput line 21.
-(luatex.def)             Requested size: 278.23828pt x 202.36292pt.
+(luatex.def)             Requested size: 278.2383pt x 202.36292pt.
 File: 39_SuperpermutationsBreakthrough/GRAPH2.png Graphic file (type png)
 <use 39_SuperpermutationsBreakthrough/GRAPH2.png>
 Package luatex.def Info: 39_SuperpermutationsBreakthrough/GRAPH2.png  used on i
 nput line 21.
-(luatex.def)             Requested size: 278.23828pt x 202.36292pt.
+(luatex.def)             Requested size: 278.2383pt x 202.36292pt.
 File: 39_SuperpermutationsBreakthrough/GRAPH2.png Graphic file (type png)
 <use 39_SuperpermutationsBreakthrough/GRAPH2.png>
 Package luatex.def Info: 39_SuperpermutationsBreakthrough/GRAPH2.png  used on i
 nput line 21.
-(luatex.def)             Requested size: 278.23828pt x 202.36292pt.
+(luatex.def)             Requested size: 278.2383pt x 202.36292pt.
 File: 39_SuperpermutationsBreakthrough/GRAPH2.png Graphic file (type png)
 <use 39_SuperpermutationsBreakthrough/GRAPH2.png>
 Package luatex.def Info: 39_SuperpermutationsBreakthrough/GRAPH2.png  used on i
 nput line 21.
-(luatex.def)             Requested size: 278.23828pt x 202.36292pt.
+(luatex.def)             Requested size: 278.2383pt x 202.36292pt.
 
 
-[386]
+[385]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[387<./39_SuperpermutationsBreakthrough/GRAPH2.png>]
+[386<./39_SuperpermutationsBreakthrough/GRAPH2.png>]
 
-[388]
-<39_SuperpermutationsBreakthrough/DrTcMa7VYAApwpb.png, id=3493, 1286.8075pt x 9
+[387]
+<39_SuperpermutationsBreakthrough/DrTcMa7VYAApwpb.png, id=3489, 1286.8075pt x 9
 87.69pt>
 File: 39_SuperpermutationsBreakthrough/DrTcMa7VYAApwpb.png Graphic file (type p
 ng)
@@ -7881,7 +7879,7 @@ used on input line 60.
 (luatex.def)             Requested size: 317.98921pt x 244.07349pt.
 )
 
-[389<./39_SuperpermutationsBreakthrough/DrTcMa7VYAApwpb.png>]
+[388<./39_SuperpermutationsBreakthrough/DrTcMa7VYAApwpb.png>]
 (./39_SuperpermutationsBreakthrough/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -7889,17 +7887,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 )
 
-[390]
+[389]
 
-[391
+[390
 
 ] (./40_DNASequencing/title.tex)
 
-[392
+[391
 
 ] (./40_DNASequencing/sidenote.tex
 <40_DNASequencing/40_ Shredding and Rebuilding the Encyclopedia of Life.pdf, id
-=3517, 433.62pt x 975.645pt>
+=3513, 433.62pt x 975.645pt>
 File: 40_DNASequencing/40_ Shredding and Rebuilding the Encyclopedia of Life.pd
 f Graphic file (type pdf)
 <use 40_DNASequencing/40_ Shredding and Rebuilding the Encyclopedia of Life.pdf
@@ -7914,7 +7912,7 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 4--4
 
 
 
-[393
+[392
 
 
 <./40_DNASequencing/40_ Shredding and Rebuilding the Encyclopedia of Life.pdf>]
@@ -7924,7 +7922,7 @@ Underfull \hbox (badness 5260) in paragraph at lines 1--181
 in-
  []
 
-<fractal_trees/with_fruits/40.png, id=3530, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/40.png, id=3526, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/40.png Graphic file (type png)
 <use fractal_trees/with_fruits/40.png>
 Package luatex.def Info: fractal_trees/with_fruits/40.png  used on input line 1
@@ -7932,7 +7930,7 @@ Package luatex.def Info: fractal_trees/with_fruits/40.png  used on input line 1
 (luatex.def)             Requested size: 202.05498pt x 99.58464pt.
 (./40_DNASequencing/topicmap.tex) (./40_DNASequencing/quote.tex)
 
-[394
+[393
 
 
 <./fractal_trees/with_fruits/40.png>] (./40_DNASequencing/title.tex)
@@ -7948,34 +7946,34 @@ Package mdframed Warning: You got a bad break
 
 
 
-[395
+[394
 
 ]) (./40_DNASequencing/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[396]
+[395]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[397]
+[396]
 
-[398]
+[397]
 Package mdframed Info: mdframed works in twoside mode on input line 47.
 )
 
-[399] (./40_DNASequencing/technical.tex
+[398] (./40_DNASequencing/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 )
 
-[400]
+[399]
 
-[401
+[400
 
 ]
 
@@ -7996,10 +7994,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./41_HoughTransfrom/title.tex)
 
-[402
+[401
 
 ] (./41_HoughTransfrom/sidenote.tex
-<41_HoughTransfrom/41_ It Is Just a Phase.pdf, id=3573, 433.62pt x 975.645pt>
+<41_HoughTransfrom/41_ It Is Just a Phase.pdf, id=3569, 433.62pt x 975.645pt>
 File: 41_HoughTransfrom/41_ It Is Just a Phase.pdf Graphic file (type pdf)
 <use 41_HoughTransfrom/41_ It Is Just a Phase.pdf>
 Package luatex.def Info: 41_HoughTransfrom/41_ It Is Just a Phase.pdf  used on 
@@ -8012,12 +8010,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 10--10
 
 
 
-[403
+[402
 
 
 <./41_HoughTransfrom/41_ It Is Just a Phase.pdf>])
 (./41_HoughTransfrom/title.tex) (./41_HoughTransfrom/summary.tex)
-<fractal_trees/with_fruits/41.png, id=3581, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/41.png, id=3577, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/41.png Graphic file (type png)
 <use fractal_trees/with_fruits/41.png>
 Package luatex.def Info: fractal_trees/with_fruits/41.png  used on input line 1
@@ -8026,7 +8024,7 @@ Package luatex.def Info: fractal_trees/with_fruits/41.png  used on input line 1
 
 (./41_HoughTransfrom/topicmap.tex) (./41_HoughTransfrom/quote.tex)
 
-[404
+[403
 
 
 <./fractal_trees/with_fruits/41.png>] (./41_HoughTransfrom/title.tex)
@@ -8037,22 +8035,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[405
+[404
 
 ]
-Overfull \hbox (16.18713pt too wide) in paragraph at lines 16--18
+Overfull \hbox (16.18712pt too wide) in paragraph at lines 16--18
 \TU/LibertinusSerif(0)/m/n/10.95 quan-ti-fies the rate of change in bright-ness at each pixel. The di-rec-tion $\TU/latinmodern-math.otf(1)/m/n/10.95 
 𝜃(𝑥, 𝑦) = [] 2(𝐼[], 𝐼[])$
  []
 
 
 
+[405]
+
 [406]
 
 [407]
-
-[408]
-<41_HoughTransfrom/Hough_Transform_Visualization.pdf, id=3604, 1076.33116pt x 8
+<41_HoughTransfrom/Hough_Transform_Visualization.pdf, id=3600, 1076.33116pt x 8
 45.23592pt>
 File: 41_HoughTransfrom/Hough_Transform_Visualization.pdf Graphic file (type pd
 f)
@@ -8080,7 +8078,7 @@ sed on input line 73.
 (luatex.def)             Requested size: 397.48082pt x 312.13911pt.
 )
 
-[409<./41_HoughTransfrom/Hough_Transform_Visualization.pdf>]
+[408<./41_HoughTransfrom/Hough_Transform_Visualization.pdf>]
 (./41_HoughTransfrom/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -8088,16 +8086,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 )
 
-[410]
+[409]
 
-[411
+[410
 
 ] (./42_IceSlipperiness/title.tex)
 
-[412
+[411
 
 ] (./42_IceSlipperiness/sidenote.tex
-<42_IceSlipperiness/42_ Wet, Cold, Slippery Slope.pdf, id=3702, 433.62pt x 975.
+<42_IceSlipperiness/42_ Wet, Cold, Slippery Slope.pdf, id=3698, 433.62pt x 975.
 645pt>
 File: 42_IceSlipperiness/42_ Wet, Cold, Slippery Slope.pdf Graphic file (type p
 df)
@@ -8112,12 +8110,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 4--4
 
 
 
-[413
+[412
 
 
 <./42_IceSlipperiness/42_ Wet, Cold, Slippery Slope.pdf>])
 (./42_IceSlipperiness/title.tex) (./42_IceSlipperiness/summary.tex)
-<fractal_trees/with_fruits/42.png, id=3710, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/42.png, id=3706, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/42.png Graphic file (type png)
 <use fractal_trees/with_fruits/42.png>
 Package luatex.def Info: fractal_trees/with_fruits/42.png  used on input line 1
@@ -8126,26 +8124,26 @@ Package luatex.def Info: fractal_trees/with_fruits/42.png  used on input line 1
 
 (./42_IceSlipperiness/topicmap.tex) (./42_IceSlipperiness/quote.tex)
 
-[414
+[413
 
 
 <./fractal_trees/with_fruits/42.png>] (./42_IceSlipperiness/title.tex)
 (./42_IceSlipperiness/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (3.68pt too wide) in paragraph at lines 2--3
+Overfull \hbox (3.67998pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In the mid-nineteenth cen-tury, Michael Fara-day 
 pro-posed that ice pos-sesses a thin, liquid-
  []
 
 
-Overfull \hbox (10.31567pt too wide) in paragraph at lines 6--7
+Overfull \hbox (10.31566pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 sum-frequency gen-er-a-tion spec-troscopy, and X-ray
  scat-ter-ing—en-abled sci-en-tists to probe
  []
 
 ) (./42_IceSlipperiness/main.tex
-Overfull \hbox (6.19002pt too wide) in paragraph at lines 1--2
+Overfull \hbox (6.19pt too wide) in paragraph at lines 1--2
 \TU/LibertinusSerif(0)/m/n/10.95 Mat-ter ex-ists in dis-tinct or-gan-i-sa-tional
  forms known as phases. The clas-si-cal cat-e-gories—solid,
  []
@@ -8155,25 +8153,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[415
+[414
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[416]
+[415]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[417]
+[416]
 Package mdframed Info: mdframed works in twoside mode on input line 36.
 
 
-[418])
+[417])
 
-[419] (./42_IceSlipperiness/technical.tex
+[418] (./42_IceSlipperiness/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -8188,16 +8186,16 @@ Overfull \vbox (41.97049pt too high) has occurred while \output is active []
 
 
 
-[420]
+[419]
 
-[421
+[420
 
 ] (./43_NearFlatUniverse/title.tex)
 
-[422
+[421
 
 ] (./43_NearFlatUniverse/sidenote.tex
-<43_NearFlatUniverse/43_ Infinite Yet Born.pdf, id=3751, 433.62pt x 975.645pt>
+<43_NearFlatUniverse/43_ Infinite Yet Born.pdf, id=3747, 433.62pt x 975.645pt>
 File: 43_NearFlatUniverse/43_ Infinite Yet Born.pdf Graphic file (type pdf)
 <use 43_NearFlatUniverse/43_ Infinite Yet Born.pdf>
 Package luatex.def Info: 43_NearFlatUniverse/43_ Infinite Yet Born.pdf  used on
@@ -8210,12 +8208,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 7--7
 
 
 
-[423
+[422
 
 
 <./43_NearFlatUniverse/43_ Infinite Yet Born.pdf>])
 (./43_NearFlatUniverse/title.tex) (./43_NearFlatUniverse/summary.tex)
-<fractal_trees/with_fruits/43.png, id=3759, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/43.png, id=3755, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/43.png Graphic file (type png)
 <use fractal_trees/with_fruits/43.png>
 Package luatex.def Info: fractal_trees/with_fruits/43.png  used on input line 1
@@ -8224,14 +8222,14 @@ Package luatex.def Info: fractal_trees/with_fruits/43.png  used on input line 1
 
 (./43_NearFlatUniverse/topicmap.tex) (./43_NearFlatUniverse/quote.tex)
 
-[424
+[423
 
 
 <./fractal_trees/with_fruits/43.png>] (./43_NearFlatUniverse/title.tex)
 (./43_NearFlatUniverse/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.8857pt too wide) in paragraph at lines 6--7
+Overfull \hbox (1.88568pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 Ein-stein’s equa-tions nat-u-rally de-scribed an 
 ex-pand-ing cos-mos. Lemaître, a Bel-gian priest
  []
@@ -8241,7 +8239,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[425
+[424
 
 
 Missing character: There is no Λ (U+039B) in font "name:Crimson Pro:mode=harf;s
@@ -8251,34 +8249,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[426]
+[425]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[427]
+[426]
 Package mdframed Info: mdframed works in twoside mode on input line 39.
 
 
-[428])
+[427])
 
-[429] (./43_NearFlatUniverse/technical.tex
+[428] (./43_NearFlatUniverse/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 )
 
-[430]
+[429]
 
-[431
+[430
 
 ] (./44_IronMask/title.tex)
 
-[432
+[431
 
 ] (./44_IronMask/sidenote.tex
-<44_IronMask/44_ Mask of Administrative Silence.pdf, id=3802, 433.62pt x 975.64
+<44_IronMask/44_ Mask of Administrative Silence.pdf, id=3798, 433.62pt x 975.64
 5pt>
 File: 44_IronMask/44_ Mask of Administrative Silence.pdf Graphic file (type pdf
 )
@@ -8293,12 +8291,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 4--4
 
 
 
-[433
+[432
 
 
 <./44_IronMask/44_ Mask of Administrative Silence.pdf>])
 (./44_IronMask/title.tex) (./44_IronMask/summary.tex)
-<fractal_trees/with_fruits/44.png, id=3815, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/44.png, id=3811, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/44.png Graphic file (type png)
 <use fractal_trees/with_fruits/44.png>
 Package luatex.def Info: fractal_trees/with_fruits/44.png  used on input line 1
@@ -8307,7 +8305,7 @@ Package luatex.def Info: fractal_trees/with_fruits/44.png  used on input line 1
 
 (./44_IronMask/topicmap.tex) (./44_IronMask/quote.tex)
 
-[434
+[433
 
 
 <./fractal_trees/with_fruits/44.png>] (./44_IronMask/title.tex)
@@ -8318,9 +8316,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[435
+[434
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[435]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -8331,15 +8334,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [437]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[438]
 Package mdframed Info: mdframed works in twoside mode on input line 51.
 )
 
-[439] (./44_IronMask/technical.tex
+[438] (./44_IronMask/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -8355,16 +8353,16 @@ Overfull \vbox (34.4456pt too high) has occurred while \output is active []
 
 
 
-[440]
+[439]
 
-[441
+[440
 
 ] (./45_MaxwellDemon/title.tex)
 
-[442
+[441
 
 ] (./45_MaxwellDemon/sidenote.tex
-<45_MaxwellDemon/45_ Entropy_s Gatekeeper.pdf, id=3856, 433.62pt x 975.645pt>
+<45_MaxwellDemon/45_ Entropy_s Gatekeeper.pdf, id=3852, 433.62pt x 975.645pt>
 File: 45_MaxwellDemon/45_ Entropy_s Gatekeeper.pdf Graphic file (type pdf)
 <use 45_MaxwellDemon/45_ Entropy_s Gatekeeper.pdf>
 Package luatex.def Info: 45_MaxwellDemon/45_ Entropy_s Gatekeeper.pdf  used on 
@@ -8377,12 +8375,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 5--5
 
 
 
-[443
+[442
 
 
 <./45_MaxwellDemon/45_ Entropy_s Gatekeeper.pdf>])
 (./45_MaxwellDemon/title.tex) (./45_MaxwellDemon/summary.tex)
-<fractal_trees/with_fruits/45.png, id=3868, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/45.png, id=3864, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/45.png Graphic file (type png)
 <use fractal_trees/with_fruits/45.png>
 Package luatex.def Info: fractal_trees/with_fruits/45.png  used on input line 1
@@ -8391,19 +8389,19 @@ Package luatex.def Info: fractal_trees/with_fruits/45.png  used on input line 1
 
 (./45_MaxwellDemon/topicmap.tex) (./45_MaxwellDemon/quote.tex)
 
-[444
+[443
 
 
 <./fractal_trees/with_fruits/45.png>] (./45_MaxwellDemon/title.tex)
 (./45_MaxwellDemon/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (4.82411pt too wide) in paragraph at lines 2--3
+Overfull \hbox (4.8241pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 versible cy-cles and the no-tion that heat could be par-tially trans-formed into work, bounded
  []
 
 
-Overfull \hbox (4.00658pt too wide) in paragraph at lines 8--9
+Overfull \hbox (4.00656pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 reg-u-lar-i-ties, yet grounded in re-versible mi-cro
 -scopic dy-nam-ics—that James Clerk Maxwell
  []
@@ -8413,25 +8411,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[445
+[444
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[446]
+[445]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[447]
+[446]
 Package mdframed Info: mdframed works in twoside mode on input line 49.
 ) (./45_MaxwellDemon/exercises.tex
 
-[448])
+[447])
 
-[449
+[448
 
 ] (./45_MaxwellDemon/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -8439,13 +8437,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (9.68431pt too wide) detected at line 29
+Overfull \hbox (9.6843pt too wide) detected at line 29
 \TU/latinmodern-math.otf(1)/m/n/10 𝑄[] ≥ 𝑇𝜎 ,  Δ𝑆[] = −𝜎,  
 Δ𝑆[] ≥ 𝜎.
  []
 
 
-Overfull \hbox (5.13223pt too wide) detected at line 47
+Overfull \hbox (5.13222pt too wide) detected at line 47
 []
  []
 
@@ -8454,16 +8452,16 @@ Overfull \vbox (41.85493pt too high) has occurred while \output is active []
 
 
 
-[450]
+[449]
 
-[451
+[450
 
 ] (./46_WoodwardHoffmannRules/title.tex)
 
-[452
+[451
 
 ] (./46_WoodwardHoffmannRules/sidenote.tex
-<46_WoodwardHoffmannRules/46_ Symmetry_s Chemical Logic.pdf, id=3909, 433.62pt 
+<46_WoodwardHoffmannRules/46_ Symmetry_s Chemical Logic.pdf, id=3905, 433.62pt 
 x 975.645pt>
 File: 46_WoodwardHoffmannRules/46_ Symmetry_s Chemical Logic.pdf Graphic file (
 type pdf)
@@ -8478,12 +8476,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 13--13
 
 
 
-[453
+[452
 
 
 <./46_WoodwardHoffmannRules/46_ Symmetry_s Chemical Logic.pdf>])
 (./46_WoodwardHoffmannRules/title.tex) (./46_WoodwardHoffmannRules/summary.tex)
-<fractal_trees/with_fruits/46.png, id=3917, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/46.png, id=3913, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/46.png Graphic file (type png)
 <use fractal_trees/with_fruits/46.png>
 Package luatex.def Info: fractal_trees/with_fruits/46.png  used on input line 1
@@ -8492,20 +8490,20 @@ Package luatex.def Info: fractal_trees/with_fruits/46.png  used on input line 1
 (./46_WoodwardHoffmannRules/topicmap.tex) (./46_WoodwardHoffmannRules/quote.tex
 )
 
-[454
+[453
 
 
 <./fractal_trees/with_fruits/46.png>] (./46_WoodwardHoffmannRules/title.tex) (.
 /46_WoodwardHoffmannRules/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.24191pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.2419pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In 1952, Kenichi Fukui in-tro-duced the con-cept 
 of fron-tier molec-u-lar or-bitals (FMOs), high-
  []
 
 ) (./46_WoodwardHoffmannRules/main.tex
-<46_WoodwardHoffmannRules/pMO_pi.png, id=3923, 1541.76pt x 1027.84pt>
+<46_WoodwardHoffmannRules/pMO_pi.png, id=3919, 1541.76pt x 1027.84pt>
 File: 46_WoodwardHoffmannRules/pMO_pi.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_pi.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_pi.png  used on input lin
@@ -8531,73 +8529,73 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[455
+[454
 
 ]
-<46_WoodwardHoffmannRules/pMO_sigma.png, id=3930, 1680.2775pt x 630.355pt>
+<46_WoodwardHoffmannRules/pMO_sigma.png, id=3926, 1680.2775pt x 630.355pt>
 File: 46_WoodwardHoffmannRules/pMO_sigma.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_sigma.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_sigma.png  used on input 
 line 17.
-(luatex.def)             Requested size: 278.23828pt x 104.3792pt.
+(luatex.def)             Requested size: 278.2383pt x 104.3792pt.
 File: 46_WoodwardHoffmannRules/pMO_sigma.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_sigma.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_sigma.png  used on input 
 line 17.
-(luatex.def)             Requested size: 278.23828pt x 104.3792pt.
+(luatex.def)             Requested size: 278.2383pt x 104.3792pt.
 File: 46_WoodwardHoffmannRules/pMO_sigma.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_sigma.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_sigma.png  used on input 
 line 17.
-(luatex.def)             Requested size: 278.23828pt x 104.3792pt.
+(luatex.def)             Requested size: 278.2383pt x 104.3792pt.
 File: 46_WoodwardHoffmannRules/pMO_sigma.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_sigma.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_sigma.png  used on input 
 line 17.
-(luatex.def)             Requested size: 278.23828pt x 104.3792pt.
+(luatex.def)             Requested size: 278.2383pt x 104.3792pt.
 
 
-[456<./46_WoodwardHoffmannRules/pMO_pi.png><./46_WoodwardHoffmannRules/pMO_sigma
+[455<./46_WoodwardHoffmannRules/pMO_pi.png><./46_WoodwardHoffmannRules/pMO_sigma
 .png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[457]
+[456]
 Package mdframed Info: mdframed works in twoside mode on input line 44.
 
-Overfull \hbox (3.40244pt too wide) in paragraph at lines 47--48
+Overfull \hbox (3.40242pt too wide) in paragraph at lines 47--48
 []\TU/CrimsonPro(0)/m/n/10.95 Yet that same for-mal-ism—of-ten re-garded as re
 -mote or epis-te-mo-log-i-cally dis-tant—reap- 
  []
 
 
 
-[458]
-<46_WoodwardHoffmannRules/MIRROR.png, id=3949, 1027.84pt x 1027.84pt>
+[457]
+<46_WoodwardHoffmannRules/MIRROR.png, id=3945, 1027.84pt x 1027.84pt>
 File: 46_WoodwardHoffmannRules/MIRROR.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/MIRROR.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/MIRROR.png  used on input lin
 e 52.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 46_WoodwardHoffmannRules/MIRROR.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/MIRROR.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/MIRROR.png  used on input lin
 e 52.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 46_WoodwardHoffmannRules/MIRROR.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/MIRROR.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/MIRROR.png  used on input lin
 e 52.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 File: 46_WoodwardHoffmannRules/MIRROR.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/MIRROR.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/MIRROR.png  used on input lin
 e 52.
-(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
 )
 
-[459<./46_WoodwardHoffmannRules/MIRROR.png>]
+[458<./46_WoodwardHoffmannRules/MIRROR.png>]
 (./46_WoodwardHoffmannRules/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -8608,9 +8606,9 @@ Overfull \vbox (5.67363pt too high) has occurred while \output is active []
 
 
 
-[460]
+[459]
 
-[461
+[460
 
 ]
 
@@ -8627,10 +8625,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./47_ObserverDependentVacuum/title.tex)
 
-[462
+[461
 
 ] (./47_ObserverDependentVacuum/sidenote.tex
-<47_ObserverDependentVacuum/47_ Optimist_s Take on Vacuum.pdf, id=3970, 433.62p
+<47_ObserverDependentVacuum/47_ Optimist_s Take on Vacuum.pdf, id=3966, 433.62p
 t x 975.645pt>
 File: 47_ObserverDependentVacuum/47_ Optimist_s Take on Vacuum.pdf Graphic file
  (type pdf)
@@ -8645,7 +8643,7 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 11--11
 
 
 
-[463
+[462
 
 
 <./47_ObserverDependentVacuum/47_ Optimist_s Take on Vacuum.pdf>])
@@ -8653,7 +8651,7 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 11--11
 (./47_ObserverDependentVacuum/summary.tex
 Missing character: There is no ħ (U+0127) in font lmmi12!
 )
-<fractal_trees/with_fruits/47.png, id=3978, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/47.png, id=3974, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/47.png Graphic file (type png)
 <use fractal_trees/with_fruits/47.png>
 Package luatex.def Info: fractal_trees/with_fruits/47.png  used on input line 2
@@ -8662,7 +8660,7 @@ Package luatex.def Info: fractal_trees/with_fruits/47.png  used on input line 2
  (./47_ObserverDependentVacuum/topicmap.tex)
 (./47_ObserverDependentVacuum/quote.tex)
 
-[464
+[463
 
 
 <./fractal_trees/with_fruits/47.png>]
@@ -8670,13 +8668,13 @@ Package luatex.def Info: fractal_trees/with_fruits/47.png  used on input line 2
 (./47_ObserverDependentVacuum/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (2.16742pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.1674pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 field the-ory, sci-en-tists be-gan to re-alise that 
 ‘empty space’ could look dif-fer-ent to ob-servers
  []
 
 
-Overfull \hbox (0.7521pt too wide) in paragraph at lines 4--5
+Overfull \hbox (0.75209pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 In 1973, Stephen Fulling clar-i-fied the observer-
 dependence of par-ti-cle def-i-ni-tions in quan-
  []
@@ -8686,24 +8684,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[465
+[464
 
 ]
 
-[466]
+[465]
 Package mdframed Info: mdframed works in twoside mode on input line 36.
 
 
-[467]
+[466]
 
-[468]
-Overfull \hbox (11.20027pt too wide) in paragraph at lines 70--93
+[467]
+Overfull \hbox (11.20026pt too wide) in paragraph at lines 70--93
  [][] 
  []
 
 )
 
-[469] (./47_ObserverDependentVacuum/technical.tex
+[468] (./47_ObserverDependentVacuum/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -8718,16 +8716,16 @@ Overfull \vbox (24.61351pt too high) has occurred while \output is active []
 
 
 
-[470]
+[469]
 
-[471
+[470
 
 ] (./48_three_body/title.tex)
 
-[472
+[471
 
 ] (./48_three_body/sidenote.tex
-<48_three_body/48_ Chaotic Neutrality.pdf, id=4020, 433.62pt x 975.645pt>
+<48_three_body/48_ Chaotic Neutrality.pdf, id=4016, 433.62pt x 975.645pt>
 File: 48_three_body/48_ Chaotic Neutrality.pdf Graphic file (type pdf)
 <use 48_three_body/48_ Chaotic Neutrality.pdf>
 Package luatex.def Info: 48_three_body/48_ Chaotic Neutrality.pdf  used on inpu
@@ -8740,12 +8738,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 4--4
 
 
 
-[473
+[472
 
 
 <./48_three_body/48_ Chaotic Neutrality.pdf>]) (./48_three_body/title.tex)
 (./48_three_body/summary.tex)
-<fractal_trees/with_fruits/48.png, id=4028, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/48.png, id=4024, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/48.png Graphic file (type png)
 <use fractal_trees/with_fruits/48.png>
 Package luatex.def Info: fractal_trees/with_fruits/48.png  used on input line 2
@@ -8754,7 +8752,7 @@ Package luatex.def Info: fractal_trees/with_fruits/48.png  used on input line 2
  (./48_three_body/topicmap.tex)
 (./48_three_body/quote.tex)
 
-[474
+[473
 
 
 <./fractal_trees/with_fruits/48.png>] (./48_three_body/title.tex)
@@ -8765,9 +8763,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[475
+[474
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[475]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -8777,14 +8780,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[477]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[477])
 
-
-
-[478])
-
-[479] (./48_three_body/technical.tex
+[478] (./48_three_body/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -8799,16 +8797,16 @@ Overfull \vbox (42.17242pt too high) has occurred while \output is active []
 
 
 
-[480]
+[479]
 
-[481
+[480
 
 ] (./49_IVFmtDNA/title.tex)
 
-[482
+[481
 
 ] (./49_IVFmtDNA/sidenote.tex
-<49_IVFmtDNA/49_ Tattered.pdf, id=4069, 433.62pt x 975.645pt>
+<49_IVFmtDNA/49_ Tattered.pdf, id=4065, 433.62pt x 975.645pt>
 File: 49_IVFmtDNA/49_ Tattered.pdf Graphic file (type pdf)
 <use 49_IVFmtDNA/49_ Tattered.pdf>
 Package luatex.def Info: 49_IVFmtDNA/49_ Tattered.pdf  used on input line 16.
@@ -8820,12 +8818,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 16--16
 
 
 
-[483
+[482
 
 
 <./49_IVFmtDNA/49_ Tattered.pdf>]) (./49_IVFmtDNA/title.tex)
 (./49_IVFmtDNA/summary.tex)
-<fractal_trees/with_fruits/49.png, id=4077, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/49.png, id=4073, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/49.png Graphic file (type png)
 <use fractal_trees/with_fruits/49.png>
 Package luatex.def Info: fractal_trees/with_fruits/49.png  used on input line 2
@@ -8833,32 +8831,32 @@ Package luatex.def Info: fractal_trees/with_fruits/49.png  used on input line 2
 (luatex.def)             Requested size: 202.05498pt x 99.58464pt.
  (./49_IVFmtDNA/topicmap.tex)
 (./49_IVFmtDNA/quote.tex
-Overfull \hbox (9.8416pt too wide) in paragraph at lines 16--17
+Overfull \hbox (9.84158pt too wide) in paragraph at lines 16--17
  []
  []
 
 )
 
-[484
+[483
 
 
 <./fractal_trees/with_fruits/49.png>] (./49_IVFmtDNA/title.tex)
 (./49_IVFmtDNA/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (9.87988pt too wide) in paragraph at lines 3--4
+Overfull \hbox (9.87987pt too wide) in paragraph at lines 3--4
 \TU/CrimsonPro(0)/m/n/10.95 strict ma-ter-nal in-her-i-tance, ran-dom bot-tle-ne
 ck ef-fects dur-ing oo-ge-n-e-sis, and het-ero-plasmy
  []
 
 
-Overfull \hbox (17.12373pt too wide) in paragraph at lines 7--8
+Overfull \hbox (17.12372pt too wide) in paragraph at lines 7--8
 []\TU/CrimsonPro(0)/m/n/10.95 Sci-en-tific fo-cus then shifted to-ward tar-geted
  nu-clear trans-fer tech-niques. In 2009, Tachibana
  []
 
 
-Overfull \hbox (7.69572pt too wide) in paragraph at lines 9--10
+Overfull \hbox (7.69571pt too wide) in paragraph at lines 9--10
 []\TU/CrimsonPro(0)/m/n/10.95 Pronu-clear trans-fer (PNT), orig-i-nally demon-st
 rated in murine mod-els in 1983, was adapted
  []
@@ -8868,10 +8866,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[485
+[484
 
 ]
-Overfull \hbox (8.04362pt too wide) in paragraph at lines 13--14
+Overfull \hbox (8.04361pt too wide) in paragraph at lines 13--14
 []\TU/LibertinusSerif(0)/m/n/10.95 Mu-ta-tions in mi-to-chon-drial DNA cause dis
 -eases char-ac-terised by im-paired en-ergy metabolism.
  []
@@ -8881,16 +8879,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[486]
+[485]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[487]
+[486]
 Package mdframed Info: mdframed works in twoside mode on input line 30.
 
 
-[488]
+[487]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
@@ -8923,7 +8921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
 )
 
-[489] (./49_IVFmtDNA/technical.tex
+[488] (./49_IVFmtDNA/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -8948,16 +8946,16 @@ Overfull \vbox (53.29167pt too high) has occurred while \output is active []
 
 
 
-[490]
+[489]
 
-[491
+[490
 
 ] (./50_Consciousness/title.tex)
 
-[492
+[491
 
 ] (./50_Consciousness/sidenote.tex
-<50_Consciousness/50_ Consciousness .pdf, id=4118, 433.62pt x 975.645pt>
+<50_Consciousness/50_ Consciousness .pdf, id=4114, 433.62pt x 975.645pt>
 File: 50_Consciousness/50_ Consciousness .pdf Graphic file (type pdf)
 <use 50_Consciousness/50_ Consciousness .pdf>
 Package luatex.def Info: 50_Consciousness/50_ Consciousness .pdf  used on input
@@ -8970,12 +8968,12 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 7--7
 
 
 
-[493
+[492
 
 
 <./50_Consciousness/50_ Consciousness .pdf>]) (./50_Consciousness/title.tex) (.
 /50_Consciousness/summary.tex)
-<fractal_trees/with_fruits/50.png, id=4134, 1684.2925pt x 830.10126pt>
+<fractal_trees/with_fruits/50.png, id=4130, 1684.2925pt x 830.10126pt>
 File: fractal_trees/with_fruits/50.png Graphic file (type png)
 <use fractal_trees/with_fruits/50.png>
 Package luatex.def Info: fractal_trees/with_fruits/50.png  used on input line 2
@@ -8984,38 +8982,38 @@ Package luatex.def Info: fractal_trees/with_fruits/50.png  used on input line 2
  (./50_Consciousness/topicmap.tex)
 (./50_Consciousness/quote.tex)
 
-[494
+[493
 
 
 <./fractal_trees/with_fruits/50.png>] (./50_Consciousness/title.tex)
 (./50_Consciousness/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (10.01123pt too wide) in paragraph at lines 2--3
+Overfull \hbox (10.01122pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 Ether-era anaes-the-sia be-gan in 1846 with Mor-to
 n’s pub-lic demon-stra-tion in Boston; within
  []
 
 
-Overfull \hbox (1.04666pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.04665pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 and Over-ton in-de-pen-dently ob-served a cor-re-la-
 tion: anaes-thetic po-tency scaled with lipid
  []
 
 
-Overfull \hbox (3.59676pt too wide) in paragraph at lines 6--7
+Overfull \hbox (3.59674pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 gen-er-a-tion. A rare PRNP mu-ta-tion pro-duc-ing fa
 -tal fa-mil-ial in-som-nia (FFI) was later traced
  []
 
 
-Overfull \hbox (2.32628pt too wide) in paragraph at lines 6--7
+Overfull \hbox (2.32626pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 ful func-tion. An Ital-ian pedi-gree pro-vided the 
 defin-ing clin-i-cal arc: on-set with frag-mented
  []
 
 
-Overfull \hbox (11.77675pt too wide) in paragraph at lines 6--7
+Overfull \hbox (11.77673pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 sleep, in-ex-orable in-som-nia, au-to-nomic fail-ure
 , cog-ni-tive col-lapse, and death within months.
  []
@@ -9025,9 +9023,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[495
+[494
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[495]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -9038,12 +9041,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [497]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[498]
-Overfull \hbox (7.3441pt too wide) in paragraph at lines 55--56
+Overfull \hbox (7.34409pt too wide) in paragraph at lines 55--56
 []\TU/LibertinusSerif(0)/m/n/10.95 Write the re-vi-sion cost as $\TU/latinmoder
 n-math.otf(1)/m/n/10.95 𝐶(⋅)$\TU/LibertinusSerif(0)/m/n/10.95 . Then $\TU/
 latinmodern-math.otf(1)/m/n/10.95 𝐶([]) ≪ 𝐶([]) ≪ 𝐶([]) ≪
@@ -9051,7 +9049,7 @@ latinmodern-math.otf(1)/m/n/10.95 𝐶([]) ≪ 𝐶([]) ≪ 𝐶([]) ≪
 
 )
 
-[499] (./50_Consciousness/technical.tex
+[498] (./50_Consciousness/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -9066,8 +9064,11 @@ Overfull \vbox (12.00562pt too high) has occurred while \output is active []
 
 
 
-[500] (./subject_index.tex [501
+[499]
 
+[500
+
+] (./subject_index.tex [501
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
@@ -9789,10 +9790,10 @@ Here is how much of LuaTeX's memory you used:
    38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 5 kern, 2 penalty, 3 sub_ml
 ist, 1 margin_kern, 4 glyph, 514 attribute, 157 glue_spec, 514 attribute_list, 4
  write, 1 close, 83 pdf_literal, 58 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:7,2:6827,3:6726,4:1460,5:2306,6:435,7:19946,8:84,9:1773,10:26,
+   avail lists: 1:7,2:6827,3:6726,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26,
 11:1804
  99875 multiletter control sequences out of 65536+600000
- 321 fonts using 151551639 bytes
+ 321 fonts using 151552055 bytes
  103i,22n,118p,4615b,3412s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesome
 5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf></u
@@ -9821,7 +9822,7 @@ usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liberti
 nusSerif-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/l
 ibertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73693699 bytes).
+Output written on main.pdf (568 pages, 73693903 bytes).
 
 PDF statistics: 5766 PDF objects out of 6186 (max. 8388607)
  716 named destinations out of 1000 (max. 131072)
