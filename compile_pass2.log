@@ -1722,30 +1722,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active
 [205]
 [206]) (./21_ExponentialMapsLieTheory/exercises.tex
-[207]
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 3029) in paragraph at lines 29--29
-\TU/LibertinusSerif(0)/m/n/10.95 An ex-po-nen-tial is a group ho-mo-mor-phism $
-\TU/latinmodern-math.otf(1)/m/n/10.95 𝜙 [] [] 𝐴 → 𝑀[]$ \TU/Libertinu
-sSerif(0)/m/n/10.95 such that
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-)
+[207])
 [208] (./21_ExponentialMapsLieTheory/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
@@ -3492,7 +3469,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
    38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 5 kern, 2 penalty, 3 sub_m
 list, 1 margin_kern, 4 glyph, 514 attribute, 157 glue_spec, 514 attribute_list,
  4 write, 1 close, 83 pdf_literal, 58 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:7,2:6827,3:6726,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26
+   avail lists: 1:8,2:6827,3:6725,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26
 ,11:1804
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesom
 e5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf><
@@ -3521,6 +3498,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73693765 bytes).
+Output written on main.pdf (568 pages, 73692878 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.

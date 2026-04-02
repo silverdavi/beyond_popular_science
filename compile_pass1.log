@@ -1911,30 +1911,7 @@ LaTeX Warning: Reference `mdf@pagelabel-39' on page 207 undefined on input line
  99.
 
 ) (./21_ExponentialMapsLieTheory/exercises.tex
-[207]
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 3029) in paragraph at lines 29--29
-\TU/LibertinusSerif(0)/m/n/10.95 An ex-po-nen-tial is a group ho-mo-mor-phism $
-\TU/latinmodern-math.otf(1)/m/n/10.95 𝜙 [] [] 𝐴 → 𝑀[]$ \TU/Libertinu
-sSerif(0)/m/n/10.95 such that
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-
-)
+[207])
 [208] (./21_ExponentialMapsLieTheory/technical.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
@@ -8742,6 +8719,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (559 pages, 73153242 bytes).
+Output written on main.pdf (559 pages, 73152363 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.

@@ -1,5 +1,5 @@
 % Concatenated book content from main.tex
-% Generated: 2026-03-30 13:57:21
+% Generated: 2026-04-02 17:07:36
 % Total chapters: 50
 
 ================================================================================
@@ -112,17 +112,17 @@ For a particle with rest mass \( m_0 \), the total energy increases with velocit
 \[
 E = \frac{m_0 c^2}{\sqrt{1 - v^2/c^2}}.
 \]
-As \( v \to c \), the ratio \( v^2/c^2 \) approaches 1, causing the denominator \( \sqrt{1 - v^2/c^2} \) to shrink toward zero, and the energy diverges. The formula reflects that \( c \) marks the boundary of physically realisable velocities in the spacetime structure.
+As \( v \to c \), the ratio \( v^2/c^2 \) approaches 1, causing the denominator \( \sqrt{1 - v^2/c^2} \) to shrink toward zero, and the energy diverges. The formula reflects that \( c \) marks the boundary of physically realisable velocities.
 
 In practice, even modest fractions of \( c \) can result in measurable relativistic energy corrections. For example, at \( v/c = 0.6 \), the denominator becomes \( \sqrt{1 - 0.36} = 0.8 \), so the total energy is increased by a factor of \( 1/0.8 = 1.25 \) above the rest energy. These corrections are small for everyday objects but become substantial for subatomic particles, especially in high-energy regimes such as atomic orbitals in heavy atoms.
 
-When considering electrons in atoms, however, the notion of velocity must be interpreted within quantum mechanics. Electrons in bound states do not follow classical trajectories. Their behaviour is described by wavefunctions. Dynamical quantities—such as momentum or velocity—are represented by operators acting on those wavefunctions.
+When considering electrons in atoms, however, the notion of velocity requires care. Electrons do not follow classical trajectories—they are described by wavefunctions, and dynamical quantities like momentum are represented by operators. Nevertheless, expectation values of these operators yield characteristic speeds that determine whether relativistic corrections matter.
 
-Now we introduce the uncertainty principle (Heisenberg, 1927): electrons forced to localise near the nucleus (by strong nuclear attraction) must have high momentum components. In the atomic Schrödinger equation, the kinetic energy term penalises sharp wavefunction changes (localization), while the potential energy term favours proximity to the nucleus. The balance between these competing effects determines orbital structure. Although electrons in bound states lack classical trajectories, the uncertainty principle implies that tightly localised wavefunctions (as in inner orbitals of high-$Z$ atoms) must involve high-momentum components. These high momenta correspond to kinetic energies where relativistic corrections become crucial.
+The uncertainty principle (Heisenberg, 1927) connects localisation to momentum: electrons confined near a high-$Z$ nucleus must carry large momentum components. In the Schrödinger equation, the kinetic energy term penalises sharp spatial confinement, while the Coulomb potential favours proximity to the nucleus. The balance determines the orbital's size and shape. For heavy atoms, where electrons are drawn tightly inward, the resulting momenta reach kinetic energies where relativistic corrections become crucial.
 
 To see why, we can first estimate electron speeds using the standard (non-relativistic) framework, then check whether relativistic corrections are needed. In quantum mechanics, the momentum operator $\hat{p} = -i\hbar \nabla$ extracts how rapidly the wavefunction oscillates in space—sharper oscillations correspond to higher momentum. The expectation value $\langle p \rangle$ gives the average momentum, and dividing by the electron mass yields a characteristic velocity: $v \sim \langle p \rangle / m_e$. If this estimate approaches a significant fraction of $c$, the non-relativistic treatment breaks down and must be replaced by relativistic quantum mechanics.
 
-Although bound electrons do not have a single classical velocity, a useful estimate for their characteristic speed comes from hydrogen-like atoms—idealised atoms with a single electron and full nuclear charge. The expectation value scales as:
+A useful estimate for these characteristic speeds comes from hydrogen-like atoms—idealised atoms with a single electron and full nuclear charge. The expectation value scales as:
 \[
 \langle v \rangle \sim Z\alpha c,
 \]
@@ -220,7 +220,7 @@ Mercury ($Z = 80$) reveals a different consequence of relativistic orbital modif
 \begin{commentary}[Low-Limit Theories]
   Usually in physical sciences, there are simplifications to precise theories that are applicable when one \QSOpen{}zooms out.\QSClose{} For example, at low velocities, the Galilean formulation suffices without relativistic corrections. In low mass scenarios, Newtonian gravity replaces general relativity. These \textbf{\QSOpen{}low-limit theories\QSClose{}} have well-defined domains of validity characterised by dimensionless parameters—velocity ratio ($v/c$), gravitational potential ($GM/rc^2$), or wavelength ratio ($\lambda/L$). When these parameters approach unity, the simplified theories break down.
   
-  In mechanics one typically uses classical physics, and in chemistry, simplistic atomic models (electrons \QSOpen{}orbiting\QSClose{} a nucleus) are adequate for most applications. \textbf{This is why it is remarkable that the colour of gold requires relativistic corrections}. The relativistic effects on gold's electron orbitals cause it to absorb blue light and appear yellow, whereas non-relativistic predictions would yield a silvery appearance like its periodic table neighbours.
+  In mechanics, one typically uses classical physics, and in chemistry, simplistic atomic models (electrons \QSOpen{}orbiting\QSClose{} a nucleus) are adequate for most applications. \textbf{This is why it is remarkable that the colour of gold requires relativistic corrections}. The relativistic effects on gold's electron orbitals cause it to absorb blue light and appear yellow, whereas non-relativistic predictions would yield a silvery appearance like its periodic table neighbours.
   
   It is rare to need special relativity for macroscopic phenomena we encounter daily. This makes gold particularly noteworthy—it represents one of the few cases where a common macroscopic property (colour) can be correctly predicted only by including relativistic effects.
 \end{commentary}
@@ -671,9 +671,9 @@ Now comes the partitioning that makes the paradox work. Four players will divide
 
 \begin{itemize}[leftmargin=*]
 \item \textit{Player 1}: Gets all points reached by sequences starting with card $A$ (avoiding immediate $A^{-1}$ cancellation). This creates the point set $S_A$.
-\item \textbf{Player 2}: Gets all points from sequences starting with $A^{-1}$ (avoiding $A$), creating $S_{A^{-1}}$.
-\item \textbf{Player 3}: Gets all points from sequences starting with $B$ (avoiding $B^{-1}$), creating $S_B$.
-\item \textbf{Player 4}: Gets all points from sequences starting with $B^{-1}$ (avoiding $B$), creating $S_{B^{-1}}$.
+\item \textit{Player 2}: Gets all points from sequences starting with $A^{-1}$ (avoiding $A$), creating $S_{A^{-1}}$.
+\item \textit{Player 3}: Gets all points from sequences starting with $B$ (avoiding $B^{-1}$), creating $S_B$.
+\item \textit{Player 4}: Gets all points from sequences starting with $B^{-1}$ (avoiding $B$), creating $S_{B^{-1}}$.
 \end{itemize}
 
 Every possible rotation sequence must start with one of these four cards ($A$, $A^{-1}$, $B$, or $B^{-1}$). This means the four sets are disjoint—no point belongs to two different players—and together they cover the entire sphere (except for fixed points on rotation axes, which are handled separately).
@@ -925,7 +925,7 @@ where $\star F$ is the Hodge dual of $F$, and $J$ is the 3-form representing cha
 \end{itemize}
 This formulation emphasises that electromagnetic phenomena, including the Poynting vector, arise naturally from spacetime geometry rather than as separate electric and magnetic field concepts in three-dimensional space. 
 
-While defining these objects and proving their properties can take months, the payoff is nice: results like Maxwell’s equations emerge from simple geometric principles. Other results, such as the generalised Stokes’ theorem, follow with similar elegance.
+While defining these objects and proving their properties can take months, the payoff is nice: results like Maxwell’s equations emerge from simple geometric principles. Other results, such as the generalised Stokes’s theorem, follow with similar elegance.
 
 \techref
 {\footnotesize
@@ -3070,11 +3070,11 @@ Can we go, before I turn to dust?
 % 1. What Counts as Empty
 The 2012 discovery of the Higgs boson completed the Standard Model but raised an existential question: precision measurements placed our universe near the boundary between stable and metastable regimes. Our vacuum may be stable for now but not forever.
 
-Classical physics defines vacuum as empty space—the absence of matter. This is not the case in quantum field theory. The vacuum is not emptiness but a specific configuration of fields filling all space. Fields are fundamental entities that assign values to every point in space. In quantum field theory, every point contains a quantum state for the electromagnetic field, the Higgs field, quark fields, and others. The vacuum is the configuration where these fields minimise the total energy density.
+Classical physics defines vacuum as empty space—the absence of matter. This is not the case in quantum field theory. The vacuum is not emptiness but a specific configuration of fields filling all space. A field assigns a value to every point in space. In quantum field theory, every point contains a quantum state for the electromagnetic field, the Higgs field, quark fields, and others. The vacuum is the configuration where these fields minimise the total energy density.
 
-A quantum field extends throughout all space and determines the probabilities of measurement outcomes. The electromagnetic field carries light waves and radio waves. When this field vibrates in a particular pattern (mode), we observe it as a photon. Similarly, the electron field's vibrations manifest as electrons. Each fundamental particle type—quarks, leptons, bosons—corresponds to its own field. These fields exist everywhere, even in \QSOpen{}empty\QSClose{} space. What we call particles are localised excitations, like waves on an ocean that pervades the universe. The vacuum is the state where all these fields vibrate with their lowest possible energy.
+A quantum field extends throughout all space and determines the probabilities of measurement outcomes. The electromagnetic field carries light waves and radio waves. When this field vibrates in a particular pattern (mode), we observe it as a photon. Similarly, the electron field's vibrations manifest as electrons. Each elementary particle type—quarks, leptons, bosons—corresponds to its own field. These fields exist everywhere, even in \QSOpen{}empty\QSClose{} space. What we call particles are localised excitations, like waves on an ocean that pervades the universe. The vacuum is the state where all these fields vibrate with their lowest possible energy.
 
-This redefinition matters because fields in their lowest energy state have physical effects. The Higgs field has a nonzero value throughout space, approximately 246 GeV. This value gives mass to fundamental particles (Higgs, 1964) through their couplings to the field. Without it, electrons would be massless, atoms could not form, and matter would not exist.
+This lowest energy state is far from inert. The Higgs field has a nonzero value throughout space, approximately 246 GeV. This value gives mass to fundamental particles (Higgs, 1964) through their couplings to the field. Without it, electrons would be massless, atoms could not form, and matter would not exist.
 
 Whether this vacuum state is permanent depends on the field potential—a mathematical term describing the energy associated with different field values. Just as a marble rolls to the bottom of a bowl, fields evolve toward configurations that minimise their potential energy. The shape of this potential determines whether our vacuum is truly stable or merely appears so.
 
@@ -3090,7 +3090,7 @@ V(\phi) = \lambda(\phi^2 - v^2)^2.
 \]
 This creates a \QSOpen{}Mexican hat\QSClose{} shape: high at the centre, dropping to a circular valley at radius $v \approx 246$ GeV. The field settles in this valley, breaking electroweak symmetry—the W and Z (Weinberg, 1967) bosons become distinguishable from photons by acquiring mass.
 
-This minimum determines fundamental parameters. The W and Z bosons acquire masses proportional to $v$. Quarks and leptons gain mass through Yukawa couplings to the Higgs. The location in the valley sets the mass spectrum of the Standard Model.
+From this minimum, all particle masses follow. The W and Z bosons acquire masses proportional to $v$. Quarks and leptons gain mass through Yukawa couplings to the Higgs. The location in the valley sets the mass spectrum of the Standard Model.
 
 The tree-level potential is an approximation. Virtual particles—quantum fluctuations that briefly borrow energy from the vacuum—modify the effective potential. These corrections depend on energy scale: at higher energies, different virtual processes dominate.
 
