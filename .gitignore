@@ -40,3 +40,7 @@ utils/centre_margins.py
 .env
 
 audit_bios.py
+
+
+spellcheck_reports/
+kdp/
