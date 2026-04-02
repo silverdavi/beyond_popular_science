@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  30 MAR 2026 13:54
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  30 MAR 2026 13:56
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2513,14 +2513,14 @@ Package hyperref Info: Link coloring ON on input line 21.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(63.23624pt, 397.48502pt, 45.16875pt)
+* h-part:(L,W,R)=(54.2025pt, 397.485pt, 54.2025pt)
 * v-part:(T,H,B)=(54.2025pt, 614.295pt, 54.2025pt)
 * \paperwidth=505.89pt
 * \paperheight=722.7pt
-* \textwidth=397.48502pt
+* \textwidth=397.485pt
 * \textheight=614.295pt
-* \oddsidemargin=-9.03375pt
-* \evensidemargin=-27.10124pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
 * \topmargin=-49.94128pt
 * \headheight=14.0pt
 * \headsep=19.8738pt
@@ -2991,7 +2991,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (11.20168pt too wide) in paragraph at lines 2--3
+Overfull \hbox (11.20169pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 Arnold Som-mer-feld’s 1916 work on rel-a-tivis-t
 ic ex-ten-sions to the Bohr model laid the ground-
  []
@@ -3004,7 +3004,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [4
 
 ]
-Overfull \hbox (11.76967pt too wide) in paragraph at lines 12--13
+Overfull \hbox (11.76968pt too wide) in paragraph at lines 12--13
 []\TU/LibertinusSerif(0)/m/n/10.95 No two elec-trons in a sin-gle atom may oc-cu
 py the same quan-tum state. This con-straint—known
  []
@@ -3086,19 +3086,19 @@ Package luatex.def Info: fractal_trees/with_fruits/2.png  used on input line 67
 (./02_AcceleratingUniverse/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (14.80687pt too wide) in paragraph at lines 2--3
+Overfull \hbox (14.80688pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In the late 1990s, two in-de-pen-dent col-lab-o-ra
 -tions study-ing dis-tant Type Ia su-per-novae—the
  []
 
 
-Overfull \hbox (0.10564pt too wide) in paragraph at lines 4--5
+Overfull \hbox (0.10565pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 Early the-o-ret-i-cal ground-work on cos-mic ex-pa
 n-sion stemmed from so-lu-tions to Ein-stein’s
  []
 
 
-Overfull \hbox (3.48102pt too wide) in paragraph at lines 6--7
+Overfull \hbox (3.48103pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 dence arose from mea-sure-ments of cos-mic mi-crowav
 e back-ground anisotropies and large-
  []
@@ -3204,22 +3204,22 @@ File: 03_BanachTarskiParadox/BANACH1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/BANACH1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/BANACH1.png  used on input line
  86.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 03_BanachTarskiParadox/BANACH1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/BANACH1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/BANACH1.png  used on input line
  86.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 03_BanachTarskiParadox/BANACH1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/BANACH1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/BANACH1.png  used on input line
  86.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 03_BanachTarskiParadox/BANACH1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/BANACH1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/BANACH1.png  used on input line
  86.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 )
 
 [28<./03_BanachTarskiParadox/BANACH1.png>]
@@ -3234,7 +3234,7 @@ File: 03_BanachTarskiParadox/F2_Cayley_Graph_tp1.png Graphic file (type png)
 <use 03_BanachTarskiParadox/F2_Cayley_Graph_tp1.png>
 Package luatex.def Info: 03_BanachTarskiParadox/F2_Cayley_Graph_tp1.png  used o
 n input line 45.
-(luatex.def)             Requested size: 152.07547pt x 152.0717pt.
+(luatex.def)             Requested size: 152.07545pt x 152.0717pt.
 )
 Overfull \vbox (28.16487pt too high) has occurred while \output is active []
 
@@ -3285,13 +3285,13 @@ Package luatex.def Info: fractal_trees/with_fruits/4.png  used on input line 73
 (./04_EMFieldsEnergyFlow/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (6.61786pt too wide) in paragraph at lines 2--3
+Overfull \hbox (6.61787pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 Early in-ves-ti-ga-tions link-ing elec-tric-ity an
 d mag-netism be-gan with Hans Chris-tian Ørsted’s
  []
 
 
-Overfull \hbox (2.14883pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.14885pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 1820 ob-ser-va-tion that a current-carrying wire de-
 flected a nearby com-pass nee-dle, demon-
  []
@@ -3321,7 +3321,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [37]
 Package mdframed Info: mdframed works in twoside mode on input line 40.
 
-Overfull \hbox (2.74388pt too wide) in paragraph at lines 47--48
+Overfull \hbox (2.7439pt too wide) in paragraph at lines 47--48
 \TU/CrimsonPro(0)/m/n/10.95 about the dis-tant break has not yet ar-rived. The 
 early be-haviour re-flects only the nearby 
  []
@@ -3339,7 +3339,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-Overfull \hbox (5.50555pt too wide) detected at line 11
+Overfull \hbox (5.50557pt too wide) detected at line 11
 []
  []
 
@@ -3949,13 +3949,13 @@ LaTeX Font Warning: Font shape `TU/SILEOT.ttf(0)/m/sc' undefined
 (./05_CircleWheel/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (0.14957pt too wide) in paragraph at lines 2--3
+Overfull \hbox (0.14958pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 turies, when philol-o-gists be-gan iden-ti-fy-ing re
 g-u-lar cor-re-spon-dences be-tween phonemes,
  []
 
 
-Overfull \hbox (2.89238pt too wide) in paragraph at lines 6--7
+Overfull \hbox (2.8924pt too wide) in paragraph at lines 6--7
 []\TU/CrimsonPro(0)/m/n/10.95 The PIE daugh-ter branches—Indo-Iranian, Hel-len
 ic, Italic, Celtic, Ger-manic, Balto-Slavic,
  []
@@ -4290,19 +4290,19 @@ Package luatex.def Info: fractal_trees/with_fruits/6.png  used on input line 79
 (./06_GravityTimeDilation/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (0.80922pt too wide) in paragraph at lines 2--3
+Overfull \hbox (0.80923pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 the un-ex-plained ex-cess pre-ces-sion of Mer-cury's
  or-bit, which New-to-nian me-chan-ics could
  []
 
 
-Overfull \hbox (0.4671pt too wide) in paragraph at lines 10--11
+Overfull \hbox (0.46712pt too wide) in paragraph at lines 10--11
 []\TU/CrimsonPro(0)/m/n/10.95 By the late twen-ti-eth cen-tury, rel-a-tivis-tic ef-fects had be-come en-gi-neer-ing con-cerns
 —GPS
  []
 
 
-Overfull \hbox (4.43433pt too wide) in paragraph at lines 14--15
+Overfull \hbox (4.43434pt too wide) in paragraph at lines 14--15
 []\TU/CrimsonPro(0)/m/n/10.95 Gen-eral rel-a-tiv-ity re-mains one of physics's 
 most tested the-o-ries, val-i-dated from sub-atomic
  []
@@ -4324,7 +4324,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [56]
 Package mdframed Info: mdframed works in twoside mode on input line 31.
 
-Overfull \hbox (3.9368pt too wide) in paragraph at lines 39--40
+Overfull \hbox (3.93681pt too wide) in paragraph at lines 39--40
 \TU/CrimsonPro(0)/m/n/10.95 space. But in gen-eral rel-a-tiv-ity, freely falling
  ob-jects fol-low the most di-rect path through 
  []
@@ -4334,22 +4334,22 @@ File: 06_GravityTimeDilation/climber.png Graphic file (type png)
 <use 06_GravityTimeDilation/climber.png>
 Package luatex.def Info: 06_GravityTimeDilation/climber.png  used on input line
  43.
-(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
 File: 06_GravityTimeDilation/climber.png Graphic file (type png)
 <use 06_GravityTimeDilation/climber.png>
 Package luatex.def Info: 06_GravityTimeDilation/climber.png  used on input line
  43.
-(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
 File: 06_GravityTimeDilation/climber.png Graphic file (type png)
 <use 06_GravityTimeDilation/climber.png>
 Package luatex.def Info: 06_GravityTimeDilation/climber.png  used on input line
  43.
-(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
 File: 06_GravityTimeDilation/climber.png Graphic file (type png)
 <use 06_GravityTimeDilation/climber.png>
 Package luatex.def Info: 06_GravityTimeDilation/climber.png  used on input line
  43.
-(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
 ) (./06_GravityTimeDilation/exercises.tex
 
 [57<./06_GravityTimeDilation/climber.png>])
@@ -4442,22 +4442,22 @@ File: 07_BilliardsConicsPorism/BILLIARDS1.png Graphic file (type png)
 <use 07_BilliardsConicsPorism/BILLIARDS1.png>
 Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
  line 89.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 07_BilliardsConicsPorism/BILLIARDS1.png Graphic file (type png)
 <use 07_BilliardsConicsPorism/BILLIARDS1.png>
 Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
  line 89.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 07_BilliardsConicsPorism/BILLIARDS1.png Graphic file (type png)
 <use 07_BilliardsConicsPorism/BILLIARDS1.png>
 Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
  line 89.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 07_BilliardsConicsPorism/BILLIARDS1.png Graphic file (type png)
 <use 07_BilliardsConicsPorism/BILLIARDS1.png>
 Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
  line 89.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 )
 
 [68<./07_BilliardsConicsPorism/BILLIARDS1.png>]
@@ -4513,7 +4513,7 @@ Package luatex.def Info: fractal_trees/with_fruits/8.png  used on input line 85
 (./08_BoundedPrimeGaps/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (0.62585pt too wide) in paragraph at lines 8--9
+Overfull \hbox (0.62587pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 fine-ments by Sel-berg and Bombieri led to the Bombi
 eri–Vino-gradov the-o-rem (an average-
  []
@@ -4608,12 +4608,12 @@ Package luatex.def Info: fractal_trees/with_fruits/9.png  used on input line 88
 (./09_ArrowTheoremTopology/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (2.51074pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.51076pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In the mid-twentieth cen-tury, for-mal mod-els of col-lec-tive decision-making be-gan to draw
  []
 
 
-Overfull \hbox (1.84656pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.84657pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 ing vot-ing as a pro-ce-du-ral arte-fact, re-searche
 rs sought to char-ac-terise what could or could
  []
@@ -4700,7 +4700,7 @@ Package luatex.def Info: fractal_trees/with_fruits/10.png  used on input line 9
 (./10_SolarFusionQuantumTunneling/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (11.80415pt too wide) in paragraph at lines 6--7
+Overfull \hbox (11.80417pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 brought con-fir-ma-tion through so-lar neu-trino de-
 tec-tion and im-proved nu-clear cross-section
  []
@@ -4719,7 +4719,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [96]
 
 [97]
-Overfull \hbox (16.94432pt too wide) in paragraph at lines 77--78
+Overfull \hbox (16.94434pt too wide) in paragraph at lines 77--78
 []\TU/LibertinusSerif(0)/m/n/10.95 Analysing os-cil-la-tion mode fre-quen-cies 
 re-veals the Sun’s in-te-rior struc-ture—a three-dimensional
  []
@@ -4729,22 +4729,22 @@ File: 10_SolarFusionQuantumTunneling/prisoner.png Graphic file (type png)
 <use 10_SolarFusionQuantumTunneling/prisoner.png>
 Package luatex.def Info: 10_SolarFusionQuantumTunneling/prisoner.png  used on i
 nput line 81.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 10_SolarFusionQuantumTunneling/prisoner.png Graphic file (type png)
 <use 10_SolarFusionQuantumTunneling/prisoner.png>
 Package luatex.def Info: 10_SolarFusionQuantumTunneling/prisoner.png  used on i
 nput line 81.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 10_SolarFusionQuantumTunneling/prisoner.png Graphic file (type png)
 <use 10_SolarFusionQuantumTunneling/prisoner.png>
 Package luatex.def Info: 10_SolarFusionQuantumTunneling/prisoner.png  used on i
 nput line 81.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 10_SolarFusionQuantumTunneling/prisoner.png Graphic file (type png)
 <use 10_SolarFusionQuantumTunneling/prisoner.png>
 Package luatex.def Info: 10_SolarFusionQuantumTunneling/prisoner.png  used on i
 nput line 81.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 )
 
 [98<./10_SolarFusionQuantumTunneling/prisoner.png>]
@@ -4795,31 +4795,31 @@ Package luatex.def Info: fractal_trees/with_fruits/11.png  used on input line 9
 /11_TopologicalInsulators/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (13.39972pt too wide) in paragraph at lines 4--5
+Overfull \hbox (13.39973pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 Two years later, a quar-tet of the-o-rists—Thou-
 less, Kohmoto, Nightin-gale, and den Nijs—pro-
  []
 
 
-Overfull \hbox (0.72583pt too wide) in paragraph at lines 6--7
+Overfull \hbox (0.72585pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 ing with the-o-ret-i-cal mod-els of graphene—sin-g
 le sheets of car-bon atoms—they pre-dicted
  []
 
 
-Overfull \hbox (4.39142pt too wide) in paragraph at lines 8--9
+Overfull \hbox (4.39143pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 Kane, and Eu-gene Mele ex-tended these ideas from tw
 o-dimensional to three-dimensional
  []
 
 
-Overfull \hbox (4.25627pt too wide) in paragraph at lines 8--9
+Overfull \hbox (4.25629pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 ma-te-ri-als, iden-ti-fy-ing Bi$[][]$Sb as a three-d
 imensional topo-log-i-cal in-su-la-tor; shortly there-
  []
 
 
-Overfull \hbox (17.05591pt too wide) in paragraph at lines 10--11
+Overfull \hbox (17.05592pt too wide) in paragraph at lines 10--11
 []\TU/CrimsonPro(0)/m/n/10.95 By 2009, ex-per-i-men-tal physi-cists us-ing angle
 -resolved pho-toe-mis-sion spec-troscopy (ARPES)
  []
@@ -5006,24 +5006,24 @@ Package luatex.def Info: fractal_trees/with_fruits/13.png  used on input line 1
 (./13_PoissonsSpot/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (6.30527pt too wide) in paragraph at lines 2--3
+Overfull \hbox (6.30528pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 where se-nior math-e-mati-cians like Siméon De-nis Pois-son and the re-cently de-ceased Joseph-
  []
 
 
-Overfull \hbox (2.07817pt too wide) in paragraph at lines 6--7
+Overfull \hbox (2.07819pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 doxy while of-fer-ing recog-ni-tion. When the 1818 
 diffrac-tion prize was an-nounced, it tested
  []
 
 
-Overfull \hbox (1.40434pt too wide) in paragraph at lines 8--9
+Overfull \hbox (1.40436pt too wide) in paragraph at lines 8--9
 []\TU/CrimsonPro(0)/m/n/10.95 Into this charged en-vi-ron-ment en-tered Augustin
 -Jean Fres-nel, a provin-cial en-gi-neer with-
  []
 
 
-Overfull \hbox (4.66223pt too wide) in paragraph at lines 8--9
+Overfull \hbox (4.66225pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 prin-ci-ple with in-te-grals and phase re-la-tions 
 to pre-dict in-ten-sity pat-terns. For the Academy
  []
@@ -5141,7 +5141,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (13.7553pt too wide) detected at line 32
+Overfull \hbox (13.75531pt too wide) detected at line 32
 \TU/latinmodern-math.otf(1)/m/n/10 𝑡[] = [],  Δ𝑡 = 𝑡[] + 𝑡[] = [].
  []
 
@@ -5194,7 +5194,7 @@ Package luatex.def Info: fractal_trees/with_fruits/15.png  used on input line 1
 (./15_EnvelopeParadox/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.86787pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.86789pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 The en-ve-lope para-dox traces its ori-gins to Bel
 -gian math-e-mati-cian Mau-rice Kraitchik, who
  []
@@ -5204,7 +5204,7 @@ Overfull \hbox (1.86787pt too wide) in paragraph at lines 2--3
 [144
 
 ]
-Overfull \hbox (14.17079pt too wide) in paragraph at lines 23--24
+Overfull \hbox (14.1708pt too wide) in paragraph at lines 23--24
 []\TU/LibertinusSerif(0)/m/n/10.95 A uni-form dis-tri-bu-tion over an in-fi-nite
  num-ber of val-ues can-not ex-ist (Kol-mogorov, 1933)—there
  []
@@ -5281,7 +5281,7 @@ LaTeX Font Warning: Font shape `TU/SILEOT.ttf(0)/m/it' undefined
 (./16_FalseVacuumThreat/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 2.
 
-Overfull \hbox (8.18619pt too wide) in paragraph at lines 9--10
+Overfull \hbox (8.1862pt too wide) in paragraph at lines 9--10
 \TU/CrimsonPro(0)/m/n/10.95 scale. The renor-mal-i-sa-tion group equa-tions trac
 k how the Higgs quar-tic cou-pling $\TU/latinmodern-math.otf(1)/m/n/10.95 𝜆$
  \TU/CrimsonPro(0)/m/n/10.95 evolves
@@ -5316,7 +5316,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (5.8587pt too wide) detected at line 15
+Overfull \hbox (5.85872pt too wide) detected at line 15
 []
  []
 
@@ -5477,13 +5477,13 @@ Package luatex.def Info: fractal_trees/with_fruits/18.png  used on input line 1
 (./18_SpeculativeExecutionAttacks/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (2.65897pt too wide) in paragraph at lines 4--5
+Overfull \hbox (2.65898pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 Mean-while, side-channel at-tacks emerged in-de-pe
 n-dently in cryp-tog-ra-phy. Kocher (1996)
  []
 
 
-Overfull \hbox (2.05157pt too wide) in paragraph at lines 4--5
+Overfull \hbox (2.05159pt too wide) in paragraph at lines 4--5
 \TU/CrimsonPro(0)/m/n/10.95 demon-strated tim-ing at-tacks on mod-u-lar ex-po-ne
 n-ti-a-tion. Cache tim-ing at-tacks fol-lowed,
  []
@@ -5511,22 +5511,22 @@ File: 18_SpeculativeExecutionAttacks/Oracle.png Graphic file (type png)
 <use 18_SpeculativeExecutionAttacks/Oracle.png>
 Package luatex.def Info: 18_SpeculativeExecutionAttacks/Oracle.png  used on inp
 ut line 46.
-(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
 File: 18_SpeculativeExecutionAttacks/Oracle.png Graphic file (type png)
 <use 18_SpeculativeExecutionAttacks/Oracle.png>
 Package luatex.def Info: 18_SpeculativeExecutionAttacks/Oracle.png  used on inp
 ut line 46.
-(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
 File: 18_SpeculativeExecutionAttacks/Oracle.png Graphic file (type png)
 <use 18_SpeculativeExecutionAttacks/Oracle.png>
 Package luatex.def Info: 18_SpeculativeExecutionAttacks/Oracle.png  used on inp
 ut line 46.
-(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
 File: 18_SpeculativeExecutionAttacks/Oracle.png Graphic file (type png)
 <use 18_SpeculativeExecutionAttacks/Oracle.png>
 Package luatex.def Info: 18_SpeculativeExecutionAttacks/Oracle.png  used on inp
 ut line 46.
-(luatex.def)             Requested size: 139.12218pt x 208.6697pt.
+(luatex.def)             Requested size: 139.12216pt x 208.6697pt.
 ) (./18_SpeculativeExecutionAttacks/joke.tex
 
 [177<./18_SpeculativeExecutionAttacks/Oracle.png>]
@@ -5559,7 +5559,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (1.15276pt too wide) in paragraph at lines 33--33
+Overfull \hbox (1.15277pt too wide) in paragraph at lines 33--33
 []    \TU/lmtt/m/n/10 temp = probe[secret[x] * 4096];[] 
  []
 
@@ -5630,25 +5630,25 @@ File: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf Graphic file
 <use 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf>
 Package luatex.def Info: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particl
 es.pdf  used on input line 63.
-(luatex.def)             Requested size: 357.73409pt x 342.29286pt.
+(luatex.def)             Requested size: 357.73407pt x 342.29286pt.
 File: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf Graphic file
  (type pdf)
 <use 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf>
 Package luatex.def Info: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particl
 es.pdf  used on input line 63.
-(luatex.def)             Requested size: 357.73409pt x 342.29286pt.
+(luatex.def)             Requested size: 357.73407pt x 342.29286pt.
 File: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf Graphic file
  (type pdf)
 <use 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf>
 Package luatex.def Info: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particl
 es.pdf  used on input line 63.
-(luatex.def)             Requested size: 357.73409pt x 342.29286pt.
+(luatex.def)             Requested size: 357.73407pt x 342.29286pt.
 File: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf Graphic file
  (type pdf)
 <use 19_CosmicRayMuons/Standard_Model_of_Elementary_Particles.pdf>
 Package luatex.def Info: 19_CosmicRayMuons/Standard_Model_of_Elementary_Particl
 es.pdf  used on input line 63.
-(luatex.def)             Requested size: 357.73409pt x 342.29286pt.
+(luatex.def)             Requested size: 357.73407pt x 342.29286pt.
 )
 
 [188
@@ -5741,13 +5741,13 @@ Package luatex.def Info: fractal_trees/with_fruits/20.png  used on input line 1
 (./20_ChineseRoomArgument/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (7.74467pt too wide) in paragraph at lines 4--5
+Overfull \hbox (7.74469pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 By the late 1970s, op-ti-mism sur-round-ing sym-bo
 lic ap-proaches be-gan to col-lide with deeper
  []
 
 
-Overfull \hbox (23.0563pt too wide) in paragraph at lines 6--7
+Overfull \hbox (23.05632pt too wide) in paragraph at lines 6--7
 []\TU/CrimsonPro(0)/m/n/10.95 Con-tem-po-ra-ne-ously, Daniel Den-nett pro-posed the 
 ‘in-ten-tional stance,’ em-pha-sis-ing observer-
  []
@@ -5775,22 +5775,22 @@ File: 20_ChineseRoomArgument/Robot.png Graphic file (type png)
 <use 20_ChineseRoomArgument/Robot.png>
 Package luatex.def Info: 20_ChineseRoomArgument/Robot.png  used on input line 4
 2.
-(luatex.def)             Requested size: 198.74251pt x 132.49467pt.
+(luatex.def)             Requested size: 198.7425pt x 132.49467pt.
 File: 20_ChineseRoomArgument/Robot.png Graphic file (type png)
 <use 20_ChineseRoomArgument/Robot.png>
 Package luatex.def Info: 20_ChineseRoomArgument/Robot.png  used on input line 4
 2.
-(luatex.def)             Requested size: 198.74251pt x 132.49467pt.
+(luatex.def)             Requested size: 198.7425pt x 132.49467pt.
 File: 20_ChineseRoomArgument/Robot.png Graphic file (type png)
 <use 20_ChineseRoomArgument/Robot.png>
 Package luatex.def Info: 20_ChineseRoomArgument/Robot.png  used on input line 4
 2.
-(luatex.def)             Requested size: 198.74251pt x 132.49467pt.
+(luatex.def)             Requested size: 198.7425pt x 132.49467pt.
 File: 20_ChineseRoomArgument/Robot.png Graphic file (type png)
 <use 20_ChineseRoomArgument/Robot.png>
 Package luatex.def Info: 20_ChineseRoomArgument/Robot.png  used on input line 4
 2.
-(luatex.def)             Requested size: 198.74251pt x 132.49467pt.
+(luatex.def)             Requested size: 198.7425pt x 132.49467pt.
 
 
 [197<./20_ChineseRoomArgument/Robot.png>]
@@ -5925,7 +5925,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 
-Overfull \hbox (10.05609pt too wide) detected at line 75
+Overfull \hbox (10.0561pt too wide) detected at line 75
 []
  []
 
@@ -5977,18 +5977,18 @@ Package luatex.def Info: fractal_trees/with_fruits/22.png  used on input line 1
 (./22_MinecraftCreeper/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.28688pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.2869pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 Fortress (2009). He be-gan de-vel-op-ment on 10 May 2009, us-ing Java with the Lightweight
  []
 
 
-Overfull \hbox (1.44038pt too wide) in paragraph at lines 4--5
+Overfull \hbox (1.4404pt too wide) in paragraph at lines 4--5
 \TU/CrimsonPro(0)/m/n/10.95 (known as Jeb) joined and later took over lead de-ve
 l-op-ment. The game of-fi-cially launched
  []
 
 
-Overfull \hbox (4.02232pt too wide) in paragraph at lines 6--7
+Overfull \hbox (4.02234pt too wide) in paragraph at lines 6--7
 []\TU/CrimsonPro(0)/m/n/10.95 In 2014, Mi-crosoft ac-quired Mo-jang and Minecraf
 t for $2.5 bil-lion. At that point, Minecraft
  []
@@ -6020,19 +6020,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: 22_MinecraftCreeper/DICE.png Graphic file (type png)
 <use 22_MinecraftCreeper/DICE.png>
 Package luatex.def Info: 22_MinecraftCreeper/DICE.png  used on input line 39.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 22_MinecraftCreeper/DICE.png Graphic file (type png)
 <use 22_MinecraftCreeper/DICE.png>
 Package luatex.def Info: 22_MinecraftCreeper/DICE.png  used on input line 39.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 22_MinecraftCreeper/DICE.png Graphic file (type png)
 <use 22_MinecraftCreeper/DICE.png>
 Package luatex.def Info: 22_MinecraftCreeper/DICE.png  used on input line 39.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 22_MinecraftCreeper/DICE.png Graphic file (type png)
 <use 22_MinecraftCreeper/DICE.png>
 Package luatex.def Info: 22_MinecraftCreeper/DICE.png  used on input line 39.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 )
 
 [218<./22_MinecraftCreeper/DICE.png>] (./22_MinecraftCreeper/technical.tex
@@ -6041,12 +6041,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (10.3382pt too wide) detected at line 51
+Overfull \hbox (10.33821pt too wide) detected at line 51
 []
  []
 
 
-Overfull \hbox (6.64014pt too wide) in paragraph at lines 102--103
+Overfull \hbox (6.64015pt too wide) in paragraph at lines 102--103
  [] 
  []
 
@@ -6113,7 +6113,7 @@ Package luatex.def Info: fractal_trees/with_fruits/23.png  used on input line 1
 (./23_BlackHoleTimeDilationRedshift/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (11.61665pt too wide) in paragraph at lines 8--9
+Overfull \hbox (11.61667pt too wide) in paragraph at lines 8--9
 []\TU/CrimsonPro(0)/m/n/10.95 Through-out the twen-ti-eth cen-tury, in-di-rect 
 as-tro-phys-i-cal ev-i-dence for black holes mounted,
  []
@@ -6133,7 +6133,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [225]
 Package mdframed Info: mdframed works in twoside mode on input line 28.
 
-Overfull \hbox (5.22873pt too wide) in paragraph at lines 39--40
+Overfull \hbox (5.22874pt too wide) in paragraph at lines 39--40
 \TU/CrimsonPro(0)/m/n/10.95 ing space-like. The dra-matic co-or-di-nate in-ver-s
 ions de-scribed through-out this chapter—$\TU/latinmodern-math.otf(1)/m/n/10.
 95 𝑟$ 
@@ -6227,7 +6227,7 @@ Package luatex.def Info: fractal_trees/with_fruits/24.png  used on input line 1
 (./24_FourDSpacetime/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (8.71136pt too wide) in paragraph at lines 6--7
+Overfull \hbox (8.71138pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 could only arise in three spa-tial di-men-sions—an
  ex-am-ple of an-thropic rea-son-ing. Whitrow
  []
@@ -6310,19 +6310,19 @@ Package luatex.def Info: fractal_trees/with_fruits/25.png  used on input line 1
 (./25_FireflyBioluminescence/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (11.39424pt too wide) in paragraph at lines 2--3
+Overfull \hbox (11.39426pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 framed bi-o-lu-mi-nes-cence as a dis-tinct phys-i-o-
 log-i-cal phe-nomenon. Her-bert Ives and William
  []
 
 
-Overfull \hbox (6.53232pt too wide) in paragraph at lines 2--3
+Overfull \hbox (6.53233pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 Coblentz (1924) per-formed early quan-ti-ta-tive bri
 ght-ness com-par-isons us-ing pho-to-graphic
  []
 
 
-Overfull \hbox (1.42944pt too wide) in paragraph at lines 6--7
+Overfull \hbox (1.42946pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 Buck doc-u-mented syn-chronous flash-ing in South-ea
 st Asian fire-flies, es-tab-lish-ing the field
  []
@@ -6354,22 +6354,22 @@ File: 25_FireflyBioluminescence/fireflies.png Graphic file (type png)
 <use 25_FireflyBioluminescence/fireflies.png>
 Package luatex.def Info: 25_FireflyBioluminescence/fireflies.png  used on input
  line 58.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 25_FireflyBioluminescence/fireflies.png Graphic file (type png)
 <use 25_FireflyBioluminescence/fireflies.png>
 Package luatex.def Info: 25_FireflyBioluminescence/fireflies.png  used on input
  line 58.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 25_FireflyBioluminescence/fireflies.png Graphic file (type png)
 <use 25_FireflyBioluminescence/fireflies.png>
 Package luatex.def Info: 25_FireflyBioluminescence/fireflies.png  used on input
  line 58.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 25_FireflyBioluminescence/fireflies.png Graphic file (type png)
 <use 25_FireflyBioluminescence/fireflies.png>
 Package luatex.def Info: 25_FireflyBioluminescence/fireflies.png  used on input
  line 58.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 )
 
 [248<./25_FireflyBioluminescence/fireflies.png>]
@@ -6568,7 +6568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (7.13603pt too wide) detected at line 33
+Overfull \hbox (7.13605pt too wide) detected at line 33
 [] \TU/latinmodern-math.otf(1)/m/n/10 = [] [][] [] []
  []
 
@@ -6620,7 +6620,7 @@ Package luatex.def Info: fractal_trees/with_fruits/28.png  used on input line 1
 (./28_NegativeTemp/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.03606pt too wide) in paragraph at lines 4--5
+Overfull \hbox (1.03607pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 The the-o-ret-i-cal ba-sis for tem-per-a-ture ma-t
 ured along-side the for-mu-la-tion of clas-si-cal ther-
  []
@@ -6700,7 +6700,7 @@ Package luatex.def Info: fractal_trees/with_fruits/29.png  used on input line 1
 (./29_HatMonotile/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.59914pt too wide) in paragraph at lines 10--11
+Overfull \hbox (1.59915pt too wide) in paragraph at lines 10--11
 \TU/CrimsonPro(0)/m/n/10.95 ape-ri-od-i-cally re-mained un-re-solved for decades
 . This so-called ‘ein Stein’ (‘one tile’) stood
  []
@@ -6725,7 +6725,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [286]
 Package mdframed Info: mdframed works in twoside mode on input line 35.
 
-Overfull \hbox (1.08156pt too wide) in paragraph at lines 36--37
+Overfull \hbox (1.08157pt too wide) in paragraph at lines 36--37
 \TU/CrimsonPro(0)/m/n/10.95 thirteen-sided shape re-sisted pe-ri-odic ar-range-m
 ent. He con-tacted Craig Ka-plan, Joseph 
  []
@@ -6740,7 +6740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (4.83281pt too wide) detected at line 47
+Overfull \hbox (4.83282pt too wide) detected at line 47
 []
  []
 
@@ -6789,13 +6789,13 @@ Package luatex.def Info: fractal_trees/with_fruits/30.png  used on input line 1
 (./30_SimpsonsParadox/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (0.14484pt too wide) in paragraph at lines 10--11
+Overfull \hbox (0.14485pt too wide) in paragraph at lines 10--11
 \TU/CrimsonPro(0)/m/n/10.95 tion through ger-ry-man-der-ing. El-bridge Gerry sig
 ned a re-dis-trict-ing bill in Mas-sachusetts
  []
 
 
-Overfull \hbox (15.2453pt too wide) in paragraph at lines 12--13
+Overfull \hbox (15.24532pt too wide) in paragraph at lines 12--13
 \TU/CrimsonPro(0)/m/n/10.95 gres-sional bal-ance of power, courts in-creas-ingly
  em-ployed math-e-mat-i-cal di-ag-nos-tics—such
  []
@@ -6820,22 +6820,22 @@ File: 30_SimpsonsParadox/guyavas.png Graphic file (type png)
 <use 30_SimpsonsParadox/guyavas.png>
 Package luatex.def Info: 30_SimpsonsParadox/guyavas.png  used on input line 86.
 
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 30_SimpsonsParadox/guyavas.png Graphic file (type png)
 <use 30_SimpsonsParadox/guyavas.png>
 Package luatex.def Info: 30_SimpsonsParadox/guyavas.png  used on input line 86.
 
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 30_SimpsonsParadox/guyavas.png Graphic file (type png)
 <use 30_SimpsonsParadox/guyavas.png>
 Package luatex.def Info: 30_SimpsonsParadox/guyavas.png  used on input line 86.
 
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 30_SimpsonsParadox/guyavas.png Graphic file (type png)
 <use 30_SimpsonsParadox/guyavas.png>
 Package luatex.def Info: 30_SimpsonsParadox/guyavas.png  used on input line 86.
 
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 
 
 [297<./30_SimpsonsParadox/guyavas.png>])
@@ -7035,7 +7035,7 @@ Package luatex.def Info: fractal_trees/with_fruits/32.png  used on input line 1
 (./32_AtomicClocks/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (11.31554pt too wide) in paragraph at lines 2--18
+Overfull \hbox (11.31555pt too wide) in paragraph at lines 2--18
 [][] 
  []
 
@@ -7068,7 +7068,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
 [318
 
 ] (./32_AtomicClocks/technical.tex
-Overfull \hbox (4.04807pt too wide) detected at line 27
+Overfull \hbox (4.04808pt too wide) detected at line 27
 \TU/latinmodern-math.otf(1)/m/n/10 𝐸[] = [] [] .
  []
 
@@ -7119,7 +7119,7 @@ Package luatex.def Info: fractal_trees/with_fruits/33.png  used on input line 1
 (luatex.def)             Requested size: 202.05498pt x 99.58464pt.
 
 (./33_IncubationInequality/topicmap.tex) (./33_IncubationInequality/quote.tex
-Overfull \hbox (1.39915pt too wide) in paragraph at lines 7--8
+Overfull \hbox (1.39917pt too wide) in paragraph at lines 7--8
  []
  []
 
@@ -7197,13 +7197,13 @@ Package luatex.def Info: fractal_trees/with_fruits/34.png  used on input line 1
 (./34_BoltzmannBrain/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (2.3491pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.34912pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In 1895, Lud-wig Boltz-mann pro-posed that the ob-
 served low en-tropy of the uni-verse might
  []
 
 
-Overfull \hbox (2.7661pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.76611pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 tis-ti-cally dom-i-nated by high-entropy con-fig-u-r
 a-tions, then any low-entropy re-gion—such
  []
@@ -7230,7 +7230,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [337]
 Package mdframed Info: mdframed works in twoside mode on input line 41.
 
-Overfull \hbox (13.07593pt too wide) in paragraph at lines 52--53
+Overfull \hbox (13.07594pt too wide) in paragraph at lines 52--53
 []\TU/CrimsonPro(0)/m/n/10.95 In the ab-sence of ex-ter-nal com-mit-ments—phil
 o-soph-i-cal, the-o-log-i-cal, or oth-er-wise—mod- 
  []
@@ -7240,22 +7240,22 @@ File: 34_BoltzmannBrain/boltzmann.png Graphic file (type png)
 <use 34_BoltzmannBrain/boltzmann.png>
 Package luatex.def Info: 34_BoltzmannBrain/boltzmann.png  used on input line 55
 .
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 34_BoltzmannBrain/boltzmann.png Graphic file (type png)
 <use 34_BoltzmannBrain/boltzmann.png>
 Package luatex.def Info: 34_BoltzmannBrain/boltzmann.png  used on input line 55
 .
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 34_BoltzmannBrain/boltzmann.png Graphic file (type png)
 <use 34_BoltzmannBrain/boltzmann.png>
 Package luatex.def Info: 34_BoltzmannBrain/boltzmann.png  used on input line 55
 .
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 34_BoltzmannBrain/boltzmann.png Graphic file (type png)
 <use 34_BoltzmannBrain/boltzmann.png>
 Package luatex.def Info: 34_BoltzmannBrain/boltzmann.png  used on input line 55
 .
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 )
 
 [338<./34_BoltzmannBrain/boltzmann.png>] (./34_BoltzmannBrain/technical.tex
@@ -7338,13 +7338,13 @@ Package luatex.def Info: fractal_trees/with_fruits/35.png  used on input line 1
 (./35_TreesFromAir/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (3.94221pt too wide) in paragraph at lines 2--3
+Overfull \hbox (3.94223pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 would later be-come em-blem-atic of early quan-ti-ta
 -tive bi-ol-ogy. He planted a wil-low sapling
  []
 
 
-Overfull \hbox (2.41325pt too wide) in paragraph at lines 6--7
+Overfull \hbox (2.41327pt too wide) in paragraph at lines 6--7
 []\TU/CrimsonPro(0)/m/n/10.95 In the late eigh-teenth cen-tury, Joseph Priest-le
 y and Jan In-gen-housz dis-cov-ered that plants
  []
@@ -7372,19 +7372,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: 35_TreesFromAir/Cellulose.png Graphic file (type png)
 <use 35_TreesFromAir/Cellulose.png>
 Package luatex.def Info: 35_TreesFromAir/Cellulose.png  used on input line 42.
-(luatex.def)             Requested size: 198.74251pt x 198.72658pt.
+(luatex.def)             Requested size: 198.7425pt x 198.72658pt.
 File: 35_TreesFromAir/Cellulose.png Graphic file (type png)
 <use 35_TreesFromAir/Cellulose.png>
 Package luatex.def Info: 35_TreesFromAir/Cellulose.png  used on input line 42.
-(luatex.def)             Requested size: 198.74251pt x 198.72658pt.
+(luatex.def)             Requested size: 198.7425pt x 198.72658pt.
 File: 35_TreesFromAir/Cellulose.png Graphic file (type png)
 <use 35_TreesFromAir/Cellulose.png>
 Package luatex.def Info: 35_TreesFromAir/Cellulose.png  used on input line 42.
-(luatex.def)             Requested size: 198.74251pt x 198.72658pt.
+(luatex.def)             Requested size: 198.7425pt x 198.72658pt.
 File: 35_TreesFromAir/Cellulose.png Graphic file (type png)
 <use 35_TreesFromAir/Cellulose.png>
 Package luatex.def Info: 35_TreesFromAir/Cellulose.png  used on input line 42.
-(luatex.def)             Requested size: 198.74251pt x 198.72658pt.
+(luatex.def)             Requested size: 198.7425pt x 198.72658pt.
 
 
 [347<./35_TreesFromAir/Cellulose.png>]
@@ -7427,7 +7427,7 @@ Underfull \hbox (badness 5519) in paragraph at lines 65--71
 )
 
 [348] (./35_TreesFromAir/technical.tex
-Overfull \hbox (2.56444pt too wide) detected at line 81
+Overfull \hbox (2.56445pt too wide) detected at line 81
 []
  []
 
@@ -7499,7 +7499,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [354
 
 ]
-Overfull \hbox (9.43993pt too wide) in paragraph at lines 17--18
+Overfull \hbox (9.43994pt too wide) in paragraph at lines 17--18
 []\TU/LibertinusSerif(0)/m/n/10.95 Mea-sured prop-er-ties of the Higgs bo-son
 —its mass, de-cay rates, and cou-pling strengths—closely
  []
@@ -7524,19 +7524,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: 36_qft_vs_gr/guv.png Graphic file (type png)
 <use 36_qft_vs_gr/guv.png>
 Package luatex.def Info: 36_qft_vs_gr/guv.png  used on input line 48.
-(luatex.def)             Requested size: 198.74251pt x 198.742pt.
+(luatex.def)             Requested size: 198.7425pt x 198.742pt.
 File: 36_qft_vs_gr/guv.png Graphic file (type png)
 <use 36_qft_vs_gr/guv.png>
 Package luatex.def Info: 36_qft_vs_gr/guv.png  used on input line 48.
-(luatex.def)             Requested size: 198.74251pt x 198.742pt.
+(luatex.def)             Requested size: 198.7425pt x 198.742pt.
 File: 36_qft_vs_gr/guv.png Graphic file (type png)
 <use 36_qft_vs_gr/guv.png>
 Package luatex.def Info: 36_qft_vs_gr/guv.png  used on input line 48.
-(luatex.def)             Requested size: 198.74251pt x 198.742pt.
+(luatex.def)             Requested size: 198.7425pt x 198.742pt.
 File: 36_qft_vs_gr/guv.png Graphic file (type png)
 <use 36_qft_vs_gr/guv.png>
 Package luatex.def Info: 36_qft_vs_gr/guv.png  used on input line 48.
-(luatex.def)             Requested size: 198.74251pt x 198.742pt.
+(luatex.def)             Requested size: 198.7425pt x 198.742pt.
 )
 
 [358<./36_qft_vs_gr/guv.png>] (./36_qft_vs_gr/technical.tex
@@ -7545,7 +7545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-Overfull \hbox (7.15878pt too wide) detected at line 35
+Overfull \hbox (7.1588pt too wide) detected at line 35
 \TU/latinmodern-math.otf(1)/m/n/10 ℒ[] = [][][] + 𝛼[]𝑅[] + 𝛼[]𝑅[]
 𝑅[] + … []
  []
@@ -7600,7 +7600,7 @@ Package luatex.def Info: fractal_trees/with_fruits/37.png  used on input line 1
 (./37_DarkMatterEvidence/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (16.14214pt too wide) in paragraph at lines 6--7
+Overfull \hbox (16.14215pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 ne-ces-sity of dark mat-ter to ex-plain large-scale struc-ture for-ma-tion. With-out a non-luminous
  []
 
@@ -7627,22 +7627,22 @@ File: 37_DarkMatterEvidence/m33_rotation_curve.png Graphic file (type png)
 <use 37_DarkMatterEvidence/m33_rotation_curve.png>
 Package luatex.def Info: 37_DarkMatterEvidence/m33_rotation_curve.png  used on 
 input line 31.
-(luatex.def)             Requested size: 298.11375pt x 198.742pt.
+(luatex.def)             Requested size: 298.11374pt x 198.742pt.
 File: 37_DarkMatterEvidence/m33_rotation_curve.png Graphic file (type png)
 <use 37_DarkMatterEvidence/m33_rotation_curve.png>
 Package luatex.def Info: 37_DarkMatterEvidence/m33_rotation_curve.png  used on 
 input line 31.
-(luatex.def)             Requested size: 298.11375pt x 198.742pt.
+(luatex.def)             Requested size: 298.11374pt x 198.742pt.
 File: 37_DarkMatterEvidence/m33_rotation_curve.png Graphic file (type png)
 <use 37_DarkMatterEvidence/m33_rotation_curve.png>
 Package luatex.def Info: 37_DarkMatterEvidence/m33_rotation_curve.png  used on 
 input line 31.
-(luatex.def)             Requested size: 298.11375pt x 198.742pt.
+(luatex.def)             Requested size: 298.11374pt x 198.742pt.
 File: 37_DarkMatterEvidence/m33_rotation_curve.png Graphic file (type png)
 <use 37_DarkMatterEvidence/m33_rotation_curve.png>
 Package luatex.def Info: 37_DarkMatterEvidence/m33_rotation_curve.png  used on 
 input line 31.
-(luatex.def)             Requested size: 298.11375pt x 198.742pt.
+(luatex.def)             Requested size: 298.11374pt x 198.742pt.
 
 
 [367<./37_DarkMatterEvidence/m33_rotation_curve.png>])
@@ -7701,7 +7701,7 @@ Package luatex.def Info: fractal_trees/with_fruits/38.png  used on input line 1
 (./38_ChristmasTruce1914/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (9.08372pt too wide) in paragraph at lines 4--5
+Overfull \hbox (9.08374pt too wide) in paragraph at lines 4--5
 \TU/CrimsonPro(0)/m/n/10.95 Novem-ber, both Ger-man and Al-lied armies had be-gu
 n to dig in, tran-si-tion-ing to en-trenched
  []
@@ -7734,22 +7734,22 @@ File: 38_ChristmasTruce1914/pinata.png Graphic file (type png)
 <use 38_ChristmasTruce1914/pinata.png>
 Package luatex.def Info: 38_ChristmasTruce1914/pinata.png  used on input line 5
 2.
-(luatex.def)             Requested size: 198.74251pt x 198.742pt.
+(luatex.def)             Requested size: 198.7425pt x 198.742pt.
 File: 38_ChristmasTruce1914/pinata.png Graphic file (type png)
 <use 38_ChristmasTruce1914/pinata.png>
 Package luatex.def Info: 38_ChristmasTruce1914/pinata.png  used on input line 5
 2.
-(luatex.def)             Requested size: 198.74251pt x 198.742pt.
+(luatex.def)             Requested size: 198.7425pt x 198.742pt.
 File: 38_ChristmasTruce1914/pinata.png Graphic file (type png)
 <use 38_ChristmasTruce1914/pinata.png>
 Package luatex.def Info: 38_ChristmasTruce1914/pinata.png  used on input line 5
 2.
-(luatex.def)             Requested size: 198.74251pt x 198.742pt.
+(luatex.def)             Requested size: 198.7425pt x 198.742pt.
 File: 38_ChristmasTruce1914/pinata.png Graphic file (type png)
 <use 38_ChristmasTruce1914/pinata.png>
 Package luatex.def Info: 38_ChristmasTruce1914/pinata.png  used on input line 5
 2.
-(luatex.def)             Requested size: 198.74251pt x 198.742pt.
+(luatex.def)             Requested size: 198.7425pt x 198.742pt.
 )
 
 [378<./38_ChristmasTruce1914/pinata.png>]
@@ -7825,22 +7825,22 @@ File: 39_SuperpermutationsBreakthrough/GRAPH2.png Graphic file (type png)
 <use 39_SuperpermutationsBreakthrough/GRAPH2.png>
 Package luatex.def Info: 39_SuperpermutationsBreakthrough/GRAPH2.png  used on i
 nput line 21.
-(luatex.def)             Requested size: 278.2383pt x 202.36292pt.
+(luatex.def)             Requested size: 278.23828pt x 202.36292pt.
 File: 39_SuperpermutationsBreakthrough/GRAPH2.png Graphic file (type png)
 <use 39_SuperpermutationsBreakthrough/GRAPH2.png>
 Package luatex.def Info: 39_SuperpermutationsBreakthrough/GRAPH2.png  used on i
 nput line 21.
-(luatex.def)             Requested size: 278.2383pt x 202.36292pt.
+(luatex.def)             Requested size: 278.23828pt x 202.36292pt.
 File: 39_SuperpermutationsBreakthrough/GRAPH2.png Graphic file (type png)
 <use 39_SuperpermutationsBreakthrough/GRAPH2.png>
 Package luatex.def Info: 39_SuperpermutationsBreakthrough/GRAPH2.png  used on i
 nput line 21.
-(luatex.def)             Requested size: 278.2383pt x 202.36292pt.
+(luatex.def)             Requested size: 278.23828pt x 202.36292pt.
 File: 39_SuperpermutationsBreakthrough/GRAPH2.png Graphic file (type png)
 <use 39_SuperpermutationsBreakthrough/GRAPH2.png>
 Package luatex.def Info: 39_SuperpermutationsBreakthrough/GRAPH2.png  used on i
 nput line 21.
-(luatex.def)             Requested size: 278.2383pt x 202.36292pt.
+(luatex.def)             Requested size: 278.23828pt x 202.36292pt.
 
 
 [385]
@@ -8038,7 +8038,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [404
 
 ]
-Overfull \hbox (16.18712pt too wide) in paragraph at lines 16--18
+Overfull \hbox (16.18713pt too wide) in paragraph at lines 16--18
 \TU/LibertinusSerif(0)/m/n/10.95 quan-ti-fies the rate of change in bright-ness at each pixel. The di-rec-tion $\TU/latinmodern-math.otf(1)/m/n/10.95 
 𝜃(𝑥, 𝑦) = [] 2(𝐼[], 𝐼[])$
  []
@@ -8131,19 +8131,19 @@ Package luatex.def Info: fractal_trees/with_fruits/42.png  used on input line 1
 (./42_IceSlipperiness/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (3.67998pt too wide) in paragraph at lines 2--3
+Overfull \hbox (3.68pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In the mid-nineteenth cen-tury, Michael Fara-day 
 pro-posed that ice pos-sesses a thin, liquid-
  []
 
 
-Overfull \hbox (10.31566pt too wide) in paragraph at lines 6--7
+Overfull \hbox (10.31567pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 sum-frequency gen-er-a-tion spec-troscopy, and X-ray
  scat-ter-ing—en-abled sci-en-tists to probe
  []
 
 ) (./42_IceSlipperiness/main.tex
-Overfull \hbox (6.19pt too wide) in paragraph at lines 1--2
+Overfull \hbox (6.19002pt too wide) in paragraph at lines 1--2
 \TU/LibertinusSerif(0)/m/n/10.95 Mat-ter ex-ists in dis-tinct or-gan-i-sa-tional
  forms known as phases. The clas-si-cal cat-e-gories—solid,
  []
@@ -8229,7 +8229,7 @@ Package luatex.def Info: fractal_trees/with_fruits/43.png  used on input line 1
 (./43_NearFlatUniverse/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.88568pt too wide) in paragraph at lines 6--7
+Overfull \hbox (1.8857pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 Ein-stein’s equa-tions nat-u-rally de-scribed an 
 ex-pand-ing cos-mos. Lemaître, a Bel-gian priest
  []
@@ -8396,12 +8396,12 @@ Package luatex.def Info: fractal_trees/with_fruits/45.png  used on input line 1
 (./45_MaxwellDemon/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (4.8241pt too wide) in paragraph at lines 2--3
+Overfull \hbox (4.82411pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 versible cy-cles and the no-tion that heat could be par-tially trans-formed into work, bounded
  []
 
 
-Overfull \hbox (4.00656pt too wide) in paragraph at lines 8--9
+Overfull \hbox (4.00658pt too wide) in paragraph at lines 8--9
 \TU/CrimsonPro(0)/m/n/10.95 reg-u-lar-i-ties, yet grounded in re-versible mi-cro
 -scopic dy-nam-ics—that James Clerk Maxwell
  []
@@ -8437,13 +8437,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (9.6843pt too wide) detected at line 29
+Overfull \hbox (9.68431pt too wide) detected at line 29
 \TU/latinmodern-math.otf(1)/m/n/10 𝑄[] ≥ 𝑇𝜎 ,  Δ𝑆[] = −𝜎,  
 Δ𝑆[] ≥ 𝜎.
  []
 
 
-Overfull \hbox (5.13222pt too wide) detected at line 47
+Overfull \hbox (5.13223pt too wide) detected at line 47
 []
  []
 
@@ -8497,7 +8497,7 @@ Package luatex.def Info: fractal_trees/with_fruits/46.png  used on input line 1
 /46_WoodwardHoffmannRules/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (1.2419pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.24191pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 In 1952, Kenichi Fukui in-tro-duced the con-cept 
 of fron-tier molec-u-lar or-bitals (FMOs), high-
  []
@@ -8537,22 +8537,22 @@ File: 46_WoodwardHoffmannRules/pMO_sigma.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_sigma.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_sigma.png  used on input 
 line 17.
-(luatex.def)             Requested size: 278.2383pt x 104.3792pt.
+(luatex.def)             Requested size: 278.23828pt x 104.3792pt.
 File: 46_WoodwardHoffmannRules/pMO_sigma.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_sigma.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_sigma.png  used on input 
 line 17.
-(luatex.def)             Requested size: 278.2383pt x 104.3792pt.
+(luatex.def)             Requested size: 278.23828pt x 104.3792pt.
 File: 46_WoodwardHoffmannRules/pMO_sigma.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_sigma.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_sigma.png  used on input 
 line 17.
-(luatex.def)             Requested size: 278.2383pt x 104.3792pt.
+(luatex.def)             Requested size: 278.23828pt x 104.3792pt.
 File: 46_WoodwardHoffmannRules/pMO_sigma.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/pMO_sigma.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/pMO_sigma.png  used on input 
 line 17.
-(luatex.def)             Requested size: 278.2383pt x 104.3792pt.
+(luatex.def)             Requested size: 278.23828pt x 104.3792pt.
 
 
 [455<./46_WoodwardHoffmannRules/pMO_pi.png><./46_WoodwardHoffmannRules/pMO_sigma
@@ -8564,7 +8564,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [456]
 Package mdframed Info: mdframed works in twoside mode on input line 44.
 
-Overfull \hbox (3.40242pt too wide) in paragraph at lines 47--48
+Overfull \hbox (3.40244pt too wide) in paragraph at lines 47--48
 []\TU/CrimsonPro(0)/m/n/10.95 Yet that same for-mal-ism—of-ten re-garded as re
 -mote or epis-te-mo-log-i-cally dis-tant—reap- 
  []
@@ -8577,22 +8577,22 @@ File: 46_WoodwardHoffmannRules/MIRROR.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/MIRROR.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/MIRROR.png  used on input lin
 e 52.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 46_WoodwardHoffmannRules/MIRROR.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/MIRROR.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/MIRROR.png  used on input lin
 e 52.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 46_WoodwardHoffmannRules/MIRROR.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/MIRROR.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/MIRROR.png  used on input lin
 e 52.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 File: 46_WoodwardHoffmannRules/MIRROR.png Graphic file (type png)
 <use 46_WoodwardHoffmannRules/MIRROR.png>
 Package luatex.def Info: 46_WoodwardHoffmannRules/MIRROR.png  used on input lin
 e 52.
-(luatex.def)             Requested size: 139.12218pt x 139.11313pt.
+(luatex.def)             Requested size: 139.12216pt x 139.11313pt.
 )
 
 [458<./46_WoodwardHoffmannRules/MIRROR.png>]
@@ -8668,13 +8668,13 @@ Package luatex.def Info: fractal_trees/with_fruits/47.png  used on input line 2
 (./47_ObserverDependentVacuum/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (2.1674pt too wide) in paragraph at lines 2--3
+Overfull \hbox (2.16742pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 field the-ory, sci-en-tists be-gan to re-alise that 
 ‘empty space’ could look dif-fer-ent to ob-servers
  []
 
 
-Overfull \hbox (0.75209pt too wide) in paragraph at lines 4--5
+Overfull \hbox (0.7521pt too wide) in paragraph at lines 4--5
 []\TU/CrimsonPro(0)/m/n/10.95 In 1973, Stephen Fulling clar-i-fied the observer-
 dependence of par-ti-cle def-i-ni-tions in quan-
  []
@@ -8695,7 +8695,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 36.
 [466]
 
 [467]
-Overfull \hbox (11.20026pt too wide) in paragraph at lines 70--93
+Overfull \hbox (11.20027pt too wide) in paragraph at lines 70--93
  [][] 
  []
 
@@ -8831,7 +8831,7 @@ Package luatex.def Info: fractal_trees/with_fruits/49.png  used on input line 2
 (luatex.def)             Requested size: 202.05498pt x 99.58464pt.
  (./49_IVFmtDNA/topicmap.tex)
 (./49_IVFmtDNA/quote.tex
-Overfull \hbox (9.84158pt too wide) in paragraph at lines 16--17
+Overfull \hbox (9.8416pt too wide) in paragraph at lines 16--17
  []
  []
 
@@ -8844,19 +8844,19 @@ Overfull \hbox (9.84158pt too wide) in paragraph at lines 16--17
 (./49_IVFmtDNA/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (9.87987pt too wide) in paragraph at lines 3--4
+Overfull \hbox (9.87988pt too wide) in paragraph at lines 3--4
 \TU/CrimsonPro(0)/m/n/10.95 strict ma-ter-nal in-her-i-tance, ran-dom bot-tle-ne
 ck ef-fects dur-ing oo-ge-n-e-sis, and het-ero-plasmy
  []
 
 
-Overfull \hbox (17.12372pt too wide) in paragraph at lines 7--8
+Overfull \hbox (17.12373pt too wide) in paragraph at lines 7--8
 []\TU/CrimsonPro(0)/m/n/10.95 Sci-en-tific fo-cus then shifted to-ward tar-geted
  nu-clear trans-fer tech-niques. In 2009, Tachibana
  []
 
 
-Overfull \hbox (7.69571pt too wide) in paragraph at lines 9--10
+Overfull \hbox (7.69572pt too wide) in paragraph at lines 9--10
 []\TU/CrimsonPro(0)/m/n/10.95 Pronu-clear trans-fer (PNT), orig-i-nally demon-st
 rated in murine mod-els in 1983, was adapted
  []
@@ -8869,7 +8869,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [484
 
 ]
-Overfull \hbox (8.04361pt too wide) in paragraph at lines 13--14
+Overfull \hbox (8.04362pt too wide) in paragraph at lines 13--14
 []\TU/LibertinusSerif(0)/m/n/10.95 Mu-ta-tions in mi-to-chon-drial DNA cause dis
 -eases char-ac-terised by im-paired en-ergy metabolism.
  []
@@ -8989,31 +8989,31 @@ Package luatex.def Info: fractal_trees/with_fruits/50.png  used on input line 2
 (./50_Consciousness/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (10.01122pt too wide) in paragraph at lines 2--3
+Overfull \hbox (10.01123pt too wide) in paragraph at lines 2--3
 []\TU/CrimsonPro(0)/m/n/10.95 Ether-era anaes-the-sia be-gan in 1846 with Mor-to
 n’s pub-lic demon-stra-tion in Boston; within
  []
 
 
-Overfull \hbox (1.04665pt too wide) in paragraph at lines 2--3
+Overfull \hbox (1.04666pt too wide) in paragraph at lines 2--3
 \TU/CrimsonPro(0)/m/n/10.95 and Over-ton in-de-pen-dently ob-served a cor-re-la-
 tion: anaes-thetic po-tency scaled with lipid
  []
 
 
-Overfull \hbox (3.59674pt too wide) in paragraph at lines 6--7
+Overfull \hbox (3.59676pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 gen-er-a-tion. A rare PRNP mu-ta-tion pro-duc-ing fa
 -tal fa-mil-ial in-som-nia (FFI) was later traced
  []
 
 
-Overfull \hbox (2.32626pt too wide) in paragraph at lines 6--7
+Overfull \hbox (2.32628pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 ful func-tion. An Ital-ian pedi-gree pro-vided the 
 defin-ing clin-i-cal arc: on-set with frag-mented
  []
 
 
-Overfull \hbox (11.77673pt too wide) in paragraph at lines 6--7
+Overfull \hbox (11.77675pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 sleep, in-ex-orable in-som-nia, au-to-nomic fail-ure
 , cog-ni-tive col-lapse, and death within months.
  []
@@ -9041,7 +9041,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [497]
-Overfull \hbox (7.34409pt too wide) in paragraph at lines 55--56
+Overfull \hbox (7.3441pt too wide) in paragraph at lines 55--56
 []\TU/LibertinusSerif(0)/m/n/10.95 Write the re-vi-sion cost as $\TU/latinmoder
 n-math.otf(1)/m/n/10.95 𝐶(⋅)$\TU/LibertinusSerif(0)/m/n/10.95 . Then $\TU/
 latinmodern-math.otf(1)/m/n/10.95 𝐶([]) ≪ 𝐶([]) ≪ 𝐶([]) ≪
@@ -9793,7 +9793,7 @@ ist, 1 margin_kern, 4 glyph, 514 attribute, 157 glue_spec, 514 attribute_list, 4
    avail lists: 1:7,2:6827,3:6726,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26,
 11:1804
  99875 multiletter control sequences out of 65536+600000
- 321 fonts using 151552055 bytes
+ 321 fonts using 151551431 bytes
  103i,22n,118p,4615b,3412s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesome
 5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf></u
@@ -9822,7 +9822,7 @@ usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liberti
 nusSerif-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/l
 ibertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73693903 bytes).
+Output written on main.pdf (568 pages, 73693765 bytes).
 
 PDF statistics: 5766 PDF objects out of 6186 (max. 8388607)
  716 named destinations out of 1000 (max. 131072)
