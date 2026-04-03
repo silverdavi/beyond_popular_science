@@ -3405,7 +3405,7 @@ Underfull \hbox (badness 6063) in paragraph at lines 2--3
 (./people/oneline_bios/hans_christian_ørsted.tex)) (./bibliography.tex
 [529]
 [530]
-Underfull \vbox (badness 10000) has occurred while \output is active
+Underfull \vbox (badness 7667) has occurred while \output is active
 [531]
 Underfull \vbox (badness 10000) has occurred while \output is active
 [532]
@@ -3498,6 +3498,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73692909 bytes).
+Output written on main.pdf (568 pages, 73692774 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.

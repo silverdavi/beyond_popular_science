@@ -1,47 +1,46 @@
 \begin{technical}
-\textbf{\Large Poncelet for Two Ellipses}\vspace{0.2em}
-
-Let \( C \) and \( D \) be two smooth, strictly convex, nested ellipses in the plane, with \( D \subset \operatorname{int}(C) \). The \emph{Poncelet map} \( T: C \to C \) is defined as follows: for a point \( p \in C \), draw the line through \( p \) tangent to the inner ellipse \( D \) (choosing one of the two tangent directions consistently and smoothly along \( C \)); let \( T(p) \) be the second point of intersection of this line with \( C \). This consistent choice defines an orientation-preserving homeomorphism of \( C \).
-
-We show that \( T \) preserves a natural measure and is topologically conjugate to a circle rotation. This yields a complete classification of the dynamics of \( T \), and with it, a proof of Poncelet's closure theorem.
-
-\textbf{Affine Reduction and the Invariant Measure}
-To analyse \( T \), we apply an affine transformation to simplify the geometry. Without loss of generality, suppose \( C \) is given by
-\[
-{x^2}/{a^2} + {y^2}/{b^2} = 1, \quad \text{with } a > b > 0.
-\]
-Let \( U(x, y) = (x/a, y/b) \), a linear map sending \( C \) to the unit circle \( C' \), and \( D \) to an ellipse \( D' \). Since affine maps preserve incidence and tangency, we can analyse the dynamics on \( C' \). Let \( \tilde{p} = U(p) \), and let \( \tilde{s} \) denote arc-length on the unit circle \( C' \) (oriented counterclockwise). Let \( m \) be the tangency point of the chord from \( p \) to \( T(p) \) with \( D \), and set \( \tilde{m} = U(m) \). Define the tangent-segment distance in the circular domain: $\tilde{\rho}(\tilde{p}) := |\tilde{p} - \tilde{m}|$. The invariant measure on \( C' \) is $d\mu(\tilde{p}) := {d\tilde{s}(\tilde{p})}/{\tilde{\rho}(\tilde{p})}$, which is the canonical invariant measure derived from the Jacobi-Bertrand identity. This measure pulls back to \( C \).
-
-This measure compares infinitesimal arc-length to the distance to the tangency point.
-
-\textbf{Invariance of the Measure.} Work on \( C' \): for nearby \( \tilde{p}, \tilde{p}' \in C' \), let \( \tilde{T}(\tilde{p}) = \tilde{p}_1 \), \( \tilde{T}(\tilde{p}') = \tilde{p}_1' \). The chords \( \tilde{p}\tilde{p}_1 \) and \( \tilde{p}'\tilde{p}_1' \) intersect at \( \tilde{n} \). The invariance of \( {d\tilde{s}}/{\tilde{\rho}} \) follows from the metric identity derived by Flatto (2009, Chapter 12) (the Jacobi-Bertrand identity). Specifically, one obtains:
-\[
-\frac{|\tilde{p}_1' - \tilde{p}_1|}{|\tilde{p}' - \tilde{p}|} = \frac{\tilde{\rho}(\tilde{p}_1)}{\tilde{\rho}(\tilde{p})}.
-\]
-Taking the limit as \( \tilde{p}' \to \tilde{p} \):
-\[
-\frac{d\tilde{s}_1}{d\tilde{s}} = \frac{\tilde{\rho}(\tilde{T}(\tilde{p}))}{\tilde{\rho}(\tilde{p})},
-\]
-hence \( {d\tilde{s}}/{\tilde{\rho}} \) is invariant. Pulling back to \( C \), \( \mu \) is preserved by \( T \).
-
-\textbf{Topological Conjugacy to a Circle Rotation}
-An orientation-preserving circle homeomorphism with a finite non-atomic invariant measure positive on every non-empty open arc has no wandering intervals (a result due to Poincaré); therefore its Poincaré semiconjugacy to a rotation is a conjugacy.
-
-Our measure \( \mu \) satisfies: \textbf{Finite:} Since \( C \) and \( D \) are smooth and strictly convex with \( D \subset \operatorname{int}(C) \), \( \tilde{\rho} \) is continuous on the compact set \( C' \) and strictly positive, so it has a positive infimum. Thus \( \int_{C'} d\tilde{s}/\tilde{\rho} < \infty \). \textbf{Non-atomic:} points have zero measure. \textbf{Positive on arcs:} \( \tilde{\rho} \) is bounded above on any arc, so \( 1/\tilde{\rho} \) is bounded below by a positive constant, ensuring open arcs have positive measure.
-
-Thus, there exists a homeomorphism \( \varphi: C \to S^1 \) and \( \alpha \in [0,1) \) such that: $ \varphi \circ T \circ \varphi^{-1} = R_\alpha, \quad \text{where } R_\alpha(\theta) = \theta + \alpha \mod 1$
-
-The number \( \alpha \), called the \emph{rotation number} of \( T \), quantifies the average angular displacement per iteration. Lift the circle map to \( F: \mathbb{R} \to \mathbb{R} \) in an angular coordinate; then $\alpha := \lim_{n \to \infty} {(F^n(\theta) - \theta)}/{n}$ exists and is independent of \( \theta \). The rotation number of \( T \) is \( \alpha \bmod 1 \).
-
-The rotation number classifies the dynamics:
-\begin{itemize}
-  \item If \( \alpha \in \mathbb{Q} \), write \( \alpha = {m}/{n} \) in lowest terms. Then all orbits are periodic with period \( n \). Every point on \( C \) traces a closed \( n \)-gon tangent to \( D \).
-  \item If \( \alpha \notin \mathbb{Q} \), then no orbit is periodic. The sequence \( p, T(p), T^2(p), \ldots \) becomes dense in \( C \), and no Poncelet polygon closes.
-\end{itemize}
-
-\techref
-{\footnotesize
-Leopold Flatto, \textit{Poncelet's Theorem}. Mathematical Surveys and Monographs, Vol. 56. American Mathematical Society, 2009 (beautiful book!)\\
-For visualisation, see \href{https://bit.ly/poporism}{\textcolor{black}{bit.ly/poporism}}.\\
-}
-\end{technical}
+  \textbf{\Large Poncelet for Two Ellipses}\vspace{0.2em}
+  
+  Let \( C \) and \( D \) be two smooth, strictly convex, nested ellipses in the plane, with \( D \subset \operatorname{int}(C) \). The \emph{Poncelet map} \( T: C \to C \) is defined as follows: for a point \( p \in C \), draw the line through \( p \) tangent to the inner ellipse \( D \) (choosing one of the two tangent directions consistently and smoothly along \( C \)); let \( T(p) \) be the second point of intersection of this line with \( C \). This consistent choice defines an orientation-preserving homeomorphism of \( C \).
+  
+  We show that \( T \) preserves a natural measure and is topologically conjugate to a circle rotation. This yields a complete classification of the dynamics of \( T \), and with it, a proof of Poncelet's closure theorem.
+  
+  \textbf{Affine Reduction and the Invariant Measure}
+  To analyze \( T \), we apply two affine reductions. First, by dilating along one axis of \( D \), we may assume the inner ellipse \( D \) is a circle; this preserves incidence and tangency, so the Poncelet map is unchanged. Now suppose \( C \) is given by
+  \[
+  {x^2}/{a^2} + {y^2}/{b^2} = 1, \quad \text{with } a > b > 0.
+  \]
+  Let \( U(x, y) = (x/a, y/b) \), sending \( C \) to the unit circle \( \widetilde{C} \) and \( D \) to an ellipse \( \widetilde{D} \). Let \( \widetilde{s} \) denote arc-length on \( \widetilde{C} \). For \( p \in C \), let \( m \) be the tangency point of the chord \( p\,T(p) \) with \( D \), and let \( m_1 \) be the tangency point of the next chord \( T(p)\,T^2(p) \). Set \( \rho(p) := |p - m| \). The invariant measure is \( d\mu := d\widetilde{s}\,/\,\rho \), mixing arc-length on \( \widetilde{C} \) with the tangent-segment distance in the original (circular-\(D\)) coordinates.
+  
+  \textbf{Invariance of the Measure.} For nearby \( \widetilde{p}, \widetilde{p}' \in \widetilde{C} \), the chords \( \widetilde{p}\widetilde{p}_1 \) and \( \widetilde{p}'\widetilde{p}_1' \) meet at a point \( \widetilde{n} \), forming similar triangles. As \( \widetilde{p}' \to \widetilde{p} \), \( \widetilde{n} \to \widetilde{m} \) and chord ratios on \( \widetilde{C} \) converge to arc-length ratios (\( \sin\theta/\theta \to 1 \)), so
+  \[
+  \frac{d\widetilde{s}_1}{d\widetilde{s}} = \frac{|\widetilde{p}_1\widetilde{m}|}{|\widetilde{p}\widetilde{m}|} = \frac{|p_1 m|}{|pm|},
+  \]
+  where the second equality holds because \( U \) is linear and preserves distance ratios. Since \( D \) is a circle, the two tangent segments from \( p_1 \) to \( D \) are equal: \( |p_1 m| = |p_1 m_1| = \rho(T(p)) \). Hence
+  \[
+  \frac{d\widetilde{s}_1}{d\widetilde{s}} = \frac{\rho(T(p))}{\rho(p)}, \quad \text{i.e.,} \quad \frac{d\widetilde{s}}{\rho(p)} = \frac{d\widetilde{s}_1}{\rho(T(p))},
+  \]
+  and \( d\mu = d\widetilde{s}\,/\,\rho \) is \( T \)-invariant.
+  
+  \textbf{Topological Conjugacy to a Circle Rotation}
+  An orientation-preserving circle homeomorphism with a finite non-atomic invariant measure positive on every non-empty open arc has no wandering intervals (a result due to Poincaré); therefore its Poincaré semiconjugacy to a rotation is a conjugacy.
+  
+  Our measure \( \mu \) satisfies: \textbf{Finite:} Since \( C \) and \( D \) are smooth and strictly convex with \( D \subset \operatorname{int}(C) \), \( \tilde{\rho} \) is continuous on the compact set \( C' \) and strictly positive, so it has a positive infimum. Thus \( \int_{C'} d\tilde{s}/\tilde{\rho} < \infty \). \textbf{Non-atomic:} points have zero measure. \textbf{Positive on arcs:} \( \tilde{\rho} \) is bounded above on any arc, so \( 1/\tilde{\rho} \) is bounded below by a positive constant, ensuring open arcs have positive measure.
+  
+  Thus, there exists a homeomorphism \( \varphi: C \to S^1 \) and \( \alpha \in [0,1) \) such that: $ \varphi \circ T \circ \varphi^{-1} = R_\alpha, \quad \text{where } R_\alpha(\theta) = \theta + \alpha \mod 1$
+  
+  The number \( \alpha \), called the \emph{rotation number} of \( T \), quantifies the average angular displacement per iteration. Lift the circle map to \( F: \mathbb{R} \to \mathbb{R} \) in an angular coordinate; then $\alpha := \lim_{n \to \infty} {(F^n(\theta) - \theta)}/{n}$ exists and is independent of \( \theta \). The rotation number of \( T \) is \( \alpha \bmod 1 \).
+  
+  The rotation number classifies the dynamics:
+  \begin{itemize}
+    \item If \( \alpha \in \mathbb{Q} \), write \( \alpha = {m}/{n} \) in lowest terms. Then all orbits are periodic with period \( n \). Every point on \( C \) traces a closed \( n \)-gon tangent to \( D \).
+    \item If \( \alpha \notin \mathbb{Q} \), then no orbit is periodic. The sequence \( p, T(p), T^2(p), \ldots \) becomes dense in \( C \), and no Poncelet polygon closes.
+  \end{itemize}
+  
+  \techref
+  {\footnotesize
+  Leopold Flatto, \textit{Poncelet's Theorem}. Mathematical Surveys and Monographs, Vol. 56. American Mathematical Society, 2009 (beautiful book!)\\
+  For visualization, see \href{https://bit.ly/poporism}{\textcolor{black}{bit.ly/poporism}}.\\
+  }
+  \end{technical}
+  

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  2 APR 2026 18:32
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  2 APR 2026 18:48
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -9623,7 +9623,7 @@ Underfull \hbox (badness 6063) in paragraph at lines 2--3
 [530
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7667) has occurred while \output is active []
 
 
 
@@ -9756,7 +9756,7 @@ ist, 1 margin_kern, 4 glyph, 514 attribute, 157 glue_spec, 514 attribute_list, 4
    avail lists: 1:8,2:6827,3:6725,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26,
 11:1804
  99875 multiletter control sequences out of 65536+600000
- 321 fonts using 151552055 bytes
+ 321 fonts using 151551223 bytes
  103i,22n,118p,4615b,3412s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesome
 5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf></u
@@ -9785,7 +9785,7 @@ usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liberti
 nusSerif-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/l
 ibertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73692909 bytes).
+Output written on main.pdf (568 pages, 73692774 bytes).
 
 PDF statistics: 5767 PDF objects out of 6186 (max. 8388607)
  717 named destinations out of 1000 (max. 131072)
