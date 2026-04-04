@@ -2659,10 +2659,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active
 a.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active
 [456]
-Overfull \hbox (3.40244pt too wide) in paragraph at lines 47--48
-[]\TU/CrimsonPro(0)/m/n/10.95 Yet that same for-mal-ism—of-ten re-garded as r
-e-mote or epis-te-mo-log-i-cally dis-tant—reap- 
-
 [457])
 [458<./46_WoodwardHoffmannRules/MIRROR.png>]
 (./46_WoodwardHoffmannRules/technical.tex
@@ -2698,20 +2694,29 @@ Missing character: There is no ħ (U+0127) in font lmmi12!
 [463<./fractal_trees/with_fruits/47.png>]
 (./47_ObserverDependentVacuum/title.tex)
 (./47_ObserverDependentVacuum/historical.tex
-Overfull \hbox (2.16742pt too wide) in paragraph at lines 2--3
-\TU/CrimsonPro(0)/m/n/10.95 field the-ory, sci-en-tists be-gan to re-alise that
- ‘empty space’ could look dif-fer-ent to ob-servers
+Overfull \hbox (0.28389pt too wide) in paragraph at lines 2--3
+\TU/CrimsonPro(0)/m/n/10.95 lowed. Tor-ri-celli's 1643 ex-per-i-ment demon-stra
+ted that a sus-tained void could ex-ist above
 
-Overfull \hbox (0.7521pt too wide) in paragraph at lines 4--5
-[]\TU/CrimsonPro(0)/m/n/10.95 In 1973, Stephen Fulling clar-i-fied the observer
--dependence of par-ti-cle def-i-ni-tions in quan-
+Overfull \hbox (3.53824pt too wide) in paragraph at lines 4--5
+\TU/CrimsonPro(0)/m/n/10.95 demon-stra-tion that a time-dependent space-time ge
+-om-e-try con-verts vac-uum fluc-tu-a-tions
 ) (./47_ObserverDependentVacuum/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active
 [464]
 [465]
 [466]
+! Undefined control sequence.
+l.45 ...g published in \textit{Nature} as \DSQOpen
+                                                  {}Black hole explosions?\D...
+
+! Undefined control sequence.
+l.45 ... \DSQOpen{}Black hole explosions?\DSQClose
+                                                  {} (1974), with a full der...
+
+
 [467]
-Overfull \hbox (11.20027pt too wide) in paragraph at lines 70--93
+Overfull \hbox (11.20027pt too wide) in paragraph at lines 57--80
  [][] 
 )
 [468] (./47_ObserverDependentVacuum/technical.tex
@@ -2721,7 +2726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 Underfull \hbox (badness 5652) in paragraph at lines 4--5
 []\TU/LibertinusSerif(2)/m/n/10 The Un-ruh ef-fect man-i-fests within the
 )
-Overfull \vbox (24.61351pt too high) has occurred while \output is active
+Overfull \vbox (346.41005pt too high) has occurred while \output is active
 [469]
 [470] (./48_three_body/title.tex)
 [471] (./48_three_body/sidenote.tex
@@ -3474,11 +3479,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 )
 (see the transcript file for additional information)
- 4460 words of node memory still in use:
-   38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 5 kern, 2 penalty, 1 sub_m
-list, 1 margin_kern, 4 glyph, 512 attribute, 157 glue_spec, 512 attribute_list,
- 4 write, 1 close, 83 pdf_literal, 58 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:9,2:6831,3:6727,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26
+ 4431 words of node memory still in use:
+   38 hlist, 2 vlist, 14 rule, 1 local_par, 40 glue, 5 kern, 2 penalty, 1 sub_m
+list, 1 margin_kern, 4 glyph, 508 attribute, 157 glue_spec, 508 attribute_list,
+ 4 write, 1 close, 83 pdf_literal, 57 pdf_action, 26 pdf_colorstack nodes
+   avail lists: 1:9,2:6839,3:6727,4:1595,5:2306,6:435,7:19947,8:84,9:1773,10:26
 ,11:1804
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesom
 e5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf><
@@ -3507,6 +3512,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73693762 bytes).
+Output written on main.pdf (568 pages, 73695206 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.

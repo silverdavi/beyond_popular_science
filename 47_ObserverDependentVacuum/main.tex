@@ -8,14 +8,7 @@ In quantum field theory, the notion of a particle is defined relative to a choic
 
 In curved spacetimes or for accelerating observers, no universal time direction exists. Different observers, following different trajectories, adopt different time coordinates and decompose the field into different sets of modes. What one observer identifies as a positive-frequency mode may contain negative-frequency components according to another. Since positive frequency defines particles and negative frequency defines antiparticles, the two observers disagree on how many particles are present.
 
-Mathematically, if one observer expands the field $\hat{\phi}(x)$ in terms of a basis of modes $\{f_i(x)\}$, while another observer uses a different basis $\{g_j(x)\}$, the two expansions are related by a Bogoliubov transformation. This transformation mixes creation and annihilation operators, leading to the possibility that the vacuum state for one observer appears populated with particles to another. Specifically, if the Bogoliubov coefficients $\beta_{ij}$ are nonzero, then for mode $j$ the expected particle number in the $g$-basis, measured in the $f$-vacuum, is
-\[
-\langle 0_f | \hat{N}_{g,j} | 0_f \rangle = \sum_i |\beta_{ij}|^2,
-\]
-and for the total number operator $\hat{N}_g = \sum_j \hat{a}_{g,j}^\dagger \hat{a}_{g,j}$ one has
-\[
-\langle 0_f | \hat{N}_g | 0_f \rangle = \sum_{i,j} |\beta_{ij}|^2.
-\]
+Mathematically, if one observer expands the field $\hat{\phi}(x)$ in terms of a basis of modes $\{f_i(x)\}$, while another observer uses a different basis $\{g_j(x)\}$, the two expansions are related by a Bogoliubov transformation. This transformation mixes creation and annihilation operators, leading to the possibility that the vacuum state for one observer appears populated with particles to another. If the Bogoliubov coefficients $\beta_{ij}$ are nonzero, the expected particle number for mode $j$ in the $g$-basis, measured in the $f$-vacuum, is $\langle 0_f | \hat{N}_{g,j} | 0_f \rangle = \sum_i |\beta_{ij}|^2$, and the total count is $\langle 0_f | \hat{N}_g | 0_f \rangle = \sum_{i,j} |\beta_{ij}|^2$.
 
 The number operator $\hat{N} = \sum_j \hat{a}_j^\dagger \hat{a}_j$ counts excitations above a given vacuum. It is constructed from creation and annihilation operators, which themselves depend on the choice of mode basis. Change the basis—by switching to an accelerating frame or a different time slicing—and the operator changes. Two observers examining the same quantum state with their respective number operators obtain different expectation values. This is not a coordinate artefact—a particle detector carried by an accelerating observer registers real energy deposits while an inertial detector in the same region remains silent.
 
@@ -42,7 +35,7 @@ In 1973, Hawking visited Moscow and met Yakov Zel'dovich and Alexei Starobinsky,
 
 He traced field modes through the spacetime of a collapsing star. Outgoing modes near the forming horizon undergo exponential redshift, mixing positive and negative frequencies. The Bogoliubov coefficients yield a Planck spectrum at temperature $T_H = \hbar c^3/(8\pi G M k_B)$. Hawking spent weeks rechecking, yet the result persisted.
 
-Black holes lose mass through radiation. The area law becomes a literal entropy, $S = k_B c^3 A/(4G\hbar)$, and the first law of black hole mechanics becomes the first law of thermodynamics. Hawking published in \textit{Nature} as \DSQOpen{}Black hole explosions?\DSQClose{} (1974), with a full derivation in \textit{Communications in Mathematical Physics} (1975). The result also introduced the information paradox: thermal radiation carries no trace of what fell in, contradicting unitarity.
+Hawking published in \textit{Nature} as \DSQOpen{}Black hole explosions?\DSQClose{} (1974), with a full derivation in \textit{Communications in Mathematical Physics} (1975). The result introduced the information paradox: thermal radiation carries no trace of what fell in, contradicting unitarity.
 
 The popular picture of virtual particle pairs splitting at the horizon does not appear in Hawking's derivation. The radiation follows from the global causal structure of the collapsing spacetime and the entanglement of field modes across the horizon. It has never been directly observed—for a solar-mass black hole, $T_H \approx 6 \times 10^{-8}$ K—though analogue experiments in BECs, fluids, and superconducting circuits have reproduced consistent features.
 
