@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  2 APR 2026 18:48
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  3 APR 2026 03:35
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -4424,6 +4424,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [64
 
 ]
+! Undefined control sequence.
+l.46 ...asure on the ellipse: a notion of \SQQOpen
+                                                  {}size\SQQClose{} for subs...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.46 ...lipse: a notion of \SQQOpen{}size\SQQClose
+                                                  {} for subsets that remain...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -4462,7 +4481,7 @@ Package luatex.def Info: 07_BilliardsConicsPorism/BILLIARDS1.png  used on input
 
 [68<./07_BilliardsConicsPorism/BILLIARDS1.png>]
 (./07_BilliardsConicsPorism/technical.tex)
-Overfull \vbox (39.67546pt too high) has occurred while \output is active []
+Overfull \vbox (23.45045pt too high) has occurred while \output is active []
 
 
 
@@ -9748,15 +9767,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  86878 strings out of 475506
- 244535,3417909 words of node,token memory allocated
- 4474 words of node memory still in use:
-   38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 5 kern, 2 penalty, 3 sub_ml
-ist, 1 margin_kern, 4 glyph, 514 attribute, 157 glue_spec, 514 attribute_list, 4
+ 244540,3417909 words of node,token memory allocated
+ 4460 words of node memory still in use:
+   38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 5 kern, 2 penalty, 1 sub_ml
+ist, 1 margin_kern, 4 glyph, 512 attribute, 157 glue_spec, 512 attribute_list, 4
  write, 1 close, 83 pdf_literal, 58 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:8,2:6827,3:6725,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26,
+   avail lists: 1:9,2:6831,3:6727,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26,
 11:1804
  99875 multiletter control sequences out of 65536+600000
- 321 fonts using 151551223 bytes
+ 321 fonts using 151551431 bytes
  103i,22n,118p,4615b,3412s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesome
 5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf></u
@@ -9785,7 +9804,7 @@ usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liberti
 nusSerif-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/l
 ibertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73692774 bytes).
+Output written on main.pdf (568 pages, 73693762 bytes).
 
 PDF statistics: 5767 PDF objects out of 6186 (max. 8388607)
  717 named destinations out of 1000 (max. 131072)

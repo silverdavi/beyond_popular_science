@@ -1285,6 +1285,15 @@ LaTeX Warning: Reference `mdf@pagelabel-13' on page 64 undefined on input line
 ) (./07_BilliardsConicsPorism/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active
 [64]
+! Undefined control sequence.
+l.46 ...asure on the ellipse: a notion of \SQQOpen
+                                                  {}size\SQQClose{} for subs...
+
+! Undefined control sequence.
+l.46 ...lipse: a notion of \SQQOpen{}size\SQQClose
+                                                  {} for subsets that remain...
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active
 [65]
 Underfull \vbox (badness 10000) has occurred while \output is active
@@ -1297,7 +1306,7 @@ LaTeX Warning: Reference `mdf@pagelabel-14' on page 68 undefined on input line
 )
 [68<./07_BilliardsConicsPorism/BILLIARDS1.png>]
 (./07_BilliardsConicsPorism/technical.tex)
-Overfull \vbox (39.67546pt too high) has occurred while \output is active
+Overfull \vbox (23.45045pt too high) has occurred while \output is active
 [69]
 [70] (./08_BoundedPrimeGaps/title.tex)
 [71] (./08_BoundedPrimeGaps/sidenote.tex
@@ -8686,11 +8695,11 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 )
 (see the transcript file for additional information)
- 3956 words of node memory still in use:
-   38 hlist, 2 vlist, 14 rule, 1 local_par, 42 glue, 6 kern, 2 penalty, 3 sub_m
-list, 1 margin_kern, 4 glyph, 461 attribute, 157 glue_spec, 461 attribute_list,
+ 3942 words of node memory still in use:
+   38 hlist, 2 vlist, 14 rule, 1 local_par, 42 glue, 6 kern, 2 penalty, 1 sub_m
+list, 1 margin_kern, 4 glyph, 459 attribute, 157 glue_spec, 459 attribute_list,
  4 write, 1 close, 83 pdf_literal, 5 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:9,2:6833,3:6725,4:1268,5:2304,6:411,7:19945,8:84,9:1773,10:26
+   avail lists: 1:7,2:6837,3:6727,4:1268,5:2304,6:408,7:19945,8:84,9:1773,10:26
 ,11:1804
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesom
 e5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf><
@@ -8719,6 +8728,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (559 pages, 73152247 bytes).
+Output written on main.pdf (559 pages, 73153233 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.
