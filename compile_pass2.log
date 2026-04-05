@@ -2704,19 +2704,21 @@ Overfull \hbox (3.53824pt too wide) in paragraph at lines 4--5
 ) (./47_ObserverDependentVacuum/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active
 [464]
+Underfull \vbox (badness 10000) has occurred while \output is active
 [465]
+Underfull \vbox (badness 10000) has occurred while \output is active
 [466]
 ! Undefined control sequence.
-l.45 ...g published in \textit{Nature} as \DSQOpen
+l.38 ...g published in \textit{Nature} as \DSQOpen
                                                   {}Black hole explosions?\D...
 
 ! Undefined control sequence.
-l.45 ... \DSQOpen{}Black hole explosions?\DSQClose
+l.38 ... \DSQOpen{}Black hole explosions?\DSQClose
                                                   {} (1974), with a full der...
 
 
 [467]
-Overfull \hbox (11.20027pt too wide) in paragraph at lines 57--80
+Overfull \hbox (11.20027pt too wide) in paragraph at lines 50--73
  [][] 
 )
 [468] (./47_ObserverDependentVacuum/technical.tex
@@ -2726,7 +2728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 Underfull \hbox (badness 5652) in paragraph at lines 4--5
 []\TU/LibertinusSerif(2)/m/n/10 The Un-ruh ef-fect man-i-fests within the
 )
-Overfull \vbox (346.41005pt too high) has occurred while \output is active
+Overfull \vbox (24.61351pt too high) has occurred while \output is active
 [469]
 [470] (./48_three_body/title.tex)
 [471] (./48_three_body/sidenote.tex
@@ -3479,11 +3481,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 )
 (see the transcript file for additional information)
- 4431 words of node memory still in use:
-   38 hlist, 2 vlist, 14 rule, 1 local_par, 40 glue, 5 kern, 2 penalty, 1 sub_m
-list, 1 margin_kern, 4 glyph, 508 attribute, 157 glue_spec, 508 attribute_list,
+ 4434 words of node memory still in use:
+   38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 5 kern, 2 penalty, 1 sub_m
+list, 1 margin_kern, 4 glyph, 507 attribute, 157 glue_spec, 507 attribute_list,
  4 write, 1 close, 83 pdf_literal, 57 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:9,2:6839,3:6727,4:1595,5:2306,6:435,7:19947,8:84,9:1773,10:26
+   avail lists: 1:9,2:6841,3:6727,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26
 ,11:1804
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesom
 e5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf><
@@ -3512,6 +3514,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73695206 bytes).
+Output written on main.pdf (568 pages, 73695580 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.

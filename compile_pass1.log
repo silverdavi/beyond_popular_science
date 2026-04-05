@@ -3135,24 +3135,30 @@ LaTeX Warning: Reference `mdf@pagelabel-82' on page 464 undefined on input line
 ) (./47_ObserverDependentVacuum/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active
 [464]
+Underfull \vbox (badness 10000) has occurred while \output is active
 [465]
+Underfull \vbox (badness 10000) has occurred while \output is active
 [466]
 ! Undefined control sequence.
-l.45 ...g published in \textit{Nature} as \DSQOpen
+l.38 ...g published in \textit{Nature} as \DSQOpen
                                                   {}Black hole explosions?\D...
 
 ! Undefined control sequence.
-l.45 ... \DSQOpen{}Black hole explosions?\DSQClose
+l.38 ... \DSQOpen{}Black hole explosions?\DSQClose
                                                   {} (1974), with a full der...
+
+
+LaTeX Warning: Reference `mdf@pagelabel-83' on page 467 undefined on input line
+ 42.
 
 
 [467]
 
-LaTeX Warning: Reference `mdf@pagelabel-83' on page 468 undefined on input line
- 49.
+LaTeX Warning: Reference `mdf@pagelabel-84' on page 468 undefined on input line
+ 42.
 
 
-Overfull \hbox (11.20027pt too wide) in paragraph at lines 57--80
+Overfull \hbox (11.20027pt too wide) in paragraph at lines 50--73
  [][] 
 )
 [468] (./47_ObserverDependentVacuum/technical.tex
@@ -3162,7 +3168,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 Underfull \hbox (badness 5652) in paragraph at lines 4--5
 []\TU/LibertinusSerif(2)/m/n/10 The Un-ruh ef-fect man-i-fests within the
 )
-Overfull \vbox (346.41005pt too high) has occurred while \output is active
+Overfull \vbox (24.61351pt too high) has occurred while \output is active
 [469]
 [470] (./48_three_body/title.tex)
 [471] (./48_three_body/sidenote.tex
@@ -3175,7 +3181,7 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 4--4
 [473<./fractal_trees/with_fruits/48.png>] (./48_three_body/title.tex)
 (./48_three_body/historical.tex
 
-LaTeX Warning: Reference `mdf@pagelabel-84' on page 474 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-85' on page 474 undefined on input line
  9.
 
 ) (./48_three_body/main.tex
@@ -3221,7 +3227,7 @@ Overfull \hbox (7.69572pt too wide) in paragraph at lines 9--10
 []\TU/CrimsonPro(0)/m/n/10.95 Pronu-clear trans-fer (PNT), orig-i-nally demon-s
 trated in murine mod-els in 1983, was adapted
 
-LaTeX Warning: Reference `mdf@pagelabel-85' on page 484 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-86' on page 484 undefined on input line
  19.
 
 ) (./49_IVFmtDNA/main.tex
@@ -3236,7 +3242,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active
 [486]
 
-LaTeX Warning: Reference `mdf@pagelabel-86' on page 487 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-87' on page 487 undefined on input line
  39.
 
 
@@ -3306,7 +3312,7 @@ Overfull \hbox (11.77675pt too wide) in paragraph at lines 6--7
 \TU/CrimsonPro(0)/m/n/10.95 sleep, in-ex-orable in-som-nia, au-to-nomic fail-ur
 e, cog-ni-tive col-lapse, and death within months.
 
-LaTeX Warning: Reference `mdf@pagelabel-87' on page 494 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-88' on page 494 undefined on input line
  8.
 
 ) (./50_Consciousness/main.tex
@@ -8691,11 +8697,11 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 )
 (see the transcript file for additional information)
- 3923 words of node memory still in use:
-   38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 6 kern, 2 penalty, 1 sub_m
-list, 1 margin_kern, 4 glyph, 456 attribute, 157 glue_spec, 456 attribute_list,
+ 3926 words of node memory still in use:
+   38 hlist, 2 vlist, 14 rule, 1 local_par, 42 glue, 6 kern, 2 penalty, 1 sub_m
+list, 1 margin_kern, 4 glyph, 455 attribute, 157 glue_spec, 455 attribute_list,
  4 write, 1 close, 83 pdf_literal, 5 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:8,2:6843,3:6727,4:1268,5:2304,6:408,7:19946,8:84,9:1773,10:26
+   avail lists: 1:8,2:6845,3:6727,4:1268,5:2304,6:408,7:19945,8:84,9:1773,10:26
 ,11:1804
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesom
 e5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf><
@@ -8724,6 +8730,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (559 pages, 73154875 bytes).
+Output written on main.pdf (559 pages, 73155247 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.

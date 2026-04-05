@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  4 APR 2026 08:55
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  4 APR 2026 09:22
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -8663,14 +8663,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [464
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [465]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [466]
-Package mdframed Info: mdframed works in twoside mode on input line 36.
+Package mdframed Info: mdframed works in twoside mode on input line 29.
 
 ! Undefined control sequence.
-l.45 ...g published in \textit{Nature} as \DSQOpen
+l.38 ...g published in \textit{Nature} as \DSQOpen
                                                   {}Black hole explosions?\D...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8679,7 +8685,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 ... \DSQOpen{}Black hole explosions?\DSQClose
+l.38 ... \DSQOpen{}Black hole explosions?\DSQClose
                                                   {} (1974), with a full der...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8687,13 +8693,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package mdframed Info: Not enough space on this page on input line 49.
 
 
 [467]
-Package mdframed Info: Not enough space on this page on input line 49.
-
-Overfull \hbox (11.20027pt too wide) in paragraph at lines 57--80
+Overfull \hbox (11.20027pt too wide) in paragraph at lines 50--73
  [][] 
  []
 
@@ -8710,7 +8713,7 @@ Underfull \hbox (badness 5652) in paragraph at lines 4--5
  []
 
 )
-Overfull \vbox (346.41005pt too high) has occurred while \output is active []
+Overfull \vbox (24.61351pt too high) has occurred while \output is active []
 
 
 
@@ -9782,16 +9785,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 86872 strings out of 475506
+ 86875 strings out of 475506
  244540,3417909 words of node,token memory allocated
- 4431 words of node memory still in use:
-   38 hlist, 2 vlist, 14 rule, 1 local_par, 40 glue, 5 kern, 2 penalty, 1 sub_ml
-ist, 1 margin_kern, 4 glyph, 508 attribute, 157 glue_spec, 508 attribute_list, 4
+ 4434 words of node memory still in use:
+   38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 5 kern, 2 penalty, 1 sub_ml
+ist, 1 margin_kern, 4 glyph, 507 attribute, 157 glue_spec, 507 attribute_list, 4
  write, 1 close, 83 pdf_literal, 57 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:9,2:6839,3:6727,4:1595,5:2306,6:435,7:19947,8:84,9:1773,10:26,
+   avail lists: 1:9,2:6841,3:6727,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26,
 11:1804
- 99869 multiletter control sequences out of 65536+600000
- 321 fonts using 151551431 bytes
+ 99872 multiletter control sequences out of 65536+600000
+ 321 fonts using 151552055 bytes
  103i,22n,118p,4615b,3412s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesome
 5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf></u
@@ -9820,7 +9823,7 @@ usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liberti
 nusSerif-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/l
 ibertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73695206 bytes).
+Output written on main.pdf (568 pages, 73695580 bytes).
 
 PDF statistics: 5766 PDF objects out of 6186 (max. 8388607)
  717 named destinations out of 1000 (max. 131072)

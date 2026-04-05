@@ -1,32 +1,32 @@
 \fullpageexercises[Exponential Maps Across Contexts]
 {
-\section*{\normalsize How does each general definition specialize to \(\exp(z) = e^z\)?}
+\section*{\normalsize How does each general definition specialise to \(\exp(z) = e^z\) on \(\mathbb{C}\)?}
 
-\begin{enumerate}[leftmargin=*,itemsep=2pt]
+\begin{enumerate}[leftmargin=*,itemsep=6pt]
 
     \item \textbf{Formal Power Series.}
-    The series \( \exp(x) = \sum_{n=0}^\infty x^n/n! \) in any commutative \( \mathbb{Q} \)-algebra, evaluated over \( \mathbb{C} \), converges to \( e^z \colon \mathbb{C} \to \mathbb{C}^* \) with \( \exp(z+w) = \exp(z)\exp(w) \).
+    The series \( \exp(x) = \sum_{n=0}^\infty x^n/n! \) in any commutative \( \mathbb{Q} \)-algebra, evaluated over \( \mathbb{C} \), converges absolutely to \( e^z \colon \mathbb{C} \to \mathbb{C}^* \) with the homomorphism property \( \exp(z+w) = \exp(z)\exp(w) \).
 
     \item \textbf{Lie Theory.}
-    The exponential maps \( X \in \mathfrak{g} \) to the time-1 flow of its left-invariant vector field on \( G \). For \( G = \mathbb{C}^* \), \( \mathfrak{g} \cong \mathbb{C} \), the flow of \( V_X(z) = Xz\,\tfrac{d}{dz} \) is \( z \mapsto e^{Xt}z \), so \( \exp(X) = e^X \).
+    The exponential maps \( X \in \mathfrak{g} \) (an infinitesimal transformation) to the time-1 value of the integral curve of its left-invariant vector field starting at the identity. For \( G = \mathbb{C}^* \), \( \mathfrak{g} \cong \mathbb{C} \), and the integral curve for \( V_X(z) = Xz\,\tfrac{d}{dz} \) through \( z(0)=1 \) solves \( \dot{z} = Xz \), giving \( z(t) = e^{Xt} \) and \( \exp(X) = e^X \).
 
     \item \textbf{Eigenfunction of a Derivation.}
-    Solve \( Df = \lambda f \) with \( f(0)=1 \). For \( D = d/dz \) and \( \lambda=1 \), the unique solution is \( f(z) = e^z \).
+    Characterise the exponential as the eigenfunction satisfying \( Df = \lambda f \) with \( f(0)=1 \) (the identity of the target group). For \( D = d/dz \) and \( \lambda=1 \), the unique solution is \( f(z) = e^z \).
 
     \item \textbf{Microlocal Analysis.}
-    Applying a differential operator \( D \) to the probe \( e^{i\xi \cdot x} \) extracts its symbol: \( D(e^{i\xi \cdot x}) = P(x,\xi)\,e^{i\xi \cdot x} \). On \( \mathbb{C} \), with \( D = d/dz \) and the probe \( e^{z} \), the symbol is simply \( 1 \)—the exponential is both eigenfunction and probe.
+    Applying a differential operator \( D \) to a plane wave extracts its symbol, converting calculus into algebra: \( D(e^{i\xi \cdot x}) = P(x,\xi)\,e^{i\xi \cdot x} \). On \( \mathbb{C} \), the exponential \( e^{\zeta z} \) is the universal probe for constant-coefficient operators; for \( d/dz \) and \( \zeta=1 \), \( e^z \) yields eigenvalue \( 1 \).
 
     \item \textbf{Sheaf Theory.}
-    In the exact sequence \( 0 \to 2\pi i\,\mathbb{Z} \to \mathcal{O}_M \to \mathcal{O}_M^* \to 0 \), the map \( f \mapsto e^f \) sends additive to multiplicative sheaves. On \( M = \mathbb{C} \): \( e^z \colon \mathbb{C} \to \mathbb{C}^* \), with kernel \( 2\pi i\mathbb{Z} \) obstructing a global logarithm.
+    In the short exact sequence \( 0 \to 2\pi i\,\mathbb{Z} \to \mathcal{O}_M \to \mathcal{O}_M^* \to 0 \), the map \( f \mapsto e^f \) translates additive holomorphic functions into multiplicative, non-vanishing ones. On \( M = \mathbb{C} \), this is \( e^z \colon \mathbb{C} \to \mathbb{C}^* \), with kernel \( 2\pi i\mathbb{Z} \) encoding the monodromy obstructing a global logarithm.
 
     \item \textbf{Algebraic Homomorphism.}
-    A continuous group homomorphism \( \phi \colon (\mathbb{C},+) \to (\mathbb{C}^*,\times) \) satisfying \( \phi(x+y) = \phi(x)\phi(y) \) must take the form \( \phi(z) = e^{\lambda z} \). Setting \( \lambda = 1 \) gives the classical exponential.
+    A holomorphic group homomorphism \( \phi \colon (\mathbb{C},+) \to (\mathbb{C}^*,\times) \) satisfying \( \phi(x+y) = \phi(x)\phi(y) \) must take the form \( \phi(z) = e^{\lambda z} \). Holomorphicity is essential: it eliminates \( \bar{z} \) dependence. Setting \( \lambda = 1 \) recovers the classical exponential.
 
     \item \textbf{Category Theory.}
-    The exponential object \( Y^X \) in a CCC satisfies \( \mathrm{Hom}(A \times X,Y) \cong \mathrm{Hom}(A,Y^X) \). With \( X = \mathbb{C} \), \( Y = \mathbb{C}^* \): the map \( (a,x) \mapsto e^{ax} \) corresponds to \( a \mapsto (x \mapsto e^{ax}) \), placing \( e^z \) in \( (\mathbb{C}^*)^{\mathbb{C}} \).
+    The exponential object \( Y^X \) in a Cartesian Closed Category satisfies \( \mathrm{Hom}(A \times X,Y) \cong \mathrm{Hom}(A,Y^X) \). With \( X = \mathbb{C} \) and \( Y = \mathbb{C}^* \), currying \( (a,x) \mapsto e^{ax} \) yields \( a \mapsto (x \mapsto e^{ax}) \). The category provides the habitat, placing \( e^z \) as a global element in the function space \( (\mathbb{C}^*)^{\mathbb{C}} \).
 
     \item \textbf{Riemannian Geometry.}
-    The exponential sends \( v \in T_pM \) to the geodesic endpoint \( \gamma_v(1) \). On \( \mathbb{C}^* \) with the left-invariant metric \( \langle u,v\rangle_z = \mathrm{Re}(u\bar{v})/|z|^2 \), geodesics through \( 1 \) are \( t \mapsto e^{tX} \), giving \( \exp_1(X) = e^X \).
+    The geometric exponential sends \( v \in T_pM \) to the geodesic endpoint \( \gamma_v(1) \). On \( \mathbb{C}^* \) with the bi-invariant metric \( \langle u,v\rangle_z = \mathrm{Re}(u\bar{v})/|z|^2 \), the space is flat, so geodesics through the identity coincide with one-parameter subgroups \( t \mapsto e^{tX} \), yielding \( \exp_1(X) = e^X \).
 
 \end{enumerate}
 }
