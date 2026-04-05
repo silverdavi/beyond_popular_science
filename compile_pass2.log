@@ -1685,7 +1685,18 @@ Overfull \hbox (8.67325pt too wide) in paragraph at lines 4--4
 
 [192<./20_ChineseRoomArgument/20_ Capish, Comprende, Computes_.pdf>])
 (./20_ChineseRoomArgument/title.tex) (./20_ChineseRoomArgument/summary.tex)
-(./20_ChineseRoomArgument/topicmap.tex) (./20_ChineseRoomArgument/quote.tex)
+(./20_ChineseRoomArgument/topicmap.tex) (./20_ChineseRoomArgument/quote.tex
+! Undefined control sequence.
+<argument> \EQOpen 
+                   \kern \l_hcq_gap_dim 
+l.5 \end
+        {hangleftquote}
+! Undefined control sequence.
+<argument> ...tmpa_seq {##1\\}\l_tmpb_tl \EQClose 
+                                                  \end {tabular}
+l.5 \end
+        {hangleftquote}
+)
 [193<./fractal_trees/with_fruits/20.png>] (./20_ChineseRoomArgument/title.tex)
 (./20_ChineseRoomArgument/historical.tex
 Overfull \hbox (7.74469pt too wide) in paragraph at lines 4--5
@@ -2649,16 +2660,20 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 13--13
 )
 [453<./fractal_trees/with_fruits/46.png>] (./46_WoodwardHoffmannRules/title.tex
 ) (./46_WoodwardHoffmannRules/historical.tex
-Overfull \hbox (1.24191pt too wide) in paragraph at lines 2--3
-[]\TU/CrimsonPro(0)/m/n/10.95 In 1952, Kenichi Fukui in-tro-duced the con-cept 
-of fron-tier molec-u-lar or-bitals (FMOs), high-
+Overfull \hbox (4.06865pt too wide) in paragraph at lines 4--5
+[]\TU/CrimsonPro(0)/m/n/10.95 In 1952, Kenichi Fukui in-tro-duced fron-tier mol
+ec-u-lar or-bital the-ory, iden-ti-fy-ing the HOMO
+
+Overfull \hbox (8.10927pt too wide) in paragraph at lines 6--7
+[]\TU/CrimsonPro(0)/m/n/10.95 The break-through came from an anomaly. In the ea
+rly 1960s, Robert Burns Wood-ward—al-
 ) (./46_WoodwardHoffmannRules/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active
 [454]
-[455<./46_WoodwardHoffmannRules/pMO_pi.png><./46_WoodwardHoffmannRules/pMO_sigm
-a.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active
-[456]
+Underfull \vbox (badness 2285) has occurred while \output is active
+[455<./46_WoodwardHoffmannRules/pMO_pi.png>]
+Underfull \vbox (badness 1226) has occurred while \output is active
+[456<./46_WoodwardHoffmannRules/pMO_sigma.png>]
 [457])
 [458<./46_WoodwardHoffmannRules/MIRROR.png>]
 (./46_WoodwardHoffmannRules/technical.tex
@@ -3481,11 +3496,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 )
 (see the transcript file for additional information)
- 4434 words of node memory still in use:
-   38 hlist, 2 vlist, 14 rule, 1 local_par, 41 glue, 5 kern, 2 penalty, 1 sub_m
-list, 1 margin_kern, 4 glyph, 507 attribute, 157 glue_spec, 507 attribute_list,
+ 4423 words of node memory still in use:
+   38 hlist, 2 vlist, 14 rule, 1 local_par, 40 glue, 5 kern, 2 penalty, 1 sub_m
+list, 1 margin_kern, 4 glyph, 506 attribute, 157 glue_spec, 506 attribute_list,
  4 write, 1 close, 83 pdf_literal, 57 pdf_action, 26 pdf_colorstack nodes
-   avail lists: 1:9,2:6841,3:6727,4:1595,5:2306,6:435,7:19946,8:84,9:1773,10:26
+   avail lists: 1:6,2:6846,3:6729,4:1595,5:2306,6:435,7:19947,8:84,9:1773,10:26
 ,11:1804
 </Users/davidsilver/Library/texmf/fonts/opentype/public/fontawesome5/FontAwesom
 e5Free-Solid-900.otf><fonts/ScheherazadeNew-4.000/ScheherazadeNew-Regular.ttf><
@@ -3514,6 +3529,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73695580 bytes).
+Output written on main.pdf (568 pages, 73695762 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.
