@@ -8,7 +8,7 @@ Despite this discretization, many natural images exhibit local continuity. In re
 
 The goal of low-level image processing is to extract global geometric elements from the raw intensity field—to identify where transitions occur, how they are oriented, and how they combine to form recognisable configurations. The first step in this process is edge detection: identifying where intensity values change significantly in space.
 
-To extract localised transitions in brightness, digital image processing employs gradient-based methods. These techniques compute spatial derivatives of the intensity function $I(x, y)$ using discrete convolution kernels. Common approximations include the Sobel, Prewitt, or central (Sobel, 1970) difference operators, which estimate the partial derivatives $\partial I / \partial x$ and $\partial I / \partial y$ by combining intensities in a small neighborhood.
+To extract localised transitions in brightness, digital image processing employs gradient-based methods. These techniques compute spatial derivatives of the intensity function $I(x, y)$ using discrete convolution kernels. Common approximations include the Sobel (Sobel, 1970), Prewitt, or central difference operators, which estimate the partial derivatives $\partial I / \partial x$ and $\partial I / \partial y$ by combining intensities in a small neighborhood.
 
 The result of this process is a vector field $G(x, y) = (I_x(x, y), I_y(x, y))$, where $I_x$ and $I_y$ denote the horizontal and vertical gradients respectively. The magnitude of this vector, defined as
 \[

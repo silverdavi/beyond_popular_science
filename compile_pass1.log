@@ -1668,10 +1668,10 @@ LaTeX Font Warning: Font shape `TU/SILEOT.ttf(0)/m/it' undefined
 )
 [153<./fractal_trees/with_fruits/16.png>] (./16_FalseVacuumThreat/title.tex)
 (./16_FalseVacuumThreat/historical.tex
-Overfull \hbox (8.1862pt too wide) in paragraph at lines 9--10
-\TU/CrimsonPro(0)/m/n/10.95 scale. The renor-mal-i-sa-tion group equa-tions tra
-ck how the Higgs quar-tic cou-pling $\TU/latinmodern-math.otf(1)/m/n/10.95 
-𝜆$ \TU/CrimsonPro(0)/m/n/10.95 evolves
+Overfull \hbox (8.507pt too wide) in paragraph at lines 9--10
+\TU/CrimsonPro(0)/m/n/10.95 scale. The renor-mal-iza-tion group equa-tions trac
+k how the Higgs quar-tic cou-pling $\TU/latinmodern-math.otf(1)/m/n/10.95 𝜆$
+ \TU/CrimsonPro(0)/m/n/10.95 evolves
 
 LaTeX Warning: Reference `mdf@pagelabel-30' on page 154 undefined on input line
  10.
@@ -2080,9 +2080,9 @@ Overfull \hbox (8.67365pt too wide) in paragraph at lines 8--8
 (./24_FourDSpacetime/topicmap.tex) (./24_FourDSpacetime/quote.tex)
 [233<./fractal_trees/with_fruits/24.png>] (./24_FourDSpacetime/title.tex)
 (./24_FourDSpacetime/historical.tex
-Overfull \hbox (8.71138pt too wide) in paragraph at lines 6--7
-\TU/CrimsonPro(0)/m/n/10.95 could only arise in three spa-tial di-men-sions—a
-n ex-am-ple of an-thropic rea-son-ing. Whitrow
+Overfull \hbox (15.62163pt too wide) in paragraph at lines 6--7
+[]\TU/CrimsonPro(0)/m/n/10.95 Ger-ald Whitrow's in-flu-en-tial 1955 pa-per ‘W
+hy Phys-i-cal Space has Three Di-men-sions’ marked
 
 LaTeX Warning: Reference `mdf@pagelabel-44' on page 234 undefined on input line
  10.
@@ -2953,10 +2953,7 @@ LaTeX Warning: Reference `mdf@pagelabel-73' on page 424 undefined on input line
 
 ) (./43_NearFlatUniverse/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active
-[424
-Missing character: There is no Λ (U+039B) in font "name:Crimson Pro:mode=harf;
-script=latn;language=dflt;"!
-]
+[424]
 Underfull \vbox (badness 10000) has occurred while \output is active
 [425]
 
@@ -8740,6 +8737,6 @@ lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
 libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2025/texmf-dis
 t/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (559 pages, 73156589 bytes).
+Output written on main.pdf (559 pages, 73156822 bytes).
 SyncTeX written on main.synctex.gz.
 Transcript written on main.log.

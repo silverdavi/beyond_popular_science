@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  5 APR 2026 07:26
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  13 APR 2026 06:15
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -5300,10 +5300,10 @@ LaTeX Font Warning: Font shape `TU/SILEOT.ttf(0)/m/it' undefined
 (./16_FalseVacuumThreat/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 2.
 
-Overfull \hbox (8.1862pt too wide) in paragraph at lines 9--10
-\TU/CrimsonPro(0)/m/n/10.95 scale. The renor-mal-i-sa-tion group equa-tions trac
-k how the Higgs quar-tic cou-pling $\TU/latinmodern-math.otf(1)/m/n/10.95 𝜆$
- \TU/CrimsonPro(0)/m/n/10.95 evolves
+Overfull \hbox (8.507pt too wide) in paragraph at lines 9--10
+\TU/CrimsonPro(0)/m/n/10.95 scale. The renor-mal-iza-tion group equa-tions track
+ how the Higgs quar-tic cou-pling $\TU/latinmodern-math.otf(1)/m/n/10.95 𝜆$ 
+\TU/CrimsonPro(0)/m/n/10.95 evolves
  []
 
 ) (./16_FalseVacuumThreat/main.tex
@@ -6232,9 +6232,9 @@ Package luatex.def Info: fractal_trees/with_fruits/24.png  used on input line 1
 (./24_FourDSpacetime/historical.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (8.71138pt too wide) in paragraph at lines 6--7
-\TU/CrimsonPro(0)/m/n/10.95 could only arise in three spa-tial di-men-sions—an
- ex-am-ple of an-thropic rea-son-ing. Whitrow
+Overfull \hbox (15.62163pt too wide) in paragraph at lines 6--7
+[]\TU/CrimsonPro(0)/m/n/10.95 Ger-ald Whitrow's in-flu-en-tial 1955 pa-per ‘Wh
+y Phys-i-cal Space has Three Di-men-sions’ marked
  []
 
 ) (./24_FourDSpacetime/main.tex
@@ -8246,9 +8246,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [424
 
-
-Missing character: There is no Λ (U+039B) in font "name:Crimson Pro:mode=harf;s
-cript=latn;language=dflt;"!
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -9809,7 +9806,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9BD9D4533E5DF0693DAC85CB3532AA7E;167993.
+(rerunfilecheck)             Checksum: 66E4C1B75AF441332657E633A16EF3EA;167998.
 
 )
 
@@ -9852,7 +9849,7 @@ usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liberti
 nusSerif-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/l
 ibertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (568 pages, 73695762 bytes).
+Output written on main.pdf (568 pages, 73695991 bytes).
 
 PDF statistics: 5766 PDF objects out of 6186 (max. 8388607)
  717 named destinations out of 1000 (max. 131072)
